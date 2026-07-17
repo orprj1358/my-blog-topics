@@ -1,68 +1,77 @@
-<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
-  <rect x="0" y="0" width="800" height="520" fill="#ffffff"/>
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="55%" stop-color="#3730a3"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#a5b4fc"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
 
-  <text x="400" y="42" text-anchor="middle" font-size="22" font-weight="bold" fill="#1f2937">스트레스 DSR 적용 구조 (개념도)</text>
-  <text x="400" y="66" text-anchor="middle" font-size="13" fill="#6b7280">※ 아래 수치와 막대 높이는 예시이며 실제 가산금리·한도와 무관합니다</text>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
 
-  <!-- Top flow: rate calculation -->
-  <g>
-    <rect x="40" y="100" width="180" height="64" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
-    <text x="130" y="126" text-anchor="middle" font-size="14" fill="#3730a3">실제 대출 금리</text>
-    <text x="130" y="146" text-anchor="middle" font-size="12" fill="#4338ca">(예시)</text>
+  <circle cx="130" cy="520" r="220" fill="url(#glow)"/>
+  <circle cx="1000" cy="90" r="260" fill="url(#glow)"/>
+  <circle cx="150" cy="110" r="7" fill="#ffffff" opacity="0.35"/>
+  <circle cx="200" cy="160" r="4" fill="#ffffff" opacity="0.3"/>
+  <circle cx="1080" cy="470" r="6" fill="#ffffff" opacity="0.3"/>
+  <circle cx="1030" cy="540" r="4" fill="#ffffff" opacity="0.25"/>
 
-    <text x="248" y="140" text-anchor="middle" font-size="22" fill="#374151">+</text>
+  <text x="90" y="120" font-size="22" font-weight="bold" fill="#a7f3d0" letter-spacing="2">AI 관련 소식</text>
+  <rect x="90" y="140" width="64" height="6" rx="3" fill="#5eead4"/>
 
-    <rect x="276" y="100" width="180" height="64" rx="10" fill="#fef3c7" stroke="#d97706" stroke-width="1.5"/>
-    <text x="366" y="126" text-anchor="middle" font-size="14" fill="#92400e">스트레스 가산금리</text>
-    <text x="366" y="146" text-anchor="middle" font-size="12" fill="#b45309">(예시, 단계별 확대)</text>
+  <text x="88" y="270" font-size="54" font-weight="bold" fill="#ffffff">AI 에이전트,</text>
+  <text x="88" y="336" font-size="54" font-weight="bold" fill="#ffffff">일하는 방식을 바꾸다</text>
+  <text x="90" y="390" font-size="22" fill="#e0e7ff">챗봇을 넘어, 스스로 일을 끝내는 AI를 이해하는 법</text>
 
-    <text x="484" y="140" text-anchor="middle" font-size="22" fill="#374151">=</text>
+  <g transform="translate(870,300)">
+    <circle cx="0" cy="0" r="170" fill="#ffffff" opacity="0.06"/>
+    <circle cx="0" cy="0" r="128" fill="#ffffff" opacity="0.08"/>
 
-    <rect x="512" y="100" width="220" height="64" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
-    <text x="622" y="126" text-anchor="middle" font-size="14" fill="#991b1b">대출 심사 적용 금리</text>
-    <text x="622" y="146" text-anchor="middle" font-size="12" fill="#b91c1c">(실제 금리보다 높음)</text>
+    <rect x="-60" y="-60" width="120" height="120" rx="24" fill="url(#chip)" opacity="0.95"/>
+    <rect x="-34" y="-34" width="68" height="68" rx="12" fill="#312e81"/>
+    <circle cx="0" cy="0" r="10" fill="#5eead4"/>
+
+    <g stroke="url(#chip)" stroke-width="3" opacity="0.9">
+      <line x1="-60" y1="-20" x2="-92" y2="-20"/>
+      <line x1="-60" y1="20" x2="-92" y2="20"/>
+      <line x1="60" y1="-20" x2="92" y2="-20"/>
+      <line x1="60" y1="20" x2="92" y2="20"/>
+      <line x1="-20" y1="-60" x2="-20" y2="-92"/>
+      <line x1="20" y1="-60" x2="20" y2="-92"/>
+      <line x1="-20" y1="60" x2="-20" y2="92"/>
+      <line x1="20" y1="60" x2="20" y2="92"/>
+    </g>
+    <g fill="#5eead4">
+      <circle cx="-92" cy="-20" r="6"/>
+      <circle cx="-92" cy="20" r="6"/>
+      <circle cx="92" cy="-20" r="6"/>
+      <circle cx="92" cy="20" r="6"/>
+      <circle cx="-20" cy="-92" r="6"/>
+      <circle cx="20" cy="-92" r="6"/>
+      <circle cx="-20" cy="92" r="6"/>
+      <circle cx="20" cy="92" r="6"/>
+    </g>
+
+    <g stroke="#a5b4fc" stroke-width="2.5" opacity="0.75" fill="none">
+      <path d="M -92 -20 Q -150 -70 -150 -130"/>
+      <path d="M 92 20 Q 150 70 150 140"/>
+      <path d="M 20 -92 Q 60 -150 130 -150"/>
+    </g>
+    <g fill="#c7d2fe">
+      <circle cx="-150" cy="-138" r="9"/>
+      <circle cx="150" cy="148" r="9"/>
+      <circle cx="135" cy="-156" r="9"/>
+    </g>
   </g>
 
-  <!-- Arrow down -->
-  <line x1="622" y1="164" x2="622" y2="196" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <!-- DSR calc box -->
-  <rect x="452" y="196" width="280" height="60" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
-  <text x="592" y="222" text-anchor="middle" font-size="14" fill="#075985">DSR 계산</text>
-  <text x="592" y="242" text-anchor="middle" font-size="12" fill="#0369a1">(연소득 대비 원리금 상환 비율)</text>
-
-  <line x1="592" y1="256" x2="592" y2="288" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <!-- Result box -->
-  <rect x="452" y="288" width="280" height="60" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
-  <text x="592" y="314" text-anchor="middle" font-size="14" fill="#166534">대출 한도 결정</text>
-  <text x="592" y="334" text-anchor="middle" font-size="12" fill="#15803d">한도 감소 방향으로 작용</text>
-
-  <!-- Left side: stage comparison bars (conceptual, example only) -->
-  <text x="150" y="216" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f2937">단계별 가산금리 폭 (개념 비교, 예시)</text>
-
-  <line x1="60" y1="330" x2="260" y2="330" stroke="#374151" stroke-width="1.5"/>
-
-  <rect x="80" y="300" width="30" height="30" fill="#93c5fd"/>
-  <text x="95" y="345" text-anchor="middle" font-size="12" fill="#374151">1단계</text>
-
-  <rect x="145" y="280" width="30" height="50" fill="#60a5fa"/>
-  <text x="160" y="345" text-anchor="middle" font-size="12" fill="#374151">2단계</text>
-
-  <rect x="210" y="255" width="30" height="75" fill="#2563eb"/>
-  <text x="225" y="345" text-anchor="middle" font-size="12" fill="#374151">3단계</text>
-
-  <text x="150" y="365" text-anchor="middle" font-size="11" fill="#6b7280">가산금리 폭이 단계적으로 확대되는 개념</text>
-
-  <!-- Bottom summary box -->
-  <rect x="40" y="410" width="720" height="80" rx="10" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
-  <text x="400" y="438" text-anchor="middle" font-size="14" font-weight="bold" fill="#1f2937">핵심 요약</text>
-  <text x="400" y="462" text-anchor="middle" font-size="13" fill="#374151">가산금리 확대 → 심사 적용 금리 상승 → DSR 상 원리금 부담 증가 → 실제 대출 한도 축소</text>
-  <text x="400" y="480" text-anchor="middle" font-size="11" fill="#9ca3af">본인의 정확한 한도는 금융기관 시뮬레이션으로 확인이 필요합니다</text>
-
-  <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L6,3 z" fill="#9ca3af"/>
-    </marker>
-  </defs>
+  <rect x="60" y="540" width="1080" height="1.5" fill="#ffffff" opacity="0.18"/>
+  <text x="90" y="590" font-size="18" fill="#c7d2fe" opacity="0.9">오늘의 블로그 주제 &amp; 초안</text>
 </svg>

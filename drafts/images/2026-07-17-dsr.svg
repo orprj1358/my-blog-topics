@@ -1,0 +1,50 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c2d12"/>
+      <stop offset="55%" stop-color="#c2410c"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="coin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1060" cy="120" r="240" fill="url(#glow)"/>
+  <circle cx="120" cy="560" r="180" fill="url(#glow)"/>
+
+  <!-- coin / percent icon cluster -->
+  <g transform="translate(120,150)">
+    <circle cx="0" cy="0" r="90" fill="url(#coin)" opacity="0.95"/>
+    <circle cx="0" cy="0" r="90" fill="none" stroke="#92400e" stroke-width="4" opacity="0.6"/>
+    <text x="0" y="24" text-anchor="middle" font-size="64" font-weight="bold" fill="#92400e">%</text>
+  </g>
+  <g transform="translate(230,260)">
+    <circle cx="0" cy="0" r="52" fill="url(#coin)" opacity="0.85"/>
+    <circle cx="0" cy="0" r="52" fill="none" stroke="#92400e" stroke-width="3" opacity="0.5"/>
+    <text x="0" y="15" text-anchor="middle" font-size="36" font-weight="bold" fill="#92400e">₩</text>
+  </g>
+
+  <!-- down arrow motif: limit shrinking -->
+  <g transform="translate(160,400)" opacity="0.9">
+    <rect x="-14" y="-70" width="28" height="90" rx="8" fill="#fde68a"/>
+    <path d="M -40 24 L 0 74 L 40 24 Z" fill="#fde68a"/>
+  </g>
+  <text x="160" y="470" text-anchor="middle" font-size="16" fill="#fef3c7">대출 한도 축소</text>
+
+  <!-- title text block -->
+  <text x="420" y="230" font-size="44" font-weight="bold" fill="#ffffff">스트레스 DSR 3단계,</text>
+  <text x="420" y="290" font-size="44" font-weight="bold" fill="#ffffff">내 대출 한도는 얼마나 줄까</text>
+  <text x="420" y="335" font-size="18" fill="#fef3c7">가산금리 확대 → 대출 한도 축소, 실수요자 체크포인트</text>
+
+  <!-- bottom tag -->
+  <rect x="420" y="500" width="220" height="46" rx="23" fill="#ffffff" opacity="0.15"/>
+  <text x="530" y="529" text-anchor="middle" font-size="16" fill="#fef3c7">대출 · 부동산금융</text>
+</svg>

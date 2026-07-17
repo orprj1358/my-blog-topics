@@ -1,62 +1,99 @@
-<svg width="800" height="560" viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
-  <rect x="0" y="0" width="800" height="560" fill="#ffffff"/>
-
-  <text x="400" y="42" text-anchor="middle" font-size="22" font-weight="bold" fill="#1f2937">기존 챗봇 vs AI 에이전트 (개념 비교)</text>
-
-  <!-- divider -->
-  <line x1="400" y1="70" x2="400" y2="470" stroke="#e5e7eb" stroke-width="1.5"/>
-
-  <!-- LEFT: 기존 챗봇 -->
-  <text x="200" y="95" text-anchor="middle" font-size="16" font-weight="bold" fill="#4338ca">기존 챗봇</text>
-
-  <rect x="60" y="130" width="280" height="60" rx="10" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
-  <text x="200" y="165" text-anchor="middle" font-size="14" fill="#3730a3">사용자 질문</text>
-
-  <line x1="200" y1="190" x2="200" y2="222" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <rect x="60" y="222" width="280" height="60" rx="10" fill="#e0e7ff" stroke="#6366f1" stroke-width="1.5"/>
-  <text x="200" y="257" text-anchor="middle" font-size="14" fill="#3730a3">AI 답변 (1회성)</text>
-
-  <text x="200" y="320" text-anchor="middle" font-size="13" fill="#6b7280">한 번 묻고 한 번</text>
-  <text x="200" y="340" text-anchor="middle" font-size="13" fill="#6b7280">답변받으면 종료</text>
-
-  <!-- RIGHT: AI 에이전트 -->
-  <text x="600" y="95" text-anchor="middle" font-size="16" font-weight="bold" fill="#0d9488">AI 에이전트</text>
-
-  <rect x="460" y="118" width="280" height="42" rx="9" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.5"/>
-  <text x="600" y="144" text-anchor="middle" font-size="13" fill="#0f766e">목표 입력</text>
-
-  <line x1="600" y1="160" x2="600" y2="180" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <rect x="460" y="180" width="280" height="42" rx="9" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.5"/>
-  <text x="600" y="206" text-anchor="middle" font-size="13" fill="#0f766e">계획 수립 (여러 단계로 분해)</text>
-
-  <line x1="600" y1="222" x2="600" y2="242" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <rect x="460" y="242" width="280" height="42" rx="9" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
-  <text x="600" y="268" text-anchor="middle" font-size="13" fill="#0f766e">도구 활용 (검색·작성·실행)</text>
-
-  <line x1="600" y1="284" x2="600" y2="304" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <rect x="460" y="304" width="280" height="42" rx="9" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.5"/>
-  <text x="600" y="330" text-anchor="middle" font-size="13" fill="#0f766e">중간 결과 확인 &amp; 다음 행동 결정</text>
-
-  <!-- loop back arrow -->
-  <path d="M 758 325 C 800 325 800 263 758 263" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
-  <text x="805" y="298" font-size="11" fill="#6b7280" transform="rotate(90 805 298)">필요시 반복</text>
-
-  <line x1="600" y1="346" x2="600" y2="366" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrow)"/>
-
-  <rect x="460" y="366" width="280" height="42" rx="9" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
-  <text x="600" y="392" text-anchor="middle" font-size="13" fill="#166534">최종 결과물 완성</text>
-
-  <!-- bottom summary -->
-  <rect x="40" y="490" width="720" height="56" rx="10" fill="#f9fafb" stroke="#d1d5db" stroke-width="1"/>
-  <text x="400" y="524" text-anchor="middle" font-size="13" fill="#374151">핵심 차이: 챗봇은 한 번 답하고 끝나지만, 에이전트는 목표 달성까지 스스로 여러 단계를 계획·실행</text>
-
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
   <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L6,3 z" fill="#9ca3af"/>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f3ff"/>
+      <stop offset="100%" stop-color="#ecfeff"/>
+    </linearGradient>
+    <linearGradient id="leftCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+    <linearGradient id="rightCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdfa"/>
+      <stop offset="100%" stop-color="#ccfbf1"/>
+    </linearGradient>
+    <linearGradient id="rightCardStrong" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="finalCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#86efac"/>
+      <stop offset="100%" stop-color="#4ade80"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1e293b" flood-opacity="0.18"/>
+    </filter>
+    <marker id="arrow2" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#94a3b8"/>
     </marker>
   </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pagebg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="bold" fill="#1e1b4b">기존 챗봇 vs AI 에이전트</text>
+  <text x="400" y="70" text-anchor="middle" font-size="13" fill="#64748b">한 번의 질문·답변과, 목표 달성까지 이어지는 자율 실행의 차이</text>
+
+  <!-- column headers -->
+  <rect x="60" y="96" width="290" height="38" rx="19" fill="#6366f1" filter="url(#softShadow)"/>
+  <text x="205" y="121" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">기존 챗봇</text>
+
+  <rect x="450" y="96" width="290" height="38" rx="19" fill="#0d9488" filter="url(#softShadow)"/>
+  <text x="595" y="121" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">AI 에이전트</text>
+
+  <!-- LEFT flow -->
+  <rect x="60" y="160" width="290" height="70" rx="14" fill="url(#leftCard)" stroke="#818cf8" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="100" cy="195" r="16" fill="#6366f1"/>
+  <text x="100" y="200" text-anchor="middle" font-size="14" fill="#ffffff">?</text>
+  <text x="230" y="200" text-anchor="middle" font-size="15" fill="#312e81">사용자 질문</text>
+
+  <line x1="205" y1="230" x2="205" y2="266" stroke="#a5b4fc" stroke-width="2.5" marker-end="url(#arrow2)"/>
+
+  <rect x="60" y="266" width="290" height="70" rx="14" fill="url(#leftCard)" stroke="#818cf8" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="100" cy="301" r="16" fill="#6366f1"/>
+  <text x="100" y="306" text-anchor="middle" font-size="14" fill="#ffffff">!</text>
+  <text x="230" y="306" text-anchor="middle" font-size="15" fill="#312e81">AI 답변 (1회성)</text>
+
+  <rect x="60" y="380" width="290" height="60" rx="12" fill="#ffffff" stroke="#e0e7ff" stroke-width="1"/>
+  <text x="205" y="405" text-anchor="middle" font-size="12.5" fill="#64748b">한 번 묻고 한 번 답하면</text>
+  <text x="205" y="423" text-anchor="middle" font-size="12.5" fill="#64748b">그대로 대화가 종료됩니다</text>
+
+  <!-- RIGHT flow -->
+  <rect x="450" y="160" width="290" height="52" rx="12" fill="url(#rightCard)" stroke="#2dd4bf" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="483" cy="186" r="13" fill="#0d9488"/>
+  <text x="483" y="191" text-anchor="middle" font-size="12" fill="#ffffff">1</text>
+  <text x="612" y="192" text-anchor="middle" font-size="13.5" fill="#0f766e">목표 입력</text>
+
+  <line x1="595" y1="212" x2="595" y2="228" stroke="#5eead4" stroke-width="2.5" marker-end="url(#arrow2)"/>
+
+  <rect x="450" y="228" width="290" height="52" rx="12" fill="url(#rightCard)" stroke="#2dd4bf" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="483" cy="254" r="13" fill="#0d9488"/>
+  <text x="483" y="259" text-anchor="middle" font-size="12" fill="#ffffff">2</text>
+  <text x="612" y="260" text-anchor="middle" font-size="13.5" fill="#0f766e">계획 수립 (단계별 분해)</text>
+
+  <line x1="595" y1="280" x2="595" y2="296" stroke="#5eead4" stroke-width="2.5" marker-end="url(#arrow2)"/>
+
+  <rect x="450" y="296" width="290" height="52" rx="12" fill="url(#rightCardStrong)" filter="url(#softShadow)"/>
+  <circle cx="483" cy="322" r="13" fill="#0f766e"/>
+  <text x="483" y="327" text-anchor="middle" font-size="12" fill="#ffffff">3</text>
+  <text x="612" y="327" text-anchor="middle" font-size="13.5" fill="#134e4a" font-weight="bold">도구 활용 (검색·작성·실행)</text>
+
+  <line x1="595" y1="348" x2="595" y2="364" stroke="#5eead4" stroke-width="2.5" marker-end="url(#arrow2)"/>
+
+  <rect x="450" y="364" width="290" height="52" rx="12" fill="url(#rightCard)" stroke="#2dd4bf" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="483" cy="390" r="13" fill="#0d9488"/>
+  <text x="483" y="395" text-anchor="middle" font-size="12" fill="#ffffff">4</text>
+  <text x="612" y="391" text-anchor="middle" font-size="13" fill="#0f766e">중간 결과 확인 &amp; 다음 행동 결정</text>
+
+  <!-- loop back -->
+  <path d="M 745 385 C 790 385 790 305 745 305" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrow2)"/>
+  <text x="797" y="350" font-size="10.5" fill="#94a3b8" transform="rotate(90 797 350)">필요시 반복</text>
+
+  <line x1="595" y1="416" x2="595" y2="432" stroke="#5eead4" stroke-width="2.5" marker-end="url(#arrow2)"/>
+
+  <rect x="450" y="432" width="290" height="56" rx="12" fill="url(#finalCard)" filter="url(#softShadow)"/>
+  <text x="595" y="465" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#14532d">최종 결과물 완성</text>
+
+  <!-- bottom summary -->
+  <rect x="60" y="518" width="680" height="58" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" filter="url(#softShadow)"/>
+  <text x="400" y="552" text-anchor="middle" font-size="13.5" fill="#334155">핵심 차이: 챗봇은 한 번 답하고 끝나지만, 에이전트는 목표 달성까지 스스로 여러 단계를 계획·실행합니다</text>
 </svg>

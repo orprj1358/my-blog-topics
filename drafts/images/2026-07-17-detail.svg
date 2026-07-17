@@ -85,8 +85,8 @@
   <text x="612" y="391" text-anchor="middle" font-size="13" fill="#0f766e">중간 결과 확인 &amp; 다음 행동 결정</text>
 
   <!-- loop back -->
-  <path d="M 745 385 C 790 385 790 305 745 305" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrow2)"/>
-  <text x="797" y="350" font-size="10.5" fill="#94a3b8" transform="rotate(90 797 350)">필요시 반복</text>
+  <path d="M 740 385 C 774 385 774 305 740 305" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrow2)"/>
+  <text x="0" y="0" text-anchor="middle" font-size="11" fill="#475569" transform="translate(781,345) rotate(90)">필요시 반복</text>
 
   <line x1="595" y1="416" x2="595" y2="432" stroke="#5eead4" stroke-width="2.5" marker-end="url(#arrow2)"/>
 

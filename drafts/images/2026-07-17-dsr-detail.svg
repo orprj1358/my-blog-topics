@@ -47,14 +47,14 @@
   <rect x="0" y="0" width="800" height="600" fill="url(#pagebg)"/>
 
   <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="bold" fill="#7c2d12">스트레스 DSR 적용 구조</text>
-  <text x="400" y="70" text-anchor="middle" font-size="13" fill="#92714f">※ 아래 수치·막대 높이는 예시이며 실제 가산금리·한도와 무관합니다</text>
+  <text x="400" y="70" text-anchor="middle" font-size="13" fill="#6b4a28">※ 아래 수치·막대 높이는 예시이며 실제 가산금리·한도와 무관합니다</text>
 
   <!-- rate calculation row -->
   <rect x="40" y="96" width="220" height="72" rx="14" fill="url(#rateCard)" stroke="#f59e0b" stroke-width="1.5" filter="url(#softShadow)"/>
   <circle cx="76" cy="132" r="16" fill="#d97706"/>
   <text x="76" y="137" text-anchor="middle" font-size="14" fill="#ffffff">%</text>
   <text x="165" y="126" text-anchor="middle" font-size="13.5" fill="#78350f">실제 대출 금리</text>
-  <text x="165" y="145" text-anchor="middle" font-size="11.5" fill="#92714f">(예시)</text>
+  <text x="165" y="145" text-anchor="middle" font-size="11.5" fill="#6b4a28">(예시)</text>
 
   <text x="278" y="140" text-anchor="middle" font-size="22" fill="#78350f">+</text>
 
@@ -62,7 +62,7 @@
   <circle cx="332" cy="132" r="16" fill="#c2410c"/>
   <text x="332" y="137" text-anchor="middle" font-size="14" fill="#ffffff">+</text>
   <text x="421" y="126" text-anchor="middle" font-size="13.5" fill="#7c2d12">스트레스 가산금리</text>
-  <text x="421" y="145" text-anchor="middle" font-size="11.5" fill="#92714f">(예시, 단계별 확대)</text>
+  <text x="421" y="145" text-anchor="middle" font-size="11.5" fill="#6b4a28">(예시, 단계별 확대)</text>
 
   <text x="534" y="140" text-anchor="middle" font-size="22" fill="#78350f">=</text>
 
@@ -75,7 +75,7 @@
   <!-- DSR calc box -->
   <rect x="497" y="196" width="270" height="62" rx="14" fill="url(#dsrCard)" stroke="#ea580c" stroke-width="1.5" filter="url(#softShadow)"/>
   <text x="632" y="222" text-anchor="middle" font-size="14" font-weight="bold" fill="#7c2d12">DSR 계산</text>
-  <text x="632" y="242" text-anchor="middle" font-size="11.5" fill="#92714f">연소득 대비 원리금 상환 비율</text>
+  <text x="632" y="242" text-anchor="middle" font-size="11.5" fill="#6b4a28">연소득 대비 원리금 상환 비율</text>
 
   <line x1="632" y1="258" x2="632" y2="286" stroke="#c2843d" stroke-width="2.5" marker-end="url(#arrowA)"/>
 
@@ -99,7 +99,7 @@
   <rect x="330" y="252" width="42" height="108" rx="6" fill="url(#bar3)"/>
   <text x="351" y="380" text-anchor="middle" font-size="12.5" fill="#78350f">3단계</text>
 
-  <text x="245" y="402" text-anchor="middle" font-size="11.5" fill="#92714f">가산금리 폭이 단계적으로 확대되는 개념</text>
+  <text x="245" y="402" text-anchor="middle" font-size="11.5" fill="#6b4a28">가산금리 폭이 단계적으로 확대되는 개념</text>
 
   <!-- bottom summary -->
   <rect x="40" y="440" width="720" height="90" rx="16" fill="#ffffff" stroke="#fde3c1" stroke-width="1.5" filter="url(#softShadow)"/>

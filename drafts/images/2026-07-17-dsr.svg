@@ -37,7 +37,7 @@
     <rect x="-14" y="-70" width="28" height="90" rx="8" fill="#fde68a"/>
     <path d="M -40 24 L 0 74 L 40 24 Z" fill="#fde68a"/>
   </g>
-  <text x="160" y="470" text-anchor="middle" font-size="16" fill="#fef3c7">대출 한도 축소</text>
+  <text x="160" y="504" text-anchor="middle" font-size="16" fill="#fef3c7">대출 한도 축소</text>
 
   <!-- title text block -->
   <text x="420" y="230" font-size="44" font-weight="bold" fill="#ffffff">스트레스 DSR 3단계,</text>
@@ -45,6 +45,6 @@
   <text x="420" y="335" font-size="18" fill="#fef3c7">가산금리 확대 → 대출 한도 축소, 실수요자 체크포인트</text>
 
   <!-- bottom tag -->
-  <rect x="420" y="500" width="220" height="46" rx="23" fill="#ffffff" opacity="0.15"/>
-  <text x="530" y="529" text-anchor="middle" font-size="16" fill="#fef3c7">대출 · 부동산금융</text>
+  <rect x="420" y="500" width="220" height="46" rx="23" fill="#ffffff" opacity="0.92"/>
+  <text x="530" y="529" text-anchor="middle" font-size="16" font-weight="bold" fill="#7c2d12">대출 · 부동산금융</text>
 </svg>

@@ -1,0 +1,57 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="55%" stop-color="#b45309"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="ice" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef9c3"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1070" cy="110" r="240" fill="url(#glow)"/>
+  <circle cx="110" cy="560" r="180" fill="url(#glow)"/>
+
+  <!-- bank / gate icon cluster -->
+  <g transform="translate(140,170)">
+    <circle cx="0" cy="0" r="92" fill="url(#ice)" opacity="0.95"/>
+    <circle cx="0" cy="0" r="92" fill="none" stroke="#92400e" stroke-width="4" opacity="0.55"/>
+    <!-- simple bank building silhouette -->
+    <path d="M -46 30 L -46 -6 L 0 -34 L 46 -6 L 46 30 Z" fill="#92400e" opacity="0.85"/>
+    <rect x="-46" y="30" width="92" height="10" rx="3" fill="#92400e" opacity="0.85"/>
+    <rect x="-30" y="-2" width="10" height="30" fill="#fde68a"/>
+    <rect x="-6" y="-2" width="10" height="30" fill="#fde68a"/>
+    <rect x="18" y="-2" width="10" height="30" fill="#fde68a"/>
+  </g>
+
+  <!-- narrowing gate / shrinking arrow motif -->
+  <g transform="translate(250,320)" opacity="0.9">
+    <rect x="-60" y="-8" width="70" height="16" rx="8" fill="#fde68a"/>
+    <path d="M 20 -34 L 84 0 L 20 34 Z" fill="#fde68a"/>
+  </g>
+  <text x="170" y="470" text-anchor="middle" font-size="16" fill="#fef3c7">가계대출 총량 관리 → 은행 창구 축소</text>
+
+  <!-- snowflake accent for 'ice age' motif -->
+  <g transform="translate(1000,440)" opacity="0.55" stroke="#fef3c7" stroke-width="5" stroke-linecap="round">
+    <line x1="-40" y1="0" x2="40" y2="0"/>
+    <line x1="-20" y1="-32" x2="20" y2="32"/>
+    <line x1="20" y1="-32" x2="-20" y2="32"/>
+  </g>
+
+  <!-- title text block -->
+  <text x="420" y="220" font-size="42" font-weight="bold" fill="#ffffff">하반기 '대출 빙하기',</text>
+  <text x="420" y="278" font-size="42" font-weight="bold" fill="#ffffff">내 대출 한도는 괜찮을까</text>
+  <text x="420" y="322" font-size="18" fill="#fef3c7">가계대출 총량 임박 → 은행권 한도 축소, 실수요자 체크포인트</text>
+
+  <!-- bottom tag -->
+  <rect x="420" y="500" width="200" height="46" rx="23" fill="#ffffff" opacity="0.92"/>
+  <text x="520" y="529" text-anchor="middle" font-size="16" font-weight="bold" fill="#78350f">대출 · 가계부채</text>
+</svg>

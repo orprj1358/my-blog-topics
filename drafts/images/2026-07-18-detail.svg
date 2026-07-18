@@ -1,0 +1,92 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fff7ed"/>
+    </linearGradient>
+    <linearGradient id="leftCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="rightCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="leftBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="rightBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c2410c"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+    <linearGradient id="finalCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c2d12"/>
+      <stop offset="100%" stop-color="#431407"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7c2d12" flood-opacity="0.2"/>
+    </filter>
+    <marker id="arrowA" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#c2843d"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pagebg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="bold" fill="#7c2d12">총량 여력에 따라 달라지는 대출 문턱</text>
+  <text x="400" y="70" text-anchor="middle" font-size="13" fill="#6b4a28">※ 은행·시기별 비교는 개념 설명용 예시이며 실제 한도·조건과 무관합니다</text>
+
+  <!-- left card: 여유 있는 은행 -->
+  <rect x="60" y="96" width="320" height="300" rx="18" fill="url(#leftCard)" stroke="#f59e0b" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="100" cy="132" r="20" fill="url(#leftBadge)"/>
+  <text x="100" y="138" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">A</text>
+  <text x="230" y="138" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#78350f">총량 여력이 남은 은행</text>
+
+  <rect x="88" y="164" width="264" height="1" fill="#f0c674"/>
+
+  <circle cx="104" cy="200" r="6" fill="#d97706"/>
+  <text x="122" y="205" font-size="13" fill="#5a4322">MCI·MCG 취급 유지</text>
+  <circle cx="104" cy="234" r="6" fill="#d97706"/>
+  <text x="122" y="239" font-size="13" fill="#5a4322">상대적으로 높은 한도 기대</text>
+  <circle cx="104" cy="268" r="6" fill="#d97706"/>
+  <text x="122" y="273" font-size="13" fill="#5a4322">심사 진행이 비교적 원활</text>
+  <circle cx="104" cy="302" r="6" fill="#d97706"/>
+  <text x="122" y="307" font-size="13" fill="#5a4322">분기·반기 초반에 흔한 상황</text>
+
+  <rect x="88" y="336" width="264" height="42" rx="10" fill="#ffffff" opacity="0.75"/>
+  <text x="220" y="362" text-anchor="middle" font-size="12.5" fill="#78350f">"지금은 비교적 여유 있는 편"</text>
+
+  <!-- right card: 임박한 은행 -->
+  <rect x="420" y="96" width="320" height="300" rx="18" fill="url(#rightCard)" filter="url(#softShadow)"/>
+  <circle cx="460" cy="132" r="20" fill="url(#rightBadge)"/>
+  <text x="460" y="138" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">B</text>
+  <text x="590" y="138" text-anchor="middle" font-size="15.5" font-weight="bold" fill="#ffffff">총량이 임박한 은행</text>
+
+  <rect x="448" y="164" width="264" height="1" fill="#fed7aa" opacity="0.6"/>
+
+  <circle cx="464" cy="200" r="6" fill="#7c2d12"/>
+  <text x="482" y="205" font-size="13" fill="#fff7ed">MCI·MCG 취급 제한·중단</text>
+  <circle cx="464" cy="234" r="6" fill="#7c2d12"/>
+  <text x="482" y="239" font-size="13" fill="#fff7ed">동일 담보라도 한도 축소</text>
+  <circle cx="464" cy="268" r="6" fill="#7c2d12"/>
+  <text x="482" y="273" font-size="13" fill="#fff7ed">심사 강화·신청 지연 가능</text>
+  <circle cx="464" cy="302" r="6" fill="#7c2d12"/>
+  <text x="482" y="307" font-size="13" fill="#fff7ed">하반기로 갈수록 흔해지는 상황</text>
+
+  <rect x="448" y="336" width="264" height="42" rx="10" fill="#ffffff" opacity="0.18"/>
+  <text x="580" y="362" text-anchor="middle" font-size="12.5" fill="#fff7ed">"창구가 눈에 띄게 좁아진 상태"</text>
+
+  <!-- vs badge -->
+  <circle cx="400" cy="246" r="26" fill="#ffffff" stroke="#f59e0b" stroke-width="2" filter="url(#softShadow)"/>
+  <text x="400" y="252" text-anchor="middle" font-size="14" font-weight="bold" fill="#c2410c">VS</text>
+
+  <!-- arrow down to summary -->
+  <line x1="400" y1="396" x2="400" y2="424" stroke="#c2843d" stroke-width="2.5" marker-end="url(#arrowA)"/>
+
+  <!-- bottom summary -->
+  <rect x="60" y="432" width="680" height="112" rx="16" fill="url(#finalCard)" filter="url(#softShadow)"/>
+  <text x="400" y="464" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#fed7aa">그래서 실수요자가 할 일</text>
+  <text x="400" y="492" text-anchor="middle" font-size="13" fill="#ffedd5">여러 금융기관에서 한도·조건 비교 → MCI·MCG 취급 여부 확인 → 상환 방식 재검토</text>
+  <text x="400" y="518" text-anchor="middle" font-size="11.5" fill="#fde3c1" opacity="0.85">동일한 소득·담보라도 '어느 은행, 언제'에 따라 결과가 달라질 수 있습니다</text>
+</svg>

@@ -1,0 +1,116 @@
+<svg width="800" height="650" viewBox="0 0 800 650" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#f0f9ff"/>
+    </linearGradient>
+    <linearGradient id="cardA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#bfdbfe"/>
+    </linearGradient>
+    <linearGradient id="cardB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="cardC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="badgeA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="badgeB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <linearGradient id="badgeC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="100%" stop-color="#0f2747"/>
+    </linearGradient>
+    <linearGradient id="finalCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0f2747"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1e3a5f" flood-opacity="0.2"/>
+    </filter>
+    <marker id="arrowA" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#3b6ea8"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="650" fill="url(#pagebg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="bold" fill="#1e3a5f">부동산 대토론회, 3대 쟁점은 무엇일까</text>
+  <text x="400" y="70" text-anchor="middle" font-size="13" fill="#4a6a92">※ 아래 쟁점 구분은 개념 설명용 예시이며, 실제 발표 내용과 무관합니다</text>
+
+  <!-- card 1: 공급 -->
+  <rect x="48" y="96" width="216" height="330" rx="18" fill="url(#cardA)" stroke="#93c5fd" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="86" cy="132" r="20" fill="url(#badgeA)"/>
+  <text x="86" y="138" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">1</text>
+  <text x="156" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f2747">공급</text>
+
+  <rect x="66" y="164" width="180" height="1" fill="#93c5fd"/>
+
+  <circle cx="80" cy="200" r="6" fill="#2563eb"/>
+  <text x="96" y="205" font-size="12.5" fill="#1e3a5f">신규 택지 공급 속도</text>
+  <circle cx="80" cy="234" r="6" fill="#2563eb"/>
+  <text x="96" y="239" font-size="12.5" fill="#1e3a5f">정비사업 추진 속도 조절</text>
+  <circle cx="80" cy="268" r="6" fill="#2563eb"/>
+  <text x="96" y="273" font-size="12.5" fill="#1e3a5f">3기 신도시 등 진행 상황</text>
+
+  <rect x="66" y="360" width="180" height="46" rx="10" fill="#ffffff" opacity="0.75"/>
+  <text x="156" y="379" text-anchor="middle" font-size="11.5" fill="#0f2747">"물량을 얼마나,</text>
+  <text x="156" y="396" text-anchor="middle" font-size="11.5" fill="#0f2747">얼마나 빨리 늘리나"</text>
+
+  <!-- card 2: 금융 -->
+  <rect x="292" y="96" width="216" height="330" rx="18" fill="url(#cardB)" filter="url(#softShadow)"/>
+  <circle cx="330" cy="132" r="20" fill="url(#badgeB)"/>
+  <text x="330" y="138" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">2</text>
+  <text x="400" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">금융</text>
+
+  <rect x="310" y="164" width="180" height="1" fill="#dbeafe" opacity="0.6"/>
+
+  <circle cx="324" cy="200" r="6" fill="#eff6ff"/>
+  <text x="340" y="205" font-size="12.5" fill="#eff6ff">기존 대출 규제 추가 조정</text>
+  <circle cx="324" cy="234" r="6" fill="#eff6ff"/>
+  <text x="340" y="239" font-size="12.5" fill="#eff6ff">규제지역 지정 범위 검토</text>
+  <circle cx="324" cy="268" r="6" fill="#eff6ff"/>
+  <text x="340" y="273" font-size="12.5" fill="#eff6ff">실수요자 대출 문턱 조정</text>
+
+  <rect x="310" y="360" width="180" height="46" rx="10" fill="#ffffff" opacity="0.18"/>
+  <text x="400" y="379" text-anchor="middle" font-size="11.5" fill="#eff6ff">"돈줄을 어디까지</text>
+  <text x="400" y="396" text-anchor="middle" font-size="11.5" fill="#eff6ff">조이거나 풀어주나"</text>
+
+  <!-- card 3: 세제 -->
+  <rect x="536" y="96" width="216" height="330" rx="18" fill="url(#cardC)" filter="url(#softShadow)"/>
+  <circle cx="574" cy="132" r="20" fill="url(#badgeC)"/>
+  <text x="574" y="138" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">3</text>
+  <text x="644" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">세제</text>
+
+  <rect x="554" y="164" width="180" height="1" fill="#dbeafe" opacity="0.5"/>
+
+  <circle cx="568" cy="200" r="6" fill="#dbeafe"/>
+  <text x="584" y="205" font-size="12.5" fill="#eff6ff">다주택자 세부담 기준</text>
+  <circle cx="568" cy="234" r="6" fill="#dbeafe"/>
+  <text x="584" y="239" font-size="12.5" fill="#eff6ff">실수요자 구분 요건</text>
+  <circle cx="568" cy="268" r="6" fill="#dbeafe"/>
+  <text x="584" y="273" font-size="12.5" fill="#eff6ff">보유·거래 단계별 조정</text>
+
+  <rect x="554" y="360" width="180" height="46" rx="10" fill="#ffffff" opacity="0.15"/>
+  <text x="644" y="379" text-anchor="middle" font-size="11.5" fill="#eff6ff">"누구를 실수요자로</text>
+  <text x="644" y="396" text-anchor="middle" font-size="11.5" fill="#eff6ff">볼 것인가"</text>
+
+  <!-- arrows down to summary -->
+  <line x1="156" y1="426" x2="380" y2="470" stroke="#3b6ea8" stroke-width="2" marker-end="url(#arrowA)" opacity="0.7"/>
+  <line x1="400" y1="426" x2="400" y2="470" stroke="#3b6ea8" stroke-width="2" marker-end="url(#arrowA)" opacity="0.7"/>
+  <line x1="644" y1="426" x2="420" y2="470" stroke="#3b6ea8" stroke-width="2" marker-end="url(#arrowA)" opacity="0.7"/>
+
+  <!-- bottom summary -->
+  <rect x="60" y="478" width="680" height="132" rx="16" fill="url(#finalCard)" filter="url(#softShadow)"/>
+  <text x="400" y="512" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#bfdbfe">7월 23일 대토론회 → 여론 수렴</text>
+  <text x="400" y="540" text-anchor="middle" font-size="13" fill="#dbeafe">7월 말~8월 초 종합대책·세제 개편안 발표(예정)</text>
+  <text x="400" y="568" text-anchor="middle" font-size="11.5" fill="#9fc0e8" opacity="0.9">토론회 의제는 확정안이 아니며, 실제 발표 내용은 조율 과정에서 달라질 수 있습니다</text>
+  <text x="400" y="592" text-anchor="middle" font-size="11.5" fill="#9fc0e8" opacity="0.9">매수·보유 계획이 있다면 공식 발표를 확인한 뒤 움직이는 것이 안전합니다</text>
+</svg>

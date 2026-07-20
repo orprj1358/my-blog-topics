@@ -1,0 +1,88 @@
+<svg width="800" height="650" viewBox="0 0 800 650" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#ffedd5"/>
+    </linearGradient>
+    <linearGradient id="cardBefore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#fdba74"/>
+    </linearGradient>
+    <linearGradient id="cardAfter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="badgeBefore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="badgeAfter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9a3412"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+    <linearGradient id="finalCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9a3412"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7c2d12" flood-opacity="0.2"/>
+    </filter>
+    <marker id="arrowA" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#a8582f"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="650" fill="url(#pagebg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="bold" fill="#7c2d12">대출 환경, 무엇이 달라지고 있을까</text>
+  <text x="400" y="70" text-anchor="middle" font-size="13" fill="#9a5b32">※ 아래 비교는 최근 흐름을 정리한 예시이며, 실제 은행별 조건과는 다를 수 있습니다</text>
+
+  <!-- card left: 이전 -->
+  <rect x="70" y="96" width="290" height="330" rx="18" fill="url(#cardBefore)" filter="url(#softShadow)"/>
+  <circle cx="112" cy="132" r="20" fill="url(#badgeBefore)"/>
+  <text x="112" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">이전</text>
+  <text x="220" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#7c2d12">얼마 전까지</text>
+
+  <rect x="90" y="164" width="250" height="1" fill="#f97316" opacity="0.5"/>
+
+  <circle cx="104" cy="202" r="6" fill="#c2410c"/>
+  <text x="120" y="207" font-size="12.5" fill="#7c2d12">한도에 비교적 여유 있음</text>
+  <circle cx="104" cy="238" r="6" fill="#c2410c"/>
+  <text x="120" y="243" font-size="12.5" fill="#7c2d12">은행 간 조건 차이 크지 않음</text>
+  <circle cx="104" cy="274" r="6" fill="#c2410c"/>
+  <text x="120" y="279" font-size="12.5" fill="#7c2d12">보증·보험 상품 폭넓게 이용</text>
+
+  <rect x="90" y="360" width="250" height="46" rx="10" fill="#ffffff" opacity="0.75"/>
+  <text x="215" y="379" text-anchor="middle" font-size="11.5" fill="#7c2d12">"예상한 한도만큼</text>
+  <text x="215" y="396" text-anchor="middle" font-size="11.5" fill="#7c2d12">대체로 실행 가능"</text>
+
+  <!-- card right: 최근 -->
+  <rect x="440" y="96" width="290" height="330" rx="18" fill="url(#cardAfter)" filter="url(#softShadow)"/>
+  <circle cx="482" cy="132" r="20" fill="url(#badgeAfter)"/>
+  <text x="482" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">최근</text>
+  <text x="595" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">요즘 들어</text>
+
+  <rect x="460" y="164" width="250" height="1" fill="#ffedd5" opacity="0.5"/>
+
+  <circle cx="474" cy="202" r="6" fill="#ffedd5"/>
+  <text x="490" y="207" font-size="12.5" fill="#fff7ed">한도 축소·지점별 편차 확대</text>
+  <circle cx="474" cy="238" r="6" fill="#ffedd5"/>
+  <text x="490" y="243" font-size="12.5" fill="#fff7ed">심사·서류 요건 한층 까다로움</text>
+  <circle cx="474" cy="274" r="6" fill="#ffedd5"/>
+  <text x="490" y="279" font-size="12.5" fill="#fff7ed">보증·보험 취급 제한 확대</text>
+
+  <rect x="460" y="360" width="250" height="46" rx="10" fill="#ffffff" opacity="0.16"/>
+  <text x="585" y="379" text-anchor="middle" font-size="11.5" fill="#fff7ed">"같은 조건이라도</text>
+  <text x="585" y="396" text-anchor="middle" font-size="11.5" fill="#fff7ed">은행·시점마다 달라짐"</text>
+
+  <!-- arrows down to summary -->
+  <line x1="215" y1="426" x2="380" y2="470" stroke="#a8582f" stroke-width="2" marker-end="url(#arrowA)" opacity="0.7"/>
+  <line x1="585" y1="426" x2="420" y2="470" stroke="#a8582f" stroke-width="2" marker-end="url(#arrowA)" opacity="0.7"/>
+
+  <!-- bottom summary -->
+  <rect x="60" y="478" width="680" height="132" rx="16" fill="url(#finalCard)" filter="url(#softShadow)"/>
+  <text x="400" y="512" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#fed7aa">잔금·이사 앞두고 있다면 체크리스트</text>
+  <text x="400" y="540" text-anchor="middle" font-size="13" fill="#ffedd5">여러 은행 조건 함께 비교 · 서류 미리 준비</text>
+  <text x="400" y="568" text-anchor="middle" font-size="11.5" fill="#fbd9b0" opacity="0.9">계약 당시 예상 한도와 실행 시점 한도가 달라질 수 있습니다</text>
+  <text x="400" y="592" text-anchor="middle" font-size="11.5" fill="#fbd9b0" opacity="0.9">최신 조건은 반드시 은행 공식 안내로 직접 확인하시길 권합니다</text>
+</svg>

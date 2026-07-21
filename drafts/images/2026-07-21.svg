@@ -1,0 +1,71 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="55%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#a5f3fc"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowTeal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="120" r="240" fill="url(#glow)"/>
+  <circle cx="120" cy="560" r="200" fill="url(#glowTeal)"/>
+
+  <!-- chip / network icon cluster -->
+  <g transform="translate(150,190)">
+    <circle cx="0" cy="0" r="94" fill="url(#chip)" opacity="0.95"/>
+    <circle cx="0" cy="0" r="94" fill="none" stroke="#4338ca" stroke-width="4" opacity="0.5"/>
+    <!-- chip silhouette -->
+    <rect x="-32" y="-32" width="64" height="64" rx="8" fill="#312e81"/>
+    <rect x="-14" y="-14" width="28" height="28" rx="3" fill="#5eead4"/>
+    <line x1="-32" y1="-16" x2="-46" y2="-16" stroke="#312e81" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-32" y1="0" x2="-46" y2="0" stroke="#312e81" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-32" y1="16" x2="-46" y2="16" stroke="#312e81" stroke-width="4" stroke-linecap="round"/>
+    <line x1="32" y1="-16" x2="46" y2="-16" stroke="#312e81" stroke-width="4" stroke-linecap="round"/>
+    <line x1="32" y1="0" x2="46" y2="0" stroke="#312e81" stroke-width="4" stroke-linecap="round"/>
+    <line x1="32" y1="16" x2="46" y2="16" stroke="#312e81" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-16" y1="-32" x2="-16" y2="-46" stroke="#312e81" stroke-width="4" stroke-linecap="round"/>
+    <line x1="16" y1="-32" x2="16" y2="-46" stroke="#312e81" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-16" y1="32" x2="-16" y2="46" stroke="#312e81" stroke-width="4" stroke-linecap="round"/>
+    <line x1="16" y1="32" x2="16" y2="46" stroke="#312e81" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- small network node motif -->
+  <g transform="translate(270,350)" opacity="0.92">
+    <circle cx="0" cy="0" r="7" fill="#5eead4"/>
+    <circle cx="46" cy="-24" r="7" fill="#5eead4"/>
+    <circle cx="50" cy="26" r="7" fill="#5eead4"/>
+    <line x1="0" y1="0" x2="46" y2="-24" stroke="#a5f3fc" stroke-width="2.5"/>
+    <line x1="0" y1="0" x2="50" y2="26" stroke="#a5f3fc" stroke-width="2.5"/>
+  </g>
+  <text x="185" y="440" text-anchor="middle" font-size="16" fill="#c7d2fe">AI기본법 시행령 · 7월 21일 시행</text>
+
+  <!-- document / checkmark accent -->
+  <g transform="translate(1000,440)" opacity="0.6">
+    <rect x="-34" y="-32" width="68" height="64" rx="8" fill="none" stroke="#ccfbf1" stroke-width="4"/>
+    <line x1="-20" y1="-8" x2="-4" y2="10" stroke="#ccfbf1" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-4" y1="10" x2="22" y2="-18" stroke="#ccfbf1" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- title text block -->
+  <text x="420" y="220" font-size="40" font-weight="bold" fill="#ffffff">오늘부터 시행된</text>
+  <text x="420" y="278" font-size="40" font-weight="bold" fill="#ffffff">AI기본법, 뭐가 달라질까</text>
+  <text x="420" y="322" font-size="18" fill="#c7d2fe">생성형 AI 표시 의무 · 고영향 AI 관리 기준 본격 적용</text>
+
+  <!-- bottom tag -->
+  <rect x="420" y="500" width="180" height="46" rx="23" fill="#ffffff" opacity="0.92"/>
+  <text x="510" y="529" text-anchor="middle" font-size="16" font-weight="bold" fill="#312e81">AI · 정책</text>
+</svg>

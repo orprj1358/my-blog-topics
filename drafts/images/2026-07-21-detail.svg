@@ -1,0 +1,116 @@
+<svg width="800" height="650" viewBox="0 0 800 650" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#f0fdfa"/>
+    </linearGradient>
+    <linearGradient id="cardA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0e7ff"/>
+      <stop offset="100%" stop-color="#c7d2fe"/>
+    </linearGradient>
+    <linearGradient id="cardB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="cardC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="badgeA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="badgeB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="badgeC" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#134e4a"/>
+    </linearGradient>
+    <linearGradient id="finalCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#134e4a"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#312e81" flood-opacity="0.2"/>
+    </filter>
+    <marker id="arrowA" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#4c5fab"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="650" fill="url(#pagebg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="bold" fill="#312e81">AI기본법 시행령, 무엇이 달라지나</text>
+  <text x="400" y="70" text-anchor="middle" font-size="13" fill="#4c5fab">※ 아래 구분은 이해를 돕기 위한 예시이며, 실제 세부 기준과 다를 수 있습니다</text>
+
+  <!-- card 1: 표시 의무 -->
+  <rect x="48" y="96" width="216" height="330" rx="18" fill="url(#cardA)" stroke="#a5b4fc" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="86" cy="132" r="20" fill="url(#badgeA)"/>
+  <text x="86" y="138" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">1</text>
+  <text x="166" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e1b4b">표시 의무</text>
+
+  <rect x="66" y="164" width="180" height="1" fill="#a5b4fc"/>
+
+  <circle cx="80" cy="200" r="6" fill="#4338ca"/>
+  <text x="96" y="205" font-size="12.5" fill="#312e81">생성형 AI 콘텐츠 표시</text>
+  <circle cx="80" cy="234" r="6" fill="#4338ca"/>
+  <text x="96" y="239" font-size="12.5" fill="#312e81">딥페이크 워터마크 부착</text>
+  <circle cx="80" cy="268" r="6" fill="#4338ca"/>
+  <text x="96" y="273" font-size="12.5" fill="#312e81">이미지·영상·음성 전반 적용</text>
+
+  <rect x="66" y="360" width="180" height="46" rx="10" fill="#ffffff" opacity="0.75"/>
+  <text x="156" y="379" text-anchor="middle" font-size="11.5" fill="#1e1b4b">"이 콘텐츠, AI가</text>
+  <text x="156" y="396" text-anchor="middle" font-size="11.5" fill="#1e1b4b">만들었는지 표시"</text>
+
+  <!-- card 2: 고영향 AI 관리 -->
+  <rect x="292" y="96" width="216" height="330" rx="18" fill="url(#cardB)" filter="url(#softShadow)"/>
+  <circle cx="330" cy="132" r="20" fill="url(#badgeB)"/>
+  <text x="330" y="138" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">2</text>
+  <text x="415" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">고영향 AI 관리</text>
+
+  <rect x="310" y="164" width="180" height="1" fill="#e0e7ff" opacity="0.6"/>
+
+  <circle cx="324" cy="200" r="6" fill="#eef2ff"/>
+  <text x="340" y="205" font-size="12.5" fill="#eef2ff">의료·교통·교육 등 적용</text>
+  <circle cx="324" cy="234" r="6" fill="#eef2ff"/>
+  <text x="340" y="239" font-size="12.5" fill="#eef2ff">위험관리체계·사전평가</text>
+  <circle cx="324" cy="268" r="6" fill="#eef2ff"/>
+  <text x="340" y="273" font-size="12.5" fill="#eef2ff">사람에 의한 관리·감독</text>
+
+  <rect x="310" y="360" width="180" height="46" rx="10" fill="#ffffff" opacity="0.18"/>
+  <text x="400" y="379" text-anchor="middle" font-size="11.5" fill="#eef2ff">"생명·기본권 영향</text>
+  <text x="400" y="396" text-anchor="middle" font-size="11.5" fill="#eef2ff">분야는 더 꼼꼼하게"</text>
+
+  <!-- card 3: 이용자 체감 변화 -->
+  <rect x="536" y="96" width="216" height="330" rx="18" fill="url(#cardC)" filter="url(#softShadow)"/>
+  <circle cx="574" cy="132" r="20" fill="url(#badgeC)"/>
+  <text x="574" y="138" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">3</text>
+  <text x="654" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#ffffff">이용자 체감 변화</text>
+
+  <rect x="554" y="164" width="180" height="1" fill="#ccfbf1" opacity="0.6"/>
+
+  <circle cx="568" cy="200" r="6" fill="#f0fdfa"/>
+  <text x="584" y="205" font-size="12.5" fill="#f0fdfa">AI 생성 표시 확인 습관</text>
+  <circle cx="568" cy="234" r="6" fill="#f0fdfa"/>
+  <text x="584" y="239" font-size="12.5" fill="#f0fdfa">서비스 안내문 유의</text>
+  <circle cx="568" cy="268" r="6" fill="#f0fdfa"/>
+  <text x="584" y="273" font-size="12.5" fill="#f0fdfa">미이행 시 시정명령·과태료</text>
+
+  <rect x="554" y="360" width="180" height="46" rx="10" fill="#ffffff" opacity="0.16"/>
+  <text x="644" y="379" text-anchor="middle" font-size="11.5" fill="#f0fdfa">"신뢰할 수 있는</text>
+  <text x="644" y="396" text-anchor="middle" font-size="11.5" fill="#f0fdfa">AI 환경으로"</text>
+
+  <!-- arrows down to summary -->
+  <line x1="156" y1="426" x2="380" y2="470" stroke="#4c5fab" stroke-width="2" marker-end="url(#arrowA)" opacity="0.7"/>
+  <line x1="400" y1="426" x2="400" y2="470" stroke="#4c5fab" stroke-width="2" marker-end="url(#arrowA)" opacity="0.7"/>
+  <line x1="644" y1="426" x2="420" y2="470" stroke="#4c5fab" stroke-width="2" marker-end="url(#arrowA)" opacity="0.7"/>
+
+  <!-- bottom summary -->
+  <rect x="60" y="478" width="680" height="132" rx="16" fill="url(#finalCard)" filter="url(#softShadow)"/>
+  <text x="400" y="512" text-anchor="middle" font-size="14.5" font-weight="bold" fill="#c7d2fe">7월 21일 시행령 시행 → 산업 현장 본격 적용</text>
+  <text x="400" y="540" text-anchor="middle" font-size="13" fill="#ccfbf1">세부 기준은 시행 초기 사례를 통해 계속 다듬어질 전망</text>
+  <text x="400" y="568" text-anchor="middle" font-size="11.5" fill="#a5b4d8" opacity="0.9">위 구분·수치는 이해를 돕기 위한 예시이며 실제 고시 내용과 다를 수 있습니다</text>
+  <text x="400" y="592" text-anchor="middle" font-size="11.5" fill="#a5b4d8" opacity="0.9">서비스를 운영·이용 중이라면 공식 고시와 안내를 직접 확인하는 것이 안전합니다</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c2d12"/>
+      <stop offset="55%" stop-color="#c2410c"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="coin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowWarm" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fde68a" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#fde68a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1070" cy="130" r="240" fill="url(#glow)"/>
+  <circle cx="130" cy="560" r="200" fill="url(#glowWarm)"/>
+
+  <!-- stopwatch / timing icon cluster -->
+  <g transform="translate(160,190)">
+    <circle cx="0" cy="0" r="94" fill="url(#coin)" opacity="0.95"/>
+    <circle cx="0" cy="0" r="94" fill="none" stroke="#92400e" stroke-width="4" opacity="0.55"/>
+    <circle cx="0" cy="6" r="58" fill="none" stroke="#92400e" stroke-width="7"/>
+    <rect x="-10" y="-70" width="20" height="18" rx="5" fill="#92400e"/>
+    <rect x="18" y="-84" width="26" height="10" rx="5" fill="#92400e" transform="rotate(35 31 -79)"/>
+    <line x1="0" y1="6" x2="0" y2="-28" stroke="#92400e" stroke-width="6" stroke-linecap="round"/>
+    <line x1="0" y1="6" x2="26" y2="18" stroke="#92400e" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="6" r="6" fill="#92400e"/>
+  </g>
+
+  <!-- percent badge accent -->
+  <g transform="translate(275,330)">
+    <circle cx="0" cy="0" r="46" fill="url(#coin)" opacity="0.9"/>
+    <circle cx="0" cy="0" r="46" fill="none" stroke="#92400e" stroke-width="3" opacity="0.5"/>
+    <text x="0" y="14" text-anchor="middle" font-size="34" font-weight="bold" fill="#92400e">%</text>
+  </g>
+  <text x="200" y="440" text-anchor="middle" font-size="16" fill="#fef3c7">언제 신청하느냐가 다르다</text>
+
+  <!-- calendar accent, right side -->
+  <g transform="translate(1010,440)" opacity="0.65">
+    <rect x="-38" y="-34" width="76" height="66" rx="10" fill="none" stroke="#fef3c7" stroke-width="4"/>
+    <line x1="-38" y1="-16" x2="38" y2="-16" stroke="#fef3c7" stroke-width="4"/>
+    <circle cx="-16" cy="6" r="4" fill="#fef3c7"/>
+    <circle cx="4" cy="6" r="4" fill="#fef3c7"/>
+    <circle cx="24" cy="6" r="4" fill="#ffffff"/>
+    <circle cx="-16" cy="22" r="4" fill="#fef3c7"/>
+  </g>
+
+  <!-- title text block -->
+  <text x="420" y="200" font-size="38" font-weight="bold" fill="#ffffff">스트레스 DSR 3단계,</text>
+  <text x="420" y="256" font-size="38" font-weight="bold" fill="#ffffff">신청 타이밍이 한도를 가른다</text>
+  <text x="420" y="300" font-size="18" fill="#fef3c7">같은 소득, 다른 한도 — 지금 알아둘 체크포인트</text>
+
+  <!-- bottom tag -->
+  <rect x="420" y="500" width="220" height="46" rx="23" fill="#ffffff" opacity="0.92"/>
+  <text x="530" y="529" text-anchor="middle" font-size="16" font-weight="bold" fill="#7c2d12">대출 · 가계금융</text>
+</svg>

@@ -1,0 +1,82 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fff7ed"/>
+    </linearGradient>
+    <linearGradient id="cardBefore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="cardAfter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#fdba74"/>
+    </linearGradient>
+    <linearGradient id="barBefore" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="barAfter" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#c2410c"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="badgeBefore" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="badgeAfter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7c2d12" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pagebg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="bold" fill="#7c2d12">같은 소득, 다른 결과 — 신청 시점 비교</text>
+  <text x="400" y="70" text-anchor="middle" font-size="13" fill="#6b4a28">※ 아래 막대 높이·구성은 이해를 돕기 위한 예시이며 실제 수치와 무관합니다</text>
+
+  <!-- Left card: before -->
+  <rect x="60" y="100" width="310" height="420" rx="20" fill="url(#cardBefore)" stroke="#f0c869" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="110" cy="150" r="26" fill="url(#badgeBefore)"/>
+  <text x="110" y="158" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">1</text>
+  <text x="150" y="145" font-size="16" font-weight="bold" fill="#78350f">규제 강화 전 신청</text>
+  <text x="150" y="165" font-size="12" fill="#92400e">동일 소득 · 동일 상환여력 (예시)</text>
+
+  <rect x="150" y="220" width="150" height="240" rx="10" fill="#ffffff" opacity="0.55"/>
+  <rect x="185" y="270" width="80" height="180" rx="8" fill="url(#barBefore)"/>
+  <text x="225" y="480" text-anchor="middle" font-size="13" font-weight="bold" fill="#78350f">예상 한도 (예시)</text>
+  <text x="225" y="498" text-anchor="middle" font-size="12" fill="#92400e">상대적으로 넉넉한 편</text>
+
+  <rect x="90" y="518" width="250" height="1" fill="#f0c869"/>
+  <text x="215" y="545" text-anchor="middle" font-size="12.5" fill="#78350f">가산금리 폭이 상대적으로 작음</text>
+  <text x="215" y="564" text-anchor="middle" font-size="12.5" fill="#78350f">→ 계획한 자금 조달 가능</text>
+
+  <!-- divider timeline arrow -->
+  <g transform="translate(400,300)">
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="#c2843d" stroke-width="3"/>
+    <path d="M8,-10 L22,0 L8,10 Z" fill="#c2843d"/>
+    <circle cx="0" cy="-46" r="22" fill="#ffffff" stroke="#c2843d" stroke-width="2" filter="url(#softShadow)"/>
+    <text x="0" y="-41" text-anchor="middle" font-size="16" fill="#9a3412">⏱</text>
+    <text x="0" y="40" text-anchor="middle" font-size="12" fill="#78350f">시행일</text>
+    <text x="0" y="56" text-anchor="middle" font-size="12" fill="#78350f">기준</text>
+  </g>
+
+  <!-- Right card: after -->
+  <rect x="430" y="100" width="310" height="420" rx="20" fill="url(#cardAfter)" stroke="#f0a869" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="480" cy="150" r="26" fill="url(#badgeAfter)"/>
+  <text x="480" y="158" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">2</text>
+  <text x="520" y="145" font-size="16" font-weight="bold" fill="#7c2d12">규제 강화 후 신청</text>
+  <text x="520" y="165" font-size="12" fill="#9a3412">동일 소득 · 동일 상환여력 (예시)</text>
+
+  <rect x="520" y="220" width="150" height="240" rx="10" fill="#ffffff" opacity="0.4"/>
+  <rect x="555" y="330" width="80" height="120" rx="8" fill="url(#barAfter)"/>
+  <text x="595" y="480" text-anchor="middle" font-size="13" font-weight="bold" fill="#7c2d12">예상 한도 (예시)</text>
+  <text x="595" y="498" text-anchor="middle" font-size="12" fill="#9a3412">상대적으로 줄어든 편</text>
+
+  <rect x="460" y="518" width="250" height="1" fill="#f0a869"/>
+  <text x="585" y="545" text-anchor="middle" font-size="12.5" fill="#7c2d12">가산금리 폭이 상대적으로 큼</text>
+  <text x="585" y="564" text-anchor="middle" font-size="12.5" fill="#7c2d12">→ 계획했던 자금과 차이 발생</text>
+</svg>

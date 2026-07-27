@@ -1,0 +1,66 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="55%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ccfbf1"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowTeal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="120" r="240" fill="url(#glow)"/>
+  <circle cx="120" cy="560" r="200" fill="url(#glowTeal)"/>
+
+  <!-- chip / network icon cluster -->
+  <g transform="translate(160,200)">
+    <circle cx="0" cy="0" r="94" fill="url(#chip)" opacity="0.95"/>
+    <circle cx="0" cy="0" r="94" fill="none" stroke="#312e81" stroke-width="4" opacity="0.5"/>
+    <rect x="-30" y="-30" width="60" height="60" rx="8" fill="#312e81"/>
+    <rect x="-16" y="-16" width="32" height="32" rx="4" fill="#5eead4"/>
+    <line x1="-30" y1="-16" x2="-46" y2="-16" stroke="#312e81" stroke-width="4"/>
+    <line x1="-30" y1="16" x2="-46" y2="16" stroke="#312e81" stroke-width="4"/>
+    <line x1="30" y1="-16" x2="46" y2="-16" stroke="#312e81" stroke-width="4"/>
+    <line x1="30" y1="16" x2="46" y2="16" stroke="#312e81" stroke-width="4"/>
+    <line x1="-16" y1="-30" x2="-16" y2="-46" stroke="#312e81" stroke-width="4"/>
+    <line x1="16" y1="-30" x2="16" y2="-46" stroke="#312e81" stroke-width="4"/>
+    <line x1="-16" y1="30" x2="-16" y2="46" stroke="#312e81" stroke-width="4"/>
+    <line x1="16" y1="30" x2="16" y2="46" stroke="#312e81" stroke-width="4"/>
+  </g>
+
+  <!-- fading link / cursor motif signaling "clicks disappearing" -->
+  <g transform="translate(255,380)" opacity="0.92">
+    <rect x="-30" y="-24" width="60" height="16" rx="8" fill="#ccfbf1" opacity="0.9"/>
+    <rect x="-30" y="0" width="44" height="16" rx="8" fill="#ccfbf1" opacity="0.55"/>
+    <rect x="-30" y="24" width="30" height="16" rx="8" fill="#ccfbf1" opacity="0.25"/>
+    <path d="M28,-30 L46,-14 L38,-14 L38,10 L30,10 L30,-14 L20,-14 Z" fill="#2dd4bf" opacity="0.7"/>
+  </g>
+  <text x="255" y="446" text-anchor="middle" font-size="16" fill="#99f6e4">클릭 없이 답을 얻는 시대</text>
+
+  <!-- magnifier accent -->
+  <g transform="translate(1000,440)" opacity="0.65">
+    <circle cx="-8" cy="-8" r="28" fill="none" stroke="#ccfbf1" stroke-width="5"/>
+    <line x1="13" y1="13" x2="34" y2="34" stroke="#ccfbf1" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- title text block -->
+  <text x="420" y="190" font-size="34" font-weight="bold" fill="#ffffff">AI 검색 시대,</text>
+  <text x="420" y="234" font-size="34" font-weight="bold" fill="#ffffff">사라지는 클릭</text>
+  <text x="420" y="278" font-size="18" fill="#99f6e4">'제로클릭'이 콘텐츠 생태계를 바꾸고 있다</text>
+
+  <!-- bottom tag -->
+  <rect x="420" y="500" width="180" height="46" rx="23" fill="#ffffff" opacity="0.92"/>
+  <text x="510" y="529" text-anchor="middle" font-size="16" font-weight="bold" fill="#312e81">AI 관련 소식</text>
+</svg>

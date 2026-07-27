@@ -1,0 +1,102 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#ecfeff"/>
+    </linearGradient>
+    <linearGradient id="cardLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0e7ff"/>
+      <stop offset="100%" stop-color="#c7d2fe"/>
+    </linearGradient>
+    <linearGradient id="cardRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ccfbf1"/>
+      <stop offset="100%" stop-color="#99f6e4"/>
+    </linearGradient>
+    <linearGradient id="badgeLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="badgeRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1e1b4b" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pagebg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="bold" fill="#1e1b4b">기존 검색 vs AI 요약 검색</text>
+  <text x="400" y="70" text-anchor="middle" font-size="13" fill="#312e81">※ 아래 항목은 이해를 돕기 위한 예시 구성입니다</text>
+
+  <!-- Left card: existing search -->
+  <rect x="60" y="100" width="310" height="440" rx="20" fill="url(#cardLeft)" stroke="#a5b4fc" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="110" cy="150" r="26" fill="url(#badgeLeft)"/>
+  <text x="110" y="158" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">1</text>
+  <text x="150" y="145" font-size="16" font-weight="bold" fill="#1e1b4b">기존 검색 방식</text>
+  <text x="150" y="165" font-size="12" fill="#312e81">링크 목록 확인 후 클릭</text>
+
+  <g transform="translate(90,200)">
+    <circle cx="10" cy="10" r="14" fill="#ffffff" opacity="0.85"/>
+    <text x="10" y="15" text-anchor="middle" font-size="13" font-weight="bold" fill="#312e81">A</text>
+    <text x="34" y="9" font-size="13" fill="#1e1b4b">검색어 입력 후</text>
+    <text x="34" y="26" font-size="12" fill="#312e81">결과 목록 확인하기</text>
+  </g>
+  <g transform="translate(90,270)">
+    <circle cx="10" cy="10" r="14" fill="#ffffff" opacity="0.85"/>
+    <text x="10" y="15" text-anchor="middle" font-size="13" font-weight="bold" fill="#312e81">B</text>
+    <text x="34" y="9" font-size="13" fill="#1e1b4b">관심 있는 링크</text>
+    <text x="34" y="26" font-size="12" fill="#312e81">직접 클릭하기</text>
+  </g>
+  <g transform="translate(90,340)">
+    <circle cx="10" cy="10" r="14" fill="#ffffff" opacity="0.85"/>
+    <text x="10" y="15" text-anchor="middle" font-size="13" font-weight="bold" fill="#312e81">C</text>
+    <text x="34" y="9" font-size="13" fill="#1e1b4b">사이트를 방문해</text>
+    <text x="34" y="26" font-size="12" fill="#312e81">정보 확인하기</text>
+  </g>
+
+  <rect x="90" y="440" width="250" height="1" fill="#a5b4fc"/>
+  <text x="215" y="470" text-anchor="middle" font-size="12.5" fill="#1e1b4b">방문자 수가 곧</text>
+  <text x="215" y="489" text-anchor="middle" font-size="12.5" fill="#1e1b4b">콘텐츠 가치의 지표였다</text>
+
+  <!-- divider arrow -->
+  <g transform="translate(400,310)">
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="#312e81" stroke-width="3"/>
+    <path d="M8,-10 L22,0 L8,10 Z" fill="#312e81"/>
+    <circle cx="0" cy="-56" r="22" fill="#ffffff" stroke="#312e81" stroke-width="2" filter="url(#softShadow)"/>
+    <text x="0" y="-51" text-anchor="middle" font-size="15" fill="#1e1b4b">AI</text>
+    <text x="0" y="34" text-anchor="middle" font-size="12" fill="#1e1b4b">검색의</text>
+    <text x="0" y="50" text-anchor="middle" font-size="12" fill="#1e1b4b">변화</text>
+  </g>
+
+  <!-- Right card: AI summary search -->
+  <rect x="430" y="100" width="310" height="440" rx="20" fill="url(#cardRight)" stroke="#5eead4" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="480" cy="150" r="26" fill="url(#badgeRight)"/>
+  <text x="480" y="158" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">2</text>
+  <text x="520" y="145" font-size="16" font-weight="bold" fill="#1e1b4b">AI 요약 검색</text>
+  <text x="520" y="165" font-size="12" fill="#0f766e">질문에 답만 받고 종료</text>
+
+  <g transform="translate(460,200)">
+    <circle cx="10" cy="10" r="14" fill="#ffffff" opacity="0.85"/>
+    <text x="10" y="15" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f766e">A</text>
+    <text x="34" y="9" font-size="13" fill="#1e1b4b">질문 입력하면</text>
+    <text x="34" y="26" font-size="12" fill="#0f766e">AI가 바로 요약 제공</text>
+  </g>
+  <g transform="translate(460,270)">
+    <circle cx="10" cy="10" r="14" fill="#ffffff" opacity="0.85"/>
+    <text x="10" y="15" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f766e">B</text>
+    <text x="34" y="9" font-size="13" fill="#1e1b4b">원문 출처는</text>
+    <text x="34" y="26" font-size="12" fill="#0f766e">하단에 작게 표시</text>
+  </g>
+  <g transform="translate(460,340)">
+    <circle cx="10" cy="10" r="14" fill="#ffffff" opacity="0.85"/>
+    <text x="10" y="15" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f766e">C</text>
+    <text x="34" y="9" font-size="13" fill="#1e1b4b">원문 사이트는</text>
+    <text x="34" y="26" font-size="12" fill="#0f766e">클릭하지 않고 종료</text>
+  </g>
+
+  <rect x="460" y="440" width="250" height="1" fill="#5eead4"/>
+  <text x="585" y="470" text-anchor="middle" font-size="12.5" fill="#1e1b4b">방문 없이도</text>
+  <text x="585" y="489" text-anchor="middle" font-size="12.5" fill="#1e1b4b">정보는 이미 소비된다</text>
+</svg>

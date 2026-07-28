@@ -1,0 +1,65 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1f3a"/>
+      <stop offset="55%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="house" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#bae6fd"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowSky" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="120" r="240" fill="url(#glow)"/>
+  <circle cx="120" cy="560" r="200" fill="url(#glowSky)"/>
+
+  <!-- house icon cluster -->
+  <g transform="translate(150,190)">
+    <circle cx="0" cy="0" r="94" fill="url(#house)" opacity="0.95"/>
+    <circle cx="0" cy="0" r="94" fill="none" stroke="#1e3a8a" stroke-width="4" opacity="0.5"/>
+    <polygon points="0,-40 40,-6 40,40 -40,40 -40,-6" fill="#1e3a8a"/>
+    <polygon points="0,-52 48,-10 34,-10 0,-38 -34,-10 -48,-10" fill="#0c2340"/>
+    <rect x="-12" y="6" width="24" height="34" rx="2" fill="#7dd3fc"/>
+    <rect x="-30" y="-14" width="14" height="14" rx="2" fill="#7dd3fc"/>
+    <rect x="16" y="-14" width="14" height="14" rx="2" fill="#7dd3fc"/>
+  </g>
+
+  <!-- balance scale motif signaling "selective adjustment" -->
+  <g transform="translate(255,360)" opacity="0.92">
+    <line x1="0" y1="-38" x2="0" y2="30" stroke="#e0f2fe" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-40" y1="-22" x2="40" y2="-22" stroke="#e0f2fe" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="-38" r="6" fill="#7dd3fc"/>
+    <path d="M-40,-22 L-54,6 L-26,6 Z" fill="none" stroke="#e0f2fe" stroke-width="3.5" stroke-linejoin="round"/>
+    <path d="M40,-22 L26,6 L54,6 Z" fill="none" stroke="#e0f2fe" stroke-width="3.5" stroke-linejoin="round"/>
+    <rect x="-24" y="26" width="48" height="10" rx="3" fill="#e0f2fe"/>
+  </g>
+  <text x="255" y="446" text-anchor="middle" font-size="16" fill="#bfdbfe">1주택 보호 · 초고가 조정</text>
+
+  <!-- blueprint / sketch accent -->
+  <g transform="translate(1000,440)" opacity="0.65">
+    <rect x="-38" y="-32" width="76" height="60" rx="8" fill="none" stroke="#e0f2fe" stroke-width="4"/>
+    <line x1="-24" y1="-14" x2="18" y2="-14" stroke="#e0f2fe" stroke-width="3"/>
+    <line x1="-24" y1="0" x2="24" y2="0" stroke="#e0f2fe" stroke-width="3"/>
+    <line x1="-24" y1="14" x2="10" y2="14" stroke="#e0f2fe" stroke-width="3"/>
+  </g>
+
+  <!-- title text block -->
+  <text x="420" y="180" font-size="32" font-weight="bold" fill="#ffffff">부동산 세제개편 밑그림 공개,</text>
+  <text x="420" y="224" font-size="32" font-weight="bold" fill="#ffffff">'1주택 보호·초고가 조정'</text>
+  <text x="420" y="268" font-size="18" fill="#bfdbfe">선별 조정 기조가 확인됐다</text>
+
+  <!-- bottom tag -->
+  <rect x="420" y="500" width="180" height="46" rx="23" fill="#ffffff" opacity="0.92"/>
+  <text x="510" y="529" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e3a8a">부동산 정책</text>
+</svg>

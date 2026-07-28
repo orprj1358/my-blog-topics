@@ -1,0 +1,102 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="cardLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#bfdbfe"/>
+    </linearGradient>
+    <linearGradient id="cardRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <linearGradient id="badgeLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="badgeRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0c2340" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pagebg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="bold" fill="#0c2340">1주택 보호 vs 초고가·비거주 조정</text>
+  <text x="400" y="70" text-anchor="middle" font-size="13" fill="#1e3a8a">※ 아래 항목은 이해를 돕기 위한 예시 구성이며 실제 발표 내용과 무관합니다</text>
+
+  <!-- Left card: 1주택 실수요자 -->
+  <rect x="60" y="100" width="310" height="440" rx="20" fill="url(#cardLeft)" stroke="#93c5fd" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="110" cy="150" r="26" fill="url(#badgeLeft)"/>
+  <text x="110" y="158" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">1</text>
+  <text x="150" y="145" font-size="16" font-weight="bold" fill="#0c2340">1주택 실수요자</text>
+  <text x="150" y="165" font-size="12" fill="#1e3a8a">보호 기조 쪽에 가깝다</text>
+
+  <g transform="translate(90,200)">
+    <circle cx="10" cy="10" r="14" fill="#ffffff" opacity="0.85"/>
+    <text x="10" y="15" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">A</text>
+    <text x="34" y="9" font-size="13" fill="#0c2340">세 부담 급증 우려는</text>
+    <text x="34" y="26" font-size="12" fill="#1e3a8a">다소 완화될 전망</text>
+  </g>
+  <g transform="translate(90,270)">
+    <circle cx="10" cy="10" r="14" fill="#ffffff" opacity="0.85"/>
+    <text x="10" y="15" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">B</text>
+    <text x="34" y="9" font-size="13" fill="#0c2340">실거주 요건 충족 여부</text>
+    <text x="34" y="26" font-size="12" fill="#1e3a8a">미리 확인해두기</text>
+  </g>
+  <g transform="translate(90,340)">
+    <circle cx="10" cy="10" r="14" fill="#ffffff" opacity="0.85"/>
+    <text x="10" y="15" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e3a8a">C</text>
+    <text x="34" y="9" font-size="13" fill="#0c2340">성급한 매도·매수 계획은</text>
+    <text x="34" y="26" font-size="12" fill="#1e3a8a">일단 보류하기</text>
+  </g>
+
+  <rect x="90" y="440" width="250" height="1" fill="#93c5fd"/>
+  <text x="215" y="470" text-anchor="middle" font-size="12.5" fill="#0c2340">지금은 '보호받는 쪽'이라는</text>
+  <text x="215" y="489" text-anchor="middle" font-size="12.5" fill="#0c2340">신호에 가깝다</text>
+
+  <!-- divider arrow -->
+  <g transform="translate(400,310)">
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="#1e3a8a" stroke-width="3"/>
+    <path d="M8,-10 L22,0 L8,10 Z" fill="#1e3a8a"/>
+    <circle cx="0" cy="-56" r="22" fill="#ffffff" stroke="#1e3a8a" stroke-width="2" filter="url(#softShadow)"/>
+    <text x="0" y="-51" text-anchor="middle" font-size="14" fill="#0c2340">⚖️</text>
+    <text x="0" y="34" text-anchor="middle" font-size="12" fill="#0c2340">선별</text>
+    <text x="0" y="50" text-anchor="middle" font-size="12" fill="#0c2340">조정</text>
+  </g>
+
+  <!-- Right card: 초고가·비거주 -->
+  <rect x="430" y="100" width="310" height="440" rx="20" fill="url(#cardRight)" stroke="#7dd3fc" stroke-width="1.5" filter="url(#softShadow)"/>
+  <circle cx="480" cy="150" r="26" fill="url(#badgeRight)"/>
+  <text x="480" y="158" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">2</text>
+  <text x="520" y="145" font-size="16" font-weight="bold" fill="#0c2340">초고가·비거주 주택</text>
+  <text x="520" y="165" font-size="12" fill="#0369a1">조정 대상 쪽에 가깝다</text>
+
+  <g transform="translate(460,200)">
+    <circle cx="10" cy="10" r="14" fill="#ffffff" opacity="0.85"/>
+    <text x="10" y="15" text-anchor="middle" font-size="13" font-weight="bold" fill="#0369a1">A</text>
+    <text x="34" y="9" font-size="13" fill="#0c2340">초고가 기준선이</text>
+    <text x="34" y="26" font-size="12" fill="#0369a1">어디로 정해질지 주시</text>
+  </g>
+  <g transform="translate(460,270)">
+    <circle cx="10" cy="10" r="14" fill="#ffffff" opacity="0.85"/>
+    <text x="10" y="15" text-anchor="middle" font-size="13" font-weight="bold" fill="#0369a1">B</text>
+    <text x="34" y="9" font-size="13" fill="#0c2340">비거주 판단 기준</text>
+    <text x="34" y="26" font-size="12" fill="#0369a1">발표 시 꼼꼼히 확인</text>
+  </g>
+  <g transform="translate(460,340)">
+    <circle cx="10" cy="10" r="14" fill="#ffffff" opacity="0.85"/>
+    <text x="10" y="15" text-anchor="middle" font-size="13" font-weight="bold" fill="#0369a1">C</text>
+    <text x="34" y="9" font-size="13" fill="#0c2340">세 부담 강화 가능성</text>
+    <text x="34" y="26" font-size="12" fill="#0369a1">미리 시뮬레이션 해보기</text>
+  </g>
+
+  <rect x="460" y="440" width="250" height="1" fill="#7dd3fc"/>
+  <text x="585" y="470" text-anchor="middle" font-size="12.5" fill="#0c2340">정식 발표 전까지는</text>
+  <text x="585" y="489" text-anchor="middle" font-size="12.5" fill="#0c2340">확정된 것이 아니다</text>
+</svg>

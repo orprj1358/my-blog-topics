@@ -1,0 +1,72 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="55%" stop-color="#3730a3"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#99f6e4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowTeal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="120" r="240" fill="url(#glow)"/>
+  <circle cx="120" cy="560" r="200" fill="url(#glowTeal)"/>
+
+  <!-- chip / network icon cluster -->
+  <g transform="translate(155,190)">
+    <circle cx="0" cy="0" r="94" fill="url(#chip)" opacity="0.95"/>
+    <circle cx="0" cy="0" r="94" fill="none" stroke="#312e81" stroke-width="4" opacity="0.5"/>
+    <rect x="-30" y="-30" width="60" height="60" rx="10" fill="#312e81"/>
+    <rect x="-16" y="-16" width="32" height="32" rx="5" fill="#99f6e4"/>
+    <line x1="-30" y1="-14" x2="-44" y2="-14" stroke="#312e81" stroke-width="4"/>
+    <line x1="-30" y1="14" x2="-44" y2="14" stroke="#312e81" stroke-width="4"/>
+    <line x1="30" y1="-14" x2="44" y2="-14" stroke="#312e81" stroke-width="4"/>
+    <line x1="30" y1="14" x2="44" y2="14" stroke="#312e81" stroke-width="4"/>
+    <line x1="-14" y1="-30" x2="-14" y2="-44" stroke="#312e81" stroke-width="4"/>
+    <line x1="14" y1="-30" x2="14" y2="-44" stroke="#312e81" stroke-width="4"/>
+    <line x1="-14" y1="30" x2="-14" y2="44" stroke="#312e81" stroke-width="4"/>
+    <line x1="14" y1="30" x2="14" y2="44" stroke="#312e81" stroke-width="4"/>
+  </g>
+
+  <!-- network node accent under the chip: signals "law woven into services" -->
+  <g transform="translate(255,368)" opacity="0.92">
+    <circle cx="0" cy="0" r="7" fill="#99f6e4"/>
+    <circle cx="46" cy="-14" r="7" fill="#99f6e4"/>
+    <circle cx="46" cy="18" r="7" fill="#99f6e4"/>
+    <line x1="0" y1="0" x2="46" y2="-14" stroke="#99f6e4" stroke-width="2.5" opacity="0.8"/>
+    <line x1="0" y1="0" x2="46" y2="18" stroke="#99f6e4" stroke-width="2.5" opacity="0.8"/>
+  </g>
+  <text x="255" y="440" text-anchor="middle" font-size="16" fill="#bfe9e0">시행 6개월, 현장의 변화</text>
+
+  <!-- calendar / half-year accent -->
+  <g transform="translate(1000,440)" opacity="0.65">
+    <rect x="-38" y="-34" width="76" height="66" rx="10" fill="none" stroke="#e0f2fe" stroke-width="4"/>
+    <line x1="-38" y1="-16" x2="38" y2="-16" stroke="#e0f2fe" stroke-width="4"/>
+    <circle cx="-16" cy="6" r="4" fill="#e0f2fe"/>
+    <circle cx="4" cy="6" r="4" fill="#e0f2fe"/>
+    <circle cx="24" cy="6" r="4" fill="#99f6e4"/>
+    <circle cx="-16" cy="22" r="4" fill="#e0f2fe"/>
+    <circle cx="4" cy="22" r="4" fill="#ffffff"/>
+  </g>
+
+  <!-- title text block -->
+  <text x="420" y="200" font-size="36" font-weight="bold" fill="#ffffff">AI 기본법 시행 반년</text>
+  <text x="420" y="256" font-size="36" font-weight="bold" fill="#ffffff">기업 현장은 무엇을 바꿨나</text>
+  <text x="420" y="300" font-size="18" fill="#bfe9e0">대기업·스타트업·이용자, 서로 다른 체감</text>
+
+  <!-- bottom tag -->
+  <rect x="420" y="500" width="180" height="46" rx="23" fill="#ffffff" opacity="0.92"/>
+  <text x="510" y="529" text-anchor="middle" font-size="16" font-weight="bold" fill="#312e81">AI 관련 소식</text>
+</svg>

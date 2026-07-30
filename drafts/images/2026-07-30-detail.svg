@@ -1,0 +1,82 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#ecfeff"/>
+    </linearGradient>
+    <linearGradient id="cardBig" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="cardStartup" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="badgeBig" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="badgeStartup" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="footerBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#312e81" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pagebg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-size="23" font-weight="bold" fill="#312e81">같은 법, 다르게 체감하는 두 현장</text>
+  <text x="400" y="70" text-anchor="middle" font-size="13" fill="#4c4a9a">※ 아래 대응 방식은 이해를 돕기 위한 예시이며, 실제 기업별 상황과 다를 수 있습니다</text>
+
+  <!-- card 1: 대기업 -->
+  <rect x="60" y="102" width="320" height="360" rx="20" fill="url(#cardBig)" filter="url(#softShadow)"/>
+  <circle cx="102" cy="142" r="22" fill="url(#badgeBig)"/>
+  <text x="102" y="149" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">1</text>
+  <text x="230" y="150" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">대기업의 대응</text>
+
+  <rect x="82" y="176" width="276" height="1" fill="#818cf8" opacity="0.6"/>
+
+  <circle cx="98" cy="212" r="6" fill="#c7d2fe"/>
+  <text x="116" y="217" font-size="13" fill="#e0e7ff">기존 컴플라이언스 조직 활용</text>
+  <circle cx="98" cy="248" r="6" fill="#c7d2fe"/>
+  <text x="116" y="253" font-size="13" fill="#e0e7ff">AI 점검 항목을 기존 체계에 추가</text>
+  <circle cx="98" cy="284" r="6" fill="#c7d2fe"/>
+  <text x="116" y="289" font-size="13" fill="#e0e7ff">전담 인력·예산 상대적으로 여유</text>
+
+  <rect x="82" y="392" width="276" height="52" rx="10" fill="#ffffff" opacity="0.14"/>
+  <text x="220" y="414" text-anchor="middle" font-size="12.5" fill="#e0e7ff">"기존 틀 위에</text>
+  <text x="220" y="432" text-anchor="middle" font-size="12.5" fill="#e0e7ff">비교적 수월하게 얹는 중"</text>
+
+  <!-- card 2: 스타트업 -->
+  <rect x="420" y="102" width="320" height="360" rx="20" fill="url(#cardStartup)" filter="url(#softShadow)"/>
+  <circle cx="462" cy="142" r="22" fill="url(#badgeStartup)"/>
+  <text x="462" y="149" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">2</text>
+  <text x="590" y="150" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffffff">스타트업의 대응</text>
+
+  <rect x="442" y="176" width="276" height="1" fill="#5eead4" opacity="0.6"/>
+
+  <circle cx="458" cy="212" r="6" fill="#99f6e4"/>
+  <text x="476" y="217" font-size="13" fill="#ecfeff">가이드라인 해석부터 새로운 과제</text>
+  <circle cx="458" cy="248" r="6" fill="#99f6e4"/>
+  <text x="476" y="253" font-size="13" fill="#ecfeff">전담 인력 부족, 겸직 대응이 많음</text>
+  <circle cx="458" cy="284" r="6" fill="#99f6e4"/>
+  <text x="476" y="289" font-size="13" fill="#ecfeff">규모별 지원·유예 필요성 제기</text>
+
+  <rect x="442" y="392" width="276" height="52" rx="10" fill="#ffffff" opacity="0.14"/>
+  <text x="580" y="414" text-anchor="middle" font-size="12.5" fill="#ecfeff">"작은 조직일수록</text>
+  <text x="580" y="432" text-anchor="middle" font-size="12.5" fill="#ecfeff">체감 부담이 더 크다"</text>
+
+  <!-- footer: 이용자 체감 -->
+  <rect x="60" y="492" width="680" height="70" rx="16" fill="#ffffff" opacity="0.7" filter="url(#softShadow)"/>
+  <rect x="60" y="492" width="8" height="70" rx="4" fill="url(#footerBar)"/>
+  <circle cx="112" cy="527" r="18" fill="url(#footerBar)"/>
+  <text x="112" y="533" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e1b4b">i</text>
+  <text x="146" y="521" font-size="13.5" font-weight="bold" fill="#312e81">이용자 체감: 'AI 생성물' 표시를 이전보다 자주 접하게 됐다</text>
+  <text x="146" y="543" font-size="12" fill="#4c4a9a">다만 표시 방식은 서비스마다 제각각이라 실효성 논의는 계속된다</text>
+</svg>

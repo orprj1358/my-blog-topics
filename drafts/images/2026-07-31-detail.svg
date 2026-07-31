@@ -1,0 +1,75 @@
+<svg width="800" height="680" viewBox="0 0 800 680" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#ffedd5"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#fdba74"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="card4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9a3412"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7c2d12" flood-opacity="0.2"/>
+    </filter>
+    <marker id="arrowA" markerWidth="9" markerHeight="9" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L6,3 z" fill="#c2410c"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="680" fill="url(#pagebg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="bold" fill="#7c2d12">8월 앞둔 대출 실수요자 체크리스트</text>
+  <text x="400" y="70" text-anchor="middle" font-size="13" fill="#9a5b32">※ 아래 항목은 일반적인 점검 순서를 정리한 예시이며, 실제 조건은 은행 확인이 필요합니다</text>
+
+  <!-- step 1 -->
+  <rect x="70" y="94" width="660" height="108" rx="16" fill="url(#card1)" filter="url(#softShadow)"/>
+  <circle cx="120" cy="148" r="24" fill="url(#badge)"/>
+  <text x="120" y="155" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff7ed">1</text>
+  <text x="164" y="138" font-size="16" font-weight="bold" fill="#7c2d12">내 대출 한도 계산 방식 확인하기</text>
+  <text x="164" y="164" font-size="12.5" fill="#8a4a26">소득 대비 상환 부담, 담보 평가 기준부터 다시 점검</text>
+
+  <line x1="400" y1="202" x2="400" y2="222" stroke="#c2410c" stroke-width="2" marker-end="url(#arrowA)" opacity="0.75"/>
+
+  <!-- step 2 -->
+  <rect x="70" y="228" width="660" height="108" rx="16" fill="url(#card2)" filter="url(#softShadow)"/>
+  <circle cx="120" cy="282" r="24" fill="url(#badge)"/>
+  <text x="120" y="289" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff7ed">2</text>
+  <text x="164" y="272" font-size="16" font-weight="bold" fill="#fffbeb">은행별·시점별 조건 비교하기</text>
+  <text x="164" y="298" font-size="12.5" fill="#fff0dc">같은 상품도 지점·시기마다 한도·금리가 달라질 수 있음</text>
+
+  <line x1="400" y1="336" x2="400" y2="356" stroke="#c2410c" stroke-width="2" marker-end="url(#arrowA)" opacity="0.75"/>
+
+  <!-- step 3 -->
+  <rect x="70" y="362" width="660" height="108" rx="16" fill="url(#card3)" filter="url(#softShadow)"/>
+  <circle cx="120" cy="416" r="24" fill="url(#badge)"/>
+  <text x="120" y="423" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff7ed">3</text>
+  <text x="164" y="406" font-size="16" font-weight="bold" fill="#fffbeb">정책 모기지 신청 시기 챙기기</text>
+  <text x="164" y="432" font-size="12.5" fill="#fff0dc">재원 기반 상품은 신청 시점에 따라 실행 여부가 갈릴 수 있음</text>
+
+  <line x1="400" y1="470" x2="400" y2="490" stroke="#c2410c" stroke-width="2" marker-end="url(#arrowA)" opacity="0.75"/>
+
+  <!-- step 4 -->
+  <rect x="70" y="496" width="660" height="108" rx="16" fill="url(#card4)" filter="url(#softShadow)"/>
+  <circle cx="120" cy="550" r="24" fill="url(#badge)"/>
+  <text x="120" y="557" text-anchor="middle" font-size="18" font-weight="bold" fill="#fed7aa">4</text>
+  <text x="164" y="540" font-size="16" font-weight="bold" fill="#fff7ed">서두르지 않고 자금계획 재점검하기</text>
+  <text x="164" y="566" font-size="12.5" fill="#ffedd5">막연히 미루기보다 지금 상담 채널로 현재 조건을 직접 확인</text>
+
+  <text x="400" y="642" text-anchor="middle" font-size="12" fill="#9a5b32" opacity="0.85">최신 대출 조건은 반드시 은행 공식 안내로 확인하시길 권합니다</text>
+</svg>

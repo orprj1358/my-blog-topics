@@ -1,0 +1,90 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf3fc"/>
+      <stop offset="100%" stop-color="#d6e9fa"/>
+    </linearGradient>
+    <linearGradient id="cardgrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eaf3fc"/>
+    </linearGradient>
+    <linearGradient id="badgegrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2f7fc1"/>
+      <stop offset="100%" stop-color="#164a7e"/>
+    </linearGradient>
+    <linearGradient id="badgegradFinal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4fa8e8"/>
+      <stop offset="100%" stop-color="#2f7fc1"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0c2340" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pagebg)"/>
+
+  <text x="400" y="56" text-anchor="middle" font-size="26" font-weight="bold" fill="#0c2340">부동산 정책, 발표부터 시행까지</text>
+  <text x="400" y="86" text-anchor="middle" font-size="15" fill="#3b6790">공식 발표는 끝이 아니라 절차의 시작입니다</text>
+
+  <!-- Step cards -->
+  <g>
+    <!-- Card 1 -->
+    <rect x="50" y="150" width="150" height="220" rx="18" fill="url(#cardgrad)" filter="url(#cardShadow)"/>
+    <circle cx="125" cy="200" r="26" fill="url(#badgegrad)"/>
+    <text x="125" y="209" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">1</text>
+    <text x="125" y="255" text-anchor="middle" font-size="17" font-weight="bold" fill="#0c2340">의견 수렴</text>
+    <text x="125" y="282" text-anchor="middle" font-size="12" fill="#3b6790">초안 공개 후</text>
+    <text x="125" y="300" text-anchor="middle" font-size="12" fill="#3b6790">여론 청취</text>
+    <circle cx="125" cy="335" r="16" fill="#eaf3fc" stroke="#2f7fc1" stroke-width="2.5"/>
+    <path d="M118,335 l5,6 l10,-14" fill="none" stroke="#164a7e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Card 2 -->
+    <rect x="222" y="150" width="150" height="220" rx="18" fill="url(#cardgrad)" filter="url(#cardShadow)"/>
+    <circle cx="297" cy="200" r="26" fill="url(#badgegrad)"/>
+    <text x="297" y="209" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">2</text>
+    <text x="297" y="255" text-anchor="middle" font-size="17" font-weight="bold" fill="#0c2340">8월 공식 발표</text>
+    <text x="297" y="282" text-anchor="middle" font-size="12" fill="#3b6790">종합대책</text>
+    <text x="297" y="300" text-anchor="middle" font-size="12" fill="#3b6790">공식 확정안 공개</text>
+    <circle cx="297" cy="335" r="16" fill="#eaf3fc" stroke="#2f7fc1" stroke-width="2.5"/>
+    <rect x="289" y="329" width="16" height="12" rx="2" fill="none" stroke="#164a7e" stroke-width="2.5"/>
+    <line x1="289" y1="333" x2="305" y2="333" stroke="#164a7e" stroke-width="2"/>
+
+    <!-- Card 3 -->
+    <rect x="394" y="150" width="150" height="220" rx="18" fill="url(#cardgrad)" filter="url(#cardShadow)"/>
+    <circle cx="469" cy="200" r="26" fill="url(#badgegrad)"/>
+    <text x="469" y="209" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">3</text>
+    <text x="469" y="255" text-anchor="middle" font-size="17" font-weight="bold" fill="#0c2340">국회 심사</text>
+    <text x="469" y="282" text-anchor="middle" font-size="12" fill="#3b6790">법 개정 필요 시</text>
+    <text x="469" y="300" text-anchor="middle" font-size="12" fill="#3b6790">여야 논의·조정</text>
+    <circle cx="469" cy="335" r="16" fill="#eaf3fc" stroke="#2f7fc1" stroke-width="2.5"/>
+    <line x1="461" y1="329" x2="477" y2="341" stroke="#164a7e" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="477" y1="329" x2="461" y2="341" stroke="#164a7e" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Card 4 -->
+    <rect x="566" y="150" width="184" height="220" rx="18" fill="url(#cardgrad)" filter="url(#cardShadow)"/>
+    <circle cx="658" cy="200" r="26" fill="url(#badgegradFinal)"/>
+    <text x="658" y="209" text-anchor="middle" font-size="22" font-weight="bold" fill="#ffffff">4</text>
+    <text x="658" y="255" text-anchor="middle" font-size="17" font-weight="bold" fill="#0c2340">시행령 정비</text>
+    <text x="658" y="282" text-anchor="middle" font-size="12" fill="#3b6790">하위 법령 다듬어</text>
+    <text x="658" y="300" text-anchor="middle" font-size="12" fill="#3b6790">실제 시행</text>
+    <circle cx="658" cy="335" r="16" fill="#eaf3fc" stroke="#2f7fc1" stroke-width="2.5"/>
+    <path d="M651,335 l5,6 l10,-14" fill="none" stroke="#164a7e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Arrows between cards -->
+  <g fill="none" stroke="#7fb3e0" stroke-width="4" stroke-linecap="round">
+    <path d="M204,260 L216,260" marker-end="url(#none)"/>
+    <path d="M210,252 L220,260 L210,268" fill="none"/>
+    <path d="M376,260 L392,260"/>
+    <path d="M382,252 L392,260 L382,268"/>
+    <path d="M548,260 L562,260"/>
+    <path d="M554,252 L564,260 L554,268"/>
+  </g>
+
+  <!-- Footer note -->
+  <rect x="120" y="410" width="560" height="130" rx="16" fill="#ffffff" opacity="0.75" filter="url(#cardShadow)"/>
+  <text x="400" y="450" text-anchor="middle" font-size="15" font-weight="bold" fill="#164a7e">발표 = 확정이 아닙니다</text>
+  <text x="400" y="480" text-anchor="middle" font-size="13" fill="#3b6790">국회 심사·시행령 정비 과정에서</text>
+  <text x="400" y="502" text-anchor="middle" font-size="13" fill="#3b6790">세부 내용이 바뀔 수 있으니</text>
+  <text x="400" y="524" text-anchor="middle" font-size="13" fill="#3b6790">공식 확정 시점을 기준으로 판단하세요</text>
+</svg>

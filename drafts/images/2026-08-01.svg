@@ -1,0 +1,61 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c2340"/>
+      <stop offset="55%" stop-color="#164a7e"/>
+      <stop offset="100%" stop-color="#2f7fc1"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef6ff"/>
+      <stop offset="100%" stop-color="#bfe0ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
+
+  <circle cx="1080" cy="120" r="240" fill="url(#glow)"/>
+  <circle cx="100" cy="560" r="180" fill="url(#glow)"/>
+
+  <!-- house icon cluster -->
+  <g transform="translate(150,180)">
+    <circle cx="0" cy="0" r="92" fill="url(#cream)" opacity="0.96"/>
+    <circle cx="0" cy="0" r="92" fill="none" stroke="#164a7e" stroke-width="4" opacity="0.5"/>
+    <polygon points="0,-38 34,-6 34,34 -34,34 -34,-6" fill="#0c2340"/>
+    <polygon points="-42,-2 0,-42 42,-2 34,-2 0,-32 -34,-2" fill="#164a7e"/>
+    <rect x="-10" y="6" width="20" height="28" rx="2" fill="#eef6ff"/>
+  </g>
+
+  <!-- gavel / policy accent (announcement motif) -->
+  <g transform="translate(255,330)" opacity="0.92">
+    <rect x="-32" y="-28" width="64" height="56" rx="9" fill="none" stroke="#eef6ff" stroke-width="4"/>
+    <line x1="-32" y1="-12" x2="32" y2="-12" stroke="#eef6ff" stroke-width="4"/>
+    <circle cx="-14" cy="4" r="3.5" fill="#eef6ff"/>
+    <circle cx="2" cy="4" r="3.5" fill="#eef6ff"/>
+    <circle cx="18" cy="4" r="3.5" fill="#bfe0ff"/>
+    <circle cx="-14" cy="18" r="3.5" fill="#eef6ff"/>
+    <circle cx="2" cy="18" r="3.5" fill="#bfe0ff"/>
+    <circle cx="18" cy="18" r="3.5" fill="#8fc4f2" opacity="0.5"/>
+  </g>
+  <text x="255" y="392" text-anchor="middle" font-size="16" fill="#dceeff">8월, 부동산 정책의 분수령</text>
+
+  <!-- document accent -->
+  <g transform="translate(1000,440)" opacity="0.6">
+    <rect x="-34" y="-30" width="68" height="60" rx="8" fill="none" stroke="#dceeff" stroke-width="4"/>
+    <line x1="-34" y1="-12" x2="34" y2="-12" stroke="#dceeff" stroke-width="4"/>
+    <line x1="-20" y1="4" x2="20" y2="4" stroke="#dceeff" stroke-width="3"/>
+    <line x1="-20" y1="16" x2="10" y2="16" stroke="#dceeff" stroke-width="3"/>
+  </g>
+
+  <!-- title text block -->
+  <text x="420" y="200" font-size="36" font-weight="bold" fill="#f5faff">부동산 종합대책,</text>
+  <text x="420" y="256" font-size="36" font-weight="bold" fill="#f5faff">8월 발표 임박</text>
+  <text x="420" y="300" font-size="18" fill="#dceeff">지금 확인해야 할 것들</text>
+
+  <!-- bottom tag -->
+  <rect x="420" y="500" width="170" height="46" rx="23" fill="#f5faff" opacity="0.94"/>
+  <text x="505" y="529" text-anchor="middle" font-size="16" font-weight="bold" fill="#164a7e">부동산정책</text>
+</svg>

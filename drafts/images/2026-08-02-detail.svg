@@ -1,0 +1,81 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff3e6"/>
+      <stop offset="100%" stop-color="#fed7aa"/>
+    </linearGradient>
+    <linearGradient id="cardgradL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fff3e6"/>
+    </linearGradient>
+    <linearGradient id="cardgradR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffe4c4"/>
+    </linearGradient>
+    <linearGradient id="badgegradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="badgegradR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c2410c"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7c2d12" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pagebg)"/>
+
+  <text x="400" y="52" text-anchor="middle" font-size="25" font-weight="bold" fill="#7c2d12">DSR 적용, 8월과 9월은 무엇이 다른가</text>
+  <text x="400" y="80" text-anchor="middle" font-size="14" fill="#9a3412">가산금리 단계가 높아질수록 대출 한도는 줄어듭니다</text>
+
+  <!-- Left card: 8월 현재 -->
+  <rect x="70" y="120" width="280" height="330" rx="20" fill="url(#cardgradL)" filter="url(#cardShadow)"/>
+  <circle cx="210" cy="176" r="30" fill="url(#badgegradL)"/>
+  <text x="210" y="185" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">8월</text>
+  <text x="210" y="232" text-anchor="middle" font-size="18" font-weight="bold" fill="#7c2d12">현재 · 1단계</text>
+  <text x="210" y="258" text-anchor="middle" font-size="12" fill="#9a3412">상대적으로 낮은</text>
+  <text x="210" y="276" text-anchor="middle" font-size="12" fill="#9a3412">가산금리 적용</text>
+
+  <rect x="100" y="300" width="220" height="34" rx="17" fill="#fff3e6" stroke="#f59e0b" stroke-width="2"/>
+  <text x="210" y="322" text-anchor="middle" font-size="12" fill="#7c2d12">한도 여력 (예시) 상대적으로 큼</text>
+
+  <circle cx="210" cy="368" r="16" fill="#fff3e6" stroke="#c2410c" stroke-width="2.5"/>
+  <path d="M203,368 l5,6 l10,-14" fill="none" stroke="#7c2d12" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="210" y="404" text-anchor="middle" font-size="12" fill="#9a3412">막차 수요 몰리는 구간</text>
+  <text x="210" y="422" text-anchor="middle" font-size="12" fill="#9a3412">(오픈런 현상)</text>
+
+  <!-- Right card: 9월 2단계 -->
+  <rect x="450" y="120" width="280" height="330" rx="20" fill="url(#cardgradR)" filter="url(#cardShadow)"/>
+  <circle cx="590" cy="176" r="30" fill="url(#badgegradR)"/>
+  <text x="590" y="185" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">9월</text>
+  <text x="590" y="232" text-anchor="middle" font-size="18" font-weight="bold" fill="#7c2d12">2단계 강화</text>
+  <text x="590" y="258" text-anchor="middle" font-size="12" fill="#9a3412">가산금리 반영 폭</text>
+  <text x="590" y="276" text-anchor="middle" font-size="12" fill="#9a3412">확대 예정</text>
+
+  <rect x="480" y="300" width="220" height="34" rx="17" fill="#ffe4c4" stroke="#7c2d12" stroke-width="2"/>
+  <text x="590" y="322" text-anchor="middle" font-size="12" fill="#7c2d12">한도 여력 (예시) 상대적으로 축소</text>
+
+  <circle cx="590" cy="368" r="16" fill="#ffe4c4" stroke="#7c2d12" stroke-width="2.5"/>
+  <line x1="583" y1="362" x2="597" y2="374" stroke="#7c2d12" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="597" y1="362" x2="583" y2="374" stroke="#7c2d12" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="590" y="404" text-anchor="middle" font-size="12" fill="#9a3412">시행 전 미리 계획</text>
+  <text x="590" y="422" text-anchor="middle" font-size="12" fill="#9a3412">세워야 하는 구간</text>
+
+  <!-- Center arrow -->
+  <g transform="translate(400,285)">
+    <path d="M-30,0 L28,0" stroke="url(#barGrad)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M14,-12 L32,0 L14,12" fill="none" stroke="#7c2d12" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Footer note -->
+  <rect x="120" y="480" width="560" height="96" rx="16" fill="#ffffff" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="400" y="512" text-anchor="middle" font-size="15" font-weight="bold" fill="#9a3412">막차보다 중요한 건 상환 능력</text>
+  <text x="400" y="538" text-anchor="middle" font-size="13" fill="#7c2d12">시행일에 쫓기기보다 본인의 자금 계획과</text>
+  <text x="400" y="558" text-anchor="middle" font-size="13" fill="#7c2d12">감당 가능한 범위를 먼저 점검하세요</text>
+</svg>

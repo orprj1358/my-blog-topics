@@ -1,0 +1,90 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf3ff"/>
+      <stop offset="100%" stop-color="#bfe0ff"/>
+    </linearGradient>
+    <linearGradient id="cardgradL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eaf3ff"/>
+    </linearGradient>
+    <linearGradient id="cardgradR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d5e9ff"/>
+    </linearGradient>
+    <linearGradient id="badgegradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2f7fc1"/>
+      <stop offset="100%" stop-color="#164a7e"/>
+    </linearGradient>
+    <linearGradient id="badgegradR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#164a7e"/>
+      <stop offset="100%" stop-color="#0c2340"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2f7fc1"/>
+      <stop offset="100%" stop-color="#0c2340"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0c2340" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pagebg)"/>
+
+  <text x="400" y="52" text-anchor="middle" font-size="24" font-weight="bold" fill="#0c2340">외국인 주택 매수, 무엇이 달라지나</text>
+  <text x="400" y="80" text-anchor="middle" font-size="14" fill="#164a7e">지정 구역 안에서는 절차가 한층 까다로워집니다</text>
+
+  <!-- Left card: 8월 25일까지 -->
+  <rect x="70" y="120" width="280" height="330" rx="20" fill="url(#cardgradL)" filter="url(#cardShadow)"/>
+  <circle cx="210" cy="176" r="30" fill="url(#badgegradL)"/>
+  <text x="210" y="185" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">이전</text>
+  <text x="210" y="232" text-anchor="middle" font-size="17" font-weight="bold" fill="#0c2340">일반 매매 절차</text>
+
+  <circle cx="140" cy="270" r="12" fill="#eaf3ff" stroke="#2f7fc1" stroke-width="2"/>
+  <text x="140" y="275" text-anchor="middle" font-size="12" font-weight="bold" fill="#164a7e">1</text>
+  <text x="235" y="275" text-anchor="middle" font-size="12" fill="#164a7e">별도 허가 없이 계약</text>
+
+  <circle cx="140" cy="310" r="12" fill="#eaf3ff" stroke="#2f7fc1" stroke-width="2"/>
+  <text x="140" y="315" text-anchor="middle" font-size="12" font-weight="bold" fill="#164a7e">2</text>
+  <text x="235" y="315" text-anchor="middle" font-size="12" fill="#164a7e">실거주 목적 확인 절차 없음</text>
+
+  <circle cx="140" cy="350" r="12" fill="#eaf3ff" stroke="#2f7fc1" stroke-width="2"/>
+  <text x="140" y="355" text-anchor="middle" font-size="12" font-weight="bold" fill="#164a7e">3</text>
+  <text x="235" y="355" text-anchor="middle" font-size="12" fill="#164a7e">자금 출처 서류 제출 의무 없음</text>
+
+  <rect x="100" y="390" width="220" height="34" rx="17" fill="#eaf3ff" stroke="#2f7fc1" stroke-width="2"/>
+  <text x="210" y="412" text-anchor="middle" font-size="12" fill="#0c2340">투기성 매수 우려 제기</text>
+
+  <!-- Right card: 8월 26일부터 -->
+  <rect x="450" y="120" width="280" height="330" rx="20" fill="url(#cardgradR)" filter="url(#cardShadow)"/>
+  <circle cx="590" cy="176" r="30" fill="url(#badgegradR)"/>
+  <text x="590" y="185" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffffff">이후</text>
+  <text x="590" y="232" text-anchor="middle" font-size="17" font-weight="bold" fill="#0c2340">허가구역 내 절차</text>
+
+  <circle cx="520" cy="270" r="12" fill="#d5e9ff" stroke="#164a7e" stroke-width="2"/>
+  <text x="520" y="275" text-anchor="middle" font-size="12" font-weight="bold" fill="#0c2340">1</text>
+  <text x="620" y="275" text-anchor="middle" font-size="12" fill="#0c2340">토지거래허가 신청 필요</text>
+
+  <circle cx="520" cy="310" r="12" fill="#d5e9ff" stroke="#164a7e" stroke-width="2"/>
+  <text x="520" y="315" text-anchor="middle" font-size="12" font-weight="bold" fill="#0c2340">2</text>
+  <text x="620" y="315" text-anchor="middle" font-size="12" fill="#0c2340">실거주 목적·체류자격 신고</text>
+
+  <circle cx="520" cy="350" r="12" fill="#d5e9ff" stroke="#164a7e" stroke-width="2"/>
+  <text x="520" y="355" text-anchor="middle" font-size="12" font-weight="bold" fill="#0c2340">3</text>
+  <text x="620" y="355" text-anchor="middle" font-size="12" fill="#0c2340">자금조달계획서·증빙 제출</text>
+
+  <rect x="480" y="390" width="220" height="34" rx="17" fill="#d5e9ff" stroke="#164a7e" stroke-width="2"/>
+  <text x="590" y="412" text-anchor="middle" font-size="12" fill="#0c2340">1년간 한시 시행 (8월 26일~)</text>
+
+  <!-- Center arrow -->
+  <g transform="translate(400,275)">
+    <path d="M-30,0 L28,0" stroke="url(#barGrad)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M14,-12 L32,0 L14,12" fill="none" stroke="#0c2340" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Footer note -->
+  <rect x="120" y="470" width="560" height="100" rx="16" fill="#ffffff" opacity="0.85" filter="url(#cardShadow)"/>
+  <text x="400" y="502" text-anchor="middle" font-size="15" font-weight="bold" fill="#164a7e">규제 신호는 내국인에게도 참고 지표</text>
+  <text x="400" y="528" text-anchor="middle" font-size="13" fill="#0c2340">특정 대상·지역에 규제가 추가된다는 것은</text>
+  <text x="400" y="548" text-anchor="middle" font-size="13" fill="#0c2340">시장 전반의 수요 관리 기조가 이어진다는 뜻입니다</text>
+</svg>

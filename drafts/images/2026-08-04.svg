@@ -1,0 +1,62 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1f3a"/>
+      <stop offset="55%" stop-color="#123a68"/>
+      <stop offset="100%" stop-color="#1f6fae"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef6ff"/>
+      <stop offset="100%" stop-color="#bcdcfb"/>
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#eef6ff"/>
+      <stop offset="100%" stop-color="#7fb8e6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1070" cy="110" r="230" fill="url(#glow)"/>
+  <circle cx="90" cy="560" r="190" fill="url(#glow)"/>
+
+  <!-- house split in two shades: regional divide motif -->
+  <g transform="translate(170,190)">
+    <path d="M-95,10 L0,-80 L95,10 L95,110 L-95,110 Z" fill="url(#cream)" opacity="0.15"/>
+    <path d="M-95,10 L0,-80 L95,10" fill="none" stroke="url(#roofGrad)" stroke-width="6" stroke-linejoin="round"/>
+    <line x1="0" y1="-80" x2="0" y2="110" stroke="#eef6ff" stroke-width="3" opacity="0.5" stroke-dasharray="4 6"/>
+    <rect x="-95" y="10" width="90" height="100" fill="#eef6ff" opacity="0.92" rx="4"/>
+    <rect x="5" y="10" width="90" height="100" fill="#bcdcfb" opacity="0.75" rx="4"/>
+    <rect x="-30" y="55" width="26" height="55" fill="#123a68" rx="3"/>
+    <rect x="6" y="55" width="26" height="55" fill="#123a68" opacity="0.7" rx="3"/>
+    <circle cx="-52" cy="40" r="9" fill="#123a68" opacity="0.55"/>
+    <circle cx="46" cy="40" r="9" fill="#123a68" opacity="0.45"/>
+  </g>
+  <text x="170" y="335" text-anchor="middle" font-size="15" fill="#bcdcfb">서울 · 지방</text>
+
+  <!-- tax percent badge -->
+  <g transform="translate(330,330)">
+    <circle cx="0" cy="0" r="42" fill="url(#cream)" opacity="0.97"/>
+    <text x="0" y="12" text-anchor="middle" font-size="30" font-weight="bold" fill="#123a68">%</text>
+  </g>
+
+  <!-- document / policy paper accent -->
+  <g transform="translate(1010,440)" opacity="0.75">
+    <rect x="-40" y="-52" width="80" height="104" rx="8" fill="none" stroke="#eef6ff" stroke-width="4"/>
+    <line x1="-24" y1="-24" x2="24" y2="-24" stroke="#eef6ff" stroke-width="4"/>
+    <line x1="-24" y1="-4" x2="24" y2="-4" stroke="#eef6ff" stroke-width="4"/>
+    <line x1="-24" y1="16" x2="10" y2="16" stroke="#eef6ff" stroke-width="4"/>
+  </g>
+
+  <!-- title text block -->
+  <text x="430" y="185" font-size="32" font-weight="bold" fill="#eef6ff">2026 세제개편안</text>
+  <text x="430" y="237" font-size="32" font-weight="bold" fill="#eef6ff">종부세 이렇게 달라진다</text>
+  <text x="430" y="281" font-size="18" fill="#bcdcfb">지역별 희비 엇갈리는 개편 방향</text>
+
+  <!-- bottom tag -->
+  <rect x="430" y="505" width="170" height="46" rx="23" fill="#eef6ff" opacity="0.94"/>
+  <text x="515" y="534" text-anchor="middle" font-size="16" font-weight="bold" fill="#123a68">부동산정책</text>
+</svg>

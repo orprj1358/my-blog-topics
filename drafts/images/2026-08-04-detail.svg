@@ -1,0 +1,85 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8f2fd"/>
+      <stop offset="100%" stop-color="#bcdcfb"/>
+    </linearGradient>
+    <linearGradient id="cardgradL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e8f2fd"/>
+    </linearGradient>
+    <linearGradient id="cardgradR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d2e8fb"/>
+    </linearGradient>
+    <linearGradient id="badgegradDown" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4fa3d1"/>
+      <stop offset="100%" stop-color="#1f6fae"/>
+    </linearGradient>
+    <linearGradient id="badgegradUp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f6fae"/>
+      <stop offset="100%" stop-color="#0b1f3a"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0b1f3a" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pagebg)"/>
+
+  <text x="400" y="52" text-anchor="middle" font-size="24" font-weight="bold" fill="#0b1f3a">종부세 개편, 누구에게 어떻게 다른가</text>
+  <text x="400" y="80" text-anchor="middle" font-size="14" fill="#123a68">보유 형태·지역에 따라 체감 방향이 갈립니다</text>
+
+  <!-- Left card: 실거주 1주택자 -->
+  <rect x="70" y="120" width="280" height="330" rx="20" fill="url(#cardgradL)" filter="url(#cardShadow)"/>
+  <circle cx="210" cy="176" r="30" fill="url(#badgegradDown)"/>
+  <path d="M210,166 L210,188 M200,178 L210,190 L220,178" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="210" y="232" text-anchor="middle" font-size="17" font-weight="bold" fill="#0b1f3a">실거주 1주택자</text>
+
+  <circle cx="140" cy="270" r="12" fill="#e8f2fd" stroke="#1f6fae" stroke-width="2"/>
+  <text x="140" y="275" text-anchor="middle" font-size="12" font-weight="bold" fill="#123a68">1</text>
+  <text x="235" y="275" text-anchor="middle" font-size="12" fill="#123a68">시가 기준 이하는 사실상 면제</text>
+
+  <circle cx="140" cy="310" r="12" fill="#e8f2fd" stroke="#1f6fae" stroke-width="2"/>
+  <text x="140" y="315" text-anchor="middle" font-size="12" font-weight="bold" fill="#123a68">2</text>
+  <text x="235" y="315" text-anchor="middle" font-size="12" fill="#123a68">기준 초과라도 세부담 소폭 감소</text>
+
+  <circle cx="140" cy="350" r="12" fill="#e8f2fd" stroke="#1f6fae" stroke-width="2"/>
+  <text x="140" y="355" text-anchor="middle" font-size="12" font-weight="bold" fill="#123a68">3</text>
+  <text x="235" y="355" text-anchor="middle" font-size="12" fill="#123a68">서울 '똘똘한 한 채'가 대표 수혜군</text>
+
+  <rect x="100" y="390" width="220" height="34" rx="17" fill="#e8f2fd" stroke="#1f6fae" stroke-width="2"/>
+  <text x="210" y="412" text-anchor="middle" font-size="12" fill="#0b1f3a">체감 부담 완화 방향</text>
+
+  <!-- Right card: 다주택자·고가주택 -->
+  <rect x="450" y="120" width="280" height="330" rx="20" fill="url(#cardgradR)" filter="url(#cardShadow)"/>
+  <circle cx="590" cy="176" r="30" fill="url(#badgegradUp)"/>
+  <path d="M590,190 L590,168 M580,180 L590,168 L600,180" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="590" y="232" text-anchor="middle" font-size="17" font-weight="bold" fill="#0b1f3a">다주택자·고가주택</text>
+
+  <circle cx="520" cy="270" r="12" fill="#d2e8fb" stroke="#123a68" stroke-width="2"/>
+  <text x="520" y="275" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1f3a">1</text>
+  <text x="620" y="275" text-anchor="middle" font-size="12" fill="#0b1f3a">기본공제·세율 단계적 조정 적용</text>
+
+  <circle cx="520" cy="310" r="12" fill="#d2e8fb" stroke="#123a68" stroke-width="2"/>
+  <text x="520" y="315" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1f3a">2</text>
+  <text x="620" y="315" text-anchor="middle" font-size="12" fill="#0b1f3a">여러 해에 걸쳐 세부담 순차 증가</text>
+
+  <circle cx="520" cy="350" r="12" fill="#d2e8fb" stroke="#123a68" stroke-width="2"/>
+  <text x="520" y="355" text-anchor="middle" font-size="12" font-weight="bold" fill="#0b1f3a">3</text>
+  <text x="620" y="355" text-anchor="middle" font-size="12" fill="#0b1f3a">지방 다주택자 반발 목소리 확대</text>
+
+  <rect x="480" y="390" width="220" height="34" rx="17" fill="#d2e8fb" stroke="#123a68" stroke-width="2"/>
+  <text x="590" y="412" text-anchor="middle" font-size="12" fill="#0b1f3a">체감 부담 확대 방향</text>
+
+  <!-- Center divider -->
+  <g transform="translate(400,275)">
+    <line x1="0" y1="-90" x2="0" y2="90" stroke="#1f6fae" stroke-width="3" stroke-dasharray="3 7" opacity="0.5"/>
+  </g>
+
+  <!-- Footer note -->
+  <rect x="120" y="470" width="560" height="100" rx="16" fill="#ffffff" opacity="0.85" filter="url(#cardShadow)"/>
+  <text x="400" y="502" text-anchor="middle" font-size="15" font-weight="bold" fill="#123a68">단계적 시행, 서두를 필요는 없다</text>
+  <text x="400" y="528" text-anchor="middle" font-size="13" fill="#0b1f3a">기본공제·세율 조정은 여러 해에 걸쳐 순차 적용되므로</text>
+  <text x="400" y="548" text-anchor="middle" font-size="13" fill="#0b1f3a">시행 일정을 하나씩 확인하며 판단하는 것이 안전합니다</text>
+</svg>

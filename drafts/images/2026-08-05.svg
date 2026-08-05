@@ -1,0 +1,55 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b1608"/>
+      <stop offset="55%" stop-color="#7a3e12"/>
+      <stop offset="100%" stop-color="#e08a24"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff3e0"/>
+      <stop offset="100%" stop-color="#ffd699"/>
+    </linearGradient>
+    <linearGradient id="doorGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fff3e0"/>
+      <stop offset="100%" stop-color="#f3b567"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1070" cy="110" r="230" fill="url(#glow)"/>
+  <circle cx="90" cy="560" r="190" fill="url(#glow)"/>
+
+  <!-- unlocked padlock: regulation loosened for real buyers -->
+  <g transform="translate(170,190)">
+    <rect x="-52" y="-6" width="104" height="90" rx="16" fill="url(#cream)" opacity="0.95"/>
+    <path d="M-30,-6 L-30,-38 Q-30,-72 0,-72 Q30,-72 30,-42" fill="none" stroke="url(#doorGrad)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="0" cy="34" r="12" fill="#7a3e12"/>
+    <rect x="-4" y="34" width="8" height="26" rx="4" fill="#7a3e12"/>
+  </g>
+  <text x="170" y="335" text-anchor="middle" font-size="15" fill="#ffd699">잔금대출 예외 허용</text>
+
+  <!-- house outline: already-contracted buyer -->
+  <g transform="translate(340,320)" opacity="0.92">
+    <path d="M-38,6 L0,-34 L38,6 L38,50 L-38,50 Z" fill="none" stroke="#fff3e0" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="-14" y="14" width="28" height="36" fill="#fff3e0" opacity="0.85" rx="3"/>
+  </g>
+
+  <!-- percent / coin badge -->
+  <g transform="translate(1010,440)">
+    <circle cx="0" cy="0" r="42" fill="url(#cream)" opacity="0.97"/>
+    <text x="0" y="12" text-anchor="middle" font-size="30" font-weight="bold" fill="#7a3e12">%</text>
+  </g>
+
+  <!-- title text block -->
+  <text x="430" y="185" font-size="32" font-weight="bold" fill="#fff3e0">잔금대출 규제</text>
+  <text x="430" y="237" font-size="32" font-weight="bold" fill="#fff3e0">실수요자는 빼기로</text>
+  <text x="430" y="281" font-size="18" fill="#ffd699">하반기 입주예정자가 챙길 점</text>
+
+  <!-- bottom tag -->
+  <rect x="430" y="505" width="110" height="46" rx="23" fill="#fff3e0" opacity="0.94"/>
+  <text x="485" y="534" text-anchor="middle" font-size="16" font-weight="bold" fill="#7a3e12">대출</text>
+</svg>

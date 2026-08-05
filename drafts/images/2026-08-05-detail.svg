@@ -1,0 +1,86 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf1e2"/>
+      <stop offset="100%" stop-color="#ffd699"/>
+    </linearGradient>
+    <linearGradient id="cardgradL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fdf1e2"/>
+    </linearGradient>
+    <linearGradient id="cardgradR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffe4b8"/>
+    </linearGradient>
+    <linearGradient id="badgegradLock" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9711f"/>
+      <stop offset="100%" stop-color="#7a3e12"/>
+    </linearGradient>
+    <linearGradient id="badgegradOpen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3b567"/>
+      <stop offset="100%" stop-color="#e08a24"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7a3e12" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pagebg)"/>
+
+  <text x="400" y="52" text-anchor="middle" font-size="24" font-weight="bold" fill="#3a1f0b">잔금대출, 무엇이 그대로고 무엇이 바뀌었나</text>
+  <text x="400" y="80" text-anchor="middle" font-size="14" fill="#7a3e12">계약 시점과 입주 시기에 따라 적용이 갈립니다</text>
+
+  <!-- Left card: 총량 규제 유지 -->
+  <rect x="70" y="120" width="280" height="330" rx="20" fill="url(#cardgradL)" filter="url(#cardShadow)"/>
+  <circle cx="210" cy="176" r="30" fill="url(#badgegradLock)"/>
+  <rect x="198" y="172" width="24" height="18" rx="4" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <path d="M202,172 L202,164 Q202,155 210,155 Q218,155 218,164 L218,172" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <text x="210" y="232" text-anchor="middle" font-size="17" font-weight="bold" fill="#3a1f0b">총량 규제 유지 영역</text>
+
+  <circle cx="140" cy="270" r="12" fill="#fdf1e2" stroke="#c9711f" stroke-width="2"/>
+  <text x="140" y="275" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3e12">1</text>
+  <text x="235" y="275" text-anchor="middle" font-size="12" fill="#7a3e12">신규 주택 구입 대출은 심사 지속</text>
+
+  <circle cx="140" cy="310" r="12" fill="#fdf1e2" stroke="#c9711f" stroke-width="2"/>
+  <text x="140" y="315" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3e12">2</text>
+  <text x="235" y="315" text-anchor="middle" font-size="12" fill="#7a3e12">가계대출 총량 관리 기조 그대로</text>
+
+  <circle cx="140" cy="350" r="12" fill="#fdf1e2" stroke="#c9711f" stroke-width="2"/>
+  <text x="140" y="355" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3e12">3</text>
+  <text x="235" y="355" text-anchor="middle" font-size="12" fill="#7a3e12">요건 미충족 시 예외 적용 안 됨</text>
+
+  <rect x="100" y="390" width="220" height="34" rx="17" fill="#fdf1e2" stroke="#c9711f" stroke-width="2"/>
+  <text x="210" y="412" text-anchor="middle" font-size="12" fill="#3a1f0b">기본 심사 기준 그대로</text>
+
+  <!-- Right card: 실수요자 예외 적용 -->
+  <rect x="450" y="120" width="280" height="330" rx="20" fill="url(#cardgradR)" filter="url(#cardShadow)"/>
+  <circle cx="590" cy="176" r="30" fill="url(#badgegradOpen)"/>
+  <path d="M578,178 L587,188 L603,168" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="590" y="232" text-anchor="middle" font-size="17" font-weight="bold" fill="#3a1f0b">실수요자 예외 적용</text>
+
+  <circle cx="520" cy="270" r="12" fill="#ffe4b8" stroke="#e08a24" stroke-width="2"/>
+  <text x="520" y="275" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3e12">1</text>
+  <text x="620" y="275" text-anchor="middle" font-size="12" fill="#3a1f0b">계약 확정된 입주예정자 대상</text>
+
+  <circle cx="520" cy="310" r="12" fill="#ffe4b8" stroke="#e08a24" stroke-width="2"/>
+  <text x="520" y="315" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3e12">2</text>
+  <text x="620" y="315" text-anchor="middle" font-size="12" fill="#3a1f0b">하반기 입주 단지 잔금대출 허용</text>
+
+  <circle cx="520" cy="350" r="12" fill="#ffe4b8" stroke="#e08a24" stroke-width="2"/>
+  <text x="520" y="355" text-anchor="middle" font-size="12" font-weight="bold" fill="#7a3e12">3</text>
+  <text x="620" y="355" text-anchor="middle" font-size="12" fill="#3a1f0b">은행별 세부 절차는 별도 확인 필요</text>
+
+  <rect x="480" y="390" width="220" height="34" rx="17" fill="#ffe4b8" stroke="#e08a24" stroke-width="2"/>
+  <text x="590" y="412" text-anchor="middle" font-size="12" fill="#3a1f0b">계약 시점 요건 충족 시 적용</text>
+
+  <!-- Center divider -->
+  <g transform="translate(400,275)">
+    <line x1="0" y1="-90" x2="0" y2="90" stroke="#c9711f" stroke-width="3" stroke-dasharray="3 7" opacity="0.5"/>
+  </g>
+
+  <!-- Footer note -->
+  <rect x="120" y="470" width="560" height="100" rx="16" fill="#ffffff" opacity="0.85" filter="url(#cardShadow)"/>
+  <text x="400" y="502" text-anchor="middle" font-size="15" font-weight="bold" fill="#7a3e12">신청 전 은행 창구 확인이 먼저입니다</text>
+  <text x="400" y="528" text-anchor="middle" font-size="13" fill="#3a1f0b">예외 적용 여부와 절차는 은행·단지별로 다를 수 있으므로</text>
+  <text x="400" y="548" text-anchor="middle" font-size="13" fill="#3a1f0b">계약서만 믿기보다 실제 창구에서 다시 확인하는 것이 안전합니다</text>
+</svg>

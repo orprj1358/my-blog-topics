@@ -1,0 +1,53 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a1e0a"/>
+      <stop offset="55%" stop-color="#7a3d13"/>
+      <stop offset="100%" stop-color="#c9762f"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff3e0"/>
+      <stop offset="100%" stop-color="#f4c48a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1080" cy="120" r="230" fill="url(#glow)"/>
+  <circle cx="95" cy="555" r="190" fill="url(#glow)"/>
+
+  <!-- stepped bars: rising stages -->
+  <g transform="translate(150,410)">
+    <rect x="-24" y="-40" width="44" height="40" rx="6" fill="url(#cream)" opacity="0.85"/>
+    <rect x="30" y="-70" width="44" height="70" rx="6" fill="url(#cream)" opacity="0.92"/>
+    <rect x="84" y="-105" width="44" height="105" rx="6" fill="url(#cream)"/>
+    <text x="106" y="-115" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff3e0">3단계</text>
+  </g>
+  <text x="175" y="330" text-anchor="middle" font-size="15" fill="#f4c48a">스트레스 DSR</text>
+
+  <!-- percent badge -->
+  <g transform="translate(1005,440)">
+    <circle cx="0" cy="0" r="42" fill="url(#cream)" opacity="0.97"/>
+    <text x="0" y="12" text-anchor="middle" font-size="30" font-weight="bold" fill="#7a3d13">%</text>
+  </g>
+
+  <!-- coin stack -->
+  <g transform="translate(345,340)" opacity="0.95">
+    <ellipse cx="0" cy="18" rx="46" ry="14" fill="url(#cream)"/>
+    <ellipse cx="0" cy="0" rx="46" ry="14" fill="url(#cream)"/>
+    <ellipse cx="0" cy="-18" rx="46" ry="14" fill="url(#cream)"/>
+    <text x="0" y="-13" text-anchor="middle" font-size="14" font-weight="bold" fill="#7a3d13">₩</text>
+  </g>
+
+  <!-- title text block -->
+  <text x="430" y="185" font-size="32" font-weight="bold" fill="#fff3e0">스트레스 DSR 3단계</text>
+  <text x="430" y="237" font-size="32" font-weight="bold" fill="#fff3e0">대출한도, 어떻게 되나</text>
+  <text x="430" y="281" font-size="18" fill="#f4c48a">가산금리 확대, 실수요자가 챙길 점</text>
+
+  <!-- bottom tag -->
+  <rect x="430" y="505" width="90" height="46" rx="23" fill="#fff3e0" opacity="0.94"/>
+  <text x="475" y="534" text-anchor="middle" font-size="16" font-weight="bold" fill="#7a3d13">대출</text>
+</svg>

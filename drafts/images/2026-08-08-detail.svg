@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#ffedd5"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fff1e0"/>
+    </linearGradient>
+    <linearGradient id="badge1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="badge2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="badge3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fca5a5"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="56" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="28" font-weight="800" fill="#7c2d12" text-anchor="middle">가계대출을 둘러싼 엇갈린 신호</text>
+  <text x="400" y="84" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" fill="#c2410c" text-anchor="middle">완화 조치와 자체 조임이 동시에 진행 중</text>
+
+  <!-- Card 1 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="120" width="640" height="110" rx="20" fill="url(#card1)"/>
+  </g>
+  <circle cx="140" cy="175" r="30" fill="url(#badge1)"/>
+  <text x="140" y="184" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#7c2d12" text-anchor="middle">1</text>
+  <text x="190" y="163" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="700" fill="#7c2d12">잔금대출 총량규제, 실수요자 예외로 완화</text>
+  <text x="190" y="192" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="15" fill="#78350f">입주를 앞둔 계약자들의 자금 마련 부담이 다소 줄어듦</text>
+
+  <!-- Arrow 1 -->
+  <path d="M400 232 L400 262" stroke="#ea580c" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Card 2 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="266" width="640" height="110" rx="20" fill="url(#card1)"/>
+  </g>
+  <circle cx="140" cy="321" r="30" fill="url(#badge2)"/>
+  <text x="140" y="330" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#7c2d12" text-anchor="middle">2</text>
+  <text x="190" y="309" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="700" fill="#7c2d12">은행권은 자체적으로 한도 축소·금리 인상</text>
+  <text x="190" y="338" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="15" fill="#78350f">주택담보대출 중심으로 창구 문턱은 오히려 높아지는 추세</text>
+
+  <!-- Arrow 2 -->
+  <path d="M400 378 L400 408" stroke="#ea580c" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Card 3 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="412" width="640" height="110" rx="20" fill="url(#card1)"/>
+  </g>
+  <circle cx="140" cy="467" r="30" fill="url(#badge3)"/>
+  <text x="140" y="476" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#fff7ed" text-anchor="middle">3</text>
+  <text x="190" y="455" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="700" fill="#7c2d12">당국, 추가 관리 방안 검토 가능성</text>
+  <text x="190" y="484" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="15" fill="#78350f">가계대출 증가세가 이어지면 하반기 추가 조치로 이어질 수 있음</text>
+
+  <!-- mini bar chart accent -->
+  <g transform="translate(80,548)">
+    <rect x="0" y="0" width="120" height="14" rx="7" fill="#fed7aa"/>
+    <rect x="0" y="0" width="90" height="14" rx="7" fill="url(#barGrad)"/>
+    <text x="0" y="-8" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#9a3412">가계대출 잔액 증가세 (예시 이미지)</text>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#ea580c"/>
+    </marker>
+  </defs>
+</svg>

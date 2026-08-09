@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#ecfdf5"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eef7f5"/>
+    </linearGradient>
+    <linearGradient id="badge1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c7d2fe"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="badge2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5f3fc"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="badge3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#99f6e4"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="56" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="28" font-weight="800" fill="#312e81" text-anchor="middle">AI 서비스 확산이 만드는 전력 부담</text>
+  <text x="400" y="84" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" fill="#0d9488" text-anchor="middle">이용 증가에서 전력 수요 급증까지</text>
+
+  <!-- Card 1 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="120" width="640" height="110" rx="20" fill="url(#card1)"/>
+  </g>
+  <circle cx="140" cy="175" r="30" fill="url(#badge1)"/>
+  <text x="140" y="184" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#f0fdfa" text-anchor="middle">1</text>
+  <text x="190" y="163" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="700" fill="#312e81">이용자·질문 수 증가</text>
+  <text x="190" y="192" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="15" fill="#4338ca">AI 서비스 이용이 늘며 처리해야 할 연산량도 함께 증가</text>
+
+  <!-- Arrow 1 -->
+  <path d="M400 232 L400 262" stroke="#0d9488" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Card 2 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="266" width="640" height="110" rx="20" fill="url(#card1)"/>
+  </g>
+  <circle cx="140" cy="321" r="30" fill="url(#badge2)"/>
+  <text x="140" y="330" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#f0fdfa" text-anchor="middle">2</text>
+  <text x="190" y="309" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="700" fill="#312e81">서버·냉각 부하 확대</text>
+  <text x="190" y="338" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="15" fill="#0e7490">데이터센터의 연산·냉각 설비가 쉼 없이 가동되는 구조</text>
+
+  <!-- Arrow 2 -->
+  <path d="M400 378 L400 408" stroke="#0d9488" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Card 3 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="412" width="640" height="110" rx="20" fill="url(#card1)"/>
+  </g>
+  <circle cx="140" cy="467" r="30" fill="url(#badge3)"/>
+  <text x="140" y="476" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#f0fdfa" text-anchor="middle">3</text>
+  <text x="190" y="455" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="700" fill="#312e81">전력 수요 급증, 새로운 과제로</text>
+  <text x="190" y="484" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="15" fill="#0d9488">효율화·대체 전력원 확보가 기업들의 다음 숙제로 부상</text>
+
+  <!-- mini bar chart accent -->
+  <g transform="translate(80,548)">
+    <rect x="0" y="0" width="120" height="14" rx="7" fill="#c7d2fe"/>
+    <rect x="0" y="0" width="95" height="14" rx="7" fill="url(#barGrad)"/>
+    <text x="0" y="-8" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#312e81">데이터센터 전력 수요 증가 추이 (예시 이미지)</text>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#0d9488"/>
+    </marker>
+  </defs>
+</svg>

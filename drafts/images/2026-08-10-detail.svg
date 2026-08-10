@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eaf3ff"/>
+      <stop offset="100%" stop-color="#d3e6fa"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eef5fd"/>
+    </linearGradient>
+    <linearGradient id="badge1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bcd9f7"/>
+      <stop offset="100%" stop-color="#5a92c9"/>
+    </linearGradient>
+    <linearGradient id="badge2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a9cdf0"/>
+      <stop offset="100%" stop-color="#3d6ea3"/>
+    </linearGradient>
+    <linearGradient id="badge3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7fb0e0"/>
+      <stop offset="100%" stop-color="#245586"/>
+    </linearGradient>
+    <linearGradient id="badge4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9f0d8"/>
+      <stop offset="100%" stop-color="#4f9d75"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a92c9"/>
+      <stop offset="100%" stop-color="#123a63"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.18"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#3d6ea3"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="46" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="26" font-weight="800" fill="#123a63" text-anchor="middle">그린벨트 해제, 입주까지 가는 길</text>
+  <text x="400" y="72" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="15" fill="#3d6ea3" text-anchor="middle">발표부터 실제 입주까지는 여러 단계와 시간이 필요하다</text>
+
+  <!-- Card 1 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="96" width="640" height="92" rx="18" fill="url(#card1)"/>
+  </g>
+  <circle cx="138" cy="142" r="28" fill="url(#badge1)"/>
+  <text x="138" y="150" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#0b1c33" text-anchor="middle">1</text>
+  <text x="186" y="132" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="18" font-weight="700" fill="#123a63">후보지 발표</text>
+  <text x="186" y="158" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" fill="#2f5a86">수도권 일부 지역이 신규 택지 후보로 거론</text>
+
+  <path d="M400 190 L400 214" stroke="#3d6ea3" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Card 2 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="218" width="640" height="92" rx="18" fill="url(#card1)"/>
+  </g>
+  <circle cx="138" cy="264" r="28" fill="url(#badge2)"/>
+  <text x="138" y="272" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#eaf3ff" text-anchor="middle">2</text>
+  <text x="186" y="254" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="18" font-weight="700" fill="#123a63">지구 지정</text>
+  <text x="186" y="280" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" fill="#2f5a86">도시계획 절차를 거쳐 개발제한구역 해제·택지지구 확정</text>
+
+  <path d="M400 312 L400 336" stroke="#3d6ea3" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Card 3 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="340" width="640" height="92" rx="18" fill="url(#card1)"/>
+  </g>
+  <circle cx="138" cy="386" r="28" fill="url(#badge3)"/>
+  <text x="138" y="394" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#eaf3ff" text-anchor="middle">3</text>
+  <text x="186" y="376" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="18" font-weight="700" fill="#123a63">보상·기반시설</text>
+  <text x="186" y="402" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" fill="#2f5a86">토지 보상 협의와 도로·상하수도 등 기반시설 공사 진행</text>
+
+  <path d="M400 434 L400 458" stroke="#3d6ea3" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Card 4 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="462" width="640" height="92" rx="18" fill="url(#card1)"/>
+  </g>
+  <circle cx="138" cy="508" r="28" fill="url(#badge4)"/>
+  <text x="138" y="516" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#0b1c33" text-anchor="middle">4</text>
+  <text x="186" y="498" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="18" font-weight="700" fill="#123a63">착공 · 준공</text>
+  <text x="186" y="524" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" fill="#2f5a86">실제 입주까지 통상 수년이 소요 (예시)</text>
+
+  <text x="80" y="580" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#5a7ba3">※ 단계·소요 기간은 이해를 돕기 위한 예시 흐름이며 실제와 다를 수 있음</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff3e2"/>
+      <stop offset="100%" stop-color="#fbdfb4"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fef1e0"/>
+    </linearGradient>
+    <linearGradient id="badge1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6c98b"/>
+      <stop offset="100%" stop-color="#d97e2e"/>
+    </linearGradient>
+    <linearGradient id="badge2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0b06a"/>
+      <stop offset="100%" stop-color="#c06a1f"/>
+    </linearGradient>
+    <linearGradient id="badge3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eb9a52"/>
+      <stop offset="100%" stop-color="#a2530f"/>
+    </linearGradient>
+    <linearGradient id="badge4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8836f"/>
+      <stop offset="100%" stop-color="#933a1f"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.2"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#a2530f"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="46" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="26" font-weight="800" fill="#7a3c10" text-anchor="middle">은행이 조이면, 대출 수요는 어디로 갈까</text>
+  <text x="400" y="72" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="15" fill="#a2530f" text-anchor="middle">'풍선효과'로 옮겨가는 급전 수요의 경로</text>
+
+  <!-- Card 1 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="96" width="640" height="92" rx="18" fill="url(#card1)"/>
+  </g>
+  <circle cx="138" cy="142" r="28" fill="url(#badge1)"/>
+  <text x="138" y="150" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#2b1608" text-anchor="middle">1</text>
+  <text x="186" y="132" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="18" font-weight="700" fill="#7a3c10">은행 대출 문턱 강화</text>
+  <text x="186" y="158" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" fill="#8a4a15">가계대출 관리 강화로 은행권 심사·한도가 깐깐해짐</text>
+
+  <path d="M400 190 L400 214" stroke="#a2530f" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Card 2 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="218" width="640" height="92" rx="18" fill="url(#card1)"/>
+  </g>
+  <circle cx="138" cy="264" r="28" fill="url(#badge2)"/>
+  <text x="138" y="272" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#fff3e2" text-anchor="middle">2</text>
+  <text x="186" y="254" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="18" font-weight="700" fill="#7a3c10">급전 수요는 그대로</text>
+  <text x="186" y="280" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" fill="#8a4a15">자금이 필요한 상황 자체는 사라지지 않고 남아있음</text>
+
+  <path d="M400 312 L400 336" stroke="#a2530f" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Card 3 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="340" width="640" height="92" rx="18" fill="url(#card1)"/>
+  </g>
+  <circle cx="138" cy="386" r="28" fill="url(#badge3)"/>
+  <text x="138" y="394" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#fff3e2" text-anchor="middle">3</text>
+  <text x="186" y="376" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="18" font-weight="700" fill="#7a3c10">카드론·리볼빙으로 이동</text>
+  <text x="186" y="402" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" fill="#8a4a15">심사가 상대적으로 간편한 카드사 대출로 수요가 옮겨감</text>
+
+  <path d="M400 434 L400 458" stroke="#a2530f" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Card 4 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="462" width="640" height="92" rx="18" fill="url(#card1)"/>
+  </g>
+  <circle cx="138" cy="508" r="28" fill="url(#badge4)"/>
+  <text x="138" y="516" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#fff3e2" text-anchor="middle">4</text>
+  <text x="186" y="498" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="18" font-weight="700" fill="#7a3c10">고금리 상환 부담 누적</text>
+  <text x="186" y="524" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" fill="#8a4a15">상환 계획 없이 이용이 길어지면 이자 부담이 눈덩이처럼 증가 (예시)</text>
+
+  <text x="80" y="580" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#a2712f">※ 단계는 이해를 돕기 위한 예시 흐름이며 실제와 다를 수 있음</text>
+</svg>

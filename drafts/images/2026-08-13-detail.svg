@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eafcfa"/>
+      <stop offset="100%" stop-color="#c9ecf0"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eefaf8"/>
+    </linearGradient>
+    <linearGradient id="badge1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9fe3d8"/>
+      <stop offset="100%" stop-color="#3a6fb0"/>
+    </linearGradient>
+    <linearGradient id="badge2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7fc8d6"/>
+      <stop offset="100%" stop-color="#2c5aa0"/>
+    </linearGradient>
+    <linearGradient id="badge3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5fb8c4"/>
+      <stop offset="100%" stop-color="#1f4a86"/>
+    </linearGradient>
+    <linearGradient id="badge4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3f9fb0"/>
+      <stop offset="100%" stop-color="#173a70"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.2"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#1c3a6b"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="46" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="26" font-weight="800" fill="#173a70" text-anchor="middle">AI 저작권 갈등, 어떻게 번지고 있나</text>
+  <text x="400" y="72" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="15" fill="#2c5aa0" text-anchor="middle">학습데이터 논란에서 업계 대응까지</text>
+
+  <!-- Card 1 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="96" width="640" height="92" rx="18" fill="url(#card1)"/>
+  </g>
+  <circle cx="138" cy="142" r="28" fill="url(#badge1)"/>
+  <text x="138" y="150" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#0d1230" text-anchor="middle">1</text>
+  <text x="186" y="132" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="18" font-weight="700" fill="#173a70">AI 모델, 방대한 콘텐츠로 학습</text>
+  <text x="186" y="158" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" fill="#2c5aa0">인터넷상의 글·이미지 등을 수집해 학습 데이터로 활용</text>
+
+  <path d="M400 190 L400 214" stroke="#173a70" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Card 2 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="218" width="640" height="92" rx="18" fill="url(#card1)"/>
+  </g>
+  <circle cx="138" cy="264" r="28" fill="url(#badge2)"/>
+  <text x="138" y="272" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#eafcfa" text-anchor="middle">2</text>
+  <text x="186" y="254" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="18" font-weight="700" fill="#173a70">창작자·언론사 반발</text>
+  <text x="186" y="280" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" fill="#2c5aa0">동의 없는 학습 이용에 문제 제기와 소송이 잇따름</text>
+
+  <path d="M400 312 L400 336" stroke="#173a70" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Card 3 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="340" width="640" height="92" rx="18" fill="url(#card1)"/>
+  </g>
+  <circle cx="138" cy="386" r="28" fill="url(#badge3)"/>
+  <text x="138" y="394" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#eafcfa" text-anchor="middle">3</text>
+  <text x="186" y="376" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="18" font-weight="700" fill="#173a70">라이선싱 계약 확산</text>
+  <text x="186" y="402" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" fill="#2c5aa0">일부 매체, AI 기업과 정식 계약을 맺고 사용료 수취</text>
+
+  <path d="M400 434 L400 458" stroke="#173a70" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Card 4 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="462" width="640" height="92" rx="18" fill="url(#card1)"/>
+  </g>
+  <circle cx="138" cy="508" r="28" fill="url(#badge4)"/>
+  <text x="138" y="516" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#eafcfa" text-anchor="middle">4</text>
+  <text x="186" y="498" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="18" font-weight="700" fill="#173a70">AI 학습 차단 기능 도입</text>
+  <text x="186" y="524" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" fill="#2c5aa0">콘텐츠 플랫폼, '학습 금지' 표시·기술적 차단 확대 (예시)</text>
+
+  <text x="80" y="580" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#3a6fb0">※ 단계는 이해를 돕기 위한 예시 흐름이며 실제와 다를 수 있음</text>
+</svg>

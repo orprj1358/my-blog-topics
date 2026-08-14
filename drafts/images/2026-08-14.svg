@@ -1,0 +1,92 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1233"/>
+      <stop offset="55%" stop-color="#2b2c6b"/>
+      <stop offset="100%" stop-color="#0e8f8a"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2f0ff"/>
+      <stop offset="100%" stop-color="#a7e3da"/>
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9b8cf2"/>
+      <stop offset="100%" stop-color="#3ab7ad"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5b4fd6"/>
+      <stop offset="100%" stop-color="#1fa89c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" rx="28" fill="url(#bg)"/>
+  <circle cx="1080" cy="100" r="230" fill="url(#glow)"/>
+  <circle cx="90" cy="560" r="190" fill="url(#glow)"/>
+
+  <!-- network of nodes evoking AI agent -->
+  <g stroke="#c9e9f2" stroke-width="1.6" opacity="0.55">
+    <line x1="150" y1="470" x2="230" y2="410"/>
+    <line x1="230" y1="410" x2="210" y2="330"/>
+    <line x1="230" y1="410" x2="300" y2="450"/>
+    <line x1="210" y1="330" x2="150" y2="470"/>
+  </g>
+  <g fill="#f2f0ff">
+    <circle cx="150" cy="470" r="6"/>
+    <circle cx="230" cy="410" r="6"/>
+    <circle cx="210" cy="330" r="6"/>
+    <circle cx="300" cy="450" r="6"/>
+  </g>
+
+  <!-- AI chip icon -->
+  <g transform="translate(200,240)" filter="url(#shadow)">
+    <rect x="-56" y="-56" width="112" height="112" rx="18" fill="url(#chipGrad)"/>
+    <rect x="-30" y="-30" width="60" height="60" rx="8" fill="#0f1233" opacity="0.75"/>
+    <g stroke="#f2f0ff" stroke-width="4" stroke-linecap="round">
+      <line x1="-56" y1="-24" x2="-70" y2="-24"/>
+      <line x1="-56" y1="0" x2="-70" y2="0"/>
+      <line x1="-56" y1="24" x2="-70" y2="24"/>
+      <line x1="56" y1="-24" x2="70" y2="-24"/>
+      <line x1="56" y1="0" x2="70" y2="0"/>
+      <line x1="56" y1="24" x2="70" y2="24"/>
+      <line x1="-24" y1="-56" x2="-24" y2="-70"/>
+      <line x1="24" y1="-56" x2="24" y2="-70"/>
+      <line x1="-24" y1="56" x2="-24" y2="70"/>
+      <line x1="24" y1="56" x2="24" y2="70"/>
+    </g>
+  </g>
+  <text x="200" y="345" text-anchor="middle" font-size="15" fill="#e6f6f2">AI 에이전트</text>
+
+  <!-- payment card icon -->
+  <g transform="translate(340,380)" filter="url(#shadow)">
+    <rect x="-46" y="-30" width="92" height="60" rx="10" fill="url(#cardGrad)"/>
+    <rect x="-46" y="-14" width="92" height="14" fill="#0f1233" opacity="0.5"/>
+    <rect x="-32" y="10" width="30" height="8" rx="4" fill="#f2f0ff" opacity="0.85"/>
+  </g>
+  <text x="340" y="447" text-anchor="middle" font-size="15" fill="#e6f6f2">결제 위임</text>
+
+  <!-- shield/lock badge -->
+  <g transform="translate(1010,470)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="42" fill="url(#cream)" opacity="0.97"/>
+    <path d="M0,-18 L16,-11 L16,4 C16,15 8,21 0,24 C-8,21 -16,15 -16,4 L-16,-11 Z" fill="none" stroke="#2b2c6b" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="0" cy="0" r="4" fill="#2b2c6b"/>
+  </g>
+  <text x="1010" y="527" text-anchor="middle" font-size="15" fill="#e6f6f2">보안 확인</text>
+
+  <!-- title text block -->
+  <rect x="410" y="110" width="650" height="270" rx="26" fill="#ffffff" opacity="0.06"/>
+  <text x="430" y="182" font-size="27" font-weight="bold" fill="#f2f0ff">AI 에이전트 결제 시대,</text>
+  <text x="430" y="230" font-size="27" font-weight="bold" fill="#f2f0ff">내 카드정보를</text>
+  <text x="430" y="278" font-size="27" font-weight="bold" fill="#f2f0ff">AI에게 맡겨도 될까</text>
+  <text x="430" y="316" font-size="17" fill="#c9e9f2">검색을 넘어 결제까지, 에이전틱 커머스의 명암</text>
+
+  <!-- bottom tag -->
+  <rect x="430" y="505" width="110" height="46" rx="23" fill="#f2f0ff" opacity="0.94"/>
+  <text x="485" y="534" text-anchor="middle" font-size="16" font-weight="bold" fill="#2b2c6b">AI 소식</text>
+</svg>

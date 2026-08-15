@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="660" viewBox="0 0 800 660">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f2f0ff"/>
+      <stop offset="100%" stop-color="#cdeee8"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f5f3ff"/>
+    </linearGradient>
+    <linearGradient id="badge1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b7aef7"/>
+      <stop offset="100%" stop-color="#6a5acd"/>
+    </linearGradient>
+    <linearGradient id="badge2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9b93f0"/>
+      <stop offset="100%" stop-color="#4f45c4"/>
+    </linearGradient>
+    <linearGradient id="badge3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7fe0d4"/>
+      <stop offset="100%" stop-color="#2bb0a3"/>
+    </linearGradient>
+    <linearGradient id="badge4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5fd0c2"/>
+      <stop offset="100%" stop-color="#1a9c90"/>
+    </linearGradient>
+    <linearGradient id="noteBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6a5acd"/>
+      <stop offset="100%" stop-color="#1a9c90"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.2"/>
+    </filter>
+    <marker id="arrowDown" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4a3fa0"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="660" fill="url(#pageBg)"/>
+
+  <text x="400" y="42" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="24" font-weight="800" fill="#2b2c6b" text-anchor="middle">AI 기본법, 기업의 준비 4단계</text>
+  <text x="400" y="66" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" fill="#3d3d8a" text-anchor="middle">지금부터 하나씩 점검해보는 대응 순서 (예시)</text>
+
+  <!-- Step 1 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="96" width="640" height="96" rx="16" fill="url(#cardBg)"/>
+  </g>
+  <circle cx="140" cy="144" r="26" fill="url(#badge1)"/>
+  <text x="140" y="152" font-family="Georgia, serif" font-size="21" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+  <text x="182" y="134" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#2b2c6b">운영 중인 AI 시스템 목록 정리</text>
+  <text x="182" y="158" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="12.5" fill="#4a4a8a">사내에서 쓰는 AI 서비스·기능을 빠짐없이 파악</text>
+
+  <path d="M140 192 L140 214" stroke="#4a3fa0" stroke-width="3" fill="none" marker-end="url(#arrowDown)"/>
+
+  <!-- Step 2 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="218" width="640" height="96" rx="16" fill="url(#cardBg)"/>
+  </g>
+  <circle cx="140" cy="266" r="26" fill="url(#badge2)"/>
+  <text x="140" y="274" font-family="Georgia, serif" font-size="21" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+  <text x="182" y="256" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#2b2c6b">이용자 영향도 자체 평가</text>
+  <text x="182" y="280" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="12.5" fill="#4a4a8a">'고영향 AI' 해당 여부를 스스로 점검해보기</text>
+
+  <path d="M140 314 L140 336" stroke="#4a3fa0" stroke-width="3" fill="none" marker-end="url(#arrowDown)"/>
+
+  <!-- Step 3 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="340" width="640" height="96" rx="16" fill="url(#cardBg)"/>
+  </g>
+  <circle cx="140" cy="388" r="26" fill="url(#badge3)"/>
+  <text x="140" y="396" font-family="Georgia, serif" font-size="21" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+  <text x="182" y="378" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#173a3a">생성형 AI 표시 절차 마련</text>
+  <text x="182" y="402" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="12.5" fill="#1f6b62">AI가 만든 결과물임을 이용자가 알 수 있도록 표시</text>
+
+  <path d="M140 436 L140 458" stroke="#0f7a70" stroke-width="3" fill="none" marker-end="url(#arrowDown)"/>
+
+  <!-- Step 4 -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="462" width="640" height="96" rx="16" fill="url(#cardBg)"/>
+  </g>
+  <circle cx="140" cy="510" r="26" fill="url(#badge4)"/>
+  <text x="140" y="518" font-family="Georgia, serif" font-size="21" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+  <text x="182" y="500" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#173a3a">시행령·가이드라인 지속 모니터링</text>
+  <text x="182" y="524" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="12.5" fill="#1f6b62">세부 기준이 계속 구체화되는 만큼 대응 체계도 유연하게</text>
+
+  <!-- watch-out banner -->
+  <g filter="url(#cardShadow)">
+    <rect x="80" y="584" width="640" height="60" rx="16" fill="url(#noteBg)" opacity="0.95"/>
+  </g>
+  <circle cx="122" cy="614" r="18" fill="#f2f0ff"/>
+  <text x="122" y="620" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#6a5acd" text-anchor="middle">!</text>
+  <text x="152" y="609" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#ffffff">단계별 순서는 참고용 예시 흐름입니다</text>
+  <text x="152" y="628" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="12" fill="#e8e4ff">실제 적용 여부·의무 범위는 회사별로 다를 수 있음</text>
+</svg>

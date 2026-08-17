@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="640" viewBox="0 0 800 640">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdf1e2"/>
+      <stop offset="100%" stop-color="#fbe0bd"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fff3e6"/>
+    </linearGradient>
+    <linearGradient id="stepBadge1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffcf8f"/>
+      <stop offset="100%" stop-color="#d97a24"/>
+    </linearGradient>
+    <linearGradient id="stepBadge2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb066"/>
+      <stop offset="100%" stop-color="#c65e13"/>
+    </linearGradient>
+    <linearGradient id="stepBadge3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9a4d"/>
+      <stop offset="100%" stop-color="#b9540f"/>
+    </linearGradient>
+    <linearGradient id="stepBadge4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8a33"/>
+      <stop offset="100%" stop-color="#a5480c"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97a24"/>
+      <stop offset="100%" stop-color="#c65e13"/>
+    </linearGradient>
+    <linearGradient id="noteBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8a3f14"/>
+      <stop offset="100%" stop-color="#c65e13"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="640" fill="url(#pageBg)"/>
+
+  <text x="400" y="44" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="23" font-weight="800" fill="#8a3f14" text-anchor="middle">대환대출, 이렇게 진행된다</text>
+  <text x="400" y="68" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13.5" fill="#a5591c" text-anchor="middle">온라인 대환대출 4단계 흐름 (세부 항목은 예시)</text>
+
+  <!-- step 1 -->
+  <g filter="url(#cardShadow)">
+    <rect x="50" y="96" width="150" height="220" rx="16" fill="url(#cardBg)"/>
+  </g>
+  <circle cx="125" cy="132" r="24" fill="url(#stepBadge1)"/>
+  <text x="125" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#ffffff">1</text>
+  <text x="125" y="180" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#5c3110">금리 비교</text>
+  <text x="125" y="204" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11" fill="#8a6a45">여러 금융사 조건을</text>
+  <text x="125" y="220" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11" fill="#8a6a45">한 화면에서 확인</text>
+
+  <!-- arrow 1 -->
+  <path d="M204 206 L232 206" stroke="url(#arrowGrad)" stroke-width="4" fill="none"/>
+  <path d="M222 196 L236 206 L222 216" fill="none" stroke="url(#arrowGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- step 2 -->
+  <g filter="url(#cardShadow)">
+    <rect x="236" y="96" width="150" height="220" rx="16" fill="url(#cardBg)"/>
+  </g>
+  <circle cx="311" cy="132" r="24" fill="url(#stepBadge2)"/>
+  <text x="311" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#ffffff">2</text>
+  <text x="311" y="180" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#5c3110">한도 조회</text>
+  <text x="311" y="204" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11" fill="#8a6a45">현재 DSR 기준으로</text>
+  <text x="311" y="220" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11" fill="#8a6a45">한도 재산정 확인</text>
+
+  <!-- arrow 2 -->
+  <path d="M390 206 L418 206" stroke="url(#arrowGrad)" stroke-width="4" fill="none"/>
+  <path d="M408 196 L422 206 L408 216" fill="none" stroke="url(#arrowGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- step 3 -->
+  <g filter="url(#cardShadow)">
+    <rect x="422" y="96" width="150" height="220" rx="16" fill="url(#cardBg)"/>
+  </g>
+  <circle cx="497" cy="132" r="24" fill="url(#stepBadge3)"/>
+  <text x="497" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#ffffff">3</text>
+  <text x="497" y="180" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#5c3110">비용 계산</text>
+  <text x="497" y="204" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11" fill="#8a6a45">중도상환수수료 등</text>
+  <text x="497" y="220" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11" fill="#8a6a45">실질 절감액 비교</text>
+
+  <!-- arrow 3 -->
+  <path d="M576 206 L604 206" stroke="url(#arrowGrad)" stroke-width="4" fill="none"/>
+  <path d="M594 196 L608 206 L594 216" fill="none" stroke="url(#arrowGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- step 4 -->
+  <g filter="url(#cardShadow)">
+    <rect x="608" y="96" width="150" height="220" rx="16" fill="url(#cardBg)"/>
+  </g>
+  <circle cx="683" cy="132" r="24" fill="url(#stepBadge4)"/>
+  <text x="683" y="140" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="700" fill="#ffffff">4</text>
+  <text x="683" y="180" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#5c3110">대환 실행</text>
+  <text x="683" y="204" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11" fill="#8a6a45">서류 제출 후</text>
+  <text x="683" y="220" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11" fill="#8a6a45">신규 대출로 전환</text>
+
+  <!-- checklist section -->
+  <g filter="url(#cardShadow)">
+    <rect x="50" y="356" width="708" height="200" rx="18" fill="url(#cardBg)"/>
+  </g>
+  <text x="80" y="396" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#5c3110">갈아타기 전 꼭 확인할 3가지</text>
+
+  <circle cx="90" cy="432" r="14" fill="#ffe6c2"/>
+  <text x="90" y="437" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#8a3f14">1</text>
+  <text x="116" y="428" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#5c3110">중도상환수수료</text>
+  <text x="116" y="448" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#8a6a45">남은 기간·수수료율 확인(예시)</text>
+
+  <circle cx="90" cy="484" r="14" fill="#ffe6c2"/>
+  <text x="90" y="489" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#8a3f14">2</text>
+  <text x="116" y="480" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#5c3110">DSR 재산정</text>
+  <text x="116" y="500" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#8a6a45">한도가 줄어들 수 있음</text>
+
+  <circle cx="420" cy="432" r="14" fill="#ffe6c2"/>
+  <text x="420" y="437" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#8a3f14">3</text>
+  <text x="446" y="428" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#5c3110">금리 유형 선택</text>
+  <text x="446" y="448" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#8a6a45">고정·변동 전환 시 전망 고려</text>
+
+  <circle cx="420" cy="484" r="14" fill="#ffe6c2"/>
+  <text x="420" y="489" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#8a3f14">+</text>
+  <text x="446" y="480" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#5c3110">신용점수 영향</text>
+  <text x="446" y="500" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#8a6a45">신규 조회·대출 실행 반영</text>
+
+  <!-- note banner -->
+  <g filter="url(#cardShadow)">
+    <rect x="50" y="580" width="700" height="52" rx="16" fill="url(#noteBg)" opacity="0.95"/>
+  </g>
+  <circle cx="88" cy="606" r="16" fill="#fff3e6"/>
+  <text x="88" y="612" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#c65e13" text-anchor="middle">!</text>
+  <text x="114" y="601" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#ffffff">단계·항목 명칭은 이해를 돕기 위한 예시입니다</text>
+  <text x="114" y="618" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#ffe6c2">실제 절차·금리·한도는 금융사별로 반드시 직접 확인하세요</text>
+</svg>

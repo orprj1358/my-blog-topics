@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="620" viewBox="0 0 800 620">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eaf1fc"/>
+      <stop offset="100%" stop-color="#cfe0f7"/>
+    </linearGradient>
+    <linearGradient id="cardBgLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f2f6fd"/>
+    </linearGradient>
+    <linearGradient id="cardBgRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eaf3ff"/>
+    </linearGradient>
+    <linearGradient id="badgeLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8fa9cf"/>
+      <stop offset="100%" stop-color="#3f5478"/>
+    </linearGradient>
+    <linearGradient id="badgeRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7fb2ec"/>
+      <stop offset="100%" stop-color="#2e5fa3"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3f5478"/>
+      <stop offset="100%" stop-color="#2e5fa3"/>
+    </linearGradient>
+    <linearGradient id="noteBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3f5478"/>
+      <stop offset="100%" stop-color="#2e5fa3"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="620" fill="url(#pageBg)"/>
+
+  <text x="400" y="42" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="23" font-weight="800" fill="#1b3a70" text-anchor="middle">해제 발표, 기대와 실제는 다르다</text>
+  <text x="400" y="66" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13.5" fill="#3f5478" text-anchor="middle">그린벨트 해제 발표 직후 흔한 기대 vs 실제 진행 절차</text>
+
+  <!-- left column: 흔한 기대 -->
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="96" width="300" height="420" rx="18" fill="url(#cardBgLeft)"/>
+  </g>
+  <circle cx="100" cy="136" r="22" fill="url(#badgeLeft)"/>
+  <text x="100" y="143" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">기대</text>
+  <text x="134" y="142" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#243a5e">흔히 생기는 기대</text>
+
+  <line x1="90" y1="168" x2="330" y2="168" stroke="#dbe6f5" stroke-width="1.5"/>
+
+  <circle cx="100" cy="204" r="14" fill="#e4ecfa"/>
+  <text x="100" y="209" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#3f5478" text-anchor="middle">1</text>
+  <text x="126" y="200" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#243a5e">공급 물량 즉시 증가</text>
+  <text x="126" y="220" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#5a6b8a">발표만으로 물량이 풀린다는 오해</text>
+
+  <circle cx="100" cy="270" r="14" fill="#e4ecfa"/>
+  <text x="100" y="275" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#3f5478" text-anchor="middle">2</text>
+  <text x="126" y="266" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#243a5e">단기간 내 집값 안정</text>
+  <text x="126" y="286" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#5a6b8a">곧바로 시세가 꺾일 것이라는 기대</text>
+
+  <circle cx="100" cy="336" r="14" fill="#e4ecfa"/>
+  <text x="100" y="341" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#3f5478" text-anchor="middle">3</text>
+  <text x="126" y="332" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#243a5e">주변 시세는 그대로</text>
+  <text x="126" y="352" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#5a6b8a">개발 기대감이 반영되지 않는다는 착각</text>
+
+  <circle cx="100" cy="402" r="14" fill="#e4ecfa"/>
+  <text x="100" y="407" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#3f5478" text-anchor="middle">4</text>
+  <text x="126" y="398" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#243a5e">절차 없이 바로 입주</text>
+  <text x="126" y="418" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#5a6b8a">중간 단계를 건너뛴다는 오해</text>
+
+  <!-- arrow -->
+  <path d="M368 306 L432 306" stroke="url(#arrowGrad)" stroke-width="4" fill="none"/>
+  <path d="M420 294 L436 306 L420 318" fill="none" stroke="url(#arrowGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="290" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="12" font-weight="700" fill="#2e5fa3">실제로는</text>
+
+  <!-- right column: 실제 진행 절차 -->
+  <g filter="url(#cardShadow)">
+    <rect x="440" y="96" width="300" height="420" rx="18" fill="url(#cardBgRight)"/>
+  </g>
+  <circle cx="480" cy="136" r="22" fill="url(#badgeRight)"/>
+  <text x="480" y="143" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">실제</text>
+  <text x="514" y="142" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#1b3a70">실제 진행 절차</text>
+
+  <line x1="470" y1="168" x2="710" y2="168" stroke="#cfe0f7" stroke-width="1.5"/>
+
+  <circle cx="480" cy="204" r="14" fill="#dceafe"/>
+  <text x="480" y="209" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#1b3a70" text-anchor="middle">1</text>
+  <text x="506" y="200" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#1b3a70">후보지 검토·지구 지정</text>
+  <text x="506" y="220" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#3f5478">발표 후에도 지정 절차가 남아있음</text>
+
+  <circle cx="480" cy="270" r="14" fill="#dceafe"/>
+  <text x="480" y="275" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#1b3a70" text-anchor="middle">2</text>
+  <text x="506" y="266" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#1b3a70">보상 협의</text>
+  <text x="506" y="286" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#3f5478">토지주 협의에 상당한 시간 소요(예시)</text>
+
+  <circle cx="480" cy="336" r="14" fill="#dceafe"/>
+  <text x="480" y="341" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#1b3a70" text-anchor="middle">3</text>
+  <text x="506" y="332" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#1b3a70">착공</text>
+  <text x="506" y="352" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#3f5478">설계·인허가 이후에 비로소 시작</text>
+
+  <circle cx="480" cy="402" r="14" fill="#dceafe"/>
+  <text x="480" y="407" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#1b3a70" text-anchor="middle">4</text>
+  <text x="506" y="398" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#1b3a70">준공·입주</text>
+  <text x="506" y="418" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#3f5478">발표 시점 대비 수년 뒤에나 실현</text>
+
+  <!-- note banner -->
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="546" width="680" height="56" rx="16" fill="url(#noteBg)" opacity="0.95"/>
+  </g>
+  <circle cx="100" cy="574" r="17" fill="#eef4ff"/>
+  <text x="100" y="580" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#2e5fa3" text-anchor="middle">!</text>
+  <text x="128" y="569" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">소요 기간·절차는 지역별로 다를 수 있습니다</text>
+  <text x="128" y="587" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#dceafe">구체적인 일정은 관할 지자체·국토교통부 발표를 확인하세요</text>
+</svg>

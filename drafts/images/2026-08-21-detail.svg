@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="620" viewBox="0 0 800 620">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fff6ec"/>
+      <stop offset="100%" stop-color="#ffe1b8"/>
+    </linearGradient>
+    <linearGradient id="cardBgLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fdf3e8"/>
+    </linearGradient>
+    <linearGradient id="cardBgRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffedd4"/>
+    </linearGradient>
+    <linearGradient id="badgeLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cfa27a"/>
+      <stop offset="100%" stop-color="#78502f"/>
+    </linearGradient>
+    <linearGradient id="badgeRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffc776"/>
+      <stop offset="100%" stop-color="#c9640f"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#78502f"/>
+      <stop offset="100%" stop-color="#c9640f"/>
+    </linearGradient>
+    <linearGradient id="noteBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8a4612"/>
+      <stop offset="100%" stop-color="#c9640f"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="620" fill="url(#pageBg)"/>
+
+  <text x="400" y="42" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="23" font-weight="800" fill="#6b3410" text-anchor="middle">일반 주담대와 무엇이 다를까</text>
+  <text x="400" y="66" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13.5" fill="#8a4612" text-anchor="middle">일반 주택담보대출 vs 생애최초 주택구입자금 대출</text>
+
+  <!-- left column: 일반 주택담보대출 -->
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="96" width="300" height="420" rx="18" fill="url(#cardBgLeft)"/>
+  </g>
+  <circle cx="100" cy="136" r="22" fill="url(#badgeLeft)"/>
+  <text x="100" y="143" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">일반</text>
+  <text x="134" y="142" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#4a2c14">일반 주택담보대출</text>
+
+  <line x1="90" y1="168" x2="330" y2="168" stroke="#eddbc4" stroke-width="1.5"/>
+
+  <circle cx="100" cy="204" r="14" fill="#f5e8d8"/>
+  <text x="100" y="209" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#78502f" text-anchor="middle">1</text>
+  <text x="126" y="200" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#4a2c14">무주택 이력 요건 없음</text>
+  <text x="126" y="220" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#7a6248">조건에 따라 유주택자도 이용 가능</text>
+
+  <circle cx="100" cy="270" r="14" fill="#f5e8d8"/>
+  <text x="100" y="275" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#78502f" text-anchor="middle">2</text>
+  <text x="126" y="266" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#4a2c14">시중금리 수준 적용</text>
+  <text x="126" y="286" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#7a6248">별도 우대금리 없이 일반 조건 적용</text>
+
+  <circle cx="100" cy="336" r="14" fill="#f5e8d8"/>
+  <text x="100" y="341" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#78502f" text-anchor="middle">3</text>
+  <text x="126" y="332" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#4a2c14">지역별 LTV 규제 그대로</text>
+  <text x="126" y="352" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#7a6248">한도 확대 우대가 별도로 없음</text>
+
+  <circle cx="100" cy="402" r="14" fill="#f5e8d8"/>
+  <text x="100" y="407" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#78502f" text-anchor="middle">4</text>
+  <text x="126" y="398" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#4a2c14">실거주 의무 상이</text>
+  <text x="126" y="418" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#7a6248">대출 종류·상품에 따라 조건 다름</text>
+
+  <!-- arrow -->
+  <path d="M368 306 L432 306" stroke="url(#arrowGrad)" stroke-width="4" fill="none"/>
+  <path d="M420 294 L436 306 L420 318" fill="none" stroke="url(#arrowGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="290" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="12" font-weight="700" fill="#c9640f">생애최초라면</text>
+
+  <!-- right column: 생애최초 주택구입자금 대출 -->
+  <g filter="url(#cardShadow)">
+    <rect x="440" y="96" width="300" height="420" rx="18" fill="url(#cardBgRight)"/>
+  </g>
+  <circle cx="480" cy="136" r="22" fill="url(#badgeRight)"/>
+  <text x="480" y="143" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">최초</text>
+  <text x="514" y="142" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#8a4612">생애최초 대출</text>
+
+  <line x1="470" y1="168" x2="710" y2="168" stroke="#ffe1b8" stroke-width="1.5"/>
+
+  <circle cx="480" cy="204" r="14" fill="#ffe9c9"/>
+  <text x="480" y="209" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#8a4612" text-anchor="middle">1</text>
+  <text x="506" y="200" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#8a4612">세대원 전원 무주택 이력 필요</text>
+  <text x="506" y="220" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#a6631f">과거 짧은 보유 이력도 확인 대상</text>
+
+  <circle cx="480" cy="270" r="14" fill="#ffe9c9"/>
+  <text x="480" y="275" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#8a4612" text-anchor="middle">2</text>
+  <text x="506" y="266" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#8a4612">우대금리 적용 가능(예시)</text>
+  <text x="506" y="286" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#a6631f">소득·주택가격 구간별로 상이</text>
+
+  <circle cx="480" cy="336" r="14" fill="#ffe9c9"/>
+  <text x="480" y="341" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#8a4612" text-anchor="middle">3</text>
+  <text x="506" y="332" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#8a4612">LTV 한도 확대 적용 가능</text>
+  <text x="506" y="352" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#a6631f">정책에 따라 확대 폭 변동</text>
+
+  <circle cx="480" cy="402" r="14" fill="#ffe9c9"/>
+  <text x="480" y="407" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#8a4612" text-anchor="middle">4</text>
+  <text x="506" y="398" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#8a4612">전입·실거주 의무 부과</text>
+  <text x="506" y="418" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#a6631f">실행 후 일정 기간 내 입주 필요</text>
+
+  <!-- note banner -->
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="546" width="680" height="56" rx="16" fill="url(#noteBg)" opacity="0.95"/>
+  </g>
+  <circle cx="100" cy="574" r="17" fill="#fff6ea"/>
+  <text x="100" y="580" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#c9640f" text-anchor="middle">!</text>
+  <text x="128" y="569" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">금리·한도는 예시이며 은행별·시기별로 다를 수 있습니다</text>
+  <text x="128" y="587" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#ffe1b8">신청 전 은행 상담과 최신 공고를 반드시 확인하세요</text>
+</svg>

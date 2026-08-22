@@ -1,0 +1,85 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1730"/>
+      <stop offset="55%" stop-color="#173766"/>
+      <stop offset="100%" stop-color="#3d7cc9"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2f8ff"/>
+      <stop offset="100%" stop-color="#bfdcfb"/>
+    </linearGradient>
+    <linearGradient id="towerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9fc9f5"/>
+      <stop offset="100%" stop-color="#2e5f9e"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bcdcff"/>
+      <stop offset="100%" stop-color="#4f8fdb"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" rx="28" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="230" fill="url(#glow)"/>
+  <circle cx="90" cy="560" r="190" fill="url(#glow)"/>
+
+  <!-- soft skyline hint -->
+  <g fill="#ffffff" opacity="0.06">
+    <rect x="40" y="500" width="50" height="110"/>
+    <rect x="100" y="450" width="50" height="160"/>
+    <rect x="160" y="510" width="50" height="100"/>
+    <rect x="220" y="470" width="50" height="140"/>
+  </g>
+
+  <!-- apartment tower icon -->
+  <g transform="translate(200,250)" filter="url(#shadow)">
+    <rect x="-42" y="-96" width="84" height="176" rx="10" fill="url(#towerGrad)"/>
+    <g fill="#0a1730" opacity="0.55">
+      <rect x="-28" y="-78" width="16" height="16" rx="3"/>
+      <rect x="-4" y="-78" width="16" height="16" rx="3"/>
+      <rect x="20" y="-78" width="16" height="16" rx="3"/>
+      <rect x="-28" y="-50" width="16" height="16" rx="3"/>
+      <rect x="-4" y="-50" width="16" height="16" rx="3"/>
+      <rect x="20" y="-50" width="16" height="16" rx="3"/>
+      <rect x="-28" y="-22" width="16" height="16" rx="3"/>
+      <rect x="-4" y="-22" width="16" height="16" rx="3"/>
+      <rect x="20" y="-22" width="16" height="16" rx="3"/>
+      <rect x="-28" y="6" width="16" height="16" rx="3"/>
+      <rect x="-4" y="6" width="16" height="16" rx="3"/>
+      <rect x="20" y="6" width="16" height="16" rx="3"/>
+    </g>
+  </g>
+  <text x="200" y="380" text-anchor="middle" font-size="15" fill="#dceafd">신도시 단지</text>
+
+  <!-- progress arrow badge -->
+  <g transform="translate(345,435)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="48" fill="url(#badgeGrad)"/>
+    <path d="M-18,10 L0,-16 L18,10" fill="none" stroke="#0a1730" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="345" y="505" text-anchor="middle" font-size="15" fill="#dceafd">선도지구</text>
+
+  <!-- checklist badge -->
+  <g transform="translate(1010,470)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="42" fill="url(#cream)" opacity="0.97"/>
+    <path d="M-14,0 L-4,10 L16,-14" fill="none" stroke="#173766" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="1010" y="527" text-anchor="middle" font-size="15" fill="#dceafd">절차 확인</text>
+
+  <!-- title text block -->
+  <rect x="410" y="80" width="660" height="310" rx="26" fill="#ffffff" opacity="0.06"/>
+  <text x="430" y="140" font-size="25" font-weight="bold" fill="#f2f8ff">1기 신도시 재건축,</text>
+  <text x="430" y="186" font-size="25" font-weight="bold" fill="#f2f8ff">선도지구 사업은</text>
+  <text x="430" y="232" font-size="25" font-weight="bold" fill="#f2f8ff">지금 어디까지 왔나</text>
+  <text x="430" y="270" font-size="17" fill="#bfdcfb">이주부터 분담금까지, 지금 챙길 것들</text>
+
+  <!-- bottom tag -->
+  <rect x="430" y="515" width="112" height="46" rx="23" fill="#f2f8ff" opacity="0.94"/>
+  <text x="486" y="544" text-anchor="middle" font-size="16" font-weight="bold" fill="#173766">부동산정책</text>
+</svg>

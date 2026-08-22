@@ -1,0 +1,74 @@
+<svg width="800" height="700" viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf2fd"/>
+      <stop offset="100%" stop-color="#d8e9fb"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f2f8ff"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6fa8e6"/>
+      <stop offset="100%" stop-color="#173766"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f8fdb"/>
+      <stop offset="100%" stop-color="#173766"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#173766" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="700" rx="24" fill="url(#pagebg)"/>
+
+  <text x="400" y="56" text-anchor="middle" font-size="24" font-weight="bold" fill="#122a4d">1기 신도시 재건축, 진행 4단계</text>
+  <text x="400" y="84" text-anchor="middle" font-size="14" fill="#3a5a86">선도지구 지정 이후 실제로 거치는 절차 흐름</text>
+
+  <!-- connecting line -->
+  <rect x="72" y="130" width="6" height="480" rx="3" fill="#bfdcfb"/>
+
+  <!-- stage 1 -->
+  <g transform="translate(0,120)">
+    <circle cx="75" cy="30" r="30" fill="url(#badgeGrad)" filter="url(#cardShadow)"/>
+    <text x="75" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">1</text>
+    <rect x="130" y="0" width="600" height="98" rx="18" fill="url(#cardGrad)" filter="url(#cardShadow)"/>
+    <rect x="130" y="0" width="8" height="98" rx="4" fill="url(#barGrad)"/>
+    <text x="160" y="38" font-size="19" font-weight="bold" fill="#122a4d">정비계획 수립·인가</text>
+    <text x="160" y="66" font-size="14" fill="#3a5a86">용적률·기반시설 계획을 확정하고 지자체 인가를 받는 단계</text>
+  </g>
+
+  <!-- stage 2 -->
+  <g transform="translate(0,240)">
+    <circle cx="75" cy="30" r="30" fill="url(#badgeGrad)" filter="url(#cardShadow)"/>
+    <text x="75" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">2</text>
+    <rect x="130" y="0" width="600" height="98" rx="18" fill="url(#cardGrad)" filter="url(#cardShadow)"/>
+    <rect x="130" y="0" width="8" height="98" rx="4" fill="url(#barGrad)"/>
+    <text x="160" y="38" font-size="19" font-weight="bold" fill="#122a4d">시공사 선정·사업시행인가</text>
+    <text x="160" y="66" font-size="14" fill="#3a5a86">조합이 시공사를 정하고 구체적인 사업 실행 승인을 받는 단계</text>
+  </g>
+
+  <!-- stage 3 -->
+  <g transform="translate(0,360)">
+    <circle cx="75" cy="30" r="30" fill="url(#badgeGrad)" filter="url(#cardShadow)"/>
+    <text x="75" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">3</text>
+    <rect x="130" y="0" width="600" height="98" rx="18" fill="url(#cardGrad)" filter="url(#cardShadow)"/>
+    <rect x="130" y="0" width="8" height="98" rx="4" fill="url(#barGrad)"/>
+    <text x="160" y="38" font-size="19" font-weight="bold" fill="#122a4d">이주 및 철거</text>
+    <text x="160" y="66" font-size="14" fill="#3a5a86">주민들이 임시거주지로 옮기고 기존 건물을 철거하는 단계</text>
+  </g>
+
+  <!-- stage 4 -->
+  <g transform="translate(0,480)">
+    <circle cx="75" cy="30" r="30" fill="url(#badgeGrad)" filter="url(#cardShadow)"/>
+    <text x="75" y="38" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">4</text>
+    <rect x="130" y="0" width="600" height="98" rx="18" fill="url(#cardGrad)" filter="url(#cardShadow)"/>
+    <rect x="130" y="0" width="8" height="98" rx="4" fill="url(#barGrad)"/>
+    <text x="160" y="38" font-size="19" font-weight="bold" fill="#122a4d">착공 및 일반분양</text>
+    <text x="160" y="66" font-size="14" fill="#3a5a86">공사를 시작하고 남은 물량을 일반분양으로 공급하는 단계</text>
+  </g>
+
+  <rect x="130" y="628" width="600" height="46" rx="14" fill="#173766" opacity="0.9"/>
+  <text x="430" y="657" text-anchor="middle" font-size="14" fill="#eaf2fd">단지마다 소요 기간과 세부 절차는 다르게 진행될 수 있습니다 (예시 흐름)</text>
+</svg>

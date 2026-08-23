@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="620" viewBox="0 0 800 620">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#d1f5ee"/>
+    </linearGradient>
+    <linearGradient id="cardBgLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f2f2fd"/>
+    </linearGradient>
+    <linearGradient id="cardBgRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eafaf6"/>
+    </linearGradient>
+    <linearGradient id="badgeLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="badgeRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="noteBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="620" fill="url(#pageBg)"/>
+
+  <text x="400" y="42" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="23" font-weight="800" fill="#312e81" text-anchor="middle">기존 보이스피싱과 AI 고도화 보이스피싱, 무엇이 다를까</text>
+  <text x="400" y="66" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13.5" fill="#164e63" text-anchor="middle">판별 난이도로 본 차이 (예시로 이해를 돕기 위한 개념도)</text>
+
+  <!-- left column: 기존 보이스피싱 -->
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="96" width="300" height="420" rx="18" fill="url(#cardBgLeft)"/>
+  </g>
+  <circle cx="100" cy="136" r="22" fill="url(#badgeLeft)"/>
+  <text x="100" y="143" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">기존</text>
+  <text x="134" y="142" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#312e81">기존 보이스피싱</text>
+
+  <line x1="90" y1="168" x2="330" y2="168" stroke="#dcdcf7" stroke-width="1.5"/>
+
+  <circle cx="100" cy="204" r="14" fill="#e6e6fb"/>
+  <text x="100" y="209" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#4338ca" text-anchor="middle">1</text>
+  <text x="126" y="200" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#312e81">어색한 말투</text>
+  <text x="126" y="220" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#5b5b8a">부자연스러운 발음·억양으로 의심 가능</text>
+
+  <circle cx="100" cy="270" r="14" fill="#e6e6fb"/>
+  <text x="100" y="275" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#4338ca" text-anchor="middle">2</text>
+  <text x="126" y="266" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#312e81">정해진 대본 반복</text>
+  <text x="126" y="286" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#5b5b8a">사전 녹음·고정된 시나리오 위주</text>
+
+  <circle cx="100" cy="336" r="14" fill="#e6e6fb"/>
+  <text x="100" y="341" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#4338ca" text-anchor="middle">3</text>
+  <text x="126" y="332" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#312e81">음성 통화 중심</text>
+  <text x="126" y="352" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#5b5b8a">얼굴 없이 목소리만으로 시도</text>
+
+  <circle cx="100" cy="402" r="14" fill="#e6e6fb"/>
+  <text x="100" y="407" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#4338ca" text-anchor="middle">4</text>
+  <text x="126" y="398" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#312e81">비교적 쉬운 판별</text>
+  <text x="126" y="418" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#5b5b8a">조금만 주의해도 알아채기 쉬운 편</text>
+
+  <!-- arrow -->
+  <path d="M368 306 L432 306" stroke="url(#arrowGrad)" stroke-width="4" fill="none"/>
+  <path d="M420 294 L436 306 L420 318" fill="none" stroke="url(#arrowGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="290" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="12" font-weight="700" fill="#0f766e">AI가 더하면</text>
+
+  <!-- right column: AI 고도화 보이스피싱 -->
+  <g filter="url(#cardShadow)">
+    <rect x="440" y="96" width="300" height="420" rx="18" fill="url(#cardBgRight)"/>
+  </g>
+  <circle cx="480" cy="136" r="22" fill="url(#badgeRight)"/>
+  <text x="480" y="143" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">AI</text>
+  <text x="514" y="142" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#134e4a">AI 고도화 보이스피싱</text>
+
+  <line x1="470" y1="168" x2="710" y2="168" stroke="#c9f1e8" stroke-width="1.5"/>
+
+  <circle cx="480" cy="204" r="14" fill="#d3f7ef"/>
+  <text x="480" y="209" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#0f766e" text-anchor="middle">1</text>
+  <text x="506" y="200" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#134e4a">실제와 흡사한 목소리</text>
+  <text x="506" y="220" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#2f6f66">짧은 음성 샘플만으로 목소리 복제</text>
+
+  <circle cx="480" cy="270" r="14" fill="#d3f7ef"/>
+  <text x="480" y="275" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#0f766e" text-anchor="middle">2</text>
+  <text x="506" y="266" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#134e4a">실시간 영상 합성</text>
+  <text x="506" y="286" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#2f6f66">얼굴·표정까지 재현한 영상통화</text>
+
+  <circle cx="480" cy="336" r="14" fill="#d3f7ef"/>
+  <text x="480" y="341" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#0f766e" text-anchor="middle">3</text>
+  <text x="506" y="332" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#134e4a">상황별 맞춤 대화</text>
+  <text x="506" y="352" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#2f6f66">질문에 맞춰 실시간으로 응답 생성</text>
+
+  <circle cx="480" cy="402" r="14" fill="#d3f7ef"/>
+  <text x="480" y="407" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#0f766e" text-anchor="middle">4</text>
+  <text x="506" y="398" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#134e4a">판별 난이도 급상승</text>
+  <text x="506" y="418" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#2f6f66">눈과 귀만으로는 구분이 점점 어려움</text>
+
+  <!-- note banner -->
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="546" width="680" height="56" rx="16" fill="url(#noteBg)" opacity="0.95"/>
+  </g>
+  <circle cx="100" cy="574" r="17" fill="#eef2ff"/>
+  <text x="100" y="580" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#4338ca" text-anchor="middle">!</text>
+  <text x="128" y="569" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">가장 확실한 방법은 별도 채널을 통한 재확인입니다</text>
+  <text x="128" y="587" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#e0e7ff">구체적인 수법·통계는 금융감독원 등 공식 발표를 확인하세요</text>
+</svg>

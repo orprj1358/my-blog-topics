@@ -1,0 +1,77 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="55%" stop-color="#3730a3"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#bfe9e2"/>
+    </linearGradient>
+    <linearGradient id="phoneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" rx="28" fill="url(#bg)"/>
+  <circle cx="1080" cy="110" r="230" fill="url(#glow)"/>
+  <circle cx="90" cy="560" r="190" fill="url(#glow)"/>
+
+  <!-- faint waveform lines -->
+  <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="2" fill="none">
+    <path d="M40,80 L40,140 L120,140"/>
+    <path d="M60,600 L60,560 L160,560"/>
+    <path d="M1150,560 L1090,560 L1090,600"/>
+  </g>
+
+  <!-- phone / call icon with soundwaves -->
+  <g transform="translate(200,250)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="52" fill="url(#phoneGrad)"/>
+    <path d="M-18,-20 C-24,-14 -24,10 -6,26 C10,42 34,42 40,36 C44,32 44,22 40,18 C36,14 28,16 24,20 C16,16 4,4 0,-4 C4,-8 6,-16 2,-20 C-2,-24 -14,-24 -18,-20 Z" fill="#eef2ff"/>
+    <g stroke="#eef2ff" stroke-width="3.5" stroke-linecap="round" opacity="0.8" fill="none">
+      <path d="M18,-28 C26,-24 30,-16 28,-8"/>
+      <path d="M28,-36 C40,-30 46,-16 42,-2"/>
+    </g>
+  </g>
+  <text x="200" y="350" text-anchor="middle" font-size="15" fill="#dceee9">AI 음성 사기</text>
+
+  <!-- shield with checkmark icon -->
+  <g transform="translate(345,405)" filter="url(#shadow)">
+    <path d="M0,-46 L42,-30 C42,6 24,36 0,48 C-24,36 -42,6 -42,-30 Z" fill="url(#shieldGrad)"/>
+    <path d="M-16,-2 L-4,12 L20,-18" stroke="#0f2f2b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.85"/>
+  </g>
+  <text x="345" y="475" text-anchor="middle" font-size="15" fill="#dceee9">본인 확인</text>
+
+  <!-- warning badge -->
+  <g transform="translate(1010,470)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="42" fill="url(#cream)" opacity="0.97"/>
+    <path d="M0,-22 L20,18 L-20,18 Z" fill="none" stroke="#164e63" stroke-width="5" stroke-linejoin="round"/>
+    <line x1="0" y1="-6" x2="0" y2="6" stroke="#164e63" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="0" cy="13" r="2.6" fill="#164e63"/>
+  </g>
+  <text x="1010" y="527" text-anchor="middle" font-size="15" fill="#dceee9">주의 신호</text>
+
+  <!-- title text block -->
+  <rect x="410" y="90" width="660" height="300" rx="26" fill="#ffffff" opacity="0.06"/>
+  <text x="430" y="150" font-size="25" font-weight="bold" fill="#eef2ff">AI 보이스피싱</text>
+  <text x="430" y="196" font-size="25" font-weight="bold" fill="#eef2ff">고도화, 우리는</text>
+  <text x="430" y="242" font-size="25" font-weight="bold" fill="#eef2ff">어떻게 대응해야 할까</text>
+  <text x="430" y="280" font-size="17" fill="#bfe9e2">목소리·영상까지 흉내 내는 AI 사기</text>
+
+  <!-- bottom tag -->
+  <rect x="430" y="515" width="160" height="46" rx="23" fill="#eef2ff" opacity="0.94"/>
+  <text x="510" y="544" text-anchor="middle" font-size="16" font-weight="bold" fill="#164e63">AI 관련 소식</text>
+</svg>

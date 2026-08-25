@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="620" viewBox="0 0 800 620">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="cardBgLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eaf2fd"/>
+    </linearGradient>
+    <linearGradient id="cardBgRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="badgeLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <linearGradient id="badgeRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="noteBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="620" fill="url(#pageBg)"/>
+
+  <text x="400" y="42" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="21" font-weight="800" fill="#1e3a8a" text-anchor="middle">완화 논의 전 vs 완화 논의 후, 재초환은 무엇이 달라지나</text>
+  <text x="400" y="66" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13.5" fill="#3b5da8" text-anchor="middle">체크포인트로 본 차이 (예시로 이해를 돕기 위한 개념도)</text>
+
+  <!-- left column: 현행 기준 -->
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="96" width="300" height="420" rx="18" fill="url(#cardBgLeft)"/>
+  </g>
+  <circle cx="100" cy="136" r="22" fill="url(#badgeLeft)"/>
+  <text x="100" y="143" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">현행</text>
+  <text x="134" y="142" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">현행 재초환 기준</text>
+
+  <line x1="90" y1="168" x2="330" y2="168" stroke="#d3e3f8" stroke-width="1.5"/>
+
+  <circle cx="100" cy="204" r="14" fill="#dbe9fb"/>
+  <text x="100" y="209" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#1e40af" text-anchor="middle">1</text>
+  <text x="126" y="200" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">낮은 부과 기준</text>
+  <text x="126" y="220" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#4a6da5">기준 초과분부터 바로 누진 부담</text>
+
+  <circle cx="100" cy="270" r="14" fill="#dbe9fb"/>
+  <text x="100" y="275" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#1e40af" text-anchor="middle">2</text>
+  <text x="126" y="266" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">장기보유 감면 제한적</text>
+  <text x="126" y="286" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#4a6da5">보유 기간별 감면 폭이 크지 않음</text>
+
+  <circle cx="100" cy="336" r="14" fill="#dbe9fb"/>
+  <text x="100" y="341" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#1e40af" text-anchor="middle">3</text>
+  <text x="126" y="332" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">사업성 부담 큼</text>
+  <text x="126" y="352" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#4a6da5">부담금이 재건축 추진 동력을 낮춤</text>
+
+  <circle cx="100" cy="402" r="14" fill="#dbe9fb"/>
+  <text x="100" y="407" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#1e40af" text-anchor="middle">4</text>
+  <text x="126" y="398" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">전국 일괄 적용</text>
+  <text x="126" y="418" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#4a6da5">지역별 사정 반영이 상대적으로 적음</text>
+
+  <!-- arrow -->
+  <path d="M368 306 L432 306" stroke="url(#arrowGrad)" stroke-width="4" fill="none"/>
+  <path d="M420 294 L436 306 L420 318" fill="none" stroke="url(#arrowGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="290" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="12" font-weight="700" fill="#0369a1">완화 논의는</text>
+
+  <!-- right column: 완화 논의 방향 -->
+  <g filter="url(#cardShadow)">
+    <rect x="440" y="96" width="300" height="420" rx="18" fill="url(#cardBgRight)"/>
+  </g>
+  <circle cx="480" cy="136" r="22" fill="url(#badgeRight)"/>
+  <text x="480" y="143" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">논의</text>
+  <text x="514" y="142" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#0c4a6e">완화 논의 방향(예시)</text>
+
+  <line x1="470" y1="168" x2="710" y2="168" stroke="#cdeafd" stroke-width="1.5"/>
+
+  <circle cx="480" cy="204" r="14" fill="#d6f0fd"/>
+  <text x="480" y="209" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#0369a1" text-anchor="middle">1</text>
+  <text x="506" y="200" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#0c4a6e">부과 기준 상향 검토</text>
+  <text x="506" y="220" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#3d7a9c">초과 이익 기준선을 높이는 방향 논의</text>
+
+  <circle cx="480" cy="270" r="14" fill="#d6f0fd"/>
+  <text x="480" y="275" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#0369a1" text-anchor="middle">2</text>
+  <text x="506" y="266" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#0c4a6e">장기보유 감면 확대 검토</text>
+  <text x="506" y="286" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#3d7a9c">보유 기간에 따른 감면 폭 확대 거론</text>
+
+  <circle cx="480" cy="336" r="14" fill="#d6f0fd"/>
+  <text x="480" y="341" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#0369a1" text-anchor="middle">3</text>
+  <text x="506" y="332" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#0c4a6e">단계별 유불리 상이</text>
+  <text x="506" y="352" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#3d7a9c">사업 단계·시행 시점에 따라 결과 달라짐</text>
+
+  <circle cx="480" cy="402" r="14" fill="#d6f0fd"/>
+  <text x="480" y="407" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#0369a1" text-anchor="middle">4</text>
+  <text x="506" y="398" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#0c4a6e">법 개정 통과가 관건</text>
+  <text x="506" y="418" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#3d7a9c">국회 통과 전까지는 확정된 것 아님</text>
+
+  <!-- note banner -->
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="546" width="680" height="56" rx="16" fill="url(#noteBg)" opacity="0.95"/>
+  </g>
+  <circle cx="100" cy="574" r="17" fill="#eff6ff"/>
+  <text x="100" y="580" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#0369a1" text-anchor="middle">!</text>
+  <text x="128" y="569" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">위 항목은 이해를 돕기 위한 예시이며 확정 사항이 아닙니다</text>
+  <text x="128" y="587" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#dbeafe">정확한 기준·시행 시기는 국토교통부 공식 발표를 확인하세요</text>
+</svg>

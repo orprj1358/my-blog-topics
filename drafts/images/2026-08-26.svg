@@ -1,0 +1,84 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#a5f3fc"/>
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="flagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#0e7490"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="630" rx="28" fill="url(#bg)"/>
+  <circle cx="1090" cy="120" r="230" fill="url(#glow)"/>
+  <circle cx="90" cy="550" r="190" fill="url(#glow)"/>
+
+  <!-- faint connecting lines -->
+  <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="2" fill="none">
+    <path d="M40,90 L40,150 L130,150"/>
+    <path d="M60,590 L60,540 L170,540"/>
+    <path d="M1150,540 L1080,540 L1080,590"/>
+  </g>
+
+  <!-- chip / network icon -->
+  <g transform="translate(200,250)" filter="url(#shadow)">
+    <rect x="-46" y="-46" width="92" height="92" rx="18" fill="url(#chipGrad)"/>
+    <rect x="-22" y="-22" width="44" height="44" rx="8" fill="#eef2ff" opacity="0.92"/>
+    <g stroke="#eef2ff" stroke-width="4" stroke-linecap="round">
+      <line x1="-46" y1="-14" x2="-58" y2="-14"/>
+      <line x1="-46" y1="14" x2="-58" y2="14"/>
+      <line x1="46" y1="-14" x2="58" y2="-14"/>
+      <line x1="46" y1="14" x2="58" y2="14"/>
+      <line x1="-14" y1="-46" x2="-14" y2="-58"/>
+      <line x1="14" y1="-46" x2="14" y2="-58"/>
+      <line x1="-14" y1="46" x2="-14" y2="58"/>
+      <line x1="14" y1="46" x2="14" y2="58"/>
+    </g>
+  </g>
+  <text x="200" y="352" text-anchor="middle" font-size="15" fill="#dceefc">AI 엔진</text>
+
+  <!-- step / flow icon (three dots connected) -->
+  <g transform="translate(345,405)" filter="url(#shadow)">
+    <circle cx="-34" cy="10" r="14" fill="url(#flagGrad)"/>
+    <circle cx="0" cy="-14" r="14" fill="url(#flagGrad)"/>
+    <circle cx="34" cy="10" r="14" fill="url(#flagGrad)"/>
+    <path d="M-22,4 L-10,-8 M12,-8 L24,4" stroke="#eef2ff" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  </g>
+  <text x="345" y="475" text-anchor="middle" font-size="15" fill="#dceefc">단계별 실행</text>
+
+  <!-- goal flag badge -->
+  <g transform="translate(1010,470)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="42" fill="url(#cream)" opacity="0.97"/>
+    <line x1="-10" y1="-22" x2="-10" y2="20" stroke="#164e63" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-10,-20 L18,-12 L-10,-2 Z" fill="#164e63"/>
+  </g>
+  <text x="1010" y="527" text-anchor="middle" font-size="15" fill="#dceefc">목표 달성</text>
+
+  <!-- title text block -->
+  <rect x="410" y="90" width="670" height="300" rx="26" fill="#ffffff" opacity="0.06"/>
+  <text x="430" y="150" font-size="25" font-weight="bold" fill="#eef2ff">AI 에이전트 확산,</text>
+  <text x="430" y="196" font-size="25" font-weight="bold" fill="#eef2ff">'챗봇'과 뭐가</text>
+  <text x="430" y="242" font-size="25" font-weight="bold" fill="#eef2ff">다르길래 주목받을까</text>
+  <text x="430" y="280" font-size="17" fill="#a5f3fc">답변에서 실행으로 넘어가는 AI</text>
+
+  <!-- bottom tag -->
+  <rect x="430" y="515" width="170" height="46" rx="23" fill="#eef2ff" opacity="0.94"/>
+  <text x="515" y="544" text-anchor="middle" font-size="16" font-weight="bold" fill="#164e63">AI 관련 소식</text>
+</svg>

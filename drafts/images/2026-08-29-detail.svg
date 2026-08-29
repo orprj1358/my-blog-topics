@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="620" viewBox="0 0 800 620">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#eef5fb"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="cardBgLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eaf1f8"/>
+    </linearGradient>
+    <linearGradient id="cardBgRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2eefb"/>
+    </linearGradient>
+    <linearGradient id="badgeLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a9c3dc"/>
+      <stop offset="100%" stop-color="#3d5a76"/>
+    </linearGradient>
+    <linearGradient id="badgeRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a9d0ee"/>
+      <stop offset="100%" stop-color="#1e4d78"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3d5a76"/>
+      <stop offset="100%" stop-color="#1e4d78"/>
+    </linearGradient>
+    <linearGradient id="noteBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e4d78"/>
+      <stop offset="100%" stop-color="#3b82c4"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="620" fill="url(#pageBg)"/>
+
+  <text x="400" y="42" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="22" font-weight="800" fill="#0f2942" text-anchor="middle">기존 무순위 청약 vs 요건 강화 논의</text>
+  <text x="400" y="66" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13.5" fill="#2f5578" text-anchor="middle">체크포인트로 본 차이 (예시로 이해를 돕기 위한 개념도)</text>
+
+  <!-- left column: 기존 방식 -->
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="96" width="300" height="420" rx="18" fill="url(#cardBgLeft)"/>
+  </g>
+  <circle cx="100" cy="136" r="22" fill="url(#badgeLeft)"/>
+  <text x="100" y="143" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">기존</text>
+  <text x="134" y="142" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#0f2942">기존 무순위 청약</text>
+
+  <line x1="90" y1="168" x2="330" y2="168" stroke="#d3e2f0" stroke-width="1.5"/>
+
+  <circle cx="100" cy="204" r="14" fill="#dbe8f5"/>
+  <text x="100" y="209" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#3d5a76" text-anchor="middle">1</text>
+  <text x="126" y="200" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#0f2942">청약통장 없이도 신청</text>
+  <text x="126" y="220" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#3f5f7d">가입 기간·납입 횟수와 무관하게 참여 가능</text>
+
+  <circle cx="100" cy="270" r="14" fill="#dbe8f5"/>
+  <text x="100" y="275" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#3d5a76" text-anchor="middle">2</text>
+  <text x="126" y="266" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#0f2942">거주지·무주택 요건 없음</text>
+  <text x="126" y="286" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#3f5f7d">타지역 거주자·다주택자도 신청 가능</text>
+
+  <circle cx="100" cy="336" r="14" fill="#dbe8f5"/>
+  <text x="100" y="341" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#3d5a76" text-anchor="middle">3</text>
+  <text x="126" y="332" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#0f2942">경쟁률 과열 반복</text>
+  <text x="126" y="352" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#3f5f7d">시세차익 노린 신청자 대거 몰림</text>
+
+  <circle cx="100" cy="402" r="14" fill="#dbe8f5"/>
+  <text x="100" y="407" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#3d5a76" text-anchor="middle">4</text>
+  <text x="126" y="398" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#0f2942">형평성 논란 지속</text>
+  <text x="126" y="418" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#3f5f7d">'로또 청약'이라는 비판 꾸준히 제기</text>
+
+  <!-- arrow -->
+  <path d="M368 306 L432 306" stroke="url(#arrowGrad)" stroke-width="4" fill="none"/>
+  <path d="M420 294 L436 306 L420 318" fill="none" stroke="url(#arrowGrad)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="290" text-anchor="middle" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="12" font-weight="700" fill="#1e4d78">강화되면</text>
+
+  <!-- right column: 개편 후 논의 방향 -->
+  <g filter="url(#cardShadow)">
+    <rect x="440" y="96" width="300" height="420" rx="18" fill="url(#cardBgRight)"/>
+  </g>
+  <circle cx="480" cy="136" r="22" fill="url(#badgeRight)"/>
+  <text x="480" y="143" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">개편</text>
+  <text x="514" y="142" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="16" font-weight="700" fill="#0f2942">개편 논의 방향</text>
+
+  <line x1="470" y1="168" x2="710" y2="168" stroke="#c8e0f5" stroke-width="1.5"/>
+
+  <circle cx="480" cy="204" r="14" fill="#cfe5fb"/>
+  <text x="480" y="209" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#1e4d78" text-anchor="middle">1</text>
+  <text x="506" y="200" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#0f2942">거주지 요건 도입 검토</text>
+  <text x="506" y="220" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#2f5578">해당 지역 거주자 우선 신청 논의</text>
+
+  <circle cx="480" cy="270" r="14" fill="#cfe5fb"/>
+  <text x="480" y="275" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#1e4d78" text-anchor="middle">2</text>
+  <text x="506" y="266" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#0f2942">무주택 요건 재도입 검토</text>
+  <text x="506" y="286" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#2f5578">다주택자 신청 제한 방안 논의</text>
+
+  <circle cx="480" cy="336" r="14" fill="#cfe5fb"/>
+  <text x="480" y="341" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#1e4d78" text-anchor="middle">3</text>
+  <text x="506" y="332" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#0f2942">실수요자 중심 재편 기대</text>
+  <text x="506" y="352" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#2f5578">투자 목적 신청 비중 감소 전망</text>
+
+  <circle cx="480" cy="402" r="14" fill="#cfe5fb"/>
+  <text x="480" y="407" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" fill="#1e4d78" text-anchor="middle">4</text>
+  <text x="506" y="398" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13" font-weight="700" fill="#0f2942">미계약 물량 처리 우려도</text>
+  <text x="506" y="418" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#2f5578">신청 대상 축소로 해소 지연 가능성</text>
+
+  <!-- note banner -->
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="546" width="680" height="56" rx="16" fill="url(#noteBg)" opacity="0.95"/>
+  </g>
+  <circle cx="100" cy="574" r="17" fill="#eef5fb"/>
+  <text x="100" y="580" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#1e4d78" text-anchor="middle">!</text>
+  <text x="128" y="569" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="13.5" font-weight="700" fill="#ffffff">확정 전까지는 본인 자격 요건부터 확인하세요</text>
+  <text x="128" y="587" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="11.5" fill="#d6e8f7">구체적인 시행 시기와 세부 기준은 공식 발표를 확인하세요</text>
+</svg>

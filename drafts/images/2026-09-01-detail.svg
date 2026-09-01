@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#ecfeff"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c7d2fe"/>
+      <stop offset="100%" stop-color="#a5b4fc"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#99f6e4"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="warnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fca5a5"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="okGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#312e81" flood-opacity="0.18"/>
+    </filter>
+    <filter id="badgeShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#312e81" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="640" fill="url(#pageBg)"/>
+
+  <text x="400" y="50" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#312e81">AI 콘텐츠 표시 체계, 어떻게 작동할까 (예시)</text>
+  <text x="400" y="76" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#0d9488" opacity="0.9">생성부터 유통까지 출처를 추적하는 흐름</text>
+
+  <!-- stage header cards -->
+  <rect x="60" y="110" width="200" height="52" rx="24" fill="url(#card1)" filter="url(#cardShadow)"/>
+  <circle cx="100" cy="136" r="20" fill="url(#badgeGrad)" filter="url(#badgeShadow)"/>
+  <text x="100" y="143" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#f0fdfa">1</text>
+  <text x="180" y="142" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#312e81">콘텐츠 생성</text>
+
+  <rect x="300" y="110" width="200" height="52" rx="24" fill="url(#card2)" filter="url(#cardShadow)"/>
+  <circle cx="340" cy="136" r="20" fill="url(#badgeGrad)" filter="url(#badgeShadow)"/>
+  <text x="340" y="143" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#f0fdfa">2</text>
+  <text x="420" y="142" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#134e4a">표시 삽입</text>
+
+  <rect x="540" y="110" width="200" height="52" rx="24" fill="url(#card3)" filter="url(#cardShadow)"/>
+  <circle cx="580" cy="136" r="20" fill="url(#badgeGrad)" filter="url(#badgeShadow)"/>
+  <text x="580" y="143" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#f0fdfa">3</text>
+  <text x="660" y="142" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#f0fdfa">유통·검증</text>
+
+  <!-- info cards under headers -->
+  <rect x="60" y="182" width="200" height="86" rx="18" fill="#ffffff" filter="url(#cardShadow)"/>
+  <text x="160" y="212" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" font-weight="700" fill="#312e81">AI 도구로 이미지·영상 제작</text>
+  <text x="160" y="238" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#4338ca">텍스트·이미지 등 다양한 형태</text>
+
+  <rect x="300" y="182" width="200" height="86" rx="18" fill="#ffffff" filter="url(#cardShadow)"/>
+  <text x="400" y="212" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" font-weight="700" fill="#134e4a">라벨 표시 + 메타데이터</text>
+  <text x="400" y="238" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#0d9488">눈에 보이는 표시·숨은 워터마크</text>
+
+  <rect x="540" y="182" width="200" height="86" rx="18" fill="#ffffff" filter="url(#cardShadow)"/>
+  <text x="640" y="212" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" font-weight="700" fill="#0f766e">플랫폼에서 출처 확인</text>
+  <text x="640" y="238" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#0d9488">진위 판별에 활용</text>
+
+  <!-- comparison section -->
+  <rect x="60" y="300" width="680" height="290" rx="20" fill="#ffffff" opacity="0.6" filter="url(#cardShadow)"/>
+  <text x="400" y="335" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#312e81">표시 여부에 따른 차이 (예시)</text>
+
+  <!-- left: no label -->
+  <rect x="100" y="360" width="280" height="190" rx="18" fill="url(#warnGrad)" opacity="0.85"/>
+  <circle cx="150" cy="400" r="24" fill="#ffffff" opacity="0.9"/>
+  <text x="150" y="409" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#ef4444">!</text>
+  <text x="240" y="405" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#fff5f5">표시 없는 콘텐츠</text>
+  <text x="240" y="440" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#fff5f5">출처 확인이 어려움</text>
+  <text x="240" y="465" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#fff5f5">진위 논란·오인 위험 존재</text>
+
+  <!-- right: labeled -->
+  <rect x="420" y="360" width="280" height="190" rx="18" fill="url(#okGrad)" opacity="0.9"/>
+  <circle cx="470" cy="400" r="24" fill="#ffffff" opacity="0.9"/>
+  <text x="470" y="409" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#0d9488">✓</text>
+  <text x="560" y="405" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#f0fdfa">표시된 콘텐츠</text>
+  <text x="560" y="440" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#f0fdfa">생성 도구·시점 추적 가능</text>
+  <text x="560" y="465" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#f0fdfa">신뢰할 수 있는 정보 환경 기여</text>
+
+  <text x="400" y="612" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#312e81" opacity="0.75">※ 도식은 이해를 돕기 위한 예시이며, 실제 제도·기술 방식과 다를 수 있음</text>
+</svg>

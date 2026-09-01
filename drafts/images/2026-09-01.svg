@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="50%" stop-color="#3730a3"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5eead4" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a5b4fc" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#a5b4fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c7d2fe"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="140" r="270" fill="url(#glow1)"/>
+  <circle cx="140" cy="520" r="260" fill="url(#glow2)"/>
+
+  <!-- decorative network/chip motif, right side -->
+  <g opacity="0.95">
+    <circle cx="960" cy="420" r="110" fill="url(#nodeGrad)" opacity="0.14"/>
+    <rect x="905" y="365" width="110" height="110" rx="20" fill="none" stroke="#5eead4" stroke-width="3"/>
+    <circle cx="960" cy="420" r="14" fill="url(#nodeGrad)"/>
+    <circle cx="905" cy="365" r="8" fill="#5eead4"/>
+    <circle cx="1015" cy="365" r="8" fill="#5eead4"/>
+    <circle cx="905" cy="475" r="8" fill="#5eead4"/>
+    <circle cx="1015" cy="475" r="8" fill="#5eead4"/>
+    <line x1="960" y1="420" x2="905" y2="365" stroke="#5eead4" stroke-width="2" opacity="0.7"/>
+    <line x1="960" y1="420" x2="1015" y2="365" stroke="#5eead4" stroke-width="2" opacity="0.7"/>
+    <line x1="960" y1="420" x2="905" y2="475" stroke="#5eead4" stroke-width="2" opacity="0.7"/>
+    <line x1="960" y1="420" x2="1015" y2="475" stroke="#5eead4" stroke-width="2" opacity="0.7"/>
+  </g>
+  <g opacity="0.8">
+    <circle cx="1080" cy="300" r="22" fill="url(#nodeGrad)"/>
+    <circle cx="1100" cy="500" r="16" fill="url(#nodeGrad)" opacity="0.85"/>
+  </g>
+
+  <!-- small scattered icons -->
+  <g opacity="0.5">
+    <rect x="130" y="150" width="46" height="46" rx="12" fill="none" stroke="#a5b4fc" stroke-width="2.5"/>
+    <circle cx="153" cy="173" r="9" fill="#a5b4fc"/>
+    <rect x="200" y="440" width="40" height="40" rx="10" fill="none" stroke="#99f6e4" stroke-width="2.5"/>
+  </g>
+
+  <!-- text card -->
+  <rect x="90" y="185" width="760" height="250" rx="28" fill="url(#cardGrad)"/>
+  <text x="130" y="260" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="46" font-weight="700" fill="#f0fdfa">AI 생성물, 진짜와 가짜</text>
+  <text x="130" y="325" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="46" font-weight="700" fill="#5eead4">어떻게 구분할까</text>
+  <text x="130" y="385" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="22" fill="#f0fdfa" opacity="0.85">딥페이크 확산 속 워터마크 의무화 논의</text>
+
+  <rect x="130" y="120" width="130" height="42" rx="21" fill="url(#chipGrad)" opacity="0.9"/>
+  <text x="195" y="147" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#134e4a">AI 소식</text>
+</svg>

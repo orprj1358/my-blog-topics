@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#f0f9ff"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#93c5fd"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="warnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fca5a5"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+    <linearGradient id="okGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1e3a8a" flood-opacity="0.18"/>
+    </filter>
+    <filter id="badgeShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1e3a8a" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="640" fill="url(#pageBg)"/>
+
+  <text x="400" y="50" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#1e3a8a">토지거래허가구역 지정, 어떻게 진행될까 (예시)</text>
+  <text x="400" y="76" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#0369a1" opacity="0.9">검토부터 거래 제한까지 이어지는 흐름</text>
+
+  <!-- stage header cards -->
+  <rect x="60" y="110" width="200" height="52" rx="24" fill="url(#card1)" filter="url(#cardShadow)"/>
+  <circle cx="100" cy="136" r="20" fill="url(#badgeGrad)" filter="url(#badgeShadow)"/>
+  <text x="100" y="143" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#f0f9ff">1</text>
+  <text x="180" y="142" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">과열 신호 포착</text>
+
+  <rect x="300" y="110" width="200" height="52" rx="24" fill="url(#card2)" filter="url(#cardShadow)"/>
+  <circle cx="340" cy="136" r="20" fill="url(#badgeGrad)" filter="url(#badgeShadow)"/>
+  <text x="340" y="143" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#f0f9ff">2</text>
+  <text x="420" y="142" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#0c4a6e">검토·지정 공고</text>
+
+  <rect x="540" y="110" width="200" height="52" rx="24" fill="url(#card3)" filter="url(#cardShadow)"/>
+  <circle cx="580" cy="136" r="20" fill="url(#badgeGrad)" filter="url(#badgeShadow)"/>
+  <text x="580" y="143" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#f0f9ff">3</text>
+  <text x="660" y="142" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#f0f9ff">허가 후 거래</text>
+
+  <!-- info cards under headers -->
+  <rect x="60" y="182" width="200" height="86" rx="18" fill="#ffffff" filter="url(#cardShadow)"/>
+  <text x="160" y="212" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" font-weight="700" fill="#1e3a8a">단기 급등 지역 모니터링</text>
+  <text x="160" y="238" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#1d4ed8">재건축·재개발 기대지역 등</text>
+
+  <rect x="300" y="182" width="200" height="86" rx="18" fill="#ffffff" filter="url(#cardShadow)"/>
+  <text x="400" y="212" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" font-weight="700" fill="#0c4a6e">범위·기간 확정</text>
+  <text x="400" y="238" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#0369a1">지자체 공고·관보로 발표</text>
+
+  <rect x="540" y="182" width="200" height="86" rx="18" fill="#ffffff" filter="url(#cardShadow)"/>
+  <text x="640" y="212" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" font-weight="700" fill="#1e40af">지자체장 허가 필요</text>
+  <text x="640" y="238" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#1d4ed8">실거주 의무 부여</text>
+
+  <!-- comparison section -->
+  <rect x="60" y="300" width="680" height="290" rx="20" fill="#ffffff" opacity="0.6" filter="url(#cardShadow)"/>
+  <text x="400" y="335" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#1e3a8a">지정 전 vs 지정 후 (예시)</text>
+
+  <!-- left: before -->
+  <rect x="100" y="360" width="280" height="190" rx="18" fill="url(#warnGrad)" opacity="0.85"/>
+  <circle cx="150" cy="400" r="24" fill="#ffffff" opacity="0.9"/>
+  <text x="150" y="409" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#ef4444">!</text>
+  <text x="240" y="405" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#fff5f5">지정 전</text>
+  <text x="240" y="440" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#fff5f5">전세 끼고 매수(갭투자) 가능</text>
+  <text x="240" y="465" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#fff5f5">단기 시세 변동성 확대</text>
+
+  <!-- right: after -->
+  <rect x="420" y="360" width="280" height="190" rx="18" fill="url(#okGrad)" opacity="0.9"/>
+  <circle cx="470" cy="400" r="24" fill="#ffffff" opacity="0.9"/>
+  <text x="470" y="409" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#1d4ed8">✓</text>
+  <text x="560" y="405" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#f0f9ff">지정 후</text>
+  <text x="560" y="440" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#f0f9ff">허가 받은 실거주자만 매수</text>
+  <text x="560" y="465" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#f0f9ff">투기 수요 진입 문턱 상승</text>
+
+  <text x="400" y="612" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#1e3a8a" opacity="0.75">※ 도식은 이해를 돕기 위한 예시이며, 실제 지정 범위·절차와 다를 수 있음</text>
+</svg>

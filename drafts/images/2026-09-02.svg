@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#93c5fd" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#93c5fd" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="houseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="990" cy="150" r="270" fill="url(#glow1)"/>
+  <circle cx="150" cy="530" r="250" fill="url(#glow2)"/>
+
+  <!-- decorative house silhouette motif, right side -->
+  <g opacity="0.95">
+    <circle cx="965" cy="415" r="120" fill="url(#houseGrad)" opacity="0.12"/>
+    <polygon points="965,320 1055,395 1055,480 875,480 875,395" fill="none" stroke="#93c5fd" stroke-width="3.5"/>
+    <rect x="930" y="420" width="70" height="60" rx="6" fill="url(#houseGrad)" opacity="0.85"/>
+    <rect x="895" y="410" width="26" height="26" rx="4" fill="#0f172a" opacity="0.55"/>
+    <rect x="1000" y="410" width="26" height="26" rx="4" fill="#0f172a" opacity="0.55"/>
+    <circle cx="965" cy="300" r="10" fill="#93c5fd"/>
+  </g>
+  <g opacity="0.75">
+    <circle cx="1090" cy="280" r="18" fill="url(#houseGrad)"/>
+    <circle cx="1105" cy="510" r="14" fill="url(#houseGrad)" opacity="0.8"/>
+  </g>
+
+  <!-- small scattered icons -->
+  <g opacity="0.5">
+    <rect x="130" y="150" width="46" height="46" rx="12" fill="none" stroke="#bfdbfe" stroke-width="2.5"/>
+    <circle cx="153" cy="173" r="9" fill="#bfdbfe"/>
+    <rect x="200" y="440" width="40" height="40" rx="10" fill="none" stroke="#7dd3fc" stroke-width="2.5"/>
+  </g>
+
+  <!-- text card -->
+  <rect x="90" y="185" width="780" height="250" rx="28" fill="url(#cardGrad)"/>
+  <text x="130" y="260" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="44" font-weight="700" fill="#f0f9ff">토지거래허가구역,</text>
+  <text x="130" y="325" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="44" font-weight="700" fill="#93c5fd">이번엔 어디까지</text>
+  <text x="130" y="385" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="22" fill="#f0f9ff" opacity="0.85">재지정 확대 논의와 매수자가 챙길 점</text>
+
+  <rect x="130" y="120" width="140" height="42" rx="21" fill="url(#chipGrad)" opacity="0.9"/>
+  <text x="200" y="147" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#0f172a">부동산정책</text>
+</svg>

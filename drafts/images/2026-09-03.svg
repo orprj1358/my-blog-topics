@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c2d12"/>
+      <stop offset="50%" stop-color="#c2410c"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fde68a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fde68a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fb923c" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#fb923c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="130" r="270" fill="url(#glow1)"/>
+  <circle cx="150" cy="510" r="260" fill="url(#glow2)"/>
+
+  <!-- decorative switch/refresh + coin motif, right side -->
+  <g opacity="0.95">
+    <circle cx="960" cy="420" r="112" fill="url(#coinGrad)" opacity="0.16"/>
+    <path d="M 895 380 A 68 68 0 1 1 895 460" fill="none" stroke="url(#coinGrad)" stroke-width="14" stroke-linecap="round"/>
+    <polygon points="895,360 895,400 858,380" fill="#fef3c7"/>
+    <path d="M 1025 460 A 68 68 0 1 1 1025 380" fill="none" stroke="url(#coinGrad)" stroke-width="14" stroke-linecap="round"/>
+    <polygon points="1025,480 1025,440 1062,460" fill="#fef3c7"/>
+    <circle cx="960" cy="420" r="38" fill="url(#coinGrad)"/>
+    <text x="960" y="432" text-anchor="middle" font-family="sans-serif" font-size="28" font-weight="700" fill="#7c2d12">%</text>
+  </g>
+  <g opacity="0.85">
+    <circle cx="1075" cy="290" r="30" fill="url(#coinGrad)"/>
+    <text x="1075" y="300" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="700" fill="#7c2d12">₩</text>
+    <circle cx="1095" cy="510" r="20" fill="url(#coinGrad)" opacity="0.85"/>
+  </g>
+
+  <!-- small scattered icons -->
+  <g opacity="0.5">
+    <rect x="130" y="150" width="46" height="46" rx="12" fill="none" stroke="#fde68a" stroke-width="2.5"/>
+    <circle cx="153" cy="173" r="9" fill="#fde68a"/>
+    <rect x="200" y="440" width="40" height="40" rx="10" fill="none" stroke="#fed7aa" stroke-width="2.5"/>
+  </g>
+
+  <!-- text card -->
+  <rect x="90" y="175" width="760" height="260" rx="28" fill="url(#cardGrad)"/>
+  <text x="130" y="250" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="46" font-weight="700" fill="#fff7ed">온라인 대환대출 확대,</text>
+  <text x="130" y="315" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="46" font-weight="700" fill="#fde68a">주담대도 갈아타나</text>
+  <text x="130" y="375" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="22" fill="#fff7ed" opacity="0.85">앱 하나로 비교하는 대출 갈아타기 시대</text>
+
+  <rect x="130" y="120" width="110" height="42" rx="21" fill="url(#chipGrad)" opacity="0.9"/>
+  <text x="185" y="147" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="22" font-weight="700" fill="#7c2d12">대출</text>
+</svg>

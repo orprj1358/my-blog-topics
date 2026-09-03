@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="cardOld" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e7e5e4"/>
+      <stop offset="100%" stop-color="#d6d3d1"/>
+    </linearGradient>
+    <linearGradient id="cardNew" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="badgeOld" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9ca3af"/>
+      <stop offset="100%" stop-color="#6b7280"/>
+    </linearGradient>
+    <linearGradient id="badgeNew" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7c2d12" flood-opacity="0.2"/>
+    </filter>
+    <filter id="badgeShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#7c2d12" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="48" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#7c2d12">대출 갈아타기, 무엇이 달라지나</text>
+  <text x="400" y="74" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#9a3412" opacity="0.85">기존 방식과 온라인 대환대출 비교 (예시)</text>
+
+  <!-- left column: old way -->
+  <rect x="60" y="105" width="300" height="46" rx="23" fill="url(#cardOld)" filter="url(#cardShadow)"/>
+  <circle cx="100" cy="128" r="18" fill="url(#badgeOld)" filter="url(#badgeShadow)"/>
+  <text x="100" y="134" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">기존</text>
+  <text x="230" y="134" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#44403c">영업점 방문 비교</text>
+
+  <rect x="60" y="165" width="300" height="330" rx="20" fill="#ffffff" opacity="0.7" filter="url(#cardShadow)"/>
+
+  <circle cx="95" cy="205" r="14" fill="url(#badgeOld)"/>
+  <text x="95" y="210" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">1</text>
+  <text x="118" y="210" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#44403c">은행마다 직접 방문 상담</text>
+
+  <circle cx="95" cy="250" r="14" fill="url(#badgeOld)"/>
+  <text x="95" y="255" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">2</text>
+  <text x="118" y="255" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#44403c">서류를 각각 따로 제출</text>
+
+  <circle cx="95" cy="295" r="14" fill="url(#badgeOld)"/>
+  <text x="95" y="300" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">3</text>
+  <text x="118" y="300" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#44403c">조건 비교에 시간 소요</text>
+
+  <circle cx="95" cy="340" r="14" fill="url(#badgeOld)"/>
+  <text x="95" y="345" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">4</text>
+  <text x="118" y="345" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#44403c">신용대출 위주로 가능</text>
+
+  <rect x="90" y="410" width="240" height="60" rx="14" fill="#f5f5f4"/>
+  <text x="210" y="446" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" font-weight="700" fill="#57534e">주담대는 갈아타기 번거로움</text>
+
+  <!-- arrow -->
+  <path d="M 372 300 L 418 300" stroke="url(#arrowGrad)" stroke-width="10" stroke-linecap="round"/>
+  <polygon points="428,300 408,288 408,312" fill="#ea580c"/>
+
+  <!-- right column: new way -->
+  <rect x="440" y="105" width="300" height="46" rx="23" fill="url(#cardNew)" filter="url(#cardShadow)"/>
+  <circle cx="480" cy="128" r="18" fill="url(#badgeNew)" filter="url(#badgeShadow)"/>
+  <text x="480" y="134" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">확대</text>
+  <text x="610" y="134" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#7c2d12">온라인 대환대출</text>
+
+  <rect x="440" y="165" width="300" height="330" rx="20" fill="#ffffff" opacity="0.75" filter="url(#cardShadow)"/>
+
+  <circle cx="475" cy="205" r="14" fill="url(#badgeNew)"/>
+  <text x="475" y="210" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">1</text>
+  <text x="498" y="210" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#7c2d12">앱에서 여러 은행 한번에 비교</text>
+
+  <circle cx="475" cy="250" r="14" fill="url(#badgeNew)"/>
+  <text x="475" y="255" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">2</text>
+  <text x="498" y="255" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#7c2d12">서류 제출도 앱 안에서 진행</text>
+
+  <circle cx="475" cy="295" r="14" fill="url(#badgeNew)"/>
+  <text x="475" y="300" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#7c2d12">3</text>
+  <text x="498" y="300" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#7c2d12">조건 비교 시간 대폭 단축</text>
+
+  <circle cx="475" cy="340" r="14" fill="url(#badgeNew)"/>
+  <text x="475" y="345" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">4</text>
+  <text x="498" y="345" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#7c2d12">주담대까지 대상 확대 추진</text>
+
+  <rect x="470" y="410" width="240" height="60" rx="14" fill="#fff1e0"/>
+  <text x="590" y="446" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" font-weight="700" fill="#c2410c">차주 선택지가 넓어짐</text>
+
+  <rect x="60" y="500" width="680" height="70" rx="16" fill="#7c2d12" opacity="0.07"/>
+  <text x="400" y="530" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" font-weight="700" fill="#7c2d12">갈아타기 전 확인할 점</text>
+  <text x="400" y="552" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#9a3412">중도상환수수료, 절감 이자, 최종 승인 조건은 반드시 직접 재확인 (그래프·수치는 이해를 돕기 위한 예시)</text>
+</svg>

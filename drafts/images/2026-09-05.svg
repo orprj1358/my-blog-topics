@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a5f3fc" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#a5f3fc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="140" r="270" fill="url(#glow1)"/>
+  <circle cx="150" cy="510" r="260" fill="url(#glow2)"/>
+
+  <!-- decorative chip + network + power motif, right side -->
+  <g opacity="0.95">
+    <rect x="900" y="330" width="150" height="150" rx="20" fill="url(#nodeGrad)" opacity="0.9"/>
+    <rect x="924" y="354" width="102" height="102" rx="12" fill="#0f172a" opacity="0.85"/>
+    <rect x="948" y="378" width="54" height="54" rx="8" fill="url(#nodeGrad)"/>
+    <line x1="900" y1="360" x2="875" y2="360" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+    <line x1="900" y1="405" x2="870" y2="405" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+    <line x1="900" y1="450" x2="875" y2="450" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+    <line x1="1050" y1="360" x2="1075" y2="360" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+    <line x1="1050" y1="405" x2="1080" y2="405" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+    <line x1="1050" y1="450" x2="1075" y2="450" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.9">
+    <circle cx="1085" cy="230" r="46" fill="url(#nodeGrad)" opacity="0.25"/>
+    <path d="M 1092 196 L 1066 240 L 1084 240 L 1078 268 L 1108 224 L 1088 224 Z" fill="url(#boltGrad)"/>
+  </g>
+  <g opacity="0.7">
+    <circle cx="150" cy="180" r="7" fill="#5eead4"/>
+    <circle cx="180" cy="205" r="5" fill="#a5f3fc"/>
+    <circle cx="125" cy="215" r="4" fill="#818cf8"/>
+    <line x1="150" y1="180" x2="180" y2="205" stroke="#5eead4" stroke-width="2"/>
+    <line x1="150" y1="180" x2="125" y2="215" stroke="#5eead4" stroke-width="2"/>
+  </g>
+
+  <!-- small scattered icons -->
+  <g opacity="0.4">
+    <rect x="130" y="440" width="42" height="42" rx="11" fill="none" stroke="#a5f3fc" stroke-width="2.5"/>
+    <circle cx="151" cy="461" r="8" fill="#a5f3fc"/>
+  </g>
+
+  <!-- text card -->
+  <rect x="90" y="175" width="760" height="260" rx="28" fill="url(#cardGrad)"/>
+  <text x="130" y="250" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="46" font-weight="700" fill="#f0fdfa">AI 데이터센터</text>
+  <text x="130" y="315" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="46" font-weight="700" fill="#5eead4">전력 수요 급증</text>
+  <text x="130" y="375" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="22" fill="#f0fdfa" opacity="0.85">국내 전력망은 감당할 수 있을까</text>
+
+  <rect x="130" y="120" width="150" height="42" rx="21" fill="url(#chipGrad)" opacity="0.92"/>
+  <text x="205" y="147" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="22" font-weight="700" fill="#0f172a">AI 관련 소식</text>
+</svg>

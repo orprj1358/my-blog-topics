@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="colHeaderLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="colHeaderRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c2410c"/>
+      <stop offset="100%" stop-color="#7c2d12"/>
+    </linearGradient>
+    <linearGradient id="rowLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fff7ed"/>
+    </linearGradient>
+    <linearGradient id="rowRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7c2d12" flood-opacity="0.18"/>
+    </filter>
+    <filter id="badgeShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#7c2d12" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="25" font-weight="700" fill="#7c2d12">스트레스 DSR, 확대 적용 전후 무엇이 달라지나</text>
+  <text x="400" y="70" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#c2410c" opacity="0.85">기존 적용 방식과 확대 적용 방식 비교 (예시)</text>
+
+  <!-- Column headers -->
+  <rect x="50" y="94" width="330" height="56" rx="16" fill="url(#colHeaderLeft)" filter="url(#cardShadow)"/>
+  <text x="215" y="130" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#ffffff">기존</text>
+
+  <rect x="420" y="94" width="330" height="56" rx="16" fill="url(#colHeaderRight)" filter="url(#cardShadow)"/>
+  <text x="585" y="130" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#ffffff">확대 적용 후</text>
+
+  <!-- Row 1: 적용 대상 -->
+  <circle cx="70" cy="188" r="18" fill="url(#colHeaderLeft)" filter="url(#badgeShadow)"/>
+  <text x="70" y="194" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">1</text>
+  <rect x="50" y="168" width="330" height="72" rx="16" fill="url(#rowLeft)" filter="url(#cardShadow)"/>
+  <text x="100" y="196" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#7c2d12">적용 대상: 은행권 위주</text>
+  <text x="100" y="220" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#9a3412">주택담보대출 중심으로 순차 적용</text>
+
+  <circle cx="440" cy="188" r="18" fill="url(#colHeaderRight)" filter="url(#badgeShadow)"/>
+  <text x="440" y="194" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">1</text>
+  <rect x="420" y="168" width="330" height="72" rx="16" fill="url(#rowRight)" filter="url(#cardShadow)"/>
+  <text x="470" y="196" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#7c2d12">적용 대상: 2금융권·신용대출 확대</text>
+  <text x="470" y="220" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#9a3412">대출 유형 전반으로 범위 확장 (예시)</text>
+
+  <!-- Row 2: 가산금리 -->
+  <circle cx="70" cy="278" r="18" fill="url(#colHeaderLeft)" filter="url(#badgeShadow)"/>
+  <text x="70" y="284" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">2</text>
+  <rect x="50" y="258" width="330" height="72" rx="16" fill="url(#rowLeft)" filter="url(#cardShadow)"/>
+  <text x="100" y="286" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#7c2d12">가산금리: 낮은 수준</text>
+  <text x="100" y="310" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#9a3412">금리 상승 위험 반영 폭이 제한적</text>
+
+  <circle cx="440" cy="278" r="18" fill="url(#colHeaderRight)" filter="url(#badgeShadow)"/>
+  <text x="440" y="284" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">2</text>
+  <rect x="420" y="258" width="330" height="72" rx="16" fill="url(#rowRight)" filter="url(#cardShadow)"/>
+  <text x="470" y="286" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#7c2d12">가산금리: 폭 확대</text>
+  <text x="470" y="310" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#9a3412">미래 금리 상승 위험을 더 보수적으로 반영 (예시)</text>
+
+  <!-- Row 3: 대출 한도 체감 -->
+  <circle cx="70" cy="368" r="18" fill="url(#colHeaderLeft)" filter="url(#badgeShadow)"/>
+  <text x="70" y="374" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">3</text>
+  <rect x="50" y="348" width="330" height="72" rx="16" fill="url(#rowLeft)" filter="url(#cardShadow)"/>
+  <text x="100" y="376" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#7c2d12">대출 한도: 상대적으로 여유</text>
+  <text x="100" y="400" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#9a3412">변동·고정금리 간 차이가 크지 않음</text>
+
+  <circle cx="440" cy="368" r="18" fill="url(#colHeaderRight)" filter="url(#badgeShadow)"/>
+  <text x="440" y="374" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">3</text>
+  <rect x="420" y="348" width="330" height="72" rx="16" fill="url(#rowRight)" filter="url(#cardShadow)"/>
+  <text x="470" y="376" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#7c2d12">대출 한도: 변동금리일수록 축소</text>
+  <text x="470" y="400" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#9a3412">고정금리 상품이 상대적으로 유리해짐 (예시)</text>
+
+  <!-- arrow connecting columns -->
+  <path d="M 385 260 L 415 260" stroke="#c2410c" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowHead)"/>
+  <defs>
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#c2410c"/>
+    </marker>
+  </defs>
+
+  <rect x="50" y="440" width="700" height="70" rx="16" fill="#7c2d12" opacity="0.08"/>
+  <text x="400" y="468" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" font-weight="700" fill="#7c2d12">확대 적용 전, 예상 한도와 상품 유형을 미리 점검하는 것이 중요</text>
+  <text x="400" y="490" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#9a3412">실제 적용 대상·시기·가산금리 폭은 정책에 따라 달라짐 (예시)</text>
+</svg>

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#ccfbf1"/>
+    </linearGradient>
+    <linearGradient id="stepGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="stepGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <linearGradient id="stepGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="stepGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="rowFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eef2ff"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#312e81" flood-opacity="0.18"/>
+    </filter>
+    <filter id="badgeShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#312e81" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="640" fill="url(#pageBg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="24" font-weight="700" fill="#312e81">'고영향 AI' 사업자 대응 체크리스트</text>
+  <text x="400" y="70" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#0d9488" opacity="0.85">AI 기본법 시행에 따른 준비 단계 (예시)</text>
+
+  <!-- Step 1 -->
+  <rect x="60" y="96" width="680" height="94" rx="18" fill="url(#rowFill)" filter="url(#cardShadow)"/>
+  <circle cx="108" cy="143" r="26" fill="url(#stepGrad1)" filter="url(#badgeShadow)"/>
+  <text x="108" y="151" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#ffffff">1</text>
+  <text x="152" y="132" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#312e81">고영향 AI 해당 여부 검토</text>
+  <text x="152" y="158" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#4338ca">채용·의료·금융 등 민감 분야 서비스인지 자체 점검</text>
+
+  <!-- arrow -->
+  <path d="M 400 190 L 400 214" stroke="#6366f1" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowHead)"/>
+
+  <!-- Step 2 -->
+  <rect x="60" y="218" width="680" height="94" rx="18" fill="url(#rowFill)" filter="url(#cardShadow)"/>
+  <circle cx="108" cy="265" r="26" fill="url(#stepGrad2)" filter="url(#badgeShadow)"/>
+  <text x="108" y="273" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#ffffff">2</text>
+  <text x="152" y="254" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#312e81">이용자 고지 정책 정비</text>
+  <text x="152" y="280" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#4338ca">AI 활용 사실과 산출물 설명 가능성 안내 방식 마련</text>
+
+  <path d="M 400 312 L 400 336" stroke="#0d9488" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowHead)"/>
+
+  <!-- Step 3 -->
+  <rect x="60" y="340" width="680" height="94" rx="18" fill="url(#rowFill)" filter="url(#cardShadow)"/>
+  <circle cx="108" cy="387" r="26" fill="url(#stepGrad3)" filter="url(#badgeShadow)"/>
+  <text x="108" y="395" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#ffffff">3</text>
+  <text x="152" y="376" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#134e4a">내부 위험관리 체계 구축</text>
+  <text x="152" y="402" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#0f766e">데이터·모델 운영 기록과 위험 점검 프로세스 마련</text>
+
+  <path d="M 400 434 L 400 458" stroke="#0f766e" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowHead)"/>
+
+  <!-- Step 4 -->
+  <rect x="60" y="462" width="680" height="94" rx="18" fill="url(#rowFill)" filter="url(#cardShadow)"/>
+  <circle cx="108" cy="509" r="26" fill="url(#stepGrad4)" filter="url(#badgeShadow)"/>
+  <text x="108" y="517" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#ffffff">4</text>
+  <text x="152" y="498" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#134e4a">하위법령·가이드라인 동향 추적</text>
+  <text x="152" y="524" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#0f766e">세부 기준 확정 전, 담당 조직 지정해 개정 사항 모니터링</text>
+
+  <defs>
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#0d9488"/>
+    </marker>
+  </defs>
+
+  <rect x="60" y="578" width="680" height="50" rx="16" fill="#312e81" opacity="0.08"/>
+  <text x="400" y="608" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#312e81" opacity="0.9">실제 적용 대상·의무 수준은 하위법령 확정 후 달라질 수 있음 (예시)</text>
+</svg>

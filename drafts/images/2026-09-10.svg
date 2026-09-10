@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1e3e"/>
+      <stop offset="50%" stop-color="#1e3a6e"/>
+      <stop offset="100%" stop-color="#3b6bb0"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#bfe0ff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#bfe0ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7db8f0" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#7db8f0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="houseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a7d3ff"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bfe0ff"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1010" cy="150" r="270" fill="url(#glow1)"/>
+  <circle cx="130" cy="510" r="260" fill="url(#glow2)"/>
+
+  <!-- building/apartment silhouette -->
+  <g opacity="0.95">
+    <rect x="930" y="280" width="70" height="175" rx="6" fill="url(#houseGrad)"/>
+    <rect x="1010" y="230" width="70" height="225" rx="6" fill="url(#houseGrad)" opacity="0.92"/>
+    <g fill="#1e3a6e" opacity="0.5">
+      <rect x="944" y="300" width="14" height="14" rx="2"/>
+      <rect x="972" y="300" width="14" height="14" rx="2"/>
+      <rect x="944" y="330" width="14" height="14" rx="2"/>
+      <rect x="972" y="330" width="14" height="14" rx="2"/>
+      <rect x="944" y="360" width="14" height="14" rx="2"/>
+      <rect x="972" y="360" width="14" height="14" rx="2"/>
+      <rect x="1026" y="252" width="14" height="14" rx="2"/>
+      <rect x="1054" y="252" width="14" height="14" rx="2"/>
+      <rect x="1026" y="282" width="14" height="14" rx="2"/>
+      <rect x="1054" y="282" width="14" height="14" rx="2"/>
+      <rect x="1026" y="312" width="14" height="14" rx="2"/>
+      <rect x="1054" y="312" width="14" height="14" rx="2"/>
+    </g>
+  </g>
+
+  <!-- magnifying glass over badge, representing inspection/diagnosis -->
+  <g opacity="0.95">
+    <circle cx="985" cy="530" r="46" fill="none" stroke="url(#badgeGrad)" stroke-width="10"/>
+    <line x1="1017" y1="562" x2="1045" y2="590" stroke="url(#badgeGrad)" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <!-- small scattered nodes -->
+  <g opacity="0.55">
+    <circle cx="150" cy="160" r="6" fill="#bfe0ff"/>
+    <circle cx="185" cy="185" r="4.5" fill="#7db8f0"/>
+    <circle cx="120" cy="195" r="4" fill="#bfe0ff"/>
+    <line x1="150" y1="160" x2="185" y2="185" stroke="#bfe0ff" stroke-width="2"/>
+    <line x1="150" y1="160" x2="120" y2="195" stroke="#bfe0ff" stroke-width="2"/>
+  </g>
+  <g opacity="0.3">
+    <rect x="130" y="435" width="42" height="42" rx="11" fill="none" stroke="#7db8f0" stroke-width="2.5"/>
+    <circle cx="151" cy="456" r="8" fill="#7db8f0"/>
+  </g>
+
+  <!-- text card -->
+  <rect x="90" y="150" width="800" height="300" rx="28" fill="url(#cardGrad)"/>
+  <text x="130" y="230" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="44" font-weight="700" fill="#f0f7ff">재건축 안전진단 완화 논의</text>
+  <text x="130" y="295" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="38" font-weight="700" fill="#bfe0ff">노후 아파트, 재건축 속도 빨라지나</text>
+  <text x="130" y="355" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="21" fill="#e0edff" opacity="0.9">도시정비법 개정 논의로 보는 재건축 시장 변수</text>
+
+  <rect x="130" y="95" width="120" height="42" rx="21" fill="url(#tagGrad)" opacity="0.95"/>
+  <text x="190" y="122" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="22" font-weight="700" fill="#0c1e3e">부동산정책</text>
+</svg>

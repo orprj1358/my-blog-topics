@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef4ff"/>
+      <stop offset="100%" stop-color="#dbe8ff"/>
+    </linearGradient>
+    <linearGradient id="leftHeadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="rightHeadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="leftRowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="rightRowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e6f0ff"/>
+    </linearGradient>
+    <linearGradient id="leftBadgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="rightBadgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1e3a6e" flood-opacity="0.18"/>
+    </filter>
+    <filter id="badgeShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1e3a6e" flood-opacity="0.2"/>
+    </filter>
+    <marker id="arrowHead2" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L7,3 z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="640" fill="url(#pageBg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="24" font-weight="700" fill="#1e3a6e">재건축 안전진단, 무엇이 달라지나</text>
+  <text x="400" y="70" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#1d4ed8" opacity="0.85">기존 절차 대비 논의되는 완화 방향 (예시)</text>
+
+  <!-- Left column header -->
+  <rect x="56" y="96" width="300" height="56" rx="16" fill="url(#leftHeadGrad)" filter="url(#cardShadow)"/>
+  <text x="206" y="131" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="18" font-weight="700" fill="#1e293b">기존 안전진단</text>
+
+  <!-- Right column header -->
+  <rect x="444" y="96" width="300" height="56" rx="16" fill="url(#rightHeadGrad)" filter="url(#cardShadow)"/>
+  <text x="594" y="131" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="18" font-weight="700" fill="#eff6ff">논의되는 완화 방향</text>
+
+  <!-- connecting arrow -->
+  <path d="M 362 124 L 438 124" stroke="#1d4ed8" stroke-width="4" stroke-linecap="round" marker-end="url(#arrowHead2)"/>
+
+  <!-- Row 1 -->
+  <rect x="56" y="172" width="300" height="112" rx="16" fill="url(#leftRowGrad)" filter="url(#cardShadow)"/>
+  <circle cx="96" cy="200" r="22" fill="url(#leftBadgeGrad)" filter="url(#badgeShadow)"/>
+  <text x="96" y="207" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#ffffff">1</text>
+  <text x="128" y="196" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#334155">평가 절차</text>
+  <text x="76" y="224" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#475569">구조안전성·주거환경·설비 노후도를</text>
+  <text x="76" y="246" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#475569">종합 평가하는 다단계 절차로</text>
+  <text x="76" y="266" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#475569">통과 기준이 까다로운 편</text>
+
+  <rect x="444" y="172" width="300" height="112" rx="16" fill="url(#rightRowGrad)" filter="url(#cardShadow)"/>
+  <circle cx="484" cy="200" r="22" fill="url(#rightBadgeGrad)" filter="url(#badgeShadow)"/>
+  <text x="484" y="207" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#ffffff">1</text>
+  <text x="516" y="196" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#1d4ed8">패스트트랙 도입 검토</text>
+  <text x="464" y="224" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#1e40af">일부 절차를 정비계획 수립과</text>
+  <text x="464" y="246" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#1e40af">병행하거나 간소화해</text>
+  <text x="464" y="266" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#1e40af">진행 속도를 높이는 방향</text>
+
+  <!-- Row 2 -->
+  <rect x="56" y="300" width="300" height="112" rx="16" fill="url(#leftRowGrad)" filter="url(#cardShadow)"/>
+  <circle cx="96" cy="328" r="22" fill="url(#leftBadgeGrad)" filter="url(#badgeShadow)"/>
+  <text x="96" y="335" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#ffffff">2</text>
+  <text x="128" y="324" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#334155">사업 착수 시점</text>
+  <text x="76" y="352" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#475569">안전진단 통과 이후에야</text>
+  <text x="76" y="374" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#475569">본격적인 정비 절차 시작</text>
+
+  <rect x="444" y="300" width="300" height="112" rx="16" fill="url(#rightRowGrad)" filter="url(#cardShadow)"/>
+  <circle cx="484" cy="328" r="22" fill="url(#rightBadgeGrad)" filter="url(#badgeShadow)"/>
+  <text x="484" y="335" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#ffffff">2</text>
+  <text x="516" y="324" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#1d4ed8">준비 단계 조기 착수</text>
+  <text x="464" y="352" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#1e40af">조합 설립 준비 등을 더 이른</text>
+  <text x="464" y="374" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#1e40af">시점부터 진행 가능해질 전망</text>
+
+  <!-- Row 3 -->
+  <rect x="56" y="428" width="300" height="112" rx="16" fill="url(#leftRowGrad)" filter="url(#cardShadow)"/>
+  <circle cx="96" cy="456" r="22" fill="url(#leftBadgeGrad)" filter="url(#badgeShadow)"/>
+  <text x="96" y="463" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#ffffff">3</text>
+  <text x="128" y="452" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#334155">주민 체감</text>
+  <text x="76" y="480" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#475569">안전진단 단계에서부터</text>
+  <text x="76" y="502" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#475569">지연·재도전 사례가 다수</text>
+
+  <rect x="444" y="428" width="300" height="112" rx="16" fill="url(#rightRowGrad)" filter="url(#cardShadow)"/>
+  <circle cx="484" cy="456" r="22" fill="url(#rightBadgeGrad)" filter="url(#badgeShadow)"/>
+  <text x="484" y="463" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="700" fill="#ffffff">3</text>
+  <text x="516" y="452" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#1d4ed8">세부 조건 확인 필요</text>
+  <text x="464" y="480" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#1e40af">완화 기준 적용 여부·경과규정 등</text>
+  <text x="464" y="502" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#1e40af">단지별 확인이 중요</text>
+
+  <rect x="56" y="566" width="688" height="50" rx="16" fill="#1e3a6e" opacity="0.08"/>
+  <text x="400" y="596" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#1e3a6e" opacity="0.9">구체적 절차·기준은 법 개정 결과에 따라 달라질 수 있음 (예시)</text>
+</svg>

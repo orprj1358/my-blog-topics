@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" width="800" height="640">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef4ff"/>
+      <stop offset="100%" stop-color="#dbe8ff"/>
+    </linearGradient>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#eef4ff"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a7d3ff"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7db8f0"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#1e3a6e"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1e3a6e" flood-opacity="0.18"/>
+    </filter>
+    <filter id="badgeShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1e3a6e" flood-opacity="0.2"/>
+    </filter>
+    <marker id="arrowHeadV" markerWidth="10" markerHeight="10" refX="3" refY="6" orient="auto">
+      <path d="M0,0 L6,0 L3,7 z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="640" fill="url(#pageBg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="24" font-weight="700" fill="#1e3a6e">가을 이사철, 이 순서로 점검하세요</text>
+  <text x="400" y="70" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#1d4ed8" opacity="0.85">계약 전 부동산 정책 체크 흐름 (예시)</text>
+
+  <!-- connecting vertical line -->
+  <line x1="400" y1="118" x2="400" y2="560" stroke="#93c5fd" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+
+  <!-- Step 1 -->
+  <rect x="90" y="100" width="620" height="94" rx="18" fill="url(#cardGrad1)" filter="url(#cardShadow)"/>
+  <circle cx="150" cy="147" r="26" fill="url(#badgeGrad1)" filter="url(#badgeShadow)"/>
+  <text x="150" y="155" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#ffffff">1</text>
+  <text x="194" y="135" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#1e3a6e">예산·자금 계획 세우기</text>
+  <text x="194" y="160" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#475569">보유 자금과 필요 자금 규모를</text>
+  <text x="194" y="180" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#475569">먼저 가늠해보기</text>
+
+  <!-- Step 2 -->
+  <rect x="90" y="222" width="620" height="94" rx="18" fill="url(#cardGrad1)" filter="url(#cardShadow)"/>
+  <circle cx="150" cy="269" r="26" fill="url(#badgeGrad2)" filter="url(#badgeShadow)"/>
+  <text x="150" y="277" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#ffffff">2</text>
+  <text x="194" y="257" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#1e3a6e">대출 한도·규제 확인</text>
+  <text x="194" y="282" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#475569">지역·주택 유형별 대출 기준을</text>
+  <text x="194" y="302" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#475569">은행 공식 채널로 직접 확인</text>
+
+  <!-- Step 3 -->
+  <rect x="90" y="344" width="620" height="94" rx="18" fill="url(#cardGrad1)" filter="url(#cardShadow)"/>
+  <circle cx="150" cy="391" r="26" fill="url(#badgeGrad3)" filter="url(#badgeShadow)"/>
+  <text x="150" y="399" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#ffffff">3</text>
+  <text x="194" y="379" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#1e3a6e">임대차·청약 규정 점검</text>
+  <text x="194" y="404" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#475569">갱신·보증금 보호, 가점 산정 등</text>
+  <text x="194" y="424" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#475569">최신 기준으로 다시 확인</text>
+
+  <!-- Step 4 -->
+  <rect x="90" y="466" width="620" height="94" rx="18" fill="url(#cardGrad1)" filter="url(#cardShadow)"/>
+  <circle cx="150" cy="513" r="26" fill="url(#badgeGrad4)" filter="url(#badgeShadow)"/>
+  <text x="150" y="521" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#ffffff">4</text>
+  <text x="194" y="501" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#1e3a6e">계약 전 최종 점검</text>
+  <text x="194" y="526" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#475569">공인중개사·관련 기관에 문의해</text>
+  <text x="194" y="546" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#475569">최종 조건을 한 번 더 확인</text>
+
+  <rect x="90" y="590" width="620" height="34" rx="12" fill="#1e3a6e" opacity="0.08"/>
+  <text x="400" y="612" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#1e3a6e" opacity="0.9">구체적 기준은 지역·개인 조건에 따라 다를 수 있음 (예시)</text>
+</svg>

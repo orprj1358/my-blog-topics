@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 660" width="800" height="660">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff3e2"/>
+      <stop offset="100%" stop-color="#ffe4c2"/>
+    </linearGradient>
+    <linearGradient id="cardGradL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fff6ea"/>
+    </linearGradient>
+    <linearGradient id="cardGradR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fff8f0"/>
+      <stop offset="100%" stop-color="#ffe9cc"/>
+    </linearGradient>
+    <linearGradient id="badgeGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bfe3c8"/>
+      <stop offset="100%" stop-color="#4c9a63"/>
+    </linearGradient>
+    <linearGradient id="badgeGradR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb98a"/>
+      <stop offset="100%" stop-color="#d9601a"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7a3c10" flood-opacity="0.2"/>
+    </filter>
+    <filter id="badgeShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#7a3c10" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="660" fill="url(#pageBg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="24" font-weight="700" fill="#7a3c10">평소 시기 vs 총량관리 강화 시기</text>
+  <text x="400" y="70" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#b45f18" opacity="0.9">대출 조건 변화 흐름 (예시)</text>
+
+  <!-- column headers -->
+  <rect x="70" y="96" width="300" height="46" rx="14" fill="url(#badgeGradL)" filter="url(#cardShadow)"/>
+  <text x="220" y="125" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="18" font-weight="700" fill="#ffffff">평소 시기</text>
+
+  <rect x="430" y="96" width="300" height="46" rx="14" fill="url(#badgeGradR)" filter="url(#cardShadow)"/>
+  <text x="580" y="125" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="18" font-weight="700" fill="#ffffff">총량관리 강화 시기</text>
+
+  <!-- Row 1: 한도 -->
+  <circle cx="45" cy="188" r="20" fill="url(#badgeGradL)" filter="url(#badgeShadow)"/>
+  <text x="45" y="194" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">1</text>
+  <rect x="70" y="164" width="300" height="72" rx="16" fill="url(#cardGradL)" filter="url(#cardShadow)"/>
+  <text x="90" y="192" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#3f6b4d">대출 한도</text>
+  <text x="90" y="215" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">기준대로 산정, 비교적 여유</text>
+
+  <rect x="430" y="164" width="300" height="72" rx="16" fill="url(#cardGradR)" filter="url(#cardShadow)"/>
+  <text x="450" y="192" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#a1450f">대출 한도</text>
+  <text x="450" y="215" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">은행별 축소 가능성 커짐</text>
+
+  <!-- Row 2: 우대금리 -->
+  <circle cx="45" cy="280" r="20" fill="url(#badgeGradL)" filter="url(#badgeShadow)"/>
+  <text x="45" y="286" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">2</text>
+  <rect x="70" y="256" width="300" height="72" rx="16" fill="url(#cardGradL)" filter="url(#cardShadow)"/>
+  <text x="90" y="284" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#3f6b4d">우대금리</text>
+  <text x="90" y="307" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">각종 우대조건 폭넓게 적용</text>
+
+  <rect x="430" y="256" width="300" height="72" rx="16" fill="url(#cardGradR)" filter="url(#cardShadow)"/>
+  <text x="450" y="284" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#a1450f">우대금리</text>
+  <text x="450" y="307" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">일부 우대 축소·조기 종료</text>
+
+  <!-- Row 3: 심사 -->
+  <circle cx="45" cy="372" r="20" fill="url(#badgeGradL)" filter="url(#badgeShadow)"/>
+  <text x="45" y="378" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">3</text>
+  <rect x="70" y="348" width="300" height="72" rx="16" fill="url(#cardGradL)" filter="url(#cardShadow)"/>
+  <text x="90" y="376" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#3f6b4d">심사 속도</text>
+  <text x="90" y="399" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">표준 절차로 비교적 신속</text>
+
+  <rect x="430" y="348" width="300" height="72" rx="16" fill="url(#cardGradR)" filter="url(#cardShadow)"/>
+  <text x="450" y="376" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#a1450f">심사 속도</text>
+  <text x="450" y="399" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">서류·소득심사 더 꼼꼼해짐</text>
+
+  <!-- Row 4: 대응 -->
+  <circle cx="45" cy="464" r="20" fill="url(#badgeGradR)" filter="url(#badgeShadow)"/>
+  <text x="45" y="470" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">✓</text>
+  <rect x="70" y="440" width="660" height="88" rx="16" fill="url(#cardGradR)" filter="url(#cardShadow)"/>
+  <text x="94" y="470" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#a1450f">실수요자가 챙길 점</text>
+  <text x="94" y="494" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">여러 은행의 한도·금리를 비교하고, 자금 필요 시점을</text>
+  <text x="94" y="514" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">창구 상담으로 미리 확인해두기</text>
+
+  <rect x="70" y="556" width="660" height="34" rx="12" fill="#7a3c10" opacity="0.08"/>
+  <text x="400" y="578" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#7a3c10" opacity="0.9">구체적 한도·금리는 은행·시점에 따라 다를 수 있음 (예시)</text>
+
+  <text x="400" y="628" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#b45f18" opacity="0.8">실제 조건은 반드시 해당 은행 공식 채널에서 확인하세요</text>
+</svg>

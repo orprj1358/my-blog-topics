@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a1c0a"/>
+      <stop offset="50%" stop-color="#7a3c10"/>
+      <stop offset="100%" stop-color="#c9701f"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe3b0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffe3b0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb35c" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffb35c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe8bf"/>
+      <stop offset="100%" stop-color="#f5a53c"/>
+    </linearGradient>
+    <linearGradient id="coinGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd699"/>
+      <stop offset="100%" stop-color="#e8891f"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe3b0"/>
+      <stop offset="100%" stop-color="#f5a53c"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd699"/>
+      <stop offset="100%" stop-color="#e8891f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1010" cy="150" r="270" fill="url(#glow1)"/>
+  <circle cx="130" cy="510" r="260" fill="url(#glow2)"/>
+
+  <!-- stacked coins motif -->
+  <g opacity="0.95">
+    <ellipse cx="985" cy="420" rx="90" ry="26" fill="url(#coinGrad2)"/>
+    <ellipse cx="985" cy="400" rx="90" ry="26" fill="url(#coinGrad)"/>
+    <ellipse cx="985" cy="380" rx="90" ry="26" fill="url(#coinGrad2)"/>
+    <ellipse cx="985" cy="360" rx="90" ry="26" fill="url(#coinGrad)"/>
+    <text x="985" y="368" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="700" fill="#7a3c10">₩</text>
+  </g>
+
+  <!-- percent badge -->
+  <g opacity="0.95">
+    <circle cx="1040" cy="530" r="62" fill="url(#coinGrad)"/>
+    <text x="1040" y="545" text-anchor="middle" font-family="sans-serif" font-size="46" font-weight="700" fill="#7a3c10">%</text>
+  </g>
+
+  <!-- rising bar chart accent -->
+  <g opacity="0.85">
+    <rect x="150" y="470" width="26" height="60" rx="6" fill="url(#barGrad)"/>
+    <rect x="186" y="440" width="26" height="90" rx="6" fill="url(#barGrad)"/>
+    <rect x="222" y="405" width="26" height="125" rx="6" fill="url(#barGrad)"/>
+  </g>
+  <g opacity="0.35">
+    <rect x="130" y="150" width="42" height="42" rx="11" fill="none" stroke="#ffb35c" stroke-width="2.5"/>
+    <circle cx="151" cy="171" r="8" fill="#ffb35c"/>
+  </g>
+
+  <!-- text card -->
+  <rect x="90" y="150" width="800" height="300" rx="28" fill="url(#cardGrad)"/>
+  <text x="130" y="230" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="42" font-weight="700" fill="#fff4e2">가계대출 총량관리</text>
+  <text x="130" y="295" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="38" font-weight="700" fill="#ffd699">다시 강화되나</text>
+  <text x="130" y="355" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="21" fill="#ffe8cf" opacity="0.9">은행 대출 창구, 문턱 높아지는 이유</text>
+
+  <rect x="130" y="95" width="80" height="42" rx="21" fill="url(#tagGrad)" opacity="0.95"/>
+  <text x="170" y="122" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="22" font-weight="700" fill="#5a2c0a">대출</text>
+</svg>

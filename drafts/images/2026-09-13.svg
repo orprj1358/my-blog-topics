@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="55%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5eead4" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5f3fc"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="630" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <circle cx="960" cy="140" r="260" fill="url(#glow1)"/>
+    <circle cx="220" cy="480" r="240" fill="url(#glow2)"/>
+
+    <!-- network motif, right side -->
+    <g opacity="0.9">
+      <line x1="905" y1="360" x2="985" y2="300" stroke="#a5f3fc" stroke-width="2" opacity="0.5"/>
+      <line x1="905" y1="360" x2="985" y2="420" stroke="#a5f3fc" stroke-width="2" opacity="0.5"/>
+      <line x1="985" y1="300" x2="1065" y2="360" stroke="#a5f3fc" stroke-width="2" opacity="0.5"/>
+      <line x1="985" y1="420" x2="1065" y2="360" stroke="#a5f3fc" stroke-width="2" opacity="0.5"/>
+      <line x1="905" y1="360" x2="1065" y2="360" stroke="#a5f3fc" stroke-width="2" opacity="0.35"/>
+      <circle cx="905" cy="360" r="14" fill="#5eead4"/>
+      <circle cx="985" cy="300" r="10" fill="#a5f3fc"/>
+      <circle cx="985" cy="420" r="10" fill="#a5f3fc"/>
+      <circle cx="1065" cy="360" r="16" fill="url(#chip)"/>
+    </g>
+
+    <!-- chip icon -->
+    <g transform="translate(940,470)" opacity="0.95">
+      <rect x="0" y="0" width="90" height="90" rx="16" fill="url(#chip)" opacity="0.9"/>
+      <rect x="20" y="20" width="50" height="50" rx="8" fill="#1e1b4b"/>
+      <line x1="45" y1="-14" x2="45" y2="0" stroke="#a5f3fc" stroke-width="4"/>
+      <line x1="45" y1="90" x2="45" y2="104" stroke="#a5f3fc" stroke-width="4"/>
+      <line x1="-14" y1="45" x2="0" y2="45" stroke="#a5f3fc" stroke-width="4"/>
+      <line x1="90" y1="45" x2="104" y2="45" stroke="#a5f3fc" stroke-width="4"/>
+    </g>
+
+    <!-- soft rounded card behind text -->
+    <rect x="70" y="150" width="640" height="330" rx="24" fill="#0b0a23" opacity="0.28"/>
+
+    <text x="110" y="250" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="52" font-weight="700" fill="#f8fafc">AI 에이전트 시대,</text>
+    <text x="110" y="320" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="52" font-weight="700" fill="#f8fafc">비서 대신 일하는 AI</text>
+    <text x="110" y="380" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="400" fill="#c7d2fe">챗봇을 넘어 스스로 업무를 처리하는</text>
+    <text x="110" y="418" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="400" fill="#c7d2fe">AI 에이전트, 무엇이 달라지나</text>
+
+    <rect x="110" y="446" width="150" height="6" rx="3" fill="url(#chip)"/>
+  </g>
+</svg>

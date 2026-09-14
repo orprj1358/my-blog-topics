@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a1c0a"/>
+      <stop offset="50%" stop-color="#7a3c10"/>
+      <stop offset="100%" stop-color="#c9701f"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe3b0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffe3b0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb35c" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffb35c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+    <linearGradient id="balloonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe8bf"/>
+      <stop offset="100%" stop-color="#f5a53c"/>
+    </linearGradient>
+    <linearGradient id="balloonGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd699"/>
+      <stop offset="100%" stop-color="#e8891f"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe3b0"/>
+      <stop offset="100%" stop-color="#f5a53c"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="630" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <circle cx="1010" cy="150" r="270" fill="url(#glow1)"/>
+    <circle cx="130" cy="510" r="260" fill="url(#glow2)"/>
+
+    <!-- balloon motif: two balloons of different sizes, symbolizing the '풍선효과' -->
+    <g opacity="0.95">
+      <ellipse cx="985" cy="330" rx="70" ry="86" fill="url(#balloonGrad2)"/>
+      <path d="M985 416 L985 440" stroke="#7a3c10" stroke-width="3" opacity="0.6"/>
+      <path d="M970 440 Q985 452 1000 440" fill="none" stroke="#7a3c10" stroke-width="3" opacity="0.6"/>
+    </g>
+    <g opacity="0.9">
+      <ellipse cx="1090" cy="470" rx="46" ry="58" fill="url(#balloonGrad)"/>
+      <path d="M1090 528 L1090 546" stroke="#7a3c10" stroke-width="2.5" opacity="0.55"/>
+    </g>
+
+    <!-- percent badge -->
+    <g opacity="0.95">
+      <circle cx="1055" cy="200" r="46" fill="url(#balloonGrad)"/>
+      <text x="1055" y="214" text-anchor="middle" font-family="sans-serif" font-size="34" font-weight="700" fill="#7a3c10">%</text>
+    </g>
+
+    <!-- small deco squares -->
+    <g opacity="0.32">
+      <rect x="130" y="150" width="42" height="42" rx="11" fill="none" stroke="#ffb35c" stroke-width="2.5"/>
+      <circle cx="151" cy="171" r="8" fill="#ffb35c"/>
+    </g>
+
+    <!-- text card -->
+    <rect x="90" y="150" width="800" height="320" rx="28" fill="url(#cardGrad)"/>
+    <text x="130" y="235" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="42" font-weight="700" fill="#fff4e2">은행 조이자 2금융권으로</text>
+    <text x="130" y="300" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="38" font-weight="700" fill="#ffd699">대출 풍선효과 커지나</text>
+    <text x="130" y="360" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="21" fill="#ffe8cf" opacity="0.9">가계대출 규제 강화, 실수요자가 알아둘 점</text>
+
+    <rect x="130" y="95" width="80" height="42" rx="21" fill="url(#tagGrad)" opacity="0.95"/>
+    <text x="170" y="122" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="22" font-weight="700" fill="#5a2c0a">대출</text>
+  </g>
+</svg>

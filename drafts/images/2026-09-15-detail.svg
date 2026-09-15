@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 660" width="800" height="660">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff3e2"/>
+      <stop offset="100%" stop-color="#ffe4c2"/>
+    </linearGradient>
+    <linearGradient id="cardGradL" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fff6ea"/>
+    </linearGradient>
+    <linearGradient id="cardGradR" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fff8f0"/>
+      <stop offset="100%" stop-color="#ffe0c2"/>
+    </linearGradient>
+    <linearGradient id="badgeGradL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe8bf"/>
+      <stop offset="100%" stop-color="#e8891f"/>
+    </linearGradient>
+    <linearGradient id="badgeGradR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9e6b"/>
+      <stop offset="100%" stop-color="#c9430f"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7a3c10" flood-opacity="0.2"/>
+    </filter>
+    <filter id="badgeShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#7a3c10" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="660" fill="url(#pageBg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="24" font-weight="700" fill="#7a3c10">정상 대출 안내 vs 보이스피싱 의심 신호</text>
+  <text x="400" y="70" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#b45f18" opacity="0.9">이런 요구가 있다면 한 번 더 확인하세요 (예시)</text>
+
+  <!-- column headers -->
+  <rect x="70" y="96" width="300" height="46" rx="14" fill="url(#badgeGradL)" filter="url(#cardShadow)"/>
+  <text x="220" y="125" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#5a2c0a">정상적인 대출 절차</text>
+
+  <rect x="430" y="96" width="300" height="46" rx="14" fill="url(#badgeGradR)" filter="url(#cardShadow)"/>
+  <text x="580" y="125" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="17" font-weight="700" fill="#ffffff">보이스피싱 의심 신호</text>
+
+  <!-- Row 1 -->
+  <circle cx="45" cy="188" r="20" fill="url(#badgeGradL)" filter="url(#badgeShadow)"/>
+  <text x="45" y="194" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#5a2c0a">1</text>
+  <rect x="70" y="164" width="300" height="72" rx="16" fill="url(#cardGradL)" filter="url(#cardShadow)"/>
+  <text x="90" y="192" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#8a4a0a">본인 확인 절차</text>
+  <text x="90" y="215" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">지점 방문·공식 앱으로 본인 인증</text>
+
+  <circle cx="405" cy="188" r="20" fill="url(#badgeGradR)" filter="url(#badgeShadow)"/>
+  <text x="405" y="194" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">!</text>
+  <rect x="430" y="164" width="300" height="72" rx="16" fill="url(#cardGradR)" filter="url(#cardShadow)"/>
+  <text x="450" y="192" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#a1450f">출처불명 앱 설치</text>
+  <text x="450" y="215" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">상담 명목으로 앱 설치·원격제어 요구</text>
+
+  <!-- Row 2 -->
+  <circle cx="45" cy="280" r="20" fill="url(#badgeGradL)" filter="url(#badgeShadow)"/>
+  <text x="45" y="286" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#5a2c0a">2</text>
+  <rect x="70" y="256" width="300" height="72" rx="16" fill="url(#cardGradL)" filter="url(#cardShadow)"/>
+  <text x="90" y="284" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#8a4a0a">비용 발생 시점</text>
+  <text x="90" y="307" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">대출 실행 후 이자·수수료 차감</text>
+
+  <circle cx="405" cy="280" r="20" fill="url(#badgeGradR)" filter="url(#badgeShadow)"/>
+  <text x="405" y="286" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">!</text>
+  <rect x="430" y="256" width="300" height="72" rx="16" fill="url(#cardGradR)" filter="url(#cardShadow)"/>
+  <text x="450" y="284" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#a1450f">선입금·보증금 요구</text>
+  <text x="450" y="307" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">승인 전 수수료·보증금 먼저 입금 요구</text>
+
+  <!-- Row 3 -->
+  <circle cx="45" cy="372" r="20" fill="url(#badgeGradL)" filter="url(#badgeShadow)"/>
+  <text x="45" y="378" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#5a2c0a">3</text>
+  <rect x="70" y="348" width="300" height="72" rx="16" fill="url(#cardGradL)" filter="url(#cardShadow)"/>
+  <text x="90" y="376" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#8a4a0a">연락 채널</text>
+  <text x="90" y="399" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">공식 대표번호·안내문으로 확인 가능</text>
+
+  <circle cx="405" cy="372" r="20" fill="url(#badgeGradR)" filter="url(#badgeShadow)"/>
+  <text x="405" y="378" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#ffffff">!</text>
+  <rect x="430" y="348" width="300" height="72" rx="16" fill="url(#cardGradR)" filter="url(#cardShadow)"/>
+  <text x="450" y="376" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#a1450f">사적 메신저·번호 유도</text>
+  <text x="450" y="399" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">개인 메신저·비공식 번호로만 안내</text>
+
+  <!-- Row 4: check tip -->
+  <circle cx="45" cy="464" r="20" fill="url(#badgeGradL)" filter="url(#badgeShadow)"/>
+  <text x="45" y="470" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#5a2c0a">✓</text>
+  <rect x="70" y="440" width="660" height="96" rx="16" fill="url(#cardGradL)" filter="url(#cardShadow)"/>
+  <text x="94" y="470" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#8a4a0a">의심될 때 확인할 것</text>
+  <text x="94" y="494" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">전화를 끊고 해당 기관 공식 대표번호로 직접 다시 걸어</text>
+  <text x="94" y="514" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#5a5a5a">사실 여부를 확인하고, 의심되면 즉시 신고하기</text>
+
+  <rect x="70" y="564" width="660" height="34" rx="12" fill="#7a3c10" opacity="0.08"/>
+  <text x="400" y="586" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12.5" fill="#7a3c10" opacity="0.9">구체적 수법·대응 절차는 시점에 따라 다를 수 있음 (예시)</text>
+
+  <text x="400" y="636" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="12" fill="#b45f18" opacity="0.8">실제 피해 의심 시 금융감독원·경찰 공식 채널로 신고하세요</text>
+</svg>

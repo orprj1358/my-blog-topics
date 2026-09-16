@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1a2e"/>
+      <stop offset="50%" stop-color="#123b4f"/>
+      <stop offset="100%" stop-color="#0f6e6a"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5eead4" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a7f3d0"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#facc15"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a7f3d0"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="630" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <circle cx="1010" cy="150" r="270" fill="url(#glow1)"/>
+    <circle cx="150" cy="520" r="260" fill="url(#glow2)"/>
+
+    <!-- chip / network motif -->
+    <g opacity="0.95">
+      <rect x="960" y="200" width="120" height="120" rx="18" fill="url(#chipGrad)"/>
+      <rect x="985" y="225" width="70" height="70" rx="8" fill="#0a1a2e" opacity="0.35"/>
+      <line x1="960" y1="230" x2="935" y2="230" stroke="#a7f3d0" stroke-width="4" stroke-linecap="round"/>
+      <line x1="960" y1="260" x2="935" y2="260" stroke="#a7f3d0" stroke-width="4" stroke-linecap="round"/>
+      <line x1="960" y1="290" x2="935" y2="290" stroke="#a7f3d0" stroke-width="4" stroke-linecap="round"/>
+      <line x1="1080" y1="230" x2="1105" y2="230" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+      <line x1="1080" y1="260" x2="1105" y2="260" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+      <line x1="1080" y1="290" x2="1105" y2="290" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <!-- power/lightning badge -->
+    <g opacity="0.95">
+      <circle cx="1085" cy="410" r="42" fill="url(#boltGrad)"/>
+      <path d="M1090 380 L1068 415 L1084 415 L1080 442 L1104 407 L1088 407 Z" fill="#7a5a06"/>
+    </g>
+
+    <!-- small deco squares -->
+    <g opacity="0.32">
+      <rect x="130" y="150" width="42" height="42" rx="11" fill="none" stroke="#5eead4" stroke-width="2.5"/>
+      <circle cx="151" cy="171" r="8" fill="#5eead4"/>
+    </g>
+
+    <!-- text card -->
+    <rect x="90" y="150" width="820" height="320" rx="28" fill="url(#cardGrad)"/>
+    <text x="130" y="235" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="42" font-weight="700" fill="#e6fffa">AI 데이터센터 전력 수요 급증</text>
+    <text x="130" y="300" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="38" font-weight="700" fill="#7dd3fc">국내 전력망 감당할 수 있을까</text>
+    <text x="130" y="360" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="21" fill="#cffafe" opacity="0.9">확산되는 AI, 커지는 전력 부담과 인프라 대응 논의</text>
+
+    <rect x="130" y="95" width="120" height="42" rx="21" fill="url(#tagGrad)" opacity="0.95"/>
+    <text x="190" y="122" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="22" font-weight="700" fill="#0a1a2e">AI 소식</text>
+  </g>
+</svg>

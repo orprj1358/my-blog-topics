@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf2ff"/>
+      <stop offset="100%" stop-color="#e6eefc"/>
+    </linearGradient>
+    <linearGradient id="leftHeader" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="rightHeader" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="rowCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f2f6fc"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="barLow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+    <linearGradient id="barHigh" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f2c4a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#0f2c4a">규제지역 지정 전 vs 지정 후</text>
+  <text x="400" y="74" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#3b5a78">지정 발표 하나로 대출·세금·거래 조건이 함께 바뀐다 (예시 구성)</text>
+
+  <!-- column headers -->
+  <rect x="60" y="100" width="310" height="64" rx="18" fill="url(#leftHeader)" filter="url(#cardShadow)"/>
+  <circle cx="102" cy="132" r="20" fill="#ffffff" opacity="0.85"/>
+  <text x="102" y="139" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#475569">○</text>
+  <text x="230" y="139" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#ffffff">지정 전</text>
+
+  <rect x="430" y="100" width="310" height="64" rx="18" fill="url(#rightHeader)" filter="url(#cardShadow)"/>
+  <circle cx="472" cy="132" r="20" fill="#ffffff" opacity="0.85"/>
+  <text x="472" y="139" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#1e3a8a">●</text>
+  <text x="600" y="139" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#0a1628">지정 후</text>
+
+  <!-- row 1: 대출 한도 -->
+  <circle cx="30" cy="212" r="15" fill="url(#badgeGrad)"/>
+  <text x="30" y="217" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">1</text>
+  <text x="55" y="217" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#0f2c4a">대출 한도(LTV·DSR)</text>
+
+  <rect x="60" y="230" width="310" height="50" rx="14" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <rect x="80" y="248" width="220" height="14" rx="7" fill="url(#barLow)"/>
+  <text x="90" y="260" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#475569" opacity="0"> </text>
+  <text x="185" y="260" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#334155" text-anchor="middle">상대적으로 완화</text>
+
+  <rect x="430" y="230" width="310" height="50" rx="14" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <rect x="450" y="248" width="120" height="14" rx="7" fill="url(#barHigh)"/>
+  <text x="555" y="260" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#1e3a8a" text-anchor="middle">한도 축소 적용</text>
+
+  <!-- row 2: 세금 -->
+  <circle cx="30" cy="322" r="15" fill="url(#badgeGrad)"/>
+  <text x="30" y="327" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">2</text>
+  <text x="55" y="327" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#0f2c4a">양도세·종부세</text>
+
+  <rect x="60" y="340" width="310" height="50" rx="14" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <text x="215" y="370" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#475569">일반세율 위주 적용</text>
+
+  <rect x="430" y="340" width="310" height="50" rx="14" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <text x="585" y="370" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#1e3a8a">다주택자 중과 가능성 확대</text>
+
+  <!-- row 3: 전매·재당첨 제한 -->
+  <circle cx="30" cy="432" r="15" fill="url(#badgeGrad)"/>
+  <text x="30" y="437" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">3</text>
+  <text x="55" y="437" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#0f2c4a">전매·재당첨 제한</text>
+
+  <rect x="60" y="450" width="310" height="50" rx="14" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <text x="215" y="480" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#475569">비교적 자유로운 거래</text>
+
+  <rect x="430" y="450" width="310" height="50" rx="14" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <text x="585" y="480" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#1e3a8a">제한 기간 늘어남</text>
+
+  <!-- row 4: 시장 반응 -->
+  <circle cx="30" cy="542" r="15" fill="url(#badgeGrad)"/>
+  <text x="30" y="547" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff">4</text>
+  <text x="55" y="547" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#0f2c4a">시장 반응</text>
+
+  <rect x="60" y="560" width="310" height="30" rx="14" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <text x="215" y="580" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#475569">매수세 확산 우려 지역</text>
+
+  <rect x="430" y="560" width="310" height="30" rx="14" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <text x="585" y="580" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="14" fill="#1e3a8a">거래 위축·인접지 풍선효과</text>
+</svg>

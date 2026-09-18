@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="50%" stop-color="#123a5e"/>
+      <stop offset="100%" stop-color="#1e5f8c"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a5b4fc" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#a5b4fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="houseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="630" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <circle cx="1010" cy="150" r="270" fill="url(#glow1)"/>
+    <circle cx="150" cy="520" r="260" fill="url(#glow2)"/>
+
+    <!-- house silhouette cluster -->
+    <g opacity="0.95">
+      <path d="M1020 260 L1020 340 L1120 340 L1120 260 L1070 220 Z" fill="url(#houseGrad)"/>
+      <path d="M1010 262 L1070 210 L1130 262 Z" fill="url(#roofGrad)"/>
+      <rect x="1055" y="290" width="30" height="50" rx="4" fill="#0a1628" opacity="0.35"/>
+    </g>
+
+    <g opacity="0.8">
+      <path d="M960 340 L960 400 L1010 400 L1010 340 L985 315 Z" fill="url(#houseGrad)" opacity="0.7"/>
+      <path d="M953 342 L985 310 L1017 342 Z" fill="url(#roofGrad)" opacity="0.8"/>
+    </g>
+
+    <!-- badge: shield / check for regulation -->
+    <g opacity="0.95">
+      <circle cx="1085" cy="440" r="40" fill="url(#roofGrad)"/>
+      <path d="M1085 418 L1105 426 L1105 442 C1105 456 1096 465 1085 468 C1074 465 1065 456 1065 442 L1065 426 Z" fill="#7a5a06" opacity="0.85"/>
+    </g>
+
+    <!-- small deco squares -->
+    <g opacity="0.32">
+      <rect x="130" y="150" width="42" height="42" rx="11" fill="none" stroke="#a5b4fc" stroke-width="2.5"/>
+      <circle cx="151" cy="171" r="8" fill="#a5b4fc"/>
+    </g>
+
+    <!-- text card -->
+    <rect x="90" y="150" width="850" height="330" rx="28" fill="url(#cardGrad)"/>
+    <text x="130" y="235" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="40" font-weight="700" fill="#eaf3ff">규제지역 추가 지정</text>
+    <text x="130" y="295" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="36" font-weight="700" fill="#93c5fd">다시 검토되나</text>
+    <text x="130" y="350" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="21" fill="#dbeafe" opacity="0.9">이번엔 어디까지 넓어질까, 대출·세금까지 바뀌는 이유</text>
+
+    <rect x="130" y="95" width="132" height="42" rx="21" fill="url(#tagGrad)" opacity="0.95"/>
+    <text x="196" y="122" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#0a1628">부동산정책</text>
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a1608"/>
+      <stop offset="50%" stop-color="#7c3a10"/>
+      <stop offset="100%" stop-color="#c2620f"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fde68a" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#fde68a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="coinGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="630" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <circle cx="1010" cy="150" r="270" fill="url(#glow1)"/>
+    <circle cx="150" cy="520" r="260" fill="url(#glow2)"/>
+
+    <!-- coin stack cluster -->
+    <g opacity="0.95">
+      <ellipse cx="1055" cy="330" rx="80" ry="26" fill="url(#coinGrad2)"/>
+      <ellipse cx="1055" cy="308" rx="80" ry="26" fill="url(#coinGrad)"/>
+      <ellipse cx="1055" cy="286" rx="80" ry="26" fill="url(#coinGrad2)"/>
+      <ellipse cx="1055" cy="264" rx="80" ry="26" fill="url(#coinGrad)"/>
+      <text x="1055" y="272" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="30" font-weight="700" fill="#7a4a06">%</text>
+    </g>
+
+    <!-- small coin -->
+    <g opacity="0.85">
+      <ellipse cx="945" cy="420" rx="46" ry="16" fill="url(#coinGrad2)"/>
+      <ellipse cx="945" cy="406" rx="46" ry="16" fill="url(#coinGrad)"/>
+      <text x="945" y="412" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="18" font-weight="700" fill="#8a4a06">₩</text>
+    </g>
+
+    <!-- badge: down-adjust arrow for tightening limit -->
+    <g opacity="0.95">
+      <circle cx="1085" cy="470" r="38" fill="url(#tagGrad)"/>
+      <path d="M1085 450 L1085 480 M1073 468 L1085 482 L1097 468" stroke="#7a4a06" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- small deco squares -->
+    <g opacity="0.32">
+      <rect x="130" y="150" width="42" height="42" rx="11" fill="none" stroke="#fde68a" stroke-width="2.5"/>
+      <circle cx="151" cy="171" r="8" fill="#fde68a"/>
+    </g>
+
+    <!-- text card -->
+    <rect x="90" y="150" width="850" height="330" rx="28" fill="url(#cardGrad)"/>
+    <text x="130" y="235" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="40" font-weight="700" fill="#fff7ec">신용대출 한도</text>
+    <text x="130" y="295" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="36" font-weight="700" fill="#fdba74">다시 조이나</text>
+    <text x="130" y="350" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="21" fill="#ffedd5" opacity="0.9">마이너스통장까지 영향권, 대환 전 확인할 것들</text>
+
+    <rect x="130" y="95" width="86" height="42" rx="21" fill="url(#tagGrad)" opacity="0.95"/>
+    <text x="173" y="122" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#4a2c04">대출</text>
+  </g>
+</svg>

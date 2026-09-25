@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b1608"/>
+      <stop offset="50%" stop-color="#7c3f0a"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.40"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fb923c" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#fb923c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="coinGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="630" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <circle cx="1010" cy="150" r="270" fill="url(#glow1)"/>
+    <circle cx="150" cy="520" r="260" fill="url(#glow2)"/>
+
+    <!-- stacked coins with percent badge -->
+    <g opacity="0.95">
+      <ellipse cx="1015" cy="360" rx="92" ry="26" fill="url(#coinGrad2)"/>
+      <ellipse cx="1015" cy="330" rx="92" ry="26" fill="url(#coinGrad)"/>
+      <ellipse cx="1015" cy="300" rx="92" ry="26" fill="url(#coinGrad2)"/>
+      <circle cx="1015" cy="230" r="66" fill="url(#coinGrad)"/>
+      <text x="1015" y="248" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="52" font-weight="700" fill="#7c3f0a">%</text>
+    </g>
+
+    <!-- small deco squares -->
+    <g opacity="0.32">
+      <rect x="130" y="150" width="42" height="42" rx="11" fill="none" stroke="#fbbf24" stroke-width="2.5"/>
+      <circle cx="151" cy="171" r="8" fill="#fbbf24"/>
+    </g>
+
+    <!-- text card -->
+    <rect x="90" y="150" width="830" height="330" rx="28" fill="url(#cardGrad)"/>
+    <text x="130" y="235" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="40" font-weight="700" fill="#fff7ed">스트레스 DSR 확대 이후,</text>
+    <text x="130" y="295" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="36" font-weight="700" fill="#fde68a">내 대출 한도 어떻게 달라졌나</text>
+    <text x="130" y="350" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="21" fill="#fef3c7" opacity="0.9">금리 유형별 한도 차이, 미리 확인하기</text>
+
+    <rect x="130" y="95" width="72" height="42" rx="21" fill="url(#tagGrad)" opacity="0.95"/>
+    <text x="166" y="122" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#2b1608">대출</text>
+  </g>
+</svg>

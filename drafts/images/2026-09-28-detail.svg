@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="leftHeader" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <linearGradient id="rightHeader" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+    <linearGradient id="rowCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#fff7ed"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7c3f0a" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="46" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#7c3f0a">소득요건, 무엇이 달라지나</text>
+  <text x="400" y="74" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#57534e">현재 기준과 완화 논의 기준 비교 (개념 예시)</text>
+
+  <!-- column headers -->
+  <rect x="60" y="100" width="310" height="64" rx="18" fill="url(#leftHeader)" filter="url(#cardShadow)"/>
+  <circle cx="102" cy="132" r="20" fill="#ffffff" opacity="0.85"/>
+  <text x="102" y="139" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#475569">현재</text>
+  <text x="230" y="139" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#ffffff">소득 상한 기준</text>
+
+  <rect x="430" y="100" width="310" height="64" rx="18" fill="url(#rightHeader)" filter="url(#cardShadow)"/>
+  <circle cx="472" cy="132" r="20" fill="#ffffff" opacity="0.85"/>
+  <text x="472" y="139" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#c2410c">완화 논의</text>
+  <text x="610" y="139" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#fff7ed">대상 범위 확대</text>
+
+  <!-- row 1 -->
+  <circle cx="30" cy="212" r="15" fill="url(#badgeGrad)"/>
+  <text x="30" y="217" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#7a5a06">1</text>
+  <text x="55" y="217" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#7c3f0a">소득 기준선</text>
+
+  <rect x="60" y="230" width="310" height="70" rx="16" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <text x="80" y="262" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#334155">맞벌이 부부 상당수가</text>
+  <text x="80" y="284" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#334155">기준 초과로 대상 제외</text>
+
+  <rect x="430" y="230" width="310" height="70" rx="16" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <text x="450" y="262" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#334155">소득 상한 상향으로</text>
+  <text x="450" y="284" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#334155">지원 대상 폭 넓어짐</text>
+
+  <!-- row 2 -->
+  <circle cx="30" cy="332" r="15" fill="url(#badgeGrad)"/>
+  <text x="30" y="337" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#7a5a06">2</text>
+  <text x="55" y="337" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#7c3f0a">우대금리</text>
+
+  <rect x="60" y="350" width="310" height="70" rx="16" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <text x="80" y="382" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#334155">소득 구간별로</text>
+  <text x="80" y="404" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#334155">우대금리 차등 적용</text>
+
+  <rect x="430" y="350" width="310" height="70" rx="16" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <text x="450" y="382" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#334155">신규 편입 구간은</text>
+  <text x="450" y="404" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#334155">우대폭 축소 가능성 논의</text>
+
+  <!-- row 3 -->
+  <circle cx="30" cy="452" r="15" fill="url(#badgeGrad)"/>
+  <text x="30" y="457" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="700" fill="#7a5a06">3</text>
+  <text x="55" y="457" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" font-weight="700" fill="#7c3f0a">필수 요건</text>
+
+  <rect x="60" y="470" width="310" height="70" rx="16" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <text x="80" y="502" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#334155">무주택 또는</text>
+  <text x="80" y="524" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#334155">처분조건부 1주택</text>
+
+  <rect x="430" y="470" width="310" height="70" rx="16" fill="url(#rowCard)" filter="url(#cardShadow)"/>
+  <text x="450" y="502" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#334155">요건은 동일, 세부 확정은</text>
+  <text x="450" y="524" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="15" fill="#334155">추후 공고로 안내 예정</text>
+
+  <text x="400" y="580" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#78716c">※ 위 항목은 흐름을 설명하기 위한 개념적 예시입니다</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="50%" stop-color="#123a5e"/>
+      <stop offset="100%" stop-color="#1e5f8c"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a5b4fc" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#a5b4fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="houseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="630" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <circle cx="1010" cy="150" r="270" fill="url(#glow1)"/>
+    <circle cx="150" cy="520" r="260" fill="url(#glow2)"/>
+
+    <!-- apartment cluster, upper right: several towers of varying height -->
+    <g opacity="0.95">
+      <rect x="1000" y="180" width="130" height="260" rx="10" fill="url(#houseGrad)"/>
+      <rect x="1018" y="204" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1056" y="204" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1094" y="204" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1018" y="246" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1056" y="246" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1094" y="246" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1018" y="288" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1056" y="288" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1094" y="288" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1018" y="330" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1056" y="330" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1094" y="330" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1018" y="372" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1056" y="372" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+      <rect x="1094" y="372" width="24" height="24" rx="4" fill="#0a1628" opacity="0.4"/>
+    </g>
+    <g opacity="0.72">
+      <rect x="925" y="260" width="66" height="180" rx="8" fill="url(#houseGrad)"/>
+      <rect x="939" y="280" width="16" height="16" rx="3" fill="#0a1628" opacity="0.4"/>
+      <rect x="965" y="280" width="16" height="16" rx="3" fill="#0a1628" opacity="0.4"/>
+      <rect x="939" y="308" width="16" height="16" rx="3" fill="#0a1628" opacity="0.4"/>
+      <rect x="965" y="308" width="16" height="16" rx="3" fill="#0a1628" opacity="0.4"/>
+      <rect x="939" y="336" width="16" height="16" rx="3" fill="#0a1628" opacity="0.4"/>
+      <rect x="965" y="336" width="16" height="16" rx="3" fill="#0a1628" opacity="0.4"/>
+      <rect x="939" y="364" width="16" height="16" rx="3" fill="#0a1628" opacity="0.4"/>
+      <rect x="965" y="364" width="16" height="16" rx="3" fill="#0a1628" opacity="0.4"/>
+    </g>
+
+    <!-- crane / construction motif over the towers -->
+    <g opacity="0.98" stroke="#fbbf24" stroke-width="6" stroke-linecap="round">
+      <line x1="1148" y1="470" x2="1148" y2="180"/>
+      <line x1="1148" y1="190" x2="1060" y2="190"/>
+      <line x1="1148" y1="190" x2="1186" y2="210"/>
+      <line x1="1122" y1="190" x2="1122" y2="230"/>
+    </g>
+    <circle cx="1148" cy="470" r="18" fill="url(#roofGrad)"/>
+
+    <!-- small deco squares -->
+    <g opacity="0.32">
+      <rect x="130" y="150" width="42" height="42" rx="11" fill="none" stroke="#a5b4fc" stroke-width="2.5"/>
+      <circle cx="151" cy="171" r="8" fill="#a5b4fc"/>
+    </g>
+
+    <!-- text card -->
+    <rect x="90" y="150" width="820" height="330" rx="28" fill="url(#cardGrad)"/>
+    <text x="130" y="235" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="40" font-weight="700" fill="#eaf3ff">1기 신도시 재건축</text>
+    <text x="130" y="295" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="36" font-weight="700" fill="#93c5fd">선도지구 이주 시계</text>
+    <text x="130" y="350" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="21" fill="#dbeafe" opacity="0.9">계획에서 실행 단계로, 빨라지는 재건축 시계</text>
+
+    <rect x="130" y="95" width="132" height="42" rx="21" fill="url(#tagGrad)" opacity="0.95"/>
+    <text x="196" y="122" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#0a1628">부동산정책</text>
+  </g>
+</svg>

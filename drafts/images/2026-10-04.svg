@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b1706"/>
+      <stop offset="50%" stop-color="#5c3414"/>
+      <stop offset="100%" stop-color="#9a5a1f"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fcd34d" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#fcd34d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fb923c" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#fb923c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="coinGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="630" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <circle cx="1030" cy="150" r="280" fill="url(#glow1)"/>
+    <circle cx="150" cy="520" r="250" fill="url(#glow2)"/>
+
+    <!-- coin stack cluster, right side -->
+    <g opacity="0.95">
+      <circle cx="1030" cy="430" r="80" fill="url(#coinGrad2)"/>
+      <circle cx="1030" cy="400" r="80" fill="url(#coinGrad)"/>
+      <text x="1030" y="412" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#5c3414" text-anchor="middle">%</text>
+    </g>
+
+    <!-- percent / limit badge -->
+    <g opacity="0.95">
+      <circle cx="1120" cy="210" r="56" fill="url(#tagGrad)"/>
+      <rect x="1096" y="188" width="48" height="44" rx="6" fill="#5c3414" opacity="0.85"/>
+      <line x1="1104" y1="200" x2="1136" y2="200" stroke="#fde68a" stroke-width="3" stroke-linecap="round"/>
+      <line x1="1104" y1="210" x2="1130" y2="210" stroke="#fde68a" stroke-width="3" stroke-linecap="round"/>
+      <line x1="1104" y1="220" x2="1124" y2="220" stroke="#fde68a" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- small badge accent -->
+    <g opacity="0.9">
+      <circle cx="845" cy="500" r="34" fill="url(#tagGrad)"/>
+      <text x="845" y="509" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#5c3414" text-anchor="middle">₩</text>
+    </g>
+
+    <!-- subtle rounded frame line -->
+    <rect x="40" y="40" width="1120" height="550" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+
+    <!-- title text -->
+    <text x="80" y="290" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#fff7ed">생활안정자금 대출,</text>
+    <text x="80" y="360" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#fff7ed">한도 보완책 나올까</text>
+    <text x="80" y="410" font-family="Arial, sans-serif" font-size="26" fill="#fde68a" opacity="0.9">실수요자가 챙길 점은</text>
+  </g>
+</svg>

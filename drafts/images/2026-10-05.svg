@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f1226"/>
+      <stop offset="50%" stop-color="#1e2259"/>
+      <stop offset="100%" stop-color="#155e63"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5b4fc"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="chipGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="tagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0e7ff"/>
+      <stop offset="100%" stop-color="#a5b4fc"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="630" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <circle cx="1030" cy="150" r="280" fill="url(#glow1)"/>
+    <circle cx="160" cy="520" r="250" fill="url(#glow2)"/>
+
+    <!-- network / chip motif, right side -->
+    <g opacity="0.95">
+      <rect x="950" y="340" width="150" height="150" rx="24" fill="url(#chipGrad)"/>
+      <rect x="985" y="375" width="80" height="80" rx="12" fill="#0f1226" opacity="0.55"/>
+      <circle cx="1025" cy="415" r="14" fill="#e0e7ff"/>
+      <line x1="950" y1="380" x2="915" y2="360" stroke="#a5b4fc" stroke-width="4" stroke-linecap="round"/>
+      <line x1="950" y1="440" x2="915" y2="460" stroke="#a5b4fc" stroke-width="4" stroke-linecap="round"/>
+      <line x1="1100" y1="380" x2="1135" y2="360" stroke="#a5b4fc" stroke-width="4" stroke-linecap="round"/>
+      <line x1="1100" y1="440" x2="1135" y2="460" stroke="#a5b4fc" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="915" cy="360" r="8" fill="#a5b4fc"/>
+      <circle cx="915" cy="460" r="8" fill="#a5b4fc"/>
+      <circle cx="1135" cy="360" r="8" fill="#a5b4fc"/>
+      <circle cx="1135" cy="460" r="8" fill="#a5b4fc"/>
+    </g>
+
+    <!-- cart / payment badge -->
+    <g opacity="0.95">
+      <circle cx="1105" cy="200" r="54" fill="url(#chipGrad2)"/>
+      <path d="M1082 185 h14 l8 32 h30" stroke="#0f1226" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="1104" cy="223" r="5" fill="#0f1226"/>
+      <circle cx="1122" cy="223" r="5" fill="#0f1226"/>
+    </g>
+
+    <!-- small badge accent -->
+    <g opacity="0.9">
+      <circle cx="845" cy="500" r="32" fill="url(#tagGrad)"/>
+      <text x="845" y="509" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1e2259" text-anchor="middle">AI</text>
+    </g>
+
+    <!-- subtle rounded frame line -->
+    <rect x="40" y="40" width="1120" height="550" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+
+    <!-- title text -->
+    <text x="80" y="280" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#eef2ff">AI 에이전트가 대신</text>
+    <text x="80" y="350" font-family="Arial, sans-serif" font-size="52" font-weight="700" fill="#eef2ff">검색하고 결제까지</text>
+    <text x="80" y="400" font-family="Arial, sans-serif" font-size="26" fill="#5eead4" opacity="0.9">'에이전틱 AI' 시대의 득과 실</text>
+  </g>
+</svg>

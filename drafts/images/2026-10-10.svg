@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1a2b"/>
+      <stop offset="50%" stop-color="#153355"/>
+      <stop offset="100%" stop-color="#1f4e79"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="houseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="630" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <circle cx="980" cy="160" r="300" fill="url(#glow1)"/>
+    <circle cx="1050" cy="470" r="230" fill="url(#glow2)"/>
+
+    <!-- simple house icon -->
+    <g opacity="0.95">
+      <polygon points="1000,190 1115,270 885,270" fill="url(#roofGrad)"/>
+      <rect x="915" y="268" width="170" height="130" rx="10" fill="url(#houseGrad)"/>
+      <rect x="975" y="318" width="50" height="80" rx="6" fill="#1e3a5f"/>
+      <rect x="935" y="300" width="30" height="30" rx="4" fill="#e0f2fe" opacity="0.9"/>
+      <rect x="1035" y="300" width="30" height="30" rx="4" fill="#e0f2fe" opacity="0.9"/>
+    </g>
+
+    <!-- check badge representing 특별공급 자격 -->
+    <g opacity="0.95">
+      <circle cx="1040" cy="500" r="60" fill="url(#badgeGrad)"/>
+      <circle cx="1040" cy="500" r="60" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="3"/>
+      <path d="M 1012 500 L 1032 520 L 1070 478" fill="none" stroke="#1d4ed8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- small accent badge -->
+    <g opacity="0.9">
+      <circle cx="890" cy="470" r="24" fill="#bfdbfe"/>
+      <text x="890" y="478" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1e3a5f" text-anchor="middle">+</text>
+    </g>
+
+    <!-- subtle rounded frame line -->
+    <rect x="40" y="40" width="1120" height="550" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+
+    <!-- title text -->
+    <text x="80" y="250" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#eff6ff">신혼부부·다자녀</text>
+    <text x="80" y="318" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#eff6ff">특별공급 요건 완화</text>
+    <text x="80" y="370" font-family="Arial, sans-serif" font-size="26" fill="#93c5fd" opacity="0.95">청약 전략, 어떻게 달라지나</text>
+  </g>
+</svg>

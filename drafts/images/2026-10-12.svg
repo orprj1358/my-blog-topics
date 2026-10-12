@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3a1d0a"/>
+      <stop offset="50%" stop-color="#6b3410"/>
+      <stop offset="100%" stop-color="#b8560f"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fb923c" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#fb923c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="coinGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffedd5"/>
+      <stop offset="100%" stop-color="#fdba74"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="630" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <circle cx="980" cy="160" r="300" fill="url(#glow1)"/>
+    <circle cx="1040" cy="480" r="230" fill="url(#glow2)"/>
+
+    <!-- stacked coins -->
+    <g opacity="0.95">
+      <ellipse cx="990" cy="360" rx="100" ry="34" fill="url(#coinGrad2)"/>
+      <ellipse cx="990" cy="330" rx="100" ry="34" fill="url(#coinGrad)"/>
+      <ellipse cx="990" cy="300" rx="100" ry="34" fill="url(#coinGrad2)"/>
+      <ellipse cx="990" cy="270" rx="100" ry="34" fill="url(#coinGrad)"/>
+    </g>
+
+    <!-- percent badge representing low interest -->
+    <g opacity="0.95">
+      <circle cx="1030" cy="500" r="62" fill="url(#badgeGrad)"/>
+      <circle cx="1030" cy="500" r="62" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="3"/>
+      <text x="1030" y="517" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#9a3412" text-anchor="middle">%</text>
+    </g>
+
+    <!-- small accent badge -->
+    <g opacity="0.9">
+      <circle cx="880" cy="470" r="24" fill="#fed7aa"/>
+      <text x="880" y="478" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#7c2d12" text-anchor="middle">+</text>
+    </g>
+
+    <!-- subtle rounded frame line -->
+    <rect x="40" y="40" width="1120" height="550" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+
+    <!-- title text -->
+    <text x="80" y="250" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#fff7ed">정책서민금융 확대</text>
+    <text x="80" y="318" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#fff7ed">논의, 달라지는 것은</text>
+    <text x="80" y="370" font-family="Arial, sans-serif" font-size="26" fill="#fdba74" opacity="0.95">서민 금융 접근성, 어디까지 넓어질까</text>
+  </g>
+</svg>

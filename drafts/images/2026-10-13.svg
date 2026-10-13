@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1d33"/>
+      <stop offset="50%" stop-color="#143a5c"/>
+      <stop offset="100%" stop-color="#1f5e8f"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="houseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <linearGradient id="houseGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#93c5fd"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="630" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <circle cx="980" cy="160" r="300" fill="url(#glow1)"/>
+    <circle cx="1040" cy="480" r="230" fill="url(#glow2)"/>
+
+    <!-- simple skyline silhouettes -->
+    <g opacity="0.9">
+      <rect x="840" y="330" width="70" height="170" rx="10" fill="url(#houseGrad2)"/>
+      <rect x="930" y="290" width="80" height="210" rx="10" fill="url(#houseGrad)"/>
+      <rect x="1030" y="350" width="60" height="150" rx="10" fill="url(#houseGrad2)"/>
+    </g>
+
+    <!-- house icon -->
+    <g opacity="0.95">
+      <path d="M 870 300 L 935 250 L 1000 300 L 1000 300 L 1000 300" fill="none"/>
+      <polygon points="935,245 1005,300 865,300" fill="url(#houseGrad)"/>
+      <rect x="890" y="300" width="90" height="70" rx="8" fill="url(#houseGrad2)"/>
+    </g>
+
+    <!-- accent badge -->
+    <g opacity="0.95">
+      <circle cx="1030" cy="500" r="56" fill="url(#badgeGrad)"/>
+      <circle cx="1030" cy="500" r="56" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="3"/>
+      <text x="1030" y="514" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#1e3a5f" text-anchor="middle">+</text>
+    </g>
+
+    <!-- small accent dot -->
+    <g opacity="0.9">
+      <circle cx="880" cy="470" r="22" fill="#bfdbfe"/>
+      <text x="880" y="478" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1e3a5f" text-anchor="middle">3</text>
+    </g>
+
+    <!-- subtle rounded frame line -->
+    <rect x="40" y="40" width="1120" height="550" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+
+    <!-- title text -->
+    <text x="80" y="250" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#f0f9ff">3기 신도시 추가 지정</text>
+    <text x="80" y="318" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#f0f9ff">논의, 어디가 유력할까</text>
+    <text x="80" y="370" font-family="Arial, sans-serif" font-size="26" fill="#93c5fd" opacity="0.95">수도권 공급 부족, 해법 찾기 본격화</text>
+  </g>
+</svg>

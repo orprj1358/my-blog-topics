@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="phoneGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0e7ff"/>
+      <stop offset="100%" stop-color="#a5b4fc"/>
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c7d2fe"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <clipPath id="round">
+      <rect x="0" y="0" width="1200" height="630" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="630" fill="url(#bg)"/>
+    <circle cx="980" cy="150" r="300" fill="url(#glow1)"/>
+    <circle cx="1020" cy="470" r="240" fill="url(#glow2)"/>
+
+    <!-- network motif lines -->
+    <g opacity="0.5" stroke="#5eead4" stroke-width="2">
+      <line x1="840" y1="180" x2="930" y2="230"/>
+      <line x1="1070" y1="200" x2="980" y2="250"/>
+      <line x1="930" y1="230" x2="980" y2="250"/>
+      <line x1="860" y1="300" x2="930" y2="230"/>
+      <line x1="1050" y1="330" x2="980" y2="250"/>
+    </g>
+    <g opacity="0.8" fill="#a5f3fc">
+      <circle cx="840" cy="180" r="5"/>
+      <circle cx="1070" cy="200" r="5"/>
+      <circle cx="930" cy="230" r="6"/>
+      <circle cx="980" cy="250" r="6"/>
+      <circle cx="860" cy="300" r="5"/>
+      <circle cx="1050" cy="330" r="5"/>
+    </g>
+
+    <!-- phone silhouette -->
+    <rect x="900" y="280" width="170" height="300" rx="26" fill="url(#phoneGrad)" opacity="0.95"/>
+    <rect x="916" y="310" width="138" height="220" rx="10" fill="#1e1b4b" opacity="0.85"/>
+
+    <!-- chip icon inside phone -->
+    <g>
+      <rect x="950" y="375" width="70" height="70" rx="12" fill="url(#chipGrad)"/>
+      <line x1="965" y1="375" x2="965" y2="358" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+      <line x1="985" y1="375" x2="985" y2="358" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+      <line x1="1005" y1="375" x2="1005" y2="358" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+      <line x1="965" y1="445" x2="965" y2="462" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+      <line x1="985" y1="445" x2="985" y2="462" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+      <line x1="1005" y1="445" x2="1005" y2="462" stroke="#5eead4" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <!-- lock badge for privacy -->
+    <g>
+      <circle cx="1040" cy="500" r="40" fill="url(#badgeGrad)"/>
+      <rect x="1024" y="496" width="32" height="24" rx="5" fill="#1e1b4b"/>
+      <path d="M 1030 496 L 1030 486 A 10 10 0 0 1 1050 486 L 1050 496" fill="none" stroke="#1e1b4b" stroke-width="5"/>
+    </g>
+
+    <!-- subtle rounded frame line -->
+    <rect x="40" y="40" width="1120" height="550" rx="22" fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+
+    <!-- title text -->
+    <text x="80" y="250" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#f0fdfa">온디바이스 AI 탑재 확산</text>
+    <text x="80" y="318" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#f0fdfa">개인정보는 더 안전해질까</text>
+    <text x="80" y="370" font-family="Arial, sans-serif" font-size="25" fill="#5eead4" opacity="0.95">스마트폰 속 AI, 처리 방식이 달라진다</text>
+  </g>
+</svg>

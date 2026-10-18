@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#ecfeff"/>
+    </linearGradient>
+    <linearGradient id="oldCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0e7ff"/>
+      <stop offset="100%" stop-color="#c7d2fe"/>
+    </linearGradient>
+    <linearGradient id="newCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#99f6e4"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+    <linearGradient id="oldBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="newBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#312e81" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pagebg)"/>
+
+  <text x="400" y="50" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="26" font-weight="700" fill="#1e1b4b">검색 방식의 변화: 기존 방식 vs AI 브라우저</text>
+
+  <!-- column headers -->
+  <rect x="60" y="86" width="300" height="46" rx="14" fill="url(#oldBadge)" filter="url(#cardShadow)"/>
+  <text x="210" y="116" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="21" font-weight="700" fill="#ffffff">기존 검색 방식</text>
+
+  <rect x="440" y="86" width="300" height="46" rx="14" fill="url(#newBadge)" filter="url(#cardShadow)"/>
+  <text x="590" y="116" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="21" font-weight="700" fill="#ffffff">AI 브라우저 방식</text>
+
+  <!-- LEFT COLUMN steps -->
+  <!-- step 1 -->
+  <rect x="60" y="160" width="300" height="100" rx="16" fill="url(#oldCard)" filter="url(#cardShadow)"/>
+  <circle cx="98" cy="196" r="20" fill="url(#oldBadge)"/>
+  <text x="98" y="203" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">1</text>
+  <text x="128" y="192" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#312e81">키워드 입력</text>
+  <text x="128" y="216" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#4338ca">검색창에 궁금한 단어를</text>
+  <text x="128" y="236" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#4338ca">직접 입력</text>
+
+  <!-- arrow down -->
+  <path d="M210 262 L210 292" stroke="#818cf8" stroke-width="3" marker-end="url(#arrowOld)"/>
+  <polygon points="210,296 203,284 217,284" fill="#818cf8"/>
+
+  <!-- step 2 -->
+  <rect x="60" y="302" width="300" height="100" rx="16" fill="url(#oldCard)" filter="url(#cardShadow)"/>
+  <circle cx="98" cy="338" r="20" fill="url(#oldBadge)"/>
+  <text x="98" y="345" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">2</text>
+  <text x="128" y="334" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#312e81">링크 목록 확인</text>
+  <text x="128" y="358" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#4338ca">수십 개의 검색 결과를</text>
+  <text x="128" y="378" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#4338ca">훑어보며 선별</text>
+
+  <path d="M210 404 L210 434" stroke="#818cf8" stroke-width="3"/>
+  <polygon points="210,438 203,426 217,426" fill="#818cf8"/>
+
+  <!-- step 3 -->
+  <rect x="60" y="444" width="300" height="100" rx="16" fill="url(#oldCard)" filter="url(#cardShadow)"/>
+  <circle cx="98" cy="480" r="20" fill="url(#oldBadge)"/>
+  <text x="98" y="487" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">3</text>
+  <text x="128" y="476" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#312e81">직접 클릭·비교</text>
+  <text x="128" y="500" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#4338ca">여러 페이지를 열어</text>
+  <text x="128" y="520" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#4338ca">직접 내용을 대조</text>
+
+  <!-- RIGHT COLUMN steps -->
+  <rect x="440" y="160" width="300" height="100" rx="16" fill="url(#newCard)" filter="url(#cardShadow)"/>
+  <circle cx="478" cy="196" r="20" fill="url(#newBadge)"/>
+  <text x="478" y="203" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">1</text>
+  <text x="508" y="192" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#134e4a">대화형 질문</text>
+  <text x="508" y="216" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#0f766e">원하는 내용을 자연스러운</text>
+  <text x="508" y="236" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#0f766e">문장으로 요청</text>
+
+  <path d="M590 262 L590 292" stroke="#2dd4bf" stroke-width="3"/>
+  <polygon points="590,296 583,284 597,284" fill="#2dd4bf"/>
+
+  <rect x="440" y="302" width="300" height="100" rx="16" fill="url(#newCard)" filter="url(#cardShadow)"/>
+  <circle cx="478" cy="338" r="20" fill="url(#newBadge)"/>
+  <text x="478" y="345" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">2</text>
+  <text x="508" y="334" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#134e4a">AI가 웹 탐색·종합</text>
+  <text x="508" y="358" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#0f766e">여러 페이지를 대신 돌며</text>
+  <text x="508" y="378" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#0f766e">내용을 요약·정리</text>
+
+  <path d="M590 404 L590 434" stroke="#2dd4bf" stroke-width="3"/>
+  <polygon points="590,438 583,426 597,426" fill="#2dd4bf"/>
+
+  <rect x="440" y="444" width="300" height="100" rx="16" fill="url(#newCard)" filter="url(#cardShadow)"/>
+  <circle cx="478" cy="480" r="20" fill="url(#newBadge)"/>
+  <text x="478" y="487" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">3</text>
+  <text x="508" y="476" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#134e4a">바로 쓰는 결과 수령</text>
+  <text x="508" y="500" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#0f766e">정리된 답변 또는 수행된</text>
+  <text x="508" y="520" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#0f766e">작업 결과를 바로 확인</text>
+
+  <!-- footer note -->
+  <text x="400" y="575" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#64748b">※ 과정은 서비스별로 차이가 있으며, 위 내용은 일반적인 흐름을 단순화한 예시입니다.</text>
+</svg>

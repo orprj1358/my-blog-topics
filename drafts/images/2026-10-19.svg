@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="55%" stop-color="#3730a3"/>
+      <stop offset="100%" stop-color="#115e59"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a5b4fc" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#a5b4fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chip" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5f3fc"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="scale" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" rx="28" fill="url(#bg)"/>
+
+  <circle cx="930" cy="160" r="230" fill="url(#glow2)"/>
+  <circle cx="220" cy="500" r="260" fill="url(#glow1)"/>
+
+  <!-- decorative network motif, top right -->
+  <g opacity="0.85">
+    <circle cx="960" cy="110" r="9" fill="#5eead4"/>
+    <circle cx="1050" cy="70" r="6" fill="#a5b4fc"/>
+    <circle cx="1040" cy="150" r="6" fill="#a5b4fc"/>
+    <line x1="960" y1="110" x2="1050" y2="70" stroke="#a5f3fc" stroke-width="2" opacity="0.6"/>
+    <line x1="960" y1="110" x2="1040" y2="150" stroke="#a5f3fc" stroke-width="2" opacity="0.6"/>
+  </g>
+
+  <!-- balance scale icon representing law/regulation, right side -->
+  <g transform="translate(830,260)">
+    <rect x="95" y="0" width="10" height="150" rx="5" fill="url(#scale)" opacity="0.95"/>
+    <rect x="30" y="0" width="240" height="10" rx="5" fill="url(#scale)" opacity="0.95"/>
+    <circle cx="100" cy="5" r="12" fill="#f8fafc" opacity="0.9"/>
+    <!-- left pan -->
+    <path d="M 10 10 L 70 10 L 60 70 A 40 40 0 0 1 20 70 Z" fill="#312e81" opacity="0.55"/>
+    <line x1="10" y1="10" x2="20" y2="70" stroke="#a5f3fc" stroke-width="3" opacity="0.7"/>
+    <line x1="70" y1="10" x2="60" y2="70" stroke="#a5f3fc" stroke-width="3" opacity="0.7"/>
+    <!-- right pan -->
+    <path d="M 130 10 L 190 10 L 180 70 A 40 40 0 0 1 140 70 Z" fill="#312e81" opacity="0.55"/>
+    <line x1="130" y1="10" x2="140" y2="70" stroke="#a5f3fc" stroke-width="3" opacity="0.7"/>
+    <line x1="190" y1="10" x2="180" y2="70" stroke="#a5f3fc" stroke-width="3" opacity="0.7"/>
+    <!-- base -->
+    <path d="M 70 150 L 130 150 L 120 170 L 80 170 Z" fill="url(#scale)" opacity="0.9"/>
+  </g>
+
+  <!-- chip icon, lower left -->
+  <g transform="translate(110,370)">
+    <rect x="0" y="0" width="120" height="120" rx="18" fill="url(#chip)" opacity="0.92"/>
+    <rect x="28" y="28" width="64" height="64" rx="10" fill="#1e1b4b" opacity="0.85"/>
+    <rect x="44" y="44" width="32" height="32" rx="5" fill="#5eead4" opacity="0.9"/>
+    <g stroke="#1e1b4b" stroke-width="3" opacity="0.85">
+      <line x1="0" y1="32" x2="-13" y2="32"/>
+      <line x1="0" y1="60" x2="-13" y2="60"/>
+      <line x1="0" y1="88" x2="-13" y2="88"/>
+      <line x1="120" y1="32" x2="133" y2="32"/>
+      <line x1="120" y1="60" x2="133" y2="60"/>
+      <line x1="120" y1="88" x2="133" y2="88"/>
+      <line x1="32" y1="0" x2="32" y2="-13"/>
+      <line x1="60" y1="0" x2="60" y2="-13"/>
+      <line x1="88" y1="0" x2="88" y2="-13"/>
+      <line x1="32" y1="120" x2="32" y2="133"/>
+      <line x1="60" y1="120" x2="60" y2="133"/>
+      <line x1="88" y1="120" x2="88" y2="133"/>
+    </g>
+  </g>
+
+  <!-- title text -->
+  <text x="100" y="170" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="54" font-weight="700" fill="#f8fafc">AI 기본법 시행</text>
+  <text x="100" y="220" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="27" font-weight="500" fill="#c7d2fe">기업들의 대응은 어떻게 달라지고 있나</text>
+</svg>

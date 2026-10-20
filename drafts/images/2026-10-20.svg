@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c2d57"/>
+      <stop offset="55%" stop-color="#1e4e8c"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#bae6fd" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#bae6fd" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="house" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="doc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a7f3d0"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" rx="28" fill="url(#bg)"/>
+
+  <circle cx="940" cy="150" r="230" fill="url(#glow2)"/>
+  <circle cx="200" cy="500" r="260" fill="url(#glow1)"/>
+
+  <!-- document / contract icon, top right -->
+  <g transform="translate(900,120)">
+    <rect x="0" y="0" width="120" height="150" rx="14" fill="url(#doc)" opacity="0.92"/>
+    <rect x="18" y="28" width="84" height="10" rx="5" fill="#0c2d57" opacity="0.55"/>
+    <rect x="18" y="54" width="84" height="10" rx="5" fill="#0c2d57" opacity="0.4"/>
+    <rect x="18" y="80" width="56" height="10" rx="5" fill="#0c2d57" opacity="0.4"/>
+    <circle cx="90" cy="118" r="18" fill="#0f766e" opacity="0.85"/>
+    <path d="M82 118 L88 125 L100 110" stroke="#f0fdfa" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- house icon, lower left -->
+  <g transform="translate(110,360)">
+    <polygon points="70,0 150,55 150,55 -10,55" fill="url(#roof)" opacity="0.95"/>
+    <rect x="0" y="55" width="140" height="110" rx="10" fill="url(#house)" opacity="0.92"/>
+    <rect x="18" y="80" width="38" height="38" rx="6" fill="#0c2d57" opacity="0.55"/>
+    <rect x="84" y="80" width="38" height="38" rx="6" fill="#0c2d57" opacity="0.55"/>
+    <rect x="52" y="128" width="36" height="37" rx="4" fill="#0c2d57" opacity="0.65"/>
+  </g>
+
+  <!-- title text -->
+  <text x="100" y="170" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="50" font-weight="700" fill="#f0f9ff">임대차 2법 개편 논의</text>
+  <text x="100" y="220" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="27" font-weight="500" fill="#bae6fd">전월세 시장 지각변동 오나</text>
+</svg>

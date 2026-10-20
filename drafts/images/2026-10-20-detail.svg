@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pagebg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#ecfeff"/>
+    </linearGradient>
+    <linearGradient id="curCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#bfdbfe"/>
+    </linearGradient>
+    <linearGradient id="issueCard" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#99f6e4"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+    <linearGradient id="curBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="issueBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0c2d57" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pagebg)"/>
+
+  <text x="400" y="50" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="25" font-weight="700" fill="#0c2d57">임대차 2법, 현재 운영 vs 개편 논의 쟁점</text>
+
+  <!-- column headers -->
+  <rect x="60" y="86" width="300" height="46" rx="14" fill="url(#curBadge)" filter="url(#cardShadow)"/>
+  <text x="210" y="116" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#ffffff">현재 운영 방식</text>
+
+  <rect x="440" y="86" width="300" height="46" rx="14" fill="url(#issueBadge)" filter="url(#cardShadow)"/>
+  <text x="590" y="116" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="20" font-weight="700" fill="#ffffff">개편 논의 쟁점</text>
+
+  <!-- LEFT COLUMN -->
+  <rect x="60" y="160" width="300" height="100" rx="16" fill="url(#curCard)" filter="url(#cardShadow)"/>
+  <circle cx="98" cy="196" r="20" fill="url(#curBadge)"/>
+  <text x="98" y="203" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">1</text>
+  <text x="128" y="192" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">갱신청구권 1회</text>
+  <text x="128" y="216" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#1d4ed8">계약 1회 추가 연장</text>
+  <text x="128" y="236" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#1d4ed8">(통상 2+2년) 보장</text>
+
+  <path d="M210 262 L210 292" stroke="#60a5fa" stroke-width="3"/>
+  <polygon points="210,296 203,284 217,284" fill="#60a5fa"/>
+
+  <rect x="60" y="302" width="300" height="100" rx="16" fill="url(#curCard)" filter="url(#cardShadow)"/>
+  <circle cx="98" cy="338" r="20" fill="url(#curBadge)"/>
+  <text x="98" y="345" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">2</text>
+  <text x="128" y="334" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">임대료 상한 제한</text>
+  <text x="128" y="358" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#1d4ed8">갱신 시 임대료 인상률을</text>
+  <text x="128" y="378" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#1d4ed8">일정 수준으로 제한</text>
+
+  <path d="M210 404 L210 434" stroke="#60a5fa" stroke-width="3"/>
+  <polygon points="210,438 203,426 217,426" fill="#60a5fa"/>
+
+  <rect x="60" y="444" width="300" height="100" rx="16" fill="url(#curCard)" filter="url(#cardShadow)"/>
+  <circle cx="98" cy="480" r="20" fill="url(#curBadge)"/>
+  <text x="98" y="487" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">3</text>
+  <text x="128" y="476" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">신규 계약은 자유</text>
+  <text x="128" y="500" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#1d4ed8">갱신이 아닌 신규 계약은</text>
+  <text x="128" y="520" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#1d4ed8">상한 적용 없이 협의</text>
+
+  <!-- RIGHT COLUMN -->
+  <rect x="440" y="160" width="300" height="100" rx="16" fill="url(#issueCard)" filter="url(#cardShadow)"/>
+  <circle cx="478" cy="196" r="20" fill="url(#issueBadge)"/>
+  <text x="478" y="203" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">1</text>
+  <text x="508" y="192" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#134e4a">이중가격 부작용</text>
+  <text x="508" y="216" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#0f766e">갱신 매물과 신규 매물 간</text>
+  <text x="508" y="236" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#0f766e">임대료 격차 지적</text>
+
+  <path d="M590 262 L590 292" stroke="#2dd4bf" stroke-width="3"/>
+  <polygon points="590,296 583,284 597,284" fill="#2dd4bf"/>
+
+  <rect x="440" y="302" width="300" height="100" rx="16" fill="url(#issueCard)" filter="url(#cardShadow)"/>
+  <circle cx="478" cy="338" r="20" fill="url(#issueBadge)"/>
+  <text x="478" y="345" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">2</text>
+  <text x="508" y="334" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#134e4a">전세 매물 감소 우려</text>
+  <text x="508" y="358" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#0f766e">임대인의 월세 전환 유인이</text>
+  <text x="508" y="378" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#0f766e">커졌다는 분석 제기</text>
+
+  <path d="M590 404 L590 434" stroke="#2dd4bf" stroke-width="3"/>
+  <polygon points="590,438 583,426 597,426" fill="#2dd4bf"/>
+
+  <rect x="440" y="444" width="300" height="100" rx="16" fill="url(#issueCard)" filter="url(#cardShadow)"/>
+  <circle cx="478" cy="480" r="20" fill="url(#issueBadge)"/>
+  <text x="478" y="487" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#fff">3</text>
+  <text x="508" y="476" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="16" font-weight="700" fill="#134e4a">완화 vs 유지 대립</text>
+  <text x="508" y="500" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#0f766e">세입자 보호 효과를 두고</text>
+  <text x="508" y="520" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13.5" fill="#0f766e">개편 방향에 이견 지속</text>
+
+  <!-- footer note -->
+  <text x="400" y="575" text-anchor="middle" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="13" fill="#64748b">※ 구체적 개편안은 확정되지 않았으며, 위 내용은 논의 흐름을 단순화한 예시입니다.</text>
+</svg>

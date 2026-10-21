@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6EC"/>
+      <stop offset="100%" stop-color="#FFE3BE"/>
+    </linearGradient>
+    <linearGradient id="oldCardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F3E7DA"/>
+      <stop offset="100%" stop-color="#E4D3C1"/>
+    </linearGradient>
+    <linearGradient id="newCardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE3B0"/>
+      <stop offset="100%" stop-color="#F7B35A"/>
+    </linearGradient>
+    <linearGradient id="oldHeadGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#B9A78F"/>
+      <stop offset="100%" stop-color="#9C8468"/>
+    </linearGradient>
+    <linearGradient id="newHeadGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F5A623"/>
+      <stop offset="100%" stop-color="#C2540A"/>
+    </linearGradient>
+    <linearGradient id="badgeOldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D9C7AE"/>
+      <stop offset="100%" stop-color="#A8906F"/>
+    </linearGradient>
+    <linearGradient id="badgeNewGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD28A"/>
+      <stop offset="100%" stop-color="#E8803A"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#5A3A14" flood-opacity="0.18"/>
+    </filter>
+    <filter id="headShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#5A3A14" flood-opacity="0.2"/>
+    </filter>
+    <clipPath id="roundedDetail">
+      <rect x="0" y="0" width="800" height="600" rx="24" ry="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#roundedDetail)">
+    <rect x="0" y="0" width="800" height="600" fill="url(#pageBg)"/>
+
+    <text x="400" y="55" font-family="'Malgun Gothic','Apple SD Gothic Neo',sans-serif" font-size="28" font-weight="800" fill="#7C3E0E" text-anchor="middle">대출 비교, 무엇이 달라졌을까</text>
+
+    <!-- column headers -->
+    <rect x="50" y="85" width="310" height="54" rx="14" fill="url(#oldHeadGrad)" filter="url(#headShadow)"/>
+    <text x="205" y="120" font-family="sans-serif" font-size="22" font-weight="700" fill="#FFF6EC" text-anchor="middle">기존 방식</text>
+
+    <rect x="440" y="85" width="310" height="54" rx="14" fill="url(#newHeadGrad)" filter="url(#headShadow)"/>
+    <text x="595" y="120" font-family="sans-serif" font-size="22" font-weight="700" fill="#FFF6EC" text-anchor="middle">대환대출 플랫폼</text>
+
+    <!-- row 1 -->
+    <rect x="50" y="165" width="310" height="100" rx="16" fill="url(#oldCardGrad)" filter="url(#cardShadow)"/>
+    <circle cx="90" cy="195" r="22" fill="url(#badgeOldGrad)"/>
+    <text x="90" y="202" font-family="sans-serif" font-size="20" font-weight="700" fill="#5A4428" text-anchor="middle">1</text>
+    <text x="122" y="202" font-family="sans-serif" font-size="18" font-weight="700" fill="#5A4428">은행 지점 직접 방문</text>
+    <text x="122" y="232" font-family="sans-serif" font-size="14" fill="#6B5A41">조건 확인 위해 발걸음이 필요</text>
+
+    <rect x="440" y="165" width="310" height="100" rx="16" fill="url(#newCardGrad)" filter="url(#cardShadow)"/>
+    <circle cx="480" cy="195" r="22" fill="url(#badgeNewGrad)"/>
+    <text x="480" y="202" font-family="sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="512" y="202" font-family="sans-serif" font-size="18" font-weight="700" fill="#6B3410">앱에서 바로 조회</text>
+    <text x="512" y="232" font-family="sans-serif" font-size="14" fill="#7A431A">스마트폰으로 언제든 확인 가능</text>
+
+    <!-- row 2 -->
+    <rect x="50" y="285" width="310" height="100" rx="16" fill="url(#oldCardGrad)" filter="url(#cardShadow)"/>
+    <circle cx="90" cy="315" r="22" fill="url(#badgeOldGrad)"/>
+    <text x="90" y="322" font-family="sans-serif" font-size="20" font-weight="700" fill="#5A4428" text-anchor="middle">2</text>
+    <text x="122" y="322" font-family="sans-serif" font-size="18" font-weight="700" fill="#5A4428">조건을 일일이 비교</text>
+    <text x="122" y="352" font-family="sans-serif" font-size="14" fill="#6B5A41">여러 은행 앱을 따로 확인</text>
+
+    <rect x="440" y="285" width="310" height="100" rx="16" fill="url(#newCardGrad)" filter="url(#cardShadow)"/>
+    <circle cx="480" cy="315" r="22" fill="url(#badgeNewGrad)"/>
+    <text x="480" y="322" font-family="sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="512" y="322" font-family="sans-serif" font-size="18" font-weight="700" fill="#6B3410">한 번에 비교</text>
+    <text x="512" y="352" font-family="sans-serif" font-size="14" fill="#7A431A">여러 금융사 조건을 한눈에</text>
+
+    <!-- row 3 -->
+    <rect x="50" y="405" width="310" height="100" rx="16" fill="url(#oldCardGrad)" filter="url(#cardShadow)"/>
+    <circle cx="90" cy="435" r="22" fill="url(#badgeOldGrad)"/>
+    <text x="90" y="442" font-family="sans-serif" font-size="20" font-weight="700" fill="#5A4428" text-anchor="middle">3</text>
+    <text x="122" y="442" font-family="sans-serif" font-size="18" font-weight="700" fill="#5A4428">서류 제출·대면 상담</text>
+    <text x="122" y="472" font-family="sans-serif" font-size="14" fill="#6B5A41">절차가 복잡하고 시간이 소요</text>
+
+    <rect x="440" y="405" width="310" height="100" rx="16" fill="url(#newCardGrad)" filter="url(#cardShadow)"/>
+    <circle cx="480" cy="435" r="22" fill="url(#badgeNewGrad)"/>
+    <text x="480" y="442" font-family="sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="512" y="442" font-family="sans-serif" font-size="18" font-weight="700" fill="#6B3410">간소화된 신청 절차</text>
+    <text x="512" y="472" font-family="sans-serif" font-size="14" fill="#7A431A">조건 충족 시 절차가 한결 가벼워짐</text>
+
+    <!-- connecting arrows -->
+    <g stroke="#C2540A" stroke-width="4" fill="#C2540A" opacity="0.75">
+      <line x1="362" y1="215" x2="436" y2="215"/>
+      <polygon points="430,206 442,215 430,224"/>
+      <line x1="362" y1="335" x2="436" y2="335"/>
+      <polygon points="430,326 442,335 430,344"/>
+      <line x1="362" y1="455" x2="436" y2="455"/>
+      <polygon points="430,446 442,455 430,464"/>
+    </g>
+
+    <text x="400" y="548" font-family="sans-serif" font-size="13" fill="#8A5A24" text-anchor="middle">※ 자격 조건·수수료는 상품별로 달라 반드시 개별 확인이 필요합니다</text>
+  </g>
+</svg>

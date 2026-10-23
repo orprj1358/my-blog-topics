@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF7ED"/>
+      <stop offset="100%" stop-color="#FFEBD6"/>
+    </linearGradient>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFF1DE"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7C2D12" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pageGrad)"/>
+
+  <text x="400" y="56" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#7C2D12" text-anchor="middle">스트레스 DSR, 대출 한도는 이렇게 계산된다</text>
+  <text x="400" y="86" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="16" font-weight="500" fill="#9A5B2E" text-anchor="middle">(단계별 적용 흐름 · 예시 설명용 구성)</text>
+
+  <!-- Step 1 -->
+  <g>
+    <rect x="50" y="140" width="190" height="200" rx="20" fill="url(#cardGrad1)" filter="url(#cardShadow)"/>
+    <circle cx="145" cy="190" r="26" fill="url(#badgeGrad)"/>
+    <text x="145" y="199" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="145" y="245" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="19" font-weight="700" fill="#7C2D12" text-anchor="middle">실제 대출금리</text>
+    <text x="145" y="272" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#9A5B2E" text-anchor="middle">현재 적용되는</text>
+    <text x="145" y="292" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#9A5B2E" text-anchor="middle">대출 상품 금리 확인</text>
+  </g>
+
+  <polygon points="248,235 288,235 288,222 310,240 288,258 288,245 248,245" fill="url(#arrowGrad)"/>
+
+  <!-- Step 2 -->
+  <g>
+    <rect x="305" y="140" width="190" height="200" rx="20" fill="url(#cardGrad1)" filter="url(#cardShadow)"/>
+    <circle cx="400" cy="190" r="26" fill="url(#badgeGrad)"/>
+    <text x="400" y="199" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="400" y="245" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="19" font-weight="700" fill="#7C2D12" text-anchor="middle">가산금리 적용</text>
+    <text x="400" y="272" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#9A5B2E" text-anchor="middle">향후 금리 상승 가능성을</text>
+    <text x="400" y="292" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#9A5B2E" text-anchor="middle">미리 반영해 가산</text>
+  </g>
+
+  <polygon points="503,235 543,235 543,222 565,240 543,258 543,245 503,245" fill="url(#arrowGrad)"/>
+
+  <!-- Step 3 -->
+  <g>
+    <rect x="560" y="140" width="190" height="200" rx="20" fill="url(#cardGrad1)" filter="url(#cardShadow)"/>
+    <circle cx="655" cy="190" r="26" fill="url(#badgeGrad)"/>
+    <text x="655" y="199" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="655" y="245" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="19" font-weight="700" fill="#7C2D12" text-anchor="middle">상환능력 기준 한도</text>
+    <text x="655" y="272" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#9A5B2E" text-anchor="middle">가산금리 반영 후</text>
+    <text x="655" y="292" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#9A5B2E" text-anchor="middle">최종 대출 한도 산정</text>
+  </g>
+
+  <!-- bottom note cards: coverage expansion -->
+  <g>
+    <rect x="50" y="400" width="340" height="150" rx="20" fill="url(#cardGrad1)" filter="url(#cardShadow)"/>
+    <circle cx="95" cy="445" r="20" fill="url(#badgeGrad)"/>
+    <text x="95" y="452" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">◀</text>
+    <text x="130" y="440" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#7C2D12">이전 단계</text>
+    <text x="130" y="464" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#9A5B2E">주택담보대출 중심으로</text>
+    <text x="130" y="484" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#9A5B2E">가산금리 적용</text>
+
+    <rect x="410" y="400" width="340" height="150" rx="20" fill="url(#cardGrad1)" filter="url(#cardShadow)"/>
+    <circle cx="455" cy="445" r="20" fill="url(#badgeGrad)"/>
+    <text x="455" y="452" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="800" fill="#FFFFFF" text-anchor="middle">▶</text>
+    <text x="490" y="440" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="700" fill="#7C2D12">3단계 확대</text>
+    <text x="490" y="464" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#9A5B2E">신용대출·전세자금대출 등으로</text>
+    <text x="490" y="484" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#9A5B2E">적용 범위 점차 확대</text>
+  </g>
+</svg>

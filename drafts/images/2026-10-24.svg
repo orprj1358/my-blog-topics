@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2747"/>
+      <stop offset="45%" stop-color="#1E3A66"/>
+      <stop offset="100%" stop-color="#3B6BA5"/>
+    </linearGradient>
+    <radialGradient id="glowTL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#BFE0FF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#BFE0FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="houseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF4FF"/>
+      <stop offset="100%" stop-color="#9FC9F0"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0F7FF"/>
+      <stop offset="100%" stop-color="#A9D1F7"/>
+    </linearGradient>
+    <clipPath id="roundedCanvas">
+      <rect x="0" y="0" width="1200" height="630" rx="36" ry="36"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#roundedCanvas)">
+    <rect x="0" y="0" width="1200" height="630" fill="url(#bgGrad)"/>
+    <circle cx="150" cy="100" r="260" fill="url(#glowTL)"/>
+    <circle cx="1060" cy="540" r="300" fill="url(#glowBR)"/>
+
+    <!-- skyline silhouette, right side -->
+    <g opacity="0.14" fill="#FFFFFF">
+      <rect x="860" y="460" width="56" height="120" rx="8"/>
+      <rect x="930" y="410" width="56" height="170" rx="8"/>
+      <rect x="1000" y="370" width="56" height="210" rx="8"/>
+      <rect x="1070" y="430" width="56" height="150" rx="8"/>
+    </g>
+
+    <!-- house motif -->
+    <g>
+      <polygon points="990,70 1070,140 910,140" fill="url(#houseGrad)"/>
+      <rect x="930" y="140" width="120" height="90" rx="10" fill="url(#houseGrad)"/>
+      <rect x="970" y="180" width="40" height="50" rx="6" fill="#1E3A66"/>
+    </g>
+
+    <!-- score badge, bottom-right accent -->
+    <g opacity="0.92">
+      <circle cx="870" cy="500" r="48" fill="url(#badgeGrad)"/>
+      <text x="870" y="512" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#1E3A66" text-anchor="middle">가점</text>
+    </g>
+
+    <!-- title -->
+    <text x="90" y="290" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="54" font-weight="800" fill="#F3F8FF">주택청약 가점제,</text>
+    <text x="90" y="362" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="54" font-weight="800" fill="#F3F8FF">개편 논의 수면 위로</text>
+    <text x="92" y="412" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="25" font-weight="500" fill="#CFE3F7">신혼·맞벌이 역차별 지적과 특별공급 확대 방향</text>
+  </g>
+</svg>

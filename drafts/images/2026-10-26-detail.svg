@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF7ED"/>
+      <stop offset="100%" stop-color="#FFEDD5"/>
+    </linearGradient>
+    <linearGradient id="card1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDBA74"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+    <linearGradient id="card2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCA5A5"/>
+      <stop offset="100%" stop-color="#F87171"/>
+    </linearGradient>
+    <linearGradient id="card3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDBA74"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="card4Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FFF7ED"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7C2D12" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pageGrad)"/>
+
+  <text x="400" y="42" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#7C2D12" text-anchor="middle">가계대출 관리, 1금융권에서 2금융권으로</text>
+
+  <!-- Step 1 -->
+  <g filter="url(#softShadow)">
+    <rect x="60" y="70" width="680" height="90" rx="22" fill="url(#card1Grad)"/>
+  </g>
+  <circle cx="115" cy="115" r="30" fill="url(#badgeGrad2)"/>
+  <text x="115" y="124" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#9A3412" text-anchor="middle">1</text>
+  <text x="165" y="107" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="21" font-weight="700" fill="#FFF7ED">은행권(1금융권) 대출</text>
+  <text x="165" y="134" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="500" fill="#FFEDD5">한도·심사 강화</text>
+
+  <path d="M400,160 L400,208" stroke="#C2410C" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Step 2 -->
+  <g filter="url(#softShadow)">
+    <rect x="60" y="210" width="680" height="90" rx="22" fill="url(#card2Grad)"/>
+  </g>
+  <circle cx="115" cy="255" r="30" fill="url(#badgeGrad2)"/>
+  <text x="115" y="264" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#B91C1C" text-anchor="middle">2</text>
+  <text x="165" y="247" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="21" font-weight="700" fill="#FFF5F5">대출 수요 이동</text>
+  <text x="165" y="274" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="500" fill="#FEE2E2">상대적으로 문턱 낮은 곳으로</text>
+
+  <path d="M400,300 L400,348" stroke="#C2410C" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Step 3 -->
+  <g filter="url(#softShadow)">
+    <rect x="60" y="350" width="680" height="90" rx="22" fill="url(#card3Grad)"/>
+  </g>
+  <circle cx="115" cy="395" r="30" fill="url(#badgeGrad2)"/>
+  <text x="115" y="404" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#9A3412" text-anchor="middle">3</text>
+  <text x="165" y="387" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="21" font-weight="700" fill="#FFF7ED">2금융권 대출 증가</text>
+  <text x="165" y="414" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="500" fill="#FFEDD5">저축은행·캐피탈·카드사 '풍선효과'</text>
+
+  <path d="M400,440 L400,488" stroke="#C2410C" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Step 4 -->
+  <g filter="url(#softShadow)">
+    <rect x="60" y="490" width="680" height="90" rx="22" fill="url(#card4Grad)"/>
+  </g>
+  <circle cx="115" cy="535" r="30" fill="url(#badgeGrad2)"/>
+  <text x="115" y="544" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#92400E" text-anchor="middle">4</text>
+  <text x="165" y="527" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="21" font-weight="700" fill="#78350F">당국, 2금융권 관리 강화 검토</text>
+  <text x="165" y="554" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="500" fill="#92400E">총량 관리·상환능력 심사 등 (예시)</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C2410C"/>
+    </marker>
+  </defs>
+</svg>

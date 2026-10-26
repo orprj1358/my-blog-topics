@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C2D12"/>
+      <stop offset="50%" stop-color="#C2410C"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <radialGradient id="glowTL" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBR" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FDE68A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF3C7"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF7ED"/>
+      <stop offset="100%" stop-color="#FDBA74"/>
+    </linearGradient>
+    <clipPath id="roundedCanvas">
+      <rect x="0" y="0" width="1200" height="630" rx="36" ry="36"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#roundedCanvas)">
+    <rect x="0" y="0" width="1200" height="630" fill="url(#bgGrad)"/>
+    <circle cx="140" cy="90" r="260" fill="url(#glowTL)"/>
+    <circle cx="1070" cy="540" r="300" fill="url(#glowBR)"/>
+
+    <!-- coin stack motif, right side -->
+    <g opacity="0.95">
+      <ellipse cx="990" cy="470" rx="98" ry="26" fill="url(#coinGrad)"/>
+      <ellipse cx="990" cy="440" rx="98" ry="26" fill="url(#coinGrad)" opacity="0.92"/>
+      <ellipse cx="990" cy="410" rx="98" ry="26" fill="url(#coinGrad)" opacity="0.85"/>
+      <text x="990" y="420" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="28" font-weight="800" fill="#92400E" text-anchor="middle">%</text>
+    </g>
+
+    <!-- percent badge, top right -->
+    <g opacity="0.92">
+      <circle cx="1070" cy="170" r="56" fill="url(#badgeGrad)"/>
+      <text x="1070" y="183" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="30" font-weight="800" fill="#7C2D12" text-anchor="middle">대출</text>
+    </g>
+
+    <!-- small building/door icon suggesting 2nd-tier institution -->
+    <g opacity="0.3" stroke="#FEF3C7" stroke-width="3" fill="none">
+      <rect x="860" y="230" width="90" height="110" rx="6"/>
+      <line x1="880" y1="250" x2="880" y2="320"/>
+      <line x1="905" y1="250" x2="905" y2="320"/>
+      <line x1="930" y1="250" x2="930" y2="320"/>
+    </g>
+
+    <!-- title -->
+    <text x="90" y="300" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="800" fill="#FFF7ED">2금융권 대출,</text>
+    <text x="90" y="372" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="52" font-weight="800" fill="#FFF7ED">조이기 본격화</text>
+    <text x="92" y="422" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="500" fill="#FDEBD3">서민 대출 문턱, 더 높아지나</text>
+  </g>
+</svg>

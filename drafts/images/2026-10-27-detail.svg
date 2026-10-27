@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EEF2FF"/>
+      <stop offset="100%" stop-color="#E0F2F1"/>
+    </linearGradient>
+    <linearGradient id="card1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="card2Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="card3Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+    <linearGradient id="card4Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5EEAD4"/>
+      <stop offset="100%" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0FDFA"/>
+      <stop offset="100%" stop-color="#F5F3FF"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#312E81" flood-opacity="0.18"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4338CA"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="600" fill="url(#pageGrad)"/>
+
+  <text x="400" y="42" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="23" font-weight="800" fill="#312E81" text-anchor="middle">AI 에이전트가 일을 처리하는 과정</text>
+
+  <!-- Step 1 -->
+  <g filter="url(#softShadow)">
+    <rect x="60" y="70" width="680" height="90" rx="22" fill="url(#card1Grad)"/>
+  </g>
+  <circle cx="115" cy="115" r="30" fill="url(#badgeGrad2)"/>
+  <text x="115" y="124" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#4338CA" text-anchor="middle">1</text>
+  <text x="165" y="107" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="21" font-weight="700" fill="#EEF2FF">목표 입력</text>
+  <text x="165" y="134" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="500" fill="#E0E7FF">"이 작업을 해줘"라고 지시</text>
+
+  <path d="M400,160 L400,208" stroke="#4338CA" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Step 2 -->
+  <g filter="url(#softShadow)">
+    <rect x="60" y="210" width="680" height="90" rx="22" fill="url(#card2Grad)"/>
+  </g>
+  <circle cx="115" cy="255" r="30" fill="url(#badgeGrad2)"/>
+  <text x="115" y="264" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#3730A3" text-anchor="middle">2</text>
+  <text x="165" y="247" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="21" font-weight="700" fill="#EFF6FF">계획 수립 및 도구 선택</text>
+  <text x="165" y="274" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="500" fill="#DBEAFE">필요한 단계와 도구를 스스로 판단</text>
+
+  <path d="M400,300 L400,348" stroke="#4338CA" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Step 3 -->
+  <g filter="url(#softShadow)">
+    <rect x="60" y="350" width="680" height="90" rx="22" fill="url(#card3Grad)"/>
+  </g>
+  <circle cx="115" cy="395" r="30" fill="url(#badgeGrad2)"/>
+  <text x="115" y="404" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#0F766E" text-anchor="middle">3</text>
+  <text x="165" y="387" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="21" font-weight="700" fill="#F0FDFA">단계별 작업 실행</text>
+  <text x="165" y="414" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="500" fill="#CCFBF1">검색·요약·작성 등을 순서대로 처리</text>
+
+  <path d="M400,440 L400,488" stroke="#4338CA" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- Step 4 -->
+  <g filter="url(#softShadow)">
+    <rect x="60" y="490" width="680" height="90" rx="22" fill="url(#card4Grad)"/>
+  </g>
+  <circle cx="115" cy="535" r="30" fill="url(#badgeGrad2)"/>
+  <text x="115" y="544" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="24" font-weight="800" fill="#115E59" text-anchor="middle">4</text>
+  <text x="165" y="527" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="21" font-weight="700" fill="#042F2E">결과물 완성 + 사람 확인</text>
+  <text x="165" y="554" font-family="'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif" font-size="18" font-weight="500" fill="#134E4A">최종 승인 단계에서 사람이 검토 (예시 흐름)</text>
+</svg>

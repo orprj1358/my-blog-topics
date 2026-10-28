@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="50%" stop-color="#FFD9A8"/>
+      <stop offset="100%" stop-color="#F4A261"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E76F51" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#E76F51" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE08A"/>
+      <stop offset="100%" stop-color="#E9A23B"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.55"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#8B4513" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="980" cy="120" r="260" fill="url(#glow1)"/>
+  <circle cx="160" cy="520" r="260" fill="url(#glow2)"/>
+
+  <!-- rounded canvas border -->
+  <rect x="0" y="0" width="1200" height="630" rx="28" fill="none"/>
+
+  <!-- simple house silhouette, flat geometric -->
+  <g transform="translate(120,330)" filter="url(#softShadow)">
+    <polygon points="0,90 110,10 220,90" fill="#F77F00" opacity="0.85"/>
+    <rect x="25" y="90" width="170" height="130" rx="10" fill="#FFFFFF" opacity="0.85"/>
+    <rect x="95" y="150" width="40" height="70" rx="6" fill="#E9A23B"/>
+  </g>
+
+  <!-- coin / percent badge -->
+  <g transform="translate(900,360)" filter="url(#softShadow)">
+    <circle cx="0" cy="0" r="85" fill="url(#coin)"/>
+    <text x="0" y="18" text-anchor="middle" font-family="Georgia, 'Noto Serif KR', serif" font-size="56" font-weight="700" fill="#8B4513">%</text>
+  </g>
+
+  <!-- downward arrow indicating reduced limit -->
+  <g transform="translate(760,470)" filter="url(#softShadow)">
+    <rect x="-70" y="-14" width="140" height="28" rx="14" fill="#FFFFFF" opacity="0.8"/>
+    <path d="M0,-40 L0,30 M-22,8 L0,34 L22,8" stroke="#E76F51" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- title card -->
+  <rect x="90" y="90" width="700" height="150" rx="24" fill="url(#cardGrad)" filter="url(#softShadow)"/>
+  <text x="130" y="155" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="46" font-weight="800" fill="#6B3410">스트레스 DSR 3단계</text>
+  <text x="130" y="210" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="34" font-weight="700" fill="#A0522D">내 대출 한도, 왜 줄었을까?</text>
+</svg>

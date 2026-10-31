@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E9F8F5"/>
+      <stop offset="100%" stop-color="#DCE6FB"/>
+    </linearGradient>
+    <linearGradient id="cardA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EEF1FC"/>
+    </linearGradient>
+    <linearGradient id="barBefore" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8FA0F5"/>
+      <stop offset="100%" stop-color="#4A5BD0"/>
+    </linearGradient>
+    <linearGradient id="barAfter" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5EEAD4"/>
+      <stop offset="100%" stop-color="#2EC4B6"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C8CE8"/>
+      <stop offset="100%" stop-color="#2E3A8C"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5EEAD4"/>
+      <stop offset="100%" stop-color="#1F8F84"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1E2A6B" flood-opacity="0.2"/>
+    </filter>
+    <filter id="barShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#1E2A6B" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="56" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="27" font-weight="800" fill="#2E3A8C">개발 업무, 무엇이 달라지나</text>
+  <text x="400" y="86" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="16" fill="#4B5AA8">AI 코딩 에이전트 도입 전후 비교 (예시)</text>
+
+  <!-- Card 1: before -->
+  <rect x="70" y="130" width="300" height="420" rx="22" fill="url(#cardA)" filter="url(#cardShadow)"/>
+  <circle cx="130" cy="180" r="24" fill="url(#badgeGrad)" filter="url(#barShadow)"/>
+  <text x="130" y="188" text-anchor="middle" font-family="'Noto Sans KR',sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">1</text>
+  <text x="170" y="188" font-family="'Noto Sans KR',sans-serif" font-size="19" font-weight="700" fill="#2E3A8C">도입 전</text>
+
+  <rect x="150" y="230" width="140" height="260" rx="16" fill="url(#barBefore)" filter="url(#barShadow)"/>
+  <text x="220" y="270" text-anchor="middle" font-family="'Noto Sans KR',sans-serif" font-size="17" font-weight="700" fill="#FFFFFF">코드 작성에</text>
+  <text x="220" y="298" text-anchor="middle" font-family="'Noto Sans KR',sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">대부분 시간</text>
+
+  <text x="220" y="520" text-anchor="middle" font-family="'Noto Sans KR',sans-serif" font-size="13" fill="#4B5AA8">반복 코드·테스트 작성에</text>
+  <text x="220" y="540" text-anchor="middle" font-family="'Noto Sans KR',sans-serif" font-size="13" fill="#4B5AA8">많은 시간을 쓰던 방식</text>
+
+  <!-- Card 2: after -->
+  <rect x="430" y="130" width="300" height="420" rx="22" fill="url(#cardA)" filter="url(#cardShadow)"/>
+  <circle cx="490" cy="180" r="24" fill="url(#badgeGrad2)" filter="url(#barShadow)"/>
+  <text x="490" y="188" text-anchor="middle" font-family="'Noto Sans KR',sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">2</text>
+  <text x="530" y="188" font-family="'Noto Sans KR',sans-serif" font-size="19" font-weight="700" fill="#2E3A8C">도입 후</text>
+
+  <rect x="510" y="230" width="140" height="260" rx="16" fill="url(#barAfter)" filter="url(#barShadow)"/>
+  <text x="580" y="270" text-anchor="middle" font-family="'Noto Sans KR',sans-serif" font-size="17" font-weight="700" fill="#0F3D3A">설계·검증에</text>
+  <text x="580" y="298" text-anchor="middle" font-family="'Noto Sans KR',sans-serif" font-size="22" font-weight="800" fill="#0F3D3A">더 많은 시간</text>
+
+  <text x="580" y="520" text-anchor="middle" font-family="'Noto Sans KR',sans-serif" font-size="13" fill="#4B5AA8">반복 작업은 AI에 맡기고</text>
+  <text x="580" y="540" text-anchor="middle" font-family="'Noto Sans KR',sans-serif" font-size="13" fill="#4B5AA8">판단·조율에 집중하는 방식</text>
+
+  <!-- arrow badge between -->
+  <circle cx="400" cy="340" r="34" fill="url(#badgeGrad)" filter="url(#cardShadow)"/>
+  <text x="400" y="349" text-anchor="middle" font-family="'Noto Sans KR',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">→</text>
+</svg>

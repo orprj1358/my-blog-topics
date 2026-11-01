@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8EE"/>
+      <stop offset="100%" stop-color="#FFE9CF"/>
+    </linearGradient>
+    <linearGradient id="cardA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFF2E1"/>
+    </linearGradient>
+    <linearGradient id="cardB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFE3C4"/>
+    </linearGradient>
+    <linearGradient id="badgeA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8FB7E8"/>
+      <stop offset="100%" stop-color="#3E6CB5"/>
+    </linearGradient>
+    <linearGradient id="badgeB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB15E"/>
+      <stop offset="100%" stop-color="#D9661F"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F2A33D"/>
+      <stop offset="100%" stop-color="#D9661F"/>
+    </linearGradient>
+    <linearGradient id="warnCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1E4"/>
+      <stop offset="100%" stop-color="#FFDCB6"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#7A3A0E" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="52" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="26" font-weight="800" fill="#B6551B">대출 수요, 왜 2금융권으로 이동하나</text>
+
+  <!-- left card: 1금융권 -->
+  <rect x="50" y="90" width="300" height="320" rx="20" fill="url(#cardA)" filter="url(#cardShadow)"/>
+  <circle cx="90" cy="130" r="22" fill="url(#badgeA)"/>
+  <text x="90" y="138" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">1</text>
+  <text x="122" y="138" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="21" font-weight="800" fill="#2E4C7A">1금융권 (은행)</text>
+
+  <g font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="15" fill="#3A4A5E">
+    <circle cx="80" cy="182" r="5" fill="#8FB7E8"/>
+    <text x="96" y="187">스트레스 DSR 적용으로 한도 축소</text>
+    <circle cx="80" cy="216" r="5" fill="#8FB7E8"/>
+    <text x="96" y="221">가산금리 조정 등 심사 강화</text>
+    <circle cx="80" cy="250" r="5" fill="#8FB7E8"/>
+    <text x="96" y="255">상대적으로 낮은 금리 수준</text>
+    <circle cx="80" cy="284" r="5" fill="#8FB7E8"/>
+    <text x="96" y="289">규제지역·다주택자 제한 강화</text>
+  </g>
+  <rect x="78" y="340" width="244" height="46" rx="12" fill="#EAF2FC"/>
+  <text x="200" y="368" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#3E6CB5">문턱 ↑ 대출받기 어려워짐</text>
+
+  <!-- right card: 2금융권 -->
+  <rect x="450" y="90" width="300" height="320" rx="20" fill="url(#cardB)" filter="url(#cardShadow)"/>
+  <circle cx="490" cy="130" r="22" fill="url(#badgeB)"/>
+  <text x="490" y="138" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">2</text>
+  <text x="522" y="138" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="21" font-weight="800" fill="#B6551B">2금융권 (저축은행·카드사)</text>
+
+  <g font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="15" fill="#5A4430">
+    <circle cx="480" cy="182" r="5" fill="#F2A33D"/>
+    <text x="496" y="187">상대적으로 유연한 심사 기준</text>
+    <circle cx="480" cy="216" r="5" fill="#F2A33D"/>
+    <text x="496" y="221">규제 적용이 더 느슨한 편</text>
+    <circle cx="480" cy="250" r="5" fill="#F2A33D"/>
+    <text x="496" y="255">금리는 은행권보다 높은 수준</text>
+    <circle cx="480" cy="284" r="5" fill="#F2A33D"/>
+    <text x="496" y="289">다중채무·상환부담 리스크 ↑</text>
+  </g>
+  <rect x="478" y="340" width="244" height="46" rx="12" fill="#FDEBD3"/>
+  <text x="600" y="368" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" font-weight="700" fill="#D9661F">수요 ↑ 쏠리는 대출 창구</text>
+
+  <!-- flow arrow between cards -->
+  <path d="M358,250 L442,250" stroke="url(#arrowGrad)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M424,232 L448,250 L424,268" fill="none" stroke="url(#arrowGrad)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- bottom warning card -->
+  <rect x="50" y="450" width="700" height="100" rx="18" fill="url(#warnCard)" filter="url(#cardShadow)"/>
+  <circle cx="100" cy="500" r="24" fill="url(#badgeB)"/>
+  <text x="100" y="509" text-anchor="middle" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">!</text>
+  <text x="140" y="494" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="17" font-weight="800" fill="#8A4612">함께 커지는 우려</text>
+  <text x="140" y="520" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="14" fill="#6B4A2E">가계부채의 질이 나빠지고, 다중채무자의 상환 부담이 커질 수 있다는 지적이 나온다</text>
+</svg>

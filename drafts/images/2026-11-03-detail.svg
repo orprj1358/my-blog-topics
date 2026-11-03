@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EEF0FD"/>
+      <stop offset="100%" stop-color="#E3F7F3"/>
+    </linearGradient>
+    <linearGradient id="colA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EDEBFF"/>
+    </linearGradient>
+    <linearGradient id="colB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E4FBF4"/>
+    </linearGradient>
+    <linearGradient id="badgeA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8A8EEF"/>
+      <stop offset="100%" stop-color="#4B4FC4"/>
+    </linearGradient>
+    <linearGradient id="badgeB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4FD1C5"/>
+      <stop offset="100%" stop-color="#17807A"/>
+    </linearGradient>
+    <linearGradient id="headA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5B5FD1"/>
+      <stop offset="100%" stop-color="#4B4FC4"/>
+    </linearGradient>
+    <linearGradient id="headB" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2BB5A8"/>
+      <stop offset="100%" stop-color="#17807A"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1B1F5E" flood-opacity="0.18"/>
+    </filter>
+    <filter id="badgeShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#1B1F5E" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="48" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="24" font-weight="800" fill="#2E3178">AI 합성 사기, 두 가지 대표 유형</text>
+
+  <!-- Column A: 가족 사칭형 -->
+  <rect x="50" y="85" width="330" height="470" rx="22" fill="url(#colA)" filter="url(#cardShadow)"/>
+  <rect x="50" y="85" width="330" height="56" rx="22" fill="url(#headA)"/>
+  <rect x="50" y="113" width="330" height="28" fill="url(#headA)"/>
+  <text x="215" y="122" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">가족 사칭형</text>
+
+  <g transform="translate(90,180)">
+    <circle r="22" fill="url(#badgeA)" filter="url(#badgeShadow)"/>
+    <text y="7" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">1</text>
+  </g>
+  <text x="130" y="175" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#33366E">통화·SNS 영상에서</text>
+  <text x="130" y="198" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#33366E">목소리 학습</text>
+
+  <g transform="translate(90,280)">
+    <circle r="22" fill="url(#badgeA)" filter="url(#badgeShadow)"/>
+    <text y="7" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">2</text>
+  </g>
+  <text x="130" y="275" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#33366E">위급 상황 연출해</text>
+  <text x="130" y="298" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#33366E">전화·영상통화</text>
+
+  <g transform="translate(90,380)">
+    <circle r="22" fill="url(#badgeA)" filter="url(#badgeShadow)"/>
+    <text y="7" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">3</text>
+  </g>
+  <text x="130" y="375" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#33366E">급하게 송금 요구</text>
+
+  <rect x="90" y="455" width="250" height="70" rx="16" fill="#EDEBFF"/>
+  <text x="215" y="483" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#4B4FC4">대응: 아는 번호로</text>
+  <text x="215" y="505" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#4B4FC4">직접 재확인 전화</text>
+
+  <!-- Column B: 임원 사칭형 -->
+  <rect x="420" y="85" width="330" height="470" rx="22" fill="url(#colB)" filter="url(#cardShadow)"/>
+  <rect x="420" y="85" width="330" height="56" rx="22" fill="url(#headB)"/>
+  <rect x="420" y="113" width="330" height="28" fill="url(#headB)"/>
+  <text x="585" y="122" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">임원 사칭형</text>
+
+  <g transform="translate(460,180)">
+    <circle r="22" fill="url(#badgeB)" filter="url(#badgeShadow)"/>
+    <text y="7" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">1</text>
+  </g>
+  <text x="500" y="175" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#174E49">공개 영상에서</text>
+  <text x="500" y="198" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#174E49">얼굴·음성 합성</text>
+
+  <g transform="translate(460,280)">
+    <circle r="22" fill="url(#badgeB)" filter="url(#badgeShadow)"/>
+    <text y="7" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">2</text>
+  </g>
+  <text x="500" y="275" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#174E49">화상회의·메시지로</text>
+  <text x="500" y="298" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#174E49">이체 지시</text>
+
+  <g transform="translate(460,380)">
+    <circle r="22" fill="url(#badgeB)" filter="url(#badgeShadow)"/>
+    <text y="7" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">3</text>
+  </g>
+  <text x="500" y="375" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#174E49">담당자가 자금 이체</text>
+
+  <rect x="460" y="455" width="250" height="70" rx="16" fill="#E4FBF4"/>
+  <text x="585" y="483" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#17807A">대응: 이상거래 탐지</text>
+  <text x="585" y="505" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#17807A">및 추가 인증 절차</text>
+</svg>

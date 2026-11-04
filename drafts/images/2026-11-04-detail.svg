@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF0FF"/>
+      <stop offset="100%" stop-color="#FFF4E8"/>
+    </linearGradient>
+    <linearGradient id="colA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E7EDFC"/>
+    </linearGradient>
+    <linearGradient id="colB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FDEBD8"/>
+    </linearGradient>
+    <linearGradient id="badgeA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C96E8"/>
+      <stop offset="100%" stop-color="#3A54A8"/>
+    </linearGradient>
+    <linearGradient id="badgeB" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC56B"/>
+      <stop offset="100%" stop-color="#D9822F"/>
+    </linearGradient>
+    <linearGradient id="headA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4C6FD1"/>
+      <stop offset="100%" stop-color="#2E4C9E"/>
+    </linearGradient>
+    <linearGradient id="headB" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F0A857"/>
+      <stop offset="100%" stop-color="#D9822F"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#16305C" flood-opacity="0.2"/>
+    </filter>
+    <filter id="badgeShadow" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#16305C" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="48" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="24" font-weight="800" fill="#16305C">계도기간, 끝나면 무엇이 달라질까</text>
+
+  <!-- Column A: 계도기간 (지금까지) -->
+  <rect x="50" y="85" width="330" height="470" rx="22" fill="url(#colA)" filter="url(#cardShadow)"/>
+  <rect x="50" y="85" width="330" height="56" rx="22" fill="url(#headA)"/>
+  <rect x="50" y="113" width="330" height="28" fill="url(#headA)"/>
+  <text x="215" y="122" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">계도기간 (지금까지)</text>
+
+  <g transform="translate(90,180)">
+    <circle r="22" fill="url(#badgeA)" filter="url(#badgeShadow)"/>
+    <text y="7" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">1</text>
+  </g>
+  <text x="130" y="175" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#2E3E66">신고 안 해도</text>
+  <text x="130" y="198" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#2E3E66">별다른 불이익 없음</text>
+
+  <g transform="translate(90,280)">
+    <circle r="22" fill="url(#badgeA)" filter="url(#badgeShadow)"/>
+    <text y="7" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">2</text>
+  </g>
+  <text x="130" y="275" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#2E3E66">계약서 작성만</text>
+  <text x="130" y="298" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#2E3E66">하고 끝내는 경우 많음</text>
+
+  <g transform="translate(90,380)">
+    <circle r="22" fill="url(#badgeA)" filter="url(#badgeShadow)"/>
+    <text y="7" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">3</text>
+  </g>
+  <text x="130" y="375" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#2E3E66">사실상 신고가</text>
+  <text x="130" y="398" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#2E3E66">자율에 맡겨짐</text>
+
+  <rect x="90" y="455" width="250" height="70" rx="16" fill="#E7EDFC"/>
+  <text x="215" y="483" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#2E4C9E">인식: "나중에</text>
+  <text x="215" y="505" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#2E4C9E">해도 되겠지"</text>
+
+  <!-- Column B: 계도기간 종료 후 -->
+  <rect x="420" y="85" width="330" height="470" rx="22" fill="url(#colB)" filter="url(#cardShadow)"/>
+  <rect x="420" y="85" width="330" height="56" rx="22" fill="url(#headB)"/>
+  <rect x="420" y="113" width="330" height="28" fill="url(#headB)"/>
+  <text x="585" y="122" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">종료 후 (앞으로)</text>
+
+  <g transform="translate(460,180)">
+    <circle r="22" fill="url(#badgeB)" filter="url(#badgeShadow)"/>
+    <text y="7" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">1</text>
+  </g>
+  <text x="500" y="175" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#6B3E12">기한 내 미신고 시</text>
+  <text x="500" y="198" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#6B3E12">과태료 부과 가능</text>
+
+  <g transform="translate(460,280)">
+    <circle r="22" fill="url(#badgeB)" filter="url(#badgeShadow)"/>
+    <text y="7" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">2</text>
+  </g>
+  <text x="500" y="275" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#6B3E12">계약 후 신고 기한</text>
+  <text x="500" y="298" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#6B3E12">내 제출이 원칙</text>
+
+  <g transform="translate(460,380)">
+    <circle r="22" fill="url(#badgeB)" filter="url(#badgeShadow)"/>
+    <text y="7" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">3</text>
+  </g>
+  <text x="500" y="375" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#6B3E12">신고 내역이 분쟁 시</text>
+  <text x="500" y="398" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="17" font-weight="700" fill="#6B3E12">증거 자료로 활용</text>
+
+  <rect x="460" y="455" width="250" height="70" rx="16" fill="#FDEBD8"/>
+  <text x="585" y="483" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#D9822F">대응: 미신고</text>
+  <text x="585" y="505" text-anchor="middle" font-family="'Noto Sans KR','Apple SD Gothic Neo',sans-serif" font-size="14" font-weight="700" fill="#D9822F">계약부터 먼저 신고</text>
+</svg>

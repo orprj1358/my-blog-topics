@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D7F3EC"/>
+      <stop offset="50%" stop-color="#3E6E9E"/>
+      <stop offset="100%" stop-color="#121B45"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="serverGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAFBF7"/>
+      <stop offset="100%" stop-color="#9FD9CC"/>
+    </linearGradient>
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE38A"/>
+      <stop offset="100%" stop-color="#F0B429"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.65"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0B1030" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1020" cy="140" r="260" fill="url(#glow1)"/>
+  <circle cx="150" cy="540" r="260" fill="url(#glow2)"/>
+
+  <!-- server rack icon -->
+  <g transform="translate(960,420)" filter="url(#softShadow)">
+    <rect x="-90" y="-130" width="180" height="260" rx="16" fill="url(#serverGrad)"/>
+    <rect x="-70" y="-108" width="140" height="36" rx="8" fill="#2E4C6E"/>
+    <circle cx="-48" cy="-90" r="6" fill="#5EEAD4"/>
+    <rect x="-70" y="-58" width="140" height="36" rx="8" fill="#2E4C6E"/>
+    <circle cx="-48" cy="-40" r="6" fill="#5EEAD4"/>
+    <rect x="-70" y="-8" width="140" height="36" rx="8" fill="#2E4C6E"/>
+    <circle cx="-48" cy="10" r="6" fill="#5EEAD4"/>
+    <rect x="-70" y="42" width="140" height="36" rx="8" fill="#2E4C6E"/>
+    <circle cx="-48" cy="60" r="6" fill="#5EEAD4"/>
+  </g>
+
+  <!-- lightning bolt badge -->
+  <g transform="translate(1120,300)" filter="url(#softShadow)">
+    <circle r="40" fill="url(#boltGrad)"/>
+    <polygon points="4,-22 -14,4 -2,4 -6,24 16,-4 2,-4" fill="#7A4A00"/>
+  </g>
+
+  <!-- network / grid dots -->
+  <g stroke="#9FE6D8" stroke-width="2" opacity="0.6" fill="none">
+    <line x1="820" y1="230" x2="900" y2="190"/>
+    <line x1="900" y1="190" x2="960" y2="230"/>
+    <line x1="820" y1="230" x2="840" y2="300"/>
+  </g>
+  <g fill="#D7F3EC" opacity="0.8">
+    <circle cx="820" cy="230" r="7"/>
+    <circle cx="900" cy="190" r="7"/>
+    <circle cx="960" cy="230" r="7"/>
+    <circle cx="840" cy="300" r="7"/>
+  </g>
+
+  <!-- title card -->
+  <rect x="90" y="95" width="760" height="230" rx="24" fill="url(#cardGrad)" filter="url(#softShadow)"/>
+  <text x="130" y="160" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="34" font-weight="800" fill="#14324A">AI 데이터센터</text>
+  <text x="130" y="213" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="32" font-weight="800" fill="#1E6E62">전력 수요 급증</text>
+  <text x="130" y="263" font-family="'Noto Sans KR', 'Apple SD Gothic Neo', sans-serif" font-size="19" font-weight="500" fill="#44607A">전력망은 감당할 수 있을까</text>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EEF3FF"/>
+      <stop offset="100%" stop-color="#DCE8F7"/>
+    </linearGradient>
+    <linearGradient id="cardGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E9EDFF"/>
+    </linearGradient>
+    <linearGradient id="cardGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2FBF5"/>
+    </linearGradient>
+    <linearGradient id="badgeGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8CA0F2"/>
+      <stop offset="100%" stop-color="#3E52B5"/>
+    </linearGradient>
+    <linearGradient id="badgeGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7FE8D6"/>
+      <stop offset="100%" stop-color="#1F9E8E"/>
+    </linearGradient>
+    <linearGradient id="barGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#A9B8F5"/>
+      <stop offset="100%" stop-color="#5C6FCB"/>
+    </linearGradient>
+    <linearGradient id="barGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9AEFDE"/>
+      <stop offset="100%" stop-color="#34B6A3"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#13265C" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#1E2E6E" text-anchor="middle">AI 투자 '거품론' vs '반론' 비교 (예시)</text>
+  <text x="400" y="78" font-family="Arial, sans-serif" font-size="14" fill="#4A5CA0" text-anchor="middle">※ 수치·비율은 이해를 돕기 위한 예시이며 실제 지표는 각 기업 공시를 확인해야 합니다</text>
+
+  <!-- Left column: 거품론 -->
+  <g transform="translate(60,110)">
+    <rect x="0" y="0" width="320" height="440" rx="24" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <circle cx="40" cy="0" r="34" fill="url(#badgeGradA)" filter="url(#cardShadow)"/>
+    <text x="40" y="9" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#EEF1FF" text-anchor="middle">!</text>
+    <text x="85" y="8" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#1E2E6E">거품론 시각</text>
+
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="14" fill="#36407A">투자 속도 &gt; 수익화 속도</text>
+    <rect x="30" y="75" width="260" height="60" rx="14" fill="url(#barGradA)"/>
+    <text x="160" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">막대한 투자 지출</text>
+
+    <text x="30" y="165" font-family="Arial, sans-serif" font-size="14" fill="#36407A">과거 버블 사례와 비교</text>
+    <rect x="30" y="180" width="260" height="50" rx="14" fill="url(#barGradA)" opacity="0.85"/>
+    <text x="160" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">기대 선반영 우려</text>
+
+    <text x="30" y="260" font-family="Arial, sans-serif" font-size="14" fill="#36407A">실적 발표 민감도</text>
+    <rect x="30" y="275" width="260" height="45" rx="14" fill="url(#barGradA)" opacity="0.7"/>
+    <text x="160" y="303" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">성장세 둔화 시 충격</text>
+
+    <text x="30" y="400" font-family="Arial, sans-serif" font-size="13" fill="#4A5CA0">핵심: "투자 대비 성과를</text>
+    <text x="30" y="420" font-family="Arial, sans-serif" font-size="13" fill="#4A5CA0">아직 증명하지 못했다"</text>
+  </g>
+
+  <!-- Right column: 반론 -->
+  <g transform="translate(420,110)">
+    <rect x="0" y="0" width="320" height="440" rx="24" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <circle cx="40" cy="0" r="34" fill="url(#badgeGradB)" filter="url(#cardShadow)"/>
+    <text x="40" y="9" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#0D3A34" text-anchor="middle">✓</text>
+    <text x="85" y="8" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#0D3A34">반론 시각</text>
+
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="14" fill="#1F5F55">AI 수요는 아직 초기 단계</text>
+    <rect x="30" y="75" width="260" height="60" rx="14" fill="url(#barGradB)"/>
+    <text x="160" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#0D3A34" text-anchor="middle">장기 성장 가능성</text>
+
+    <text x="30" y="165" font-family="Arial, sans-serif" font-size="14" fill="#1F5F55">실제 활용 사례 확산</text>
+    <rect x="30" y="180" width="260" height="50" rx="14" fill="url(#barGradB)" opacity="0.85"/>
+    <text x="160" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#0D3A34" text-anchor="middle">산업 전반 도입 증가</text>
+
+    <text x="30" y="260" font-family="Arial, sans-serif" font-size="14" fill="#1F5F55">투자 효율화 노력</text>
+    <rect x="30" y="275" width="260" height="45" rx="14" fill="url(#barGradB)" opacity="0.7"/>
+    <text x="160" y="303" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#0D3A34" text-anchor="middle">비용 구조 개선 시도</text>
+
+    <text x="30" y="400" font-family="Arial, sans-serif" font-size="13" fill="#1F5F55">핵심: "투자는 장기적으로</text>
+    <text x="30" y="420" font-family="Arial, sans-serif" font-size="13" fill="#1F5F55">정당화될 것이다"</text>
+  </g>
+
+  <text x="400" y="580" font-family="Arial, sans-serif" font-size="15" fill="#1E2E6E" text-anchor="middle">실적 시즌의 성장률·투자 설명이 두 시각의 균형을 가늠하는 단서가 될 전망</text>
+</svg>

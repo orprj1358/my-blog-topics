@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6EA"/>
+      <stop offset="100%" stop-color="#FCE6CC"/>
+    </linearGradient>
+    <linearGradient id="cardGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFEBD3"/>
+    </linearGradient>
+    <linearGradient id="cardGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFD9AE"/>
+    </linearGradient>
+    <linearGradient id="badgeGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F2A868"/>
+      <stop offset="100%" stop-color="#C06A1F"/>
+    </linearGradient>
+    <linearGradient id="badgeGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E88A4A"/>
+      <stop offset="100%" stop-color="#9A4A12"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#5C280A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="42" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#7A3A10" text-anchor="middle">대출 수요 이동 흐름: 은행권 → 제2금융권 (예시)</text>
+  <text x="400" y="66" font-family="Arial, sans-serif" font-size="13" fill="#9C5E22" text-anchor="middle">※ 흐름을 설명하기 위한 예시이며 실제 조건·수치는 금융사 공시를 확인해야 합니다</text>
+
+  <!-- Step 1 -->
+  <g transform="translate(400,118)">
+    <rect x="-320" y="-32" width="640" height="64" rx="18" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <circle cx="-280" cy="0" r="24" fill="url(#badgeGradA)"/>
+    <text x="-280" y="8" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#FFF6EA" text-anchor="middle">1</text>
+    <text x="-235" y="8" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#7A3A10">은행권, 가계대출 한도·금리 조건 강화</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <line x1="400" y1="152" x2="400" y2="196" stroke="#C06A1F" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="400,208 390,190 410,190" fill="#C06A1F"/>
+
+  <!-- Step 2 -->
+  <g transform="translate(400,250)">
+    <rect x="-320" y="-32" width="640" height="64" rx="18" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <circle cx="-280" cy="0" r="24" fill="url(#badgeGradA)"/>
+    <text x="-280" y="8" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#FFF6EA" text-anchor="middle">2</text>
+    <text x="-235" y="8" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#7A3A10">은행 문턱 못 넘는 차주 증가</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <line x1="400" y1="284" x2="400" y2="328" stroke="#C06A1F" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="400,340 390,322 410,322" fill="#C06A1F"/>
+
+  <!-- Step 3 -->
+  <g transform="translate(400,382)">
+    <rect x="-320" y="-32" width="640" height="64" rx="18" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <circle cx="-280" cy="0" r="24" fill="url(#badgeGradB)"/>
+    <text x="-280" y="8" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#FFF6EA" text-anchor="middle">3</text>
+    <text x="-235" y="8" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#7A3A10">저축은행·카드사 등 제2금융권으로 수요 이동 ('풍선효과')</text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <line x1="400" y1="416" x2="400" y2="460" stroke="#9A4A12" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="400,472 390,454 410,454" fill="#9A4A12"/>
+
+  <!-- Step 4 -->
+  <g transform="translate(400,514)">
+    <rect x="-320" y="-32" width="640" height="64" rx="18" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <circle cx="-280" cy="0" r="24" fill="url(#badgeGradB)"/>
+    <text x="-280" y="8" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#FFF6EA" text-anchor="middle">4</text>
+    <text x="-235" y="8" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#7A3A10">높은 금리 부담 가중, 금융리스크 확대 우려</text>
+  </g>
+</svg>

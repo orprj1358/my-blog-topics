@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="55%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5eead4" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" rx="28" fill="url(#bg)"/>
+  <circle cx="960" cy="140" r="260" fill="url(#glow1)"/>
+  <circle cx="160" cy="520" r="260" fill="url(#glow2)"/>
+
+  <!-- server rack with lightning bolt, top right -->
+  <g opacity="0.92">
+    <rect x="940" y="90" width="140" height="170" rx="14" fill="none" stroke="#a5f3fc" stroke-width="3"/>
+    <line x1="958" y1="125" x2="1062" y2="125" stroke="#a5f3fc" stroke-width="4" stroke-linecap="round"/>
+    <line x1="958" y1="155" x2="1062" y2="155" stroke="#a5f3fc" stroke-width="4" stroke-linecap="round"/>
+    <line x1="958" y1="185" x2="1062" y2="185" stroke="#a5f3fc" stroke-width="4" stroke-linecap="round"/>
+    <line x1="958" y1="215" x2="1062" y2="215" stroke="#a5f3fc" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="1040" cy="125" r="5" fill="#5eead4"/>
+    <circle cx="1040" cy="155" r="5" fill="#5eead4"/>
+    <circle cx="1040" cy="185" r="5" fill="#5eead4"/>
+    <circle cx="1040" cy="215" r="5" fill="#5eead4"/>
+    <circle cx="1010" cy="175" r="46" fill="url(#chipGrad)" opacity="0.92"/>
+    <path d="M 1018 150 L 996 182 L 1012 182 L 1002 206 L 1030 170 L 1012 170 Z" fill="#0f172a"/>
+  </g>
+
+  <!-- small power/grid motif, bottom left -->
+  <g opacity="0.85">
+    <circle cx="150" cy="500" r="34" fill="url(#chipGrad)" opacity="0.9"/>
+    <path d="M 158 478 L 138 506 L 152 506 L 144 526 L 166 494 L 152 494 Z" fill="#0f172a"/>
+    <line x1="195" y1="500" x2="260" y2="500" stroke="#5eead4" stroke-width="3" opacity="0.7"/>
+    <circle cx="275" cy="500" r="10" fill="#a5f3fc"/>
+    <line x1="195" y1="460" x2="240" y2="430" stroke="#818cf8" stroke-width="3" opacity="0.7"/>
+    <circle cx="250" cy="422" r="8" fill="#818cf8"/>
+  </g>
+
+  <!-- text block -->
+  <text x="100" y="250" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="54" font-weight="700" fill="#f0fdfa">AI가 삼키는 전력</text>
+  <text x="100" y="320" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif" font-size="30" font-weight="500" fill="#c7d2fe">데이터센터발 전력난이 다가온다</text>
+
+  <rect x="100" y="358" width="150" height="6" rx="3" fill="url(#chipGrad)"/>
+</svg>

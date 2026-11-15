@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF8F4"/>
+      <stop offset="100%" stop-color="#DCE7F8"/>
+    </linearGradient>
+    <linearGradient id="cardGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#D4F2EA"/>
+    </linearGradient>
+    <linearGradient id="cardGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#C9D8F5"/>
+    </linearGradient>
+    <linearGradient id="badgeGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5AC7B8"/>
+      <stop offset="100%" stop-color="#1E6E66"/>
+    </linearGradient>
+    <linearGradient id="badgeGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6E8FD6"/>
+      <stop offset="100%" stop-color="#2E3E7E"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0B1E3C" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="42" font-family="Arial, sans-serif" font-size="21" font-weight="800" fill="#15424A" text-anchor="middle">기존 온라인 쇼핑 vs 에이전틱 커머스 (개념도)</text>
+  <text x="400" y="66" font-family="Arial, sans-serif" font-size="13" fill="#3B6B74" text-anchor="middle">※ 이해를 돕기 위한 예시 개념도이며 실제 서비스 화면이 아닙니다</text>
+
+  <!-- Column headers -->
+  <g transform="translate(220,110)">
+    <rect x="-130" y="-28" width="260" height="56" rx="18" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <circle cx="-100" cy="0" r="22" fill="url(#badgeGradB)"/>
+    <text x="-100" y="7" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#EAF8F4" text-anchor="middle">1</text>
+    <text x="-30" y="7" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#16325C">기존 온라인 쇼핑</text>
+  </g>
+  <g transform="translate(580,110)">
+    <rect x="-130" y="-28" width="260" height="56" rx="18" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <circle cx="-100" cy="0" r="22" fill="url(#badgeGradA)"/>
+    <text x="-100" y="7" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#EAF8F4" text-anchor="middle">2</text>
+    <text x="-30" y="7" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#15424A">에이전틱 커머스</text>
+  </g>
+
+  <!-- Left column steps -->
+  <g transform="translate(220,195)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#16325C" text-anchor="middle">소비자가 직접 검색</text>
+  </g>
+  <g transform="translate(220,270)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#16325C" text-anchor="middle">여러 사이트 가격·리뷰 비교</text>
+  </g>
+  <g transform="translate(220,345)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#16325C" text-anchor="middle">직접 장바구니·결제 진행</text>
+  </g>
+
+  <!-- Right column steps -->
+  <g transform="translate(580,195)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#15424A" text-anchor="middle">자연어로 요청 한 번</text>
+  </g>
+  <g transform="translate(580,270)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#15424A" text-anchor="middle">AI가 탐색·비교 대리</text>
+  </g>
+  <g transform="translate(580,345)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#15424A" text-anchor="middle">승인 한 번으로 결제 완료</text>
+  </g>
+
+  <!-- Center arrow -->
+  <g transform="translate(400,270)">
+    <circle cx="0" cy="0" r="30" fill="url(#badgeGradA)" filter="url(#cardShadow)"/>
+    <path d="M -12,0 L 12,0 M 2,-9 L 12,0 L 2,9" fill="none" stroke="#EAF8F4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Bottom note cards -->
+  <g transform="translate(220,460)">
+    <rect x="-130" y="-30" width="260" height="60" rx="16" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <text x="0" y="-2" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#16325C" text-anchor="middle">사람이 화면 보고 판단</text>
+    <text x="0" y="18" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#16325C" text-anchor="middle">노출 순위·디자인이 중요</text>
+  </g>
+  <g transform="translate(580,460)">
+    <rect x="-130" y="-30" width="260" height="60" rx="16" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <text x="0" y="-2" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#15424A" text-anchor="middle">AI가 데이터 읽고 판단</text>
+    <text x="0" y="18" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#15424A" text-anchor="middle">정보 정확성이 중요</text>
+  </g>
+
+  <g transform="translate(400,555)">
+    <circle cx="0" cy="0" r="20" fill="url(#badgeGradB)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#EAF8F4" text-anchor="middle">?</text>
+  </g>
+  <text x="400" y="590" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#2E3E7E" text-anchor="middle">구매 권한·책임 소재는 누구에게?</text>
+</svg>

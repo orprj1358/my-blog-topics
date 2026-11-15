@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E4F5F2"/>
+      <stop offset="50%" stop-color="#2E6E7E"/>
+      <stop offset="100%" stop-color="#1B2A52"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7FD9C4" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7FD9C4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6E7FD6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#6E7FD6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DCFBF3"/>
+      <stop offset="100%" stop-color="#8FD9CC"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5AC7B8"/>
+      <stop offset="100%" stop-color="#1E4F66"/>
+    </linearGradient>
+    <linearGradient id="cartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6E9BD6"/>
+      <stop offset="100%" stop-color="#2E3E7E"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.68"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0B1E3C" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1040" cy="120" r="260" fill="url(#glow1)"/>
+  <circle cx="130" cy="540" r="260" fill="url(#glow2)"/>
+
+  <!-- AI chip / network motif, right side -->
+  <g transform="translate(940,420)" filter="url(#softShadow)">
+    <rect x="-70" y="-70" width="140" height="140" rx="20" fill="url(#chipGrad)"/>
+    <circle cx="0" cy="0" r="30" fill="url(#nodeGrad)"/>
+    <circle cx="-95" cy="-95" r="10" fill="url(#nodeGrad)"/>
+    <circle cx="95" cy="-95" r="10" fill="url(#nodeGrad)"/>
+    <circle cx="-95" cy="95" r="10" fill="url(#nodeGrad)"/>
+    <circle cx="95" cy="95" r="10" fill="url(#nodeGrad)"/>
+    <line x1="-85" y1="-85" x2="-20" y2="-20" stroke="#1E4F66" stroke-width="4"/>
+    <line x1="85" y1="-85" x2="20" y2="-20" stroke="#1E4F66" stroke-width="4"/>
+    <line x1="-85" y1="85" x2="-20" y2="20" stroke="#1E4F66" stroke-width="4"/>
+    <line x1="85" y1="85" x2="20" y2="20" stroke="#1E4F66" stroke-width="4"/>
+  </g>
+
+  <!-- shopping cart badge cluster -->
+  <g transform="translate(220,500)" filter="url(#softShadow)" opacity="0.95">
+    <circle cx="-22" cy="0" r="46" fill="url(#cartGrad)"/>
+    <path d="M -46,-10 L -34,-10 L -26,16 L 2,16 L 10,-2 L -38,-2" fill="none" stroke="#DCFBF3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(22,0)"/>
+    <circle cx="-14" cy="22" r="3.5" fill="#DCFBF3" transform="translate(22,0)"/>
+    <circle cx="-2" cy="22" r="3.5" fill="#DCFBF3" transform="translate(22,0)"/>
+  </g>
+
+  <!-- title card -->
+  <g transform="translate(80,80)">
+    <rect x="-20" y="-55" width="760" height="260" rx="28" fill="url(#cardGrad)" filter="url(#softShadow)"/>
+    <text x="10" y="0" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#153545">AI 에이전트가 대신 장보는 시대</text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#153545">쇼핑의 주도권은 어디로?</text>
+    <rect x="10" y="80" width="150" height="10" rx="5" fill="#2E8E7E"/>
+  </g>
+
+  <text x="80" y="570" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#E4F5F2" opacity="0.95">AI 관련 소식</text>
+</svg>

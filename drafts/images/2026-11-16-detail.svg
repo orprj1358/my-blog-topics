@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EAF1FB"/>
+      <stop offset="100%" stop-color="#DCE4F8"/>
+    </linearGradient>
+    <linearGradient id="cardGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#D4E2FA"/>
+    </linearGradient>
+    <linearGradient id="cardGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#C9D8F5"/>
+    </linearGradient>
+    <linearGradient id="badgeGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6E93D6"/>
+      <stop offset="100%" stop-color="#1E3466"/>
+    </linearGradient>
+    <linearGradient id="badgeGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8FA9E0"/>
+      <stop offset="100%" stop-color="#3E4F8E"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0A1430" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="42" font-family="Arial, sans-serif" font-size="21" font-weight="800" fill="#16264A" text-anchor="middle">1세대 1주택자 vs 다주택자, 종부세 논의 포인트 (개념도)</text>
+  <text x="400" y="66" font-family="Arial, sans-serif" font-size="13" fill="#3B5A94" text-anchor="middle">※ 이해를 돕기 위한 예시 개념도이며 실제 세액·기준이 아닙니다</text>
+
+  <!-- Column headers -->
+  <g transform="translate(220,110)">
+    <rect x="-130" y="-28" width="260" height="56" rx="18" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <circle cx="-100" cy="0" r="22" fill="url(#badgeGradA)"/>
+    <text x="-100" y="7" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#EAF1FB" text-anchor="middle">1</text>
+    <text x="-25" y="7" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#16264A">1세대 1주택자</text>
+  </g>
+  <g transform="translate(580,110)">
+    <rect x="-130" y="-28" width="260" height="56" rx="18" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <circle cx="-100" cy="0" r="22" fill="url(#badgeGradB)"/>
+    <text x="-100" y="7" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#EAF1FB" text-anchor="middle">2</text>
+    <text x="-25" y="7" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#16264A">다주택자</text>
+  </g>
+
+  <!-- Left column steps -->
+  <g transform="translate(220,195)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#16264A" text-anchor="middle">부담 완화 방안 논의 중심</text>
+  </g>
+  <g transform="translate(220,270)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#16264A" text-anchor="middle">기본공제·고령자 공제 확대 거론</text>
+  </g>
+  <g transform="translate(220,345)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#16264A" text-anchor="middle">실거주 1채, 세부담 완화 기대</text>
+  </g>
+
+  <!-- Right column steps -->
+  <g transform="translate(580,195)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#16264A" text-anchor="middle">기존 과세 틀 유지·강화 의견 공존</text>
+  </g>
+  <g transform="translate(580,270)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#16264A" text-anchor="middle">차등 과세 구조 유지 전망</text>
+  </g>
+  <g transform="translate(580,345)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#16264A" text-anchor="middle">세수 확보 관점에서 신중론</text>
+  </g>
+
+  <!-- Center connector -->
+  <g transform="translate(400,270)">
+    <circle cx="0" cy="0" r="30" fill="url(#badgeGradA)" filter="url(#cardShadow)"/>
+    <path d="M -10,-10 L 10,10 M -10,10 L 10,-10" fill="none" stroke="#EAF1FB" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Bottom note cards -->
+  <g transform="translate(220,460)">
+    <rect x="-130" y="-30" width="260" height="60" rx="16" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <text x="0" y="-2" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#16264A" text-anchor="middle">고지서 세액에 이의 있으면</text>
+    <text x="0" y="18" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#16264A" text-anchor="middle">이의신청 절차 확인</text>
+  </g>
+  <g transform="translate(580,460)">
+    <rect x="-130" y="-30" width="260" height="60" rx="16" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <text x="0" y="-2" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#16264A" text-anchor="middle">한 번에 내기 부담스럽다면</text>
+    <text x="0" y="18" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#16264A" text-anchor="middle">분납 제도 활용 가능</text>
+  </g>
+
+  <g transform="translate(400,555)">
+    <circle cx="0" cy="0" r="20" fill="url(#badgeGradB)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#EAF1FB" text-anchor="middle">?</text>
+  </g>
+  <text x="400" y="590" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#3E4F8E" text-anchor="middle">1주택·다주택 차등화, 어디까지 손볼까?</text>
+</svg>

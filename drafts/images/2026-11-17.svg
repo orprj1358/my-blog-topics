@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF4E0"/>
+      <stop offset="50%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#7C2D12"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FDE68A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="coinGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="docGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8EC"/>
+      <stop offset="100%" stop-color="#FCD9A6"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.68"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#4A1D0A" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1040" cy="120" r="260" fill="url(#glow1)"/>
+  <circle cx="140" cy="540" r="260" fill="url(#glow2)"/>
+
+  <!-- coin stack, right side -->
+  <g transform="translate(950,440)" filter="url(#softShadow)">
+    <ellipse cx="0" cy="55" rx="95" ry="26" fill="url(#coinGrad2)"/>
+    <ellipse cx="0" cy="18" rx="95" ry="26" fill="url(#coinGrad)"/>
+    <ellipse cx="0" cy="-18" rx="95" ry="26" fill="url(#coinGrad2)"/>
+    <ellipse cx="0" cy="-54" rx="95" ry="26" fill="url(#coinGrad)"/>
+    <text x="0" y="-46" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#7C2D12" text-anchor="middle">%</text>
+  </g>
+
+  <!-- document + badge cluster -->
+  <g transform="translate(210,500)" filter="url(#softShadow)" opacity="0.97">
+    <rect x="-55" y="-65" width="110" height="130" rx="14" fill="url(#docGrad)"/>
+    <line x1="-35" y1="-35" x2="35" y2="-35" stroke="#B45309" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-35" y1="-12" x2="35" y2="-12" stroke="#B45309" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-35" y1="11" x2="15" y2="11" stroke="#B45309" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="25" cy="38" r="22" fill="url(#coinGrad2)"/>
+    <text x="25" y="45" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#FFF8EC" text-anchor="middle">₩</text>
+  </g>
+
+  <!-- title card -->
+  <g transform="translate(80,80)">
+    <rect x="-20" y="-55" width="760" height="260" rx="28" fill="url(#cardGrad)" filter="url(#softShadow)"/>
+    <text x="10" y="0" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#6B2E0E">대출 한도, 앞으로 더 깐깐해진다?</text>
+    <text x="10" y="55" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#6B2E0E">스트레스 DSR 확대 짚어보기</text>
+    <rect x="10" y="80" width="150" height="10" rx="5" fill="#D97706"/>
+  </g>
+
+  <text x="80" y="570" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#FFF4E0" opacity="0.95">대출</text>
+</svg>

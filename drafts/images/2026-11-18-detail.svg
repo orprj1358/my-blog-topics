@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF4E0"/>
+      <stop offset="100%" stop-color="#FCE2BE"/>
+    </linearGradient>
+    <linearGradient id="cardGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FDE3BA"/>
+    </linearGradient>
+    <linearGradient id="cardGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FBD0A0"/>
+    </linearGradient>
+    <linearGradient id="badgeGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="badgeGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#7C2D12"/>
+    </linearGradient>
+    <linearGradient id="barGradA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="barGradB" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#9A3412"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#4A1D0A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="42" font-family="Arial, sans-serif" font-size="21" font-weight="800" fill="#6B2E0E" text-anchor="middle">수수료 부담 vs 면제·완화 적용 (개념도)</text>
+  <text x="400" y="66" font-family="Arial, sans-serif" font-size="13" fill="#9A4A14" text-anchor="middle">※ 이해를 돕기 위한 예시 개념도이며 실제 수수료·금리가 아닙니다</text>
+
+  <!-- Column headers -->
+  <g transform="translate(220,110)">
+    <rect x="-130" y="-28" width="260" height="56" rx="18" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <circle cx="-100" cy="0" r="22" fill="url(#badgeGradA)"/>
+    <text x="-100" y="7" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#FFF8EC" text-anchor="middle">1</text>
+    <text x="-25" y="7" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#6B2E0E">기존: 수수료 부담</text>
+  </g>
+  <g transform="translate(580,110)">
+    <rect x="-130" y="-28" width="260" height="56" rx="18" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <circle cx="-100" cy="0" r="22" fill="url(#badgeGradB)"/>
+    <text x="-100" y="7" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#FFF8EC" text-anchor="middle">2</text>
+    <text x="-25" y="7" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#6B2E0E">변화: 면제·완화 논의</text>
+  </g>
+
+  <!-- Example bars -->
+  <g transform="translate(220,195)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#6B2E0E" text-anchor="middle">갈아타도 수수료가 이득을 상쇄</text>
+  </g>
+  <g transform="translate(220,260)">
+    <rect x="-120" y="-16" width="240" height="32" rx="12" fill="#FDEBC8"/>
+    <rect x="-120" y="-16" width="190" height="32" rx="12" fill="url(#barGradA)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#6B2E0E" text-anchor="middle">실제 이득 (예시, 축소)</text>
+  </g>
+
+  <g transform="translate(580,195)">
+    <rect x="-120" y="-24" width="240" height="48" rx="14" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#6B2E0E" text-anchor="middle">수수료 부담 줄어 갈아타기 쉬워짐</text>
+  </g>
+  <g transform="translate(580,260)">
+    <rect x="-120" y="-16" width="240" height="32" rx="12" fill="#FDEBC8"/>
+    <rect x="-120" y="-16" width="230" height="32" rx="12" fill="url(#barGradB)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#6B2E0E" text-anchor="middle">실제 이득 (예시, 확대)</text>
+  </g>
+
+  <!-- Center connector -->
+  <g transform="translate(400,230)">
+    <circle cx="0" cy="0" r="30" fill="url(#badgeGradA)" filter="url(#cardShadow)"/>
+    <path d="M -12,0 L 12,0 M 4,-8 L 12,0 L 4,8" fill="none" stroke="#FFF8EC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Bottom note cards -->
+  <g transform="translate(220,420)">
+    <rect x="-130" y="-30" width="260" height="60" rx="16" fill="url(#cardGradA)" filter="url(#cardShadow)"/>
+    <text x="0" y="-2" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#6B2E0E" text-anchor="middle">수수료 때문에 갈아타기를</text>
+    <text x="0" y="18" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#6B2E0E" text-anchor="middle">포기하는 사례 존재</text>
+  </g>
+  <g transform="translate(580,420)">
+    <rect x="-130" y="-30" width="260" height="60" rx="16" fill="url(#cardGradB)" filter="url(#cardShadow)"/>
+    <text x="0" y="-2" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#6B2E0E" text-anchor="middle">면제·완화 시 더 유리한 상품으로</text>
+    <text x="0" y="18" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#6B2E0E" text-anchor="middle">적극적으로 이동 가능</text>
+  </g>
+
+  <g transform="translate(400,500)">
+    <circle cx="0" cy="0" r="20" fill="url(#badgeGradB)" filter="url(#cardShadow)"/>
+    <text x="0" y="6" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#FFF8EC" text-anchor="middle">?</text>
+  </g>
+  <text x="400" y="535" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#9A4A14" text-anchor="middle">갈아타기 전, 수수료와 조건 차이를 직접 계산해보기</text>
+</svg>

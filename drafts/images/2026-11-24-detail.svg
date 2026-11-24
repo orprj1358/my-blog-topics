@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EEF1FB"/>
+      <stop offset="100%" stop-color="#DCE2F7"/>
+    </linearGradient>
+    <linearGradient id="leftCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#DCE8F5"/>
+    </linearGradient>
+    <linearGradient id="rightCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E3DCF7"/>
+    </linearGradient>
+    <linearGradient id="leftBadge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7FD6C6"/>
+      <stop offset="100%" stop-color="#1E4F66"/>
+    </linearGradient>
+    <linearGradient id="rightBadge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9C8CF5"/>
+      <stop offset="100%" stop-color="#2C3F7E"/>
+    </linearGradient>
+    <linearGradient id="centerBadge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD98A"/>
+      <stop offset="100%" stop-color="#E0A93A"/>
+    </linearGradient>
+    <linearGradient id="barLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#BFE8DC"/>
+      <stop offset="100%" stop-color="#2E8E7E"/>
+    </linearGradient>
+    <linearGradient id="barRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C7BFEF"/>
+      <stop offset="100%" stop-color="#4C3FA0"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1B2550" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="48" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#1B2550" text-anchor="middle">상용 AI 모델 vs 오픈소스 AI 모델</text>
+  <text x="400" y="74" font-family="Arial, sans-serif" font-size="13" fill="#5C6490" text-anchor="middle">※ 이해를 돕기 위한 예시 개념도이며 특정 제품을 가리키지 않습니다</text>
+
+  <!-- left card: 상용 모델 -->
+  <g>
+    <rect x="60" y="110" width="300" height="420" rx="22" fill="url(#leftCard)" filter="url(#cardShadow)"/>
+    <circle cx="210" cy="168" r="30" fill="url(#leftBadge)"/>
+    <text x="210" y="178" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#F3FBF8" text-anchor="middle">1</text>
+    <text x="210" y="222" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#1B2550" text-anchor="middle">상용 AI 모델</text>
+
+    <rect x="95" y="250" width="230" height="30" rx="10" fill="#E2EEEA"/>
+    <rect x="95" y="250" width="200" height="30" rx="10" fill="url(#barLeft)"/>
+
+    <circle cx="100" cy="330" r="13" fill="url(#leftBadge)"/>
+    <text x="100" y="335" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#F3FBF8" text-anchor="middle">1</text>
+    <text x="124" y="335" font-family="Arial, sans-serif" font-size="14" fill="#2A3C5E">바로 쓸 수 있는 완성형 서비스</text>
+
+    <circle cx="100" cy="375" r="13" fill="url(#leftBadge)"/>
+    <text x="100" y="380" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#F3FBF8" text-anchor="middle">2</text>
+    <text x="124" y="380" font-family="Arial, sans-serif" font-size="14" fill="#2A3C5E">사용량만큼 비용 지불</text>
+
+    <circle cx="100" cy="420" r="13" fill="url(#leftBadge)"/>
+    <text x="100" y="425" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#F3FBF8" text-anchor="middle">3</text>
+    <text x="124" y="425" font-family="Arial, sans-serif" font-size="14" fill="#2A3C5E">데이터가 외부 서버로 전달</text>
+
+    <circle cx="100" cy="465" r="13" fill="url(#leftBadge)"/>
+    <text x="100" y="470" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#F3FBF8" text-anchor="middle">4</text>
+    <text x="124" y="470" font-family="Arial, sans-serif" font-size="14" fill="#2A3C5E">운영·유지보수 부담이 적음</text>
+  </g>
+
+  <!-- center vs badge -->
+  <circle cx="400" cy="320" r="30" fill="url(#centerBadge)" filter="url(#cardShadow)"/>
+  <text x="400" y="327" font-family="Arial, sans-serif" font-size="15" font-weight="800" fill="#4A3105" text-anchor="middle">VS</text>
+
+  <!-- right card: 오픈소스 모델 -->
+  <g>
+    <rect x="440" y="110" width="300" height="420" rx="22" fill="url(#rightCard)" filter="url(#cardShadow)"/>
+    <circle cx="590" cy="168" r="30" fill="url(#rightBadge)"/>
+    <text x="590" y="178" font-family="Arial, sans-serif" font-size="16" font-weight="800" fill="#F3F0FF" text-anchor="middle">2</text>
+    <text x="590" y="222" font-family="Arial, sans-serif" font-size="18" font-weight="800" fill="#1B2550" text-anchor="middle">오픈소스 AI 모델</text>
+
+    <rect x="475" y="250" width="230" height="30" rx="10" fill="#EAE6F9"/>
+    <rect x="475" y="250" width="150" height="30" rx="10" fill="url(#barRight)"/>
+
+    <circle cx="480" cy="330" r="13" fill="url(#rightBadge)"/>
+    <text x="480" y="335" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#F3F0FF" text-anchor="middle">1</text>
+    <text x="504" y="335" font-family="Arial, sans-serif" font-size="14" fill="#2A3C5E">직접 설치·운영 가능</text>
+
+    <circle cx="480" cy="375" r="13" fill="url(#rightBadge)"/>
+    <text x="480" y="380" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#F3F0FF" text-anchor="middle">2</text>
+    <text x="504" y="380" font-family="Arial, sans-serif" font-size="14" fill="#2A3C5E">서버·인력 등 초기 투자 필요</text>
+
+    <circle cx="480" cy="420" r="13" fill="url(#rightBadge)"/>
+    <text x="480" y="425" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#F3F0FF" text-anchor="middle">3</text>
+    <text x="504" y="425" font-family="Arial, sans-serif" font-size="14" fill="#2A3C5E">데이터를 내부에 두고 활용</text>
+
+    <circle cx="480" cy="465" r="13" fill="url(#rightBadge)"/>
+    <text x="480" y="470" font-family="Arial, sans-serif" font-size="13" font-weight="800" fill="#F3F0FF" text-anchor="middle">4</text>
+    <text x="504" y="470" font-family="Arial, sans-serif" font-size="14" fill="#2A3C5E">업무에 맞게 자유롭게 변형</text>
+  </g>
+
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5C6490" text-anchor="middle">많은 기업은 두 방식을 상황에 맞게 섞어 쓰는 하이브리드 전략을 택한다</text>
+</svg>

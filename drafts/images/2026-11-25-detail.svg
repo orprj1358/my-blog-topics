@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8EE"/>
+      <stop offset="100%" stop-color="#FFE9CF"/>
+    </linearGradient>
+    <linearGradient id="colGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1DC"/>
+      <stop offset="100%" stop-color="#FFE0B8"/>
+    </linearGradient>
+    <linearGradient id="colGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE3C4"/>
+      <stop offset="100%" stop-color="#F4B778"/>
+    </linearGradient>
+    <linearGradient id="badgeGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE9B8"/>
+      <stop offset="100%" stop-color="#E7A23E"/>
+    </linearGradient>
+    <linearGradient id="badgeGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB37A"/>
+      <stop offset="100%" stop-color="#C9622C"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E7A23E"/>
+      <stop offset="100%" stop-color="#C9622C"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#5A3410" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#5A3410" text-anchor="middle">대출 수요 이동: 1금융권 → 2금융권</text>
+
+  <!-- Column A: 1금융권 -->
+  <rect x="60" y="90" width="300" height="430" rx="22" fill="url(#colGradA)" filter="url(#cardShadow)"/>
+  <circle cx="110" cy="140" r="26" fill="url(#badgeGradA)"/>
+  <text x="110" y="148" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#5A3410" text-anchor="middle">1</text>
+  <text x="150" y="148" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#5A3410">은행권(1금융권)</text>
+
+  <rect x="90" y="180" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.75" filter="url(#cardShadow)"/>
+  <text x="110" y="208" font-family="Arial, sans-serif" font-size="16" fill="#6B4A23">대출 심사·한도 관리 강화</text>
+  <text x="110" y="228" font-family="Arial, sans-serif" font-size="16" fill="#6B4A23">문턱이 높아지는 추세</text>
+
+  <rect x="90" y="255" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.75" filter="url(#cardShadow)"/>
+  <text x="110" y="283" font-family="Arial, sans-serif" font-size="16" fill="#6B4A23">상대적으로 낮은 금리</text>
+  <text x="110" y="303" font-family="Arial, sans-serif" font-size="16" fill="#6B4A23">(예시, 실제 수치 아님)</text>
+
+  <rect x="90" y="330" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.75" filter="url(#cardShadow)"/>
+  <text x="110" y="358" font-family="Arial, sans-serif" font-size="16" fill="#6B4A23">소득 증빙 등 심사 기준</text>
+  <text x="110" y="378" font-family="Arial, sans-serif" font-size="16" fill="#6B4A23">상대적으로 엄격</text>
+
+  <rect x="90" y="405" width="240" height="90" rx="14" fill="#FFFFFF" opacity="0.75" filter="url(#cardShadow)"/>
+  <text x="110" y="433" font-family="Arial, sans-serif" font-size="16" fill="#6B4A23">실수요자 일부는</text>
+  <text x="110" y="453" font-family="Arial, sans-serif" font-size="16" fill="#6B4A23">원하는 만큼 대출받기</text>
+  <text x="110" y="473" font-family="Arial, sans-serif" font-size="16" fill="#6B4A23">어려워짐</text>
+
+  <!-- Arrow -->
+  <g transform="translate(400,300)">
+    <path d="M -28,-18 L 28,-18 L 28,-34 L 60,0 L 28,34 L 28,18 L -28,18 Z" fill="url(#arrowGrad)" filter="url(#cardShadow)"/>
+  </g>
+
+  <!-- Column B: 2금융권 -->
+  <rect x="440" y="90" width="300" height="430" rx="22" fill="url(#colGradB)" filter="url(#cardShadow)"/>
+  <circle cx="490" cy="140" r="26" fill="url(#badgeGradB)"/>
+  <text x="490" y="148" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#4A2609" text-anchor="middle">2</text>
+  <text x="530" y="148" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#4A2609">저축은행·상호금융 등(2금융권)</text>
+
+  <rect x="470" y="180" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.75" filter="url(#cardShadow)"/>
+  <text x="490" y="208" font-family="Arial, sans-serif" font-size="16" fill="#5A3410">상대적으로 완화된</text>
+  <text x="490" y="228" font-family="Arial, sans-serif" font-size="16" fill="#5A3410">심사 기준</text>
+
+  <rect x="470" y="255" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.75" filter="url(#cardShadow)"/>
+  <text x="490" y="283" font-family="Arial, sans-serif" font-size="16" fill="#5A3410">대체로 더 높은 금리</text>
+  <text x="490" y="303" font-family="Arial, sans-serif" font-size="16" fill="#5A3410">(예시, 실제 수치 아님)</text>
+
+  <rect x="470" y="330" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.75" filter="url(#cardShadow)"/>
+  <text x="490" y="358" font-family="Arial, sans-serif" font-size="16" fill="#5A3410">상환 부담이 커질</text>
+  <text x="490" y="378" font-family="Arial, sans-serif" font-size="16" fill="#5A3410">가능성 유의</text>
+
+  <rect x="470" y="405" width="240" height="90" rx="14" fill="#FFFFFF" opacity="0.75" filter="url(#cardShadow)"/>
+  <text x="490" y="433" font-family="Arial, sans-serif" font-size="16" fill="#5A3410">금융당국, 건전성·</text>
+  <text x="490" y="453" font-family="Arial, sans-serif" font-size="16" fill="#5A3410">리스크 관리 모니터링</text>
+  <text x="490" y="473" font-family="Arial, sans-serif" font-size="16" fill="#5A3410">강화 논의</text>
+
+  <text x="400" y="565" font-family="Arial, sans-serif" font-size="15" fill="#8A5A24" text-anchor="middle">※ 위 수치·조건은 설명을 위한 예시이며 실제 금리·기준과 다를 수 있습니다</text>
+</svg>

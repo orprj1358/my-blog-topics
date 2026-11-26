@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EEF9FF"/>
+      <stop offset="100%" stop-color="#D7E8FB"/>
+    </linearGradient>
+    <linearGradient id="colGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E6F2FF"/>
+      <stop offset="100%" stop-color="#C3DCF7"/>
+    </linearGradient>
+    <linearGradient id="colGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DFF7F1"/>
+      <stop offset="100%" stop-color="#AFE6D8"/>
+    </linearGradient>
+    <linearGradient id="badgeGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B8E9FF"/>
+      <stop offset="100%" stop-color="#4C8FD9"/>
+    </linearGradient>
+    <linearGradient id="badgeGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9FF0E3"/>
+      <stop offset="100%" stop-color="#2FAE9B"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4C8FD9"/>
+      <stop offset="100%" stop-color="#2FAE9B"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#12284A" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#12284A" text-anchor="middle">챗봇형 AI → AI 에이전트, 무엇이 다른가</text>
+
+  <!-- Column A: 챗봇형 AI -->
+  <rect x="60" y="90" width="300" height="430" rx="22" fill="url(#colGradA)" filter="url(#cardShadow)"/>
+  <circle cx="110" cy="140" r="26" fill="url(#badgeGradA)"/>
+  <text x="110" y="148" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#12284A" text-anchor="middle">1</text>
+  <text x="150" y="148" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#12284A">챗봇형 AI</text>
+
+  <rect x="90" y="180" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="110" y="208" font-family="Arial, sans-serif" font-size="16" fill="#28406B">질문에 답변만 제공</text>
+  <text x="110" y="228" font-family="Arial, sans-serif" font-size="16" fill="#28406B">(1회성 응답)</text>
+
+  <rect x="90" y="255" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="110" y="283" font-family="Arial, sans-serif" font-size="16" fill="#28406B">실행은 사람이</text>
+  <text x="110" y="303" font-family="Arial, sans-serif" font-size="16" fill="#28406B">직접 수행</text>
+
+  <rect x="90" y="330" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="110" y="358" font-family="Arial, sans-serif" font-size="16" fill="#28406B">다른 시스템 접근</text>
+  <text x="110" y="378" font-family="Arial, sans-serif" font-size="16" fill="#28406B">권한 거의 없음</text>
+
+  <rect x="90" y="405" width="240" height="90" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="110" y="433" font-family="Arial, sans-serif" font-size="16" fill="#28406B">단순 정보 검색·</text>
+  <text x="110" y="453" font-family="Arial, sans-serif" font-size="16" fill="#28406B">초안 작성 보조</text>
+  <text x="110" y="473" font-family="Arial, sans-serif" font-size="16" fill="#28406B">업무에 적합</text>
+
+  <!-- Arrow -->
+  <g transform="translate(400,300)">
+    <path d="M -28,-18 L 28,-18 L 28,-34 L 60,0 L 28,34 L 28,18 L -28,18 Z" fill="url(#arrowGrad)" filter="url(#cardShadow)"/>
+  </g>
+
+  <!-- Column B: AI 에이전트 -->
+  <rect x="440" y="90" width="300" height="430" rx="22" fill="url(#colGradB)" filter="url(#cardShadow)"/>
+  <circle cx="490" cy="140" r="26" fill="url(#badgeGradB)"/>
+  <text x="490" y="148" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#13433A" text-anchor="middle">2</text>
+  <text x="530" y="148" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#13433A">AI 에이전트</text>
+
+  <rect x="470" y="180" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="490" y="208" font-family="Arial, sans-serif" font-size="16" fill="#1E5A4E">목표를 세부 작업으로</text>
+  <text x="490" y="228" font-family="Arial, sans-serif" font-size="16" fill="#1E5A4E">스스로 분해</text>
+
+  <rect x="470" y="255" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="490" y="283" font-family="Arial, sans-serif" font-size="16" fill="#1E5A4E">여러 도구·시스템을</text>
+  <text x="490" y="303" font-family="Arial, sans-serif" font-size="16" fill="#1E5A4E">연결해 직접 실행</text>
+
+  <rect x="470" y="330" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="490" y="358" font-family="Arial, sans-serif" font-size="16" fill="#1E5A4E">접근 권한 확대로</text>
+  <text x="490" y="378" font-family="Arial, sans-serif" font-size="16" fill="#1E5A4E">책임 소재 논의 필요</text>
+
+  <rect x="470" y="405" width="240" height="90" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="490" y="433" font-family="Arial, sans-serif" font-size="16" fill="#1E5A4E">반복적·규칙 명확한</text>
+  <text x="490" y="453" font-family="Arial, sans-serif" font-size="16" fill="#1E5A4E">업무부터 단계적</text>
+  <text x="490" y="473" font-family="Arial, sans-serif" font-size="16" fill="#1E5A4E">도입 검토</text>
+
+  <text x="400" y="565" font-family="Arial, sans-serif" font-size="15" fill="#2A4A6E" text-anchor="middle">※ 위 사례·구분은 이해를 돕기 위한 예시이며 실제 제품·정책과 다를 수 있습니다</text>
+</svg>

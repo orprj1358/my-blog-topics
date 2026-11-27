@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="pageBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6EC"/>
+      <stop offset="100%" stop-color="#FBE3C6"/>
+    </linearGradient>
+    <linearGradient id="colGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFEFDD"/>
+      <stop offset="100%" stop-color="#F6CFA0"/>
+    </linearGradient>
+    <linearGradient id="colGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1E3"/>
+      <stop offset="100%" stop-color="#FFD3AE"/>
+    </linearGradient>
+    <linearGradient id="badgeGradA" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFC08A"/>
+      <stop offset="100%" stop-color="#D96A2B"/>
+    </linearGradient>
+    <linearGradient id="badgeGradB" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFE3B0"/>
+      <stop offset="100%" stop-color="#E0973F"/>
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D96A2B"/>
+      <stop offset="100%" stop-color="#E0973F"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#5A3010" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#pageBg)"/>
+
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="23" font-weight="800" fill="#5A3010" text-anchor="middle">중도상환수수료, 현재 구조 → 완화 논의 방향</text>
+
+  <!-- Column A: 현재 구조 -->
+  <rect x="60" y="90" width="300" height="430" rx="22" fill="url(#colGradA)" filter="url(#cardShadow)"/>
+  <circle cx="110" cy="140" r="26" fill="url(#badgeGradA)"/>
+  <text x="110" y="148" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#5A3010" text-anchor="middle">1</text>
+  <text x="150" y="148" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#5A3010">현재 구조</text>
+
+  <rect x="90" y="180" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="110" y="208" font-family="Arial, sans-serif" font-size="16" fill="#7A3B10">조기상환·대환 시</text>
+  <text x="110" y="228" font-family="Arial, sans-serif" font-size="16" fill="#7A3B10">수수료 부과</text>
+
+  <rect x="90" y="255" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="110" y="283" font-family="Arial, sans-serif" font-size="16" fill="#7A3B10">금융사별 수수료율</text>
+  <text x="110" y="303" font-family="Arial, sans-serif" font-size="16" fill="#7A3B10">제각기 상이</text>
+
+  <rect x="90" y="330" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="110" y="358" font-family="Arial, sans-serif" font-size="16" fill="#7A3B10">대출 이동 시</text>
+  <text x="110" y="378" font-family="Arial, sans-serif" font-size="16" fill="#7A3B10">추가 비용 부담</text>
+
+  <rect x="90" y="405" width="240" height="90" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="110" y="433" font-family="Arial, sans-serif" font-size="16" fill="#7A3B10">비교 플랫폼 효과</text>
+  <text x="110" y="453" font-family="Arial, sans-serif" font-size="16" fill="#7A3B10">실제로는</text>
+  <text x="110" y="473" font-family="Arial, sans-serif" font-size="16" fill="#7A3B10">제한적</text>
+
+  <!-- Arrow -->
+  <g transform="translate(400,300)">
+    <path d="M -28,-18 L 28,-18 L 28,-34 L 60,0 L 28,34 L 28,18 L -28,18 Z" fill="url(#arrowGrad)" filter="url(#cardShadow)"/>
+  </g>
+
+  <!-- Column B: 완화 논의 방향 -->
+  <rect x="440" y="90" width="300" height="430" rx="22" fill="url(#colGradB)" filter="url(#cardShadow)"/>
+  <circle cx="490" cy="140" r="26" fill="url(#badgeGradB)"/>
+  <text x="490" y="148" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#5A3010" text-anchor="middle">2</text>
+  <text x="530" y="148" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#5A3010">완화 논의 방향</text>
+
+  <rect x="470" y="180" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="490" y="208" font-family="Arial, sans-serif" font-size="16" fill="#8A4A14">수수료율 하향·</text>
+  <text x="490" y="228" font-family="Arial, sans-serif" font-size="16" fill="#8A4A14">면제 확대 검토</text>
+
+  <rect x="470" y="255" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="490" y="283" font-family="Arial, sans-serif" font-size="16" fill="#8A4A14">갈아타기 비용</text>
+  <text x="490" y="303" font-family="Arial, sans-serif" font-size="16" fill="#8A4A14">부담 완화 기대</text>
+
+  <rect x="470" y="330" width="240" height="60" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="490" y="358" font-family="Arial, sans-serif" font-size="16" fill="#8A4A14">금융사 간 금리</text>
+  <text x="490" y="378" font-family="Arial, sans-serif" font-size="16" fill="#8A4A14">경쟁 활성화 가능</text>
+
+  <rect x="470" y="405" width="240" height="90" rx="14" fill="#FFFFFF" opacity="0.8" filter="url(#cardShadow)"/>
+  <text x="490" y="433" font-family="Arial, sans-serif" font-size="16" fill="#8A4A14">구체적 폭·시기는</text>
+  <text x="490" y="453" font-family="Arial, sans-serif" font-size="16" fill="#8A4A14">아직 조율 중</text>
+  <text x="490" y="473" font-family="Arial, sans-serif" font-size="16" fill="#8A4A14">(확정 전 단계)</text>
+
+  <text x="400" y="565" font-family="Arial, sans-serif" font-size="15" fill="#6A3A12" text-anchor="middle">※ 위 구분은 이해를 돕기 위한 예시이며 실제 제도·시기와 다를 수 있습니다</text>
+</svg>
